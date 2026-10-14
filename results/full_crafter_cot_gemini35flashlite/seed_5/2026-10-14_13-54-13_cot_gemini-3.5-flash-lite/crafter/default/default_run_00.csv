@@ -1,0 +1,1702 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,Move West,"To start playing Crafter, our first priority is usually gathering basic resources like wood to enable crafting, or collecting food/saplings. Looking around, you see grass and a cow, but no wood is immediately visible in the direct observation. We need to move around to find a tree to punch and collect wood. Let's move West to get closer to the cow and explore the area.
+
+ACTION: Move West","You see:
+- grass 1 step to your west
+- tree 7 steps to your south-west
+- cow 3 steps to your west
+
+You face grass at your front.",0.0,False
+1,Move West,"Step-by-step analysis:
+1. Our primary goal is to complete achievements, starting with collecting wood.
+2. In the current observation, we see a tree 7 steps to our south-west.
+3. We need to navigate towards the tree in order to collect wood from it.
+4. Moving West gets us closer to the cow and aligns us horizontally, but the tree is to the south-west. Let's move West first to position ourselves.
+
+ACTION: Move West","You see:
+- grass 1 step to your west
+- tree 5 steps to your south-west
+- cow 3 steps to your west
+
+You face grass at your front.",0.0,False
+2,Move West,"Step-by-step analysis:
+1. We need to collect wood to start progressing through the achievements (Collect Wood, Make Wood Pickaxe, etc.).
+2. The nearest tree is currently 5 steps to our south-west.
+3. We need to move towards the tree to interact with it and collect wood. 
+4. From our current position, let's move West to get closer to the western/south-western area containing the tree.
+
+ACTION: Move West","You see:
+- stone 5 steps to your north-west
+- grass 1 step to your west
+- tree 4 steps to your south-west
+- cow 2 steps to your west
+
+You face grass at your front.",0.0,False
+3,Move West,"Step-by-step analysis:
+1. We are currently at full health, food, drink, and energy, with an empty inventory.
+2. The closest tree is 4 steps to our south-west. We need to collect wood to start crafting tools and unlocking achievements like ""Collect Wood"".
+3. To reach the tree, we should continue moving towards it. Let's move West to get closer.
+
+ACTION: Move West","You see:
+- stone 4 steps to your north-west
+- coal 4 steps to your west
+- path 5 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south-west
+- cow 2 steps to your north-west
+
+You face grass at your front.",0.0,False
+4,Move South,"Step-by-step analysis:
+1. We are at full status (health, food, drink, energy) with an empty inventory.
+2. A tree is located 3 steps to our south-west. We need wood to progress, craft tools, and get the ""Collect Wood"" achievement.
+3. To reach the tree, we need to move towards the south-west (moving South and West). Let's start by moving South.
+
+ACTION: Move South","You see:
+- stone 4 steps to your south-west
+- coal 5 steps to your north-west
+- path 4 steps to your west
+- grass 1 step to your west
+- cow 4 steps to your north-west
+- tree 2 steps to your west
+
+You face grass at your front.",0.0,False
+5,Move West,"Step-by-step analysis:
+1. The tree is now 2 steps to our west.
+2. We need wood to achieve ""Collect Wood"" and start building tools and placing a table.
+3. Let's move West to get closer to the tree.
+
+ACTION: Move West","You see:
+- stone 3 steps to your south-west
+- coal 4 steps to your north-west
+- path 3 steps to your west
+- grass 1 step to your north
+- cow 3 steps to your north-west
+- tree 1 step to your west
+
+You face tree at your front.",0.0,False
+6,Do,"Step-by-step analysis:
+1. We are directly facing a tree (1 step to our west).
+2. We need wood to unlock achievements like ""Collect Wood"" and progress in the game.
+3. The ""Do"" action allows us to collect materials like wood when facing a tree.
+
+ACTION: Do","You see:
+- stone 3 steps to your south-west
+- coal 4 steps to your north-west
+- path 3 steps to your west
+- grass 1 step to your west
+- cow 3 steps to your north-west
+- tree 2 steps to your south
+
+You face grass at your front.",1.0,False
+7,Move South,"Step-by-step analysis:
+1. We successfully collected wood and unlocked the ""Collect Wood"" achievement.
+2. We currently have 1 wood in our inventory.
+3. To progress further (e.g., placing a table), we can gather more wood or find a good spot, but having wood allows us to craft basic tools and place a table. Let's gather a bit more wood to ensure we have enough for a table and tools, or place a table now. We can collect more wood from the nearby tree.
+4. The tree is 2 steps to our south. Let's move towards it to collect more wood.
+
+ACTION: Move South","You see:
+- stone 2 steps to your west
+- coal 5 steps to your south-west
+- path 3 steps to your west
+- grass 1 step to your west
+- cow 4 steps to your north-west
+- tree 1 step to your south
+
+You face tree at your front.",0.0,False
+8,Do,"Step-by-step analysis:
+1. We are currently facing a tree and need more wood to place a table and craft tools.
+2. The tree is right in front of us.
+3. We should use the ""Do"" action to collect wood from this tree.
+
+ACTION: Do","You see:
+- stone 2 steps to your west
+- coal 5 steps to your south-west
+- path 3 steps to your west
+- grass 1 step to your west
+- cow 4 steps to your north-west
+- tree 3 steps to your south-west
+
+You face grass at your front.",0.0,False
+9,Place Table,"Step-by-step analysis:
+1. We have collected 2 wood. To unlock the first set of achievements and make progress, we need to place a table (which requires wood in inventory).
+2. We currently face grass, so we can place the table right in front of us, or we can look for more wood/saplings if needed, but we already have enough wood (at least 1 is needed, we have 2) to place a table.
+3. Let's place a table to get the ""Place Table"" achievement and unlock crafting.
+
+ACTION: Place Table","You see:
+- stone 2 steps to your west
+- coal 5 steps to your south-west
+- path 3 steps to your west
+- grass 1 step to your west
+- cow 4 steps to your north-west
+- tree 3 steps to your south-west
+- table 1 step to your south
+
+You face table at your front.",1.0,False
+10,Move West,"Step-by-step analysis:
+1. We previously placed a table, but looking at the inventory, it shows we have nothing in our inventory and a table is 1 step to our south. Wait, the inventory is empty, and we need wood to craft or place a table. Let's collect wood again since we need wood in our inventory to place a table and make tools.
+2. There's a tree nearby (3 steps to our south-west). Let's move towards it, or collect wood if facing one. Currently, we face the table. Let's move towards the tree to collect wood.
+3. Let's move South to reach the table, then move West/South-West to reach the tree. Actually, let's move West first.
+
+ACTION: Move West","You see:
+- stone 1 step to your west
+- coal 4 steps to your west
+- path 2 steps to your west
+- grass 1 step to your north
+- tree 2 steps to your south
+- cow 4 steps to your north-east
+- table 2 steps to your south-east
+
+You face stone at your front.",0.0,False
+11,Move South,"To craft items and progress in the game, we need wood in our inventory. Currently, we have nothing in our inventory and are facing a stone. There is a tree 2 steps to our south. We should move towards the tree, collect wood, and then we can use the table we previously placed to craft a wood pickaxe and sword.
+
+Step 1: Move South towards the tree.
+
+ACTION: Move South","You see:
+- stone 2 steps to your north-west
+- coal 3 steps to your west
+- path 2 steps to your west
+- grass 1 step to your west
+- tree 1 step to your south
+- table 1 step to your east
+
+You face tree at your front.",0.0,False
+12,Do,"To collect wood, we need to interact with the tree directly in front of us.
+
+ACTION: Do","You see:
+- stone 2 steps to your north-west
+- coal 3 steps to your west
+- path 2 steps to your west
+- grass 1 step to your west
+- table 1 step to your east
+
+You face grass at your front.",0.0,False
+13,Move North,"To progress further, we need more resources to craft tools like a wood pickaxe and a wood sword. We currently have 1 wood and a table placed nearby, but we need more wood to craft items. Let's explore the area or gather more wood if available. Looking around, there is stone and coal nearby, but we need a pickaxe to mine them. Let's move towards the stone to prepare for mining once we have a pickaxe, or gather more wood if we can find another tree. 
+
+Wait, let's look at our surroundings:
+- stone is 2 steps to our north-west
+- coal is 3 steps to our west
+- table is 1 step to our east
+
+Let's move North to get closer to the stone and explore further.
+
+ACTION: Move North","You see:
+- stone 1 step to your west
+- coal 4 steps to your west
+- path 2 steps to your west
+- grass 1 step to your north
+- cow 4 steps to your north-east
+- table 2 steps to your south-east
+
+You face grass at your front.",0.0,False
+14,Move South,"To craft a wood pickaxe, we need 2 wood (we currently have 1 wood). We already placed a table nearby, so we need to collect one more wood from a tree before we can craft the wood pickaxe. 
+
+Let's look around for a tree. There was a tree to our south earlier, but we just chopped it. Let's explore by moving South to find another tree to get more wood.
+
+ACTION: Move South","You see:
+- stone 2 steps to your north-west
+- coal 3 steps to your west
+- path 2 steps to your west
+- grass 1 step to your west
+- table 1 step to your east
+
+You face grass at your front.",0.0,False
+15,Move West,"To craft a wood pickaxe, we need at least 2 wood. Currently, we only have 1 wood in our inventory. We need to collect 1 more wood from a tree. 
+
+Looking at our surroundings, the closest trees were chopped down, but we need to find another tree. Let's move around to locate a tree, or since we previously saw a tree to the south-west, let's explore that direction. Let's start by moving West to get closer to the stone and explore for trees.
+
+ACTION: Move West","You see:
+- coal 2 steps to your west
+- iron 6 steps to your north-west
+- path 1 step to your west
+- skeleton 5 steps to your south-west
+- stone 1 step to your north
+- grass 1 step to your south
+- table 2 steps to your east
+
+You face path at your front.",0.0,False
+16,Move North,"To craft tools like a wood pickaxe, we need more wood (at least 2 wood total). Let's collect more wood. Since the closest trees were already harvested, let's look around or explore towards trees, but wait—we see a stone in front of us, and we also need stone to make a stone pickaxe eventually. 
+
+Let's move North to collect the stone or explore for trees.
+
+ACTION: Move North","You see:
+- coal 2 steps to your west
+- iron 6 steps to your north-west
+- path 1 step to your west
+- skeleton 5 steps to your south-west
+- stone 1 step to your north
+- grass 1 step to your south
+- table 2 steps to your east
+
+You face stone at your front.",0.0,False
+17,Do,"To craft a wood pickaxe, we need a table and wood in inventory. We already placed a table and collected 1 wood, but we need 2 wood total to craft a wood pickaxe (1 for the pickaxe, or let's check: actually, making a wood pickaxe costs wood, and we might need more wood). Wait, let's look for more wood (trees) or collect the stone in front of us since we will need stone for stone pickaxe, and we can also use the stone pickaxe.
+
+Let's collect the stone in front of us using ""Do"".
+
+ACTION: Do","You see:
+- coal 2 steps to your west
+- iron 6 steps to your north-west
+- path 1 step to your west
+- skeleton 4 steps to your west
+- stone 1 step to your north
+- grass 1 step to your south
+- table 2 steps to your east
+
+You face stone at your front.",0.0,False
+18,Do,ACTION: Do,"You see:
+- coal 2 steps to your west
+- iron 6 steps to your north-west
+- path 1 step to your west
+- skeleton 4 steps to your west
+- stone 1 step to your north
+- grass 1 step to your south
+- table 2 steps to your east
+
+You face stone at your front.",0.0,False
+19,Make Wood Pickaxe,"We need to collect stone to make stone tools and progress. Currently, there is a stone in front of us, but we need a pickaxe to mine stone efficiently (or we can use wood pickaxe first, but we don't have a wooden pickaxe yet). Wait, can we craft a wooden pickaxe? We need a table and wood in inventory. We placed a table nearby! Let's craft a wooden pickaxe first.
+
+Wait, to craft a wooden pickaxe, we need 1 wood in inventory (which we have) and a nearby table (which is 2 steps to our east). Let's make a Wood Pickaxe.
+
+ACTION: Make Wood Pickaxe","You see:
+- coal 2 steps to your west
+- iron 6 steps to your north-west
+- path 1 step to your west
+- skeleton 4 steps to your west
+- stone 1 step to your north
+- grass 1 step to your south
+- cow 4 steps to your north-east
+- table 2 steps to your east
+
+You face stone at your front.",0.0,False
+20,Make Wood Pickaxe,"To craft a wooden pickaxe, we need wood in our inventory and a nearby table. Let's make the wood pickaxe first.
+
+ACTION: Make Wood Pickaxe","You see:
+- coal 2 steps to your west
+- iron 6 steps to your north-west
+- path 1 step to your west
+- skeleton 4 steps to your west
+- stone 1 step to your north
+- grass 1 step to your south
+- table 2 steps to your east
+
+You face stone at your front.",0.0,False
+21,Do,"To make a stone pickaxe, we need stone in our inventory, wood in our inventory, and a nearby table. We currently have 1 wood and a nearby table, but we don't have stone yet. Let's collect stone by hitting the stone in front of us.
+
+ACTION: Do","You see:
+- coal 2 steps to your west
+- iron 6 steps to your north-west
+- path 1 step to your west
+- skeleton 4 steps to your west
+- stone 1 step to your north
+- arrow 3 steps to your west
+- grass 1 step to your south
+- table 2 steps to your east
+
+You face stone at your front.",0.0,False
+22,Do,"We need to collect stone to make a stone pickaxe. Since we are facing stone, we should use the ""Do"" action to hit and collect it.
+
+ACTION: Do","You see:
+- coal 2 steps to your west
+- iron 6 steps to your north-west
+- path 1 step to your west
+- skeleton 4 steps to your west
+- stone 1 step to your north
+- grass 1 step to your south
+- table 2 steps to your east
+
+You face stone at your front.",0.0,False
+23,Do,"We are facing a stone block. We need to collect stone (and more wood) in order to craft better tools like a stone pickaxe, but right now we just need to hit the stone in front of us to mine it.
+
+ACTION: Do","You see:
+- coal 2 steps to your west
+- iron 6 steps to your north-west
+- path 1 step to your west
+- skeleton 4 steps to your west
+- stone 1 step to your north
+- grass 1 step to your south
+- table 2 steps to your east
+
+You face stone at your front.",0.0,False
+24,Do,"We need to collect stone. The stone is directly in front of us. Since we previously tried to hit the stone but may have missed or needed another hit, let's hit it again to mine it.
+
+ACTION: Do","You see:
+- coal 2 steps to your west
+- iron 6 steps to your north-west
+- path 1 step to your west
+- skeleton 4 steps to your west
+- stone 1 step to your north
+- grass 1 step to your south
+- table 2 steps to your east
+
+You face stone at your front.",0.0,False
+25,Do,"To collect stone, we need to interact with the stone block that is directly in front of us using the `Do` action. 
+
+ACTION: Do","You see:
+- coal 2 steps to your west
+- iron 6 steps to your north-west
+- path 1 step to your west
+- skeleton 4 steps to your west
+- stone 1 step to your north
+- arrow 3 steps to your west
+- grass 1 step to your south
+- table 2 steps to your east
+
+You face stone at your front.",0.0,False
+26,Do,"To collect stone, we need to use the `Do` action while facing the stone.
+
+ACTION: Do","You see:
+- coal 2 steps to your west
+- iron 6 steps to your north-west
+- path 1 step to your west
+- skeleton 4 steps to your west
+- stone 1 step to your north
+- grass 1 step to your south
+- table 2 steps to your east
+
+You face stone at your front.",0.0,False
+27,Move East,"We need to collect stone using our wood pickaxe, but we currently lack a wood pickaxe because we haven't crafted one yet (we need 1 wood and a table, but we need to ensure we have the right inventory and stand near a table). Wait, we have 1 wood, but a table is 2 steps to our east. We need to be right next to a table to craft items, or pick up more wood. Let's step back and collect more resources or move to the table to craft a wood pickaxe.
+
+Step 1: Move East towards the table.
+
+ACTION: Move East","You see:
+- stone 2 steps to your north-west
+- coal 3 steps to your west
+- path 2 steps to your west
+- grass 1 step to your west
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+28,Make Wood Pickaxe,"To craft a wood pickaxe, we need 1 wood and we must be adjacent to a table. Currently, we are standing right in front of the table (1 step to our east, facing it). However, we need to make sure we actually have wood in our inventory. Looking at our inventory, we have 1 wood. 
+
+Let's craft the wood pickaxe using the table in front of us.
+
+ACTION: Make Wood Pickaxe","You see:
+- stone 2 steps to your north-west
+- coal 3 steps to your west
+- path 2 steps to your west
+- grass 1 step to your west
+- table 1 step to your east
+
+You face table at your front.",1.0,False
+29,Move West,"We have successfully crafted a wood pickaxe. The next goal according to the achievements is to collect stone, make a stone pickaxe, and collect other resources like coal and iron. 
+
+There is stone nearby (2 steps to our north-west). Let's move towards the stone so we can mine it with our new wood pickaxe.
+
+First, let's move West to get closer to the stone.
+
+ACTION: Move West","You see:
+- coal 2 steps to your west
+- iron 6 steps to your north-west
+- path 1 step to your west
+- stone 1 step to your north
+- skeleton 3 steps to your west
+- grass 1 step to your south
+- table 2 steps to your east
+
+You face path at your front.",0.0,False
+30,Move North,"There is a skeleton 3 steps to our west and stone 1 step to our north. Since we have a wood pickaxe, we can mine the stone, but a skeleton is nearby. Let's mine the stone to the north first to collect stone.
+
+ACTION: Move North","You see:
+- coal 2 steps to your west
+- iron 6 steps to your north-west
+- path 1 step to your west
+- skeleton 4 steps to your west
+- stone 1 step to your north
+- grass 1 step to your south
+- table 2 steps to your east
+
+You face stone at your front.",0.0,False
+31,Do,"To collect stone and eventually make a stone pickaxe and stone sword, we need to mine the stone in front of us. We already crafted a wood pickaxe. Let's mine the stone.
+
+ACTION: Do","You see:
+- coal 2 steps to your west
+- iron 6 steps to your north-west
+- path 1 step to your west
+- skeleton 4 steps to your west
+- stone 2 steps to your south
+- arrow 3 steps to your west
+- grass 1 step to your south
+- table 2 steps to your east
+
+You face path at your front.",1.0,False
+32,Move North,"To progress toward crafting a stone pickaxe and sword, we need more stone. The stone directly in front of us was mined, and we successfully collected stone (inventory has 1 stone). Let's mine more stone or move to collect additional resources like coal or more stone. 
+
+Looking at the surroundings, there is stone nearby, but let's check our position. We are facing a path. Let's move towards the stone or mine more stone if available. Alternatively, we need more stone (usually 3 or more for tools/furnace). Let's step towards more stone or collect nearby resources.
+
+Let's move North to explore or find more stone.
+
+ACTION: Move North","You see:
+- stone 2 steps to your west
+- coal 3 steps to your west
+- iron 5 steps to your north-west
+- path 1 step to your west
+- skeleton 5 steps to your south-west
+- grass 1 step to your north
+- table 3 steps to your south-east
+
+You face grass at your front.",0.0,False
+33,Move West,"We need more stone to craft a stone pickaxe and other advanced items. There is stone located 2 steps to our west. Let's move West to get closer to the stone so we can mine it.
+
+ACTION: Move West","You see:
+- path 1 step to your north
+- stone 1 step to your west
+- coal 2 steps to your west
+- iron 4 steps to your north-west
+- skeleton 4 steps to your south-west
+- grass 2 steps to your north-east
+- table 4 steps to your south-east
+
+You face stone at your front.",0.0,False
+34,Do,"To make a stone pickaxe, we need more stone. There is stone directly in front of us. We should use the ""Do"" action to mine the stone and collect it.
+
+ACTION: Do","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- coal 2 steps to your west
+- iron 4 steps to your north-west
+- skeleton 5 steps to your south-west
+- grass 2 steps to your north-east
+- table 4 steps to your south-east
+
+You face path at your front.",0.0,False
+35,Move North,"To craft a stone pickaxe, we need a total of 3 stones (we currently have 2) and wood, with a table nearby. There is a stone in front of us, but we are currently facing a path. We need to face the stone and mine it to collect our third stone.
+
+Let's turn towards the stone and collect it.
+
+ACTION: Move North","You see:
+- path 1 step to your south
+- stone 1 step to your west
+- coal 1 step to your north
+- iron 3 steps to your west
+- skeleton 6 steps to your south-west
+- grass 1 step to your east
+- table 5 steps to your south-east
+- cow 7 steps to your north-east
+
+You face coal at your front.",0.0,False
+36,Do,"To get a stone pickaxe, we need 3 stones. Currently, we have 2 stones in our inventory. There is a stone nearby (1 step to our west), and we also need to collect coal. Since coal is right in front of us, let's mine the coal first to progress toward making an iron pickaxe later, or we can turn to the stone to get the 3rd stone needed for the stone pickaxe.
+
+Let's mine the coal in front of us first.
+
+ACTION: Do","You see:
+- path 1 step to your north
+- stone 1 step to your west
+- coal 3 steps to your south-west
+- iron 3 steps to your west
+- skeleton 6 steps to your south-west
+- grass 1 step to your east
+- table 5 steps to your south-east
+- cow 7 steps to your north-east
+
+You face path at your front.",1.0,False
+37,Move West,"To get a stone pickaxe, we need 3 stones, and we currently have 2. There is a stone 1 step to our west. Let's collect that stone first so we can craft the stone pickaxe.
+
+First, turn or move to face the stone. The stone is to our west. Let's move West.
+
+ACTION: Move West","You see:
+- path 1 step to your north
+- stone 1 step to your west
+- coal 3 steps to your south-west
+- iron 3 steps to your west
+- skeleton 5 steps to your south-west
+- grass 1 step to your east
+- table 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+38,Do,"To get a stone pickaxe, we need 3 stones in total, and our inventory currently has 2 stones. There is a stone directly in front of us to the west. We can collect this final stone, and then use the nearby table to craft a stone pickaxe.
+
+Step 1: Collect the stone in front of us.
+
+ACTION: Do","You see:
+- path 1 step to your west
+- stone 2 steps to your west
+- coal 3 steps to your south-west
+- iron 3 steps to your west
+- skeleton 5 steps to your south-west
+- arrow 4 steps to your south-west
+- grass 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+39,Move South,"To craft a stone pickaxe, we need a table, wood, and stone. We have 3 stones in our inventory and a wood pickaxe, but we need a table nearby. The table is currently 5 steps to our south-east. However, we should be careful of the skeleton nearby and navigate towards the table to craft our stone pickaxe.
+
+Let's move south towards the table.
+
+ACTION: Move South","You see:
+- path 1 step to your west
+- stone 3 steps to your north-west
+- coal 2 steps to your west
+- iron 4 steps to your north-west
+- skeleton 4 steps to your south-west
+- grass 2 steps to your north-east
+- table 4 steps to your south-east
+
+You face path at your front.",0.0,False
+40,Move South,"To craft a stone pickaxe, we need to be near a table and have wood and stone in our inventory. We have 3 stones, but we currently lack wood in our inventory (we used our wood to make the wood pickaxe, and we need another piece of wood or we need to collect more). Wait, let's look at our surroundings: the table is 4 steps to our south-east. Let's first move towards the table, or gather wood if needed. Actually, let's approach the table first.
+
+ACTION: Move South","You see:
+- path 1 step to your north
+- skeleton 4 steps to your west
+- coal 1 step to your west
+- iron 5 steps to your north-west
+- stone 2 steps to your south-west
+- grass 1 step to your east
+- table 3 steps to your east
+
+You face path at your front.",0.0,False
+41,Move East,"To make a stone pickaxe, we need a table, wood, and stone. We already have 3 stones and a wood pickaxe, but we currently have no wood in our inventory. We need to collect wood first to craft items like a stone pickaxe. There are trees around (or we can find one), but let's look for wood or trees. Wait, let's explore or move towards trees to collect wood. 
+
+Let's move east to get closer to the table and explore for trees.
+
+ACTION: Move East","You see:
+- coal 2 steps to your west
+- iron 6 steps to your north-west
+- path 1 step to your west
+- stone 2 steps to your south
+- grass 1 step to your south
+- table 2 steps to your east
+
+You face grass at your front.",0.0,False
+42,Move South,"To craft a Stone Pickaxe, we need a table, wood, and stone in our inventory. Currently, we have 3 stones and a wood pickaxe, but we lack wood. We need to find a tree and collect wood first. Let's move towards the grass or explore around to find a tree.
+
+ACTION: Move South","You see:
+- iron 7 steps to your north-west
+- path 1 step to your west
+- stone 1 step to your south
+- coal 3 steps to your north-west
+- grass 1 step to your north
+- table 3 steps to your north-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+43,Move South,"To craft a stone pickaxe, we need a table, wood, and stone in our inventory. Currently, we have stone, coal, and a wood pickaxe, but no wood. There is a tree visible 5 steps to our south-east. We should move towards it to collect wood.
+
+ACTION: Move South","You see:
+- iron 7 steps to your north-west
+- path 1 step to your west
+- stone 1 step to your south
+- coal 3 steps to your north-west
+- grass 1 step to your north
+- table 3 steps to your north-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+44,Move East,"To craft a stone pickaxe, we need a table, wood, and stone in our inventory. We already have 3 stone, but we need some wood. There is a tree 5 steps to our south-east. Since we are currently facing stone, we should move around it towards the south-east to reach the tree, collect wood, and then return to the table to craft the stone pickaxe.
+
+ACTION: Move East","You see:
+- stone 2 steps to your south-west
+- coal 4 steps to your north-west
+- path 2 steps to your west
+- grass 1 step to your west
+- table 2 steps to your north-east
+- tree 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+45,Move South,"We need to collect wood to craft a stone pickaxe and other tools. There is a tree 4 steps to our south-east. First, let's move towards the tree. We can move South to get closer to the tree.
+
+ACTION: Move South","You see:
+- coal 5 steps to your north-west
+- path 2 steps to your west
+- stone 1 step to your west
+- grass 1 step to your north
+- table 3 steps to your north-east
+- tree 3 steps to your south-east
+- sand 7 steps to your south-east
+
+You face stone at your front.",0.0,False
+46,Move South,"We are currently standing in front of a stone block, and there is a tree 3 steps to our south-east. Since we already have a wood pickaxe and some stone, we might want to collect more wood to build better tools or items. Let's move towards the tree to collect wood.
+
+First, let's move South to approach the tree.
+
+ACTION: Move South","You see:
+- coal 5 steps to your north-west
+- path 2 steps to your west
+- stone 1 step to your west
+- grass 1 step to your north
+- table 3 steps to your north-east
+- tree 3 steps to your south-east
+- sand 7 steps to your south-east
+
+You face stone at your front.",0.0,False
+47,Move South,"We need to collect more wood to progress further (such as building tools or weapons). A tree is located 3 steps to our south-east. 
+
+Let's move South to get closer to the tree.
+
+ACTION: Move South","You see:
+- coal 5 steps to your north-west
+- path 2 steps to your west
+- stone 1 step to your west
+- grass 1 step to your north
+- table 3 steps to your north-east
+- tree 3 steps to your south-east
+- sand 7 steps to your south-east
+
+You face stone at your front.",0.0,False
+48,Move East,"To get wood, we need to move towards the tree located to the south-east. Currently, we are facing a stone. Let's step around or move East towards the tree area.
+
+ACTION: Move East","You see:
+- path 1 step to your south
+- coal 6 steps to your north-west
+- stone 2 steps to your west
+- grass 1 step to your west
+- table 2 steps to your north
+- tree 2 steps to your south
+- sand 6 steps to your south-east
+
+You face grass at your front.",0.0,False
+49,Move South,"We need to collect wood to continue crafting and building our resources. A tree is located 2 steps to our south. Let's move south towards the tree.
+
+ACTION: Move South","You see:
+- coal 7 steps to your north-west
+- stone 1 step to your west
+- path 3 steps to your west
+- grass 1 step to your north
+- table 3 steps to your north
+- tree 1 step to your south
+- sand 5 steps to your south-east
+
+You face tree at your front.",0.0,False
+50,Do,"We have a tree right in front of us (1 step to the south). Collecting wood from this tree is our primary goal right now since we need wood for crafting and progression. 
+
+ACTION: Do","You see:
+- coal 7 steps to your north-west
+- stone 1 step to your west
+- path 3 steps to your west
+- grass 1 step to your north
+- table 3 steps to your north
+- sand 5 steps to your south-east
+
+You face grass at your front.",0.0,False
+51,Move North,"We already collected wood and a wood pickaxe, plus stone and coal. We need to build a table and craft better tools (or place a table first, then use it). There is a table 3 steps to our north. Let's move towards the table so we can craft a stone pickaxe, stone sword, or place a furnace.
+
+Let's move North towards the table.
+
+ACTION: Move North","You see:
+- path 1 step to your south
+- coal 6 steps to your north-west
+- stone 2 steps to your west
+- grass 1 step to your west
+- table 2 steps to your north
+- sand 6 steps to your south-east
+
+You face grass at your front.",0.0,False
+52,Move North,"We need to craft a stone pickaxe and a stone sword. To do that, we need to be next to a table. There is a table 2 steps to our north. Let's move towards it.
+
+ACTION: Move North","You see:
+- path 2 steps to your south
+- coal 5 steps to your north-west
+- stone 3 steps to your south-west
+- grass 1 step to your west
+- table 1 step to your north
+- sand 7 steps to your south-east
+
+You face table at your front.",0.0,False
+53,Make Stone Pickaxe,"We are currently standing right next to a table (1 step to our north). We already have wood and stone in our inventory. To get the ""Make Stone Pickaxe"" and ""Make Stone Sword"" achievements, we need to craft them using the table. Let's make a stone pickaxe first.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 2 steps to your south
+- coal 5 steps to your north-west
+- stone 3 steps to your south-west
+- grass 1 step to your west
+- table 1 step to your north
+- sand 7 steps to your south-east
+
+You face table at your front.",1.0,False
+54,Make Stone Sword,"We are standing right next to a table and have wood and stone in our inventory. We already made a stone pickaxe. Now we should make a stone sword to progress towards our crafting achievements.
+
+ACTION: Make Stone Sword","You see:
+- path 2 steps to your south
+- coal 5 steps to your north-west
+- stone 3 steps to your south-west
+- grass 1 step to your west
+- table 1 step to your north
+- sand 7 steps to your south-east
+
+You face table at your front.",0.0,False
+55,Move South,"To make a Stone Sword, we need wood and stone in our inventory, and we must be near a table. Currently, our inventory has `stone: 2`, `coal: 1`, `wood_pickaxe: 1`, and `stone_pickaxe: 1`, but we **do not have wood** in our inventory (we used our wood to make the pickaxes). 
+
+Therefore, we need to collect wood first before we can craft the stone sword. We should move to a nearby tree, collect wood, and then return to the table.
+
+Let's look around for a tree. There was a tree south of us previously, or we can move towards one. Let's move south.
+
+ACTION: Move South","You see:
+- path 1 step to your south
+- coal 6 steps to your north-west
+- stone 2 steps to your west
+- grass 1 step to your west
+- table 2 steps to your north
+- sand 6 steps to your south-east
+
+You face path at your front.",0.0,False
+56,Move South,"To make a stone sword, we need wood in our inventory in addition to the stone we already have, and we need to be near a table. Currently, we have stone and a stone pickaxe, but no wood. We need to collect wood from a tree first. 
+
+Let's look for a tree to collect wood. A tree was previously located to the south-east of our current position. Let's move south towards the tree area.
+
+ACTION: Move South","You see:
+- coal 7 steps to your north-west
+- stone 1 step to your west
+- path 3 steps to your west
+- grass 1 step to your north
+- table 3 steps to your north
+- sand 5 steps to your south-east
+
+You face grass at your front.",0.0,False
+57,Move South,"We need to collect more wood to craft a stone sword. Let's move towards the nearest trees to gather wood. Based on previous observations, there was a tree to the south-east. Let's move south first to navigate towards resources.
+
+ACTION: Move South","You see:
+- stone 1 step to your west
+- path 1 step to your north
+- grass 1 step to your south
+- sand 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+58,Move South,"To craft a stone sword, we need wood in our inventory (along with the stone we already have, and a nearby table). Right now, we have stone and pickaxes, but no wood. Let's find a tree to collect wood so we can craft the stone sword.
+
+ACTION: Move South","You see:
+- stone 2 steps to your west
+- path 2 steps to your north
+- grass 1 step to your west
+- sand 3 steps to your east
+
+You face grass at your front.",0.0,False
+59,Move East,"To make a Stone Sword, we need wood in our inventory (along with the stone we already have, and a nearby table). Currently, we have stone, a wood pickaxe, and a stone pickaxe, but no wood and no table placed nearby. 
+
+Let's look for a tree to collect wood and then we can place a table and craft the sword. There is no tree immediately in sight, so let's explore by moving East toward the sand and searching for trees.
+
+ACTION: Move East","You see:
+- path 3 steps to your north-west
+- grass 1 step to your west
+- stone 3 steps to your west
+- sand 2 steps to your east
+- water 5 steps to your south-east
+
+You face grass at your front.",0.0,False
+60,Move East,"We need wood to craft a stone sword, but currently, we only have stone, coal, and pickaxes in our inventory. Let's move east toward the sand and find some trees.
+
+ACTION: Move East","You see:
+- stone 4 steps to your west
+- grass 1 step to your west
+- path 4 steps to your north-west
+- sand 1 step to your east
+- water 4 steps to your south-east
+
+You face sand at your front.",0.0,False
+61,Move East,"To achieve our goals, we need to collect wood, craft tools, and explore to find resources like iron, diamonds, and animals to eat. Currently, we have stone, coal, and a stone pickaxe, but we lack wood (which is needed to craft weapons and other items). Let's move east toward the sand and explore the surrounding terrain to find a tree to chop down.
+
+ACTION: Move East","You see:
+- grass 1 step to your west
+- stone 5 steps to your north-west
+- path 5 steps to your north-west
+- sand 1 step to your east
+- water 3 steps to your south-east
+
+You face sand at your front.",0.0,False
+62,Move East,"To progress further, we need to gather more resources such as wood (to craft swords and other items), food, and rare items like iron and diamonds. Let's explore the area to find trees or animals.
+
+ACTION: Move East","You see:
+- grass 2 steps to your west
+- path 6 steps to your north-west
+- sand 1 step to your west
+- water 2 steps to your south-east
+
+You face sand at your front.",0.0,False
+63,Move East,"To make progress towards achievements like collecting wood, defeating enemies, and gathering advanced resources, we need to find trees and explore different biomes. Let's continue moving east towards the water and sand to find new areas to explore.
+
+ACTION: Move East","You see:
+- grass 2 steps to your north
+- sand 1 step to your west
+- water 1 step to your south
+
+You face water at your front.",0.0,False
+64,Move East,"To make progress, we need to explore further around the water and sand to find trees, animals, and other resources. Let's move east along the coastline.
+
+ACTION: Move East","You see:
+- grass 2 steps to your north
+- sand 1 step to your west
+- water 1 step to your south
+
+You face water at your front.",0.0,False
+65,Move North,"To continue exploring and finding resources along the coastline, let's move north along the sand/grass border.
+
+ACTION: Move North","You see:
+- grass 1 step to your north
+- sand 1 step to your west
+- water 2 steps to your south
+
+You face grass at your front.",0.0,False
+66,Move North,"We need to gather more resources (like wood, iron, and coal) and explore to find animals (like cows for food) or zombies/skeletons to defeat, or diamond. We also need to place a furnace if we have enough stone (we have 2 stone, but need 3 for a furnace). Let's collect more stone first, or explore. Looking at our surroundings, there's grass to our north. Let's move north to explore and find more resources.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- sand 1 step to your south
+- water 3 steps to your south
+
+You face grass at your front.",0.0,False
+67,Move North,"We need more stone to place a furnace (we have 2, need 3) and to craft items, or we can look for trees to collect wood, coal, and iron. Let's explore the area by moving north.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- sand 2 steps to your south
+- water 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+68,Move North,"To progress in the game, we need to collect more resources (such as wood and stone) to build a furnace and continue crafting. We currently have 2 stones and need 3 stones to place a furnace. Let's look for stone and wood nearby.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- sand 3 steps to your south
+- water 5 steps to your south-east
+
+You face grass at your front.",0.0,False
+69,Move North,"We need to collect more stone (we currently have 2, and we need 3 to build a furnace) or find other resources like iron and coal to progress further. Let's explore to find a stone rock to mine.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- sand 5 steps to your south-east
+- water 6 steps to your south-east
+
+You face grass at your front.",0.0,False
+70,Move North,"We currently have a stone pickaxe, a wood pickaxe, 2 stones, and 1 coal. To build a furnace and progress towards making iron tools, we need more stone (at least 3 stones are required for a furnace, and we currently have 2). Let's continue exploring to find a stone rock to mine.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- sand 7 steps to your south-east
+
+You face grass at your front.",0.0,False
+71,Move North,"We need more stone to build a furnace. Let's move towards the north where we saw stone earlier, or continue exploring to find more stone rocks to mine.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+72,Move North,"We need to continue gathering resources to make iron tools and eventually find diamonds. Let's move around to find more trees, stone, or creatures to interact with and progress further.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+73,Move North,"We already have a stone pickaxe, stone, coal, and a wood pickaxe. To progress further towards iron tools and diamonds, we need to explore and find iron ore, a furnace, and possibly trees or stone to build with if needed. Let's move around to explore the map and locate iron and other resources.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- cow 6 steps to your north-west
+
+You face grass at your front.",0.0,False
+74,Move North,"We are exploring the map to find iron, trees, and other resources to progress in the game. Let's continue moving North to explore new areas and find a cow or more resources.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- cow 6 steps to your north-west
+
+You face grass at your front.",0.0,False
+75,Move North,"To progress further in the game and eventually hunt animals for food, we need a weapon. Although we have a stone pickaxe, we need wood to craft a wood sword, or we can look for trees to collect wood first. Let's move towards the cow or look for trees nearby. Moving North will help us get closer to the cow and explore more resources.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- cow 5 steps to your north-west
+
+You face grass at your front.",0.0,False
+76,Move North,"To progress in the game, we need to collect wood, food, and other essential resources. Currently, we have some stone and a stone pickaxe, but no wood in our inventory. Let's move towards the cow and explore the surroundings to find trees to collect wood.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- cow 3 steps to your west
+
+You face grass at your front.",0.0,False
+77,Move West,"To progress and unlock achievements, we need to gather wood (achievement 1). Since there are no trees directly visible right in front of us, let's move west toward the cow or explore around to find trees.
+
+ACTION: Move West","You see:
+- grass 1 step to your west
+- skeleton 6 steps to your north-west
+- cow 2 steps to your west
+
+You face grass at your front.",0.0,False
+78,Move West,"To get closer to the cow and gather food or continue exploring, let's move west towards it.
+
+ACTION: Move West","You see:
+- path 6 steps to your north-west
+- grass 1 step to your west
+- skeleton 5 steps to your north-west
+- arrow 4 steps to your north-west
+- cow 2 steps to your south-west
+
+You face grass at your front.",0.0,False
+79,Move South,Move South,"You see:
+- path 7 steps to your north-west
+- grass 1 step to your north
+- skeleton 6 steps to your north-west
+- arrow 4 steps to your north-west
+- cow 1 step to your west
+
+You face grass at your front.",0.0,False
+80,Move West,"We need to collect more resources, specifically wood, and defeat the skeleton or cow if needed, but our primary goals right now are building up inventory and using our pickaxes. Since we have stone and coal, we should look for iron or trees to get wood. There is a cow nearby which we can eat to restore food. Let's move West to get closer to the cow.
+
+ACTION: Move West","You see:
+- path 7 steps to your north-west
+- grass 1 step to your west
+- skeleton 6 steps to your north-west
+- cow 2 steps to your west
+- arrow 3 steps to your north
+
+You face grass at your front.",0.0,False
+81,Move West,"We are close to a skeleton and an arrow to the north, and a cow to the west. We also have low food (6/9). Let's move towards the cow to interact with it, or step away from danger. Since the arrow is 3 steps to the north, we should avoid moving north. Let's move West to get closer to the cow.
+
+ACTION: Move West","You see:
+- stone 4 steps to your west
+- grass 1 step to your north
+- path 6 steps to your north-west
+- skeleton 5 steps to your north-west
+- cow 1 step to your west
+- arrow 5 steps to your north-east
+
+You face cow at your front.",0.0,False
+82,Do,"We are facing a cow directly in front of us. We have low food (6/9). Let's use the 'Do' action to interact with/attack the cow to collect food and complete achievements like 'Eat Cow'.
+
+ACTION: Do","You see:
+- stone 4 steps to your west
+- grass 1 step to your north
+- path 6 steps to your north-west
+- skeleton 5 steps to your north-west
+- arrow 4 steps to your north-west
+- cow 1 step to your west
+
+You face cow at your front.",0.0,False
+83,Do,"We are facing a cow directly in front of us again, and our health/food could use a boost. Let's attack the cow to eat it.
+
+ACTION: Do","You see:
+- stone 4 steps to your west
+- grass 1 step to your north
+- path 6 steps to your north-west
+- skeleton 5 steps to your north-west
+- arrow 3 steps to your north-west
+- cow 1 step to your west
+
+You face cow at your front.",0.0,False
+84,Do,"We are facing a cow, and our food is at 6/9. Let's attack the cow to get food and potentially complete the 'Eat Cow' achievement (or secure meat).
+
+ACTION: Do","You see:
+- stone 4 steps to your west
+- grass 1 step to your west
+- path 6 steps to your north-west
+- skeleton 5 steps to your north-west
+- arrow 2 steps to your west
+
+You face grass at your front.",1.0,False
+85,Move North,"We have already collected some materials (stone, coal, wood pickaxe, stone pickaxe). We need to work towards other achievements, like collecting wood, placing a table, or defeating monsters if needed. Let's move around to find a tree to collect wood.
+
+ACTION: Move North","You see:
+- stone 4 steps to your west
+- path 5 steps to your north-west
+- grass 1 step to your west
+- skeleton 4 steps to your north-west
+- arrow 4 steps to your south-west
+
+You face grass at your front.",0.0,False
+86,Move North,"We need to collect wood to place a table, craft tools, and progress further. Let's explore and find a tree.
+
+ACTION: Move North","You see:
+- stone 4 steps to your west
+- grass 1 step to your west
+- path 4 steps to your north-west
+- skeleton 4 steps to your north-west
+- tree 3 steps to your north
+
+You face grass at your front.",0.0,False
+87,Move North,"To get closer to the tree to collect wood, we should move north towards it.
+
+ACTION: Move North","You see:
+- stone 4 steps to your west
+- grass 1 step to your west
+- path 3 steps to your west
+- skeleton 4 steps to your north-west
+- tree 2 steps to your north
+
+You face grass at your front.",0.0,False
+88,Move North,"To make progress towards advanced tools like the iron pickaxe, we need iron, coal, wood, and a furnace. We already have some stone, coal, and pickaxes. Moving north will bring us closer to the tree, allowing us to collect wood.
+
+ACTION: Move North","You see:
+- stone 4 steps to your west
+- grass 1 step to your west
+- skeleton 4 steps to your north-west
+- path 3 steps to your west
+- tree 1 step to your north
+
+You face tree at your front.",0.0,False
+89,Do,"To collect wood (achievement 1), we need to hit the tree directly in front of us. Since we are facing the tree, we should use the ""Do"" action.
+
+ACTION: Do","You see:
+- stone 4 steps to your west
+- grass 1 step to your west
+- skeleton 4 steps to your north-west
+- path 3 steps to your west
+- arrow 3 steps to your north-west
+- tree 3 steps to your north
+
+You face grass at your front.",0.0,False
+90,Move North,"To continue progressing and collecting resources, we should explore the area and find more trees or resources to expand our inventory. Let's move north towards the trees.
+
+ACTION: Move North","You see:
+- coal 7 steps to your north-west
+- stone 4 steps to your west
+- tree 2 steps to your north
+- grass 1 step to your north
+- skeleton 3 steps to your west
+- path 4 steps to your south-west
+- cow 5 steps to your north-west
+- arrow 1 step to your west
+
+You face grass at your front.",0.0,False
+91,Move North,"We need to collect more wood to place a table and craft tools. There is a tree 2 steps to our north. Let's move north to reach the tree and collect more wood.
+
+ACTION: Move North","You see:
+- stone 4 steps to your west
+- coal 6 steps to your north-west
+- path 5 steps to your south-west
+- tree 1 step to your north
+- grass 1 step to your west
+- skeleton 4 steps to your south-west
+- cow 4 steps to your north-west
+- arrow 1 step to your south
+
+You face tree at your front.",0.0,False
+92,Do,"We are right in front of a tree and need more wood. Let's collect wood from the tree.
+
+ACTION: Do","You see:
+- stone 4 steps to your west
+- coal 6 steps to your north-west
+- path 5 steps to your south-west
+- tree 5 steps to your north-west
+- grass 1 step to your west
+- skeleton 4 steps to your south-west
+- cow 4 steps to your north-west
+- arrow 2 steps to your south-east
+
+You face grass at your front.",0.0,False
+93,Move North,"We need to collect more wood to build a table and other items, or we can find a safe spot to place our table and craft advanced tools. Let's move towards the tree to our north-west to collect more wood.
+
+ACTION: Move North","You see:
+- coal 5 steps to your north-west
+- stone 4 steps to your west
+- path 5 steps to your north-west
+- tree 4 steps to your north-west
+- grass 1 step to your west
+- skeleton 6 steps to your south-west
+- cow 2 steps to your north-west
+- arrow 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+94,Move North,"We need to collect more wood to craft items like a wood sword or place a table to make better tools. Let's move towards the tree to our north-west to get more wood.
+
+ACTION: Move North","You see:
+- stone 4 steps to your north-west
+- coal 4 steps to your west
+- path 4 steps to your north-west
+- tree 3 steps to your west
+- grass 1 step to your west
+- skeleton 6 steps to your south-west
+- cow 2 steps to your west
+- arrow 6 steps to your south-east
+
+You face grass at your front.",0.0,False
+95,Move West,"We need more resources and achievements. We have wood and stone, and a table needs to be placed to craft advanced tools. Let's place a table first. Wait, we don't have a table in our inventory yet, but we have wood. Let's collect more wood or place a table if we can. Wait, let's check our inventory: we have 2 wood, 2 stone, 1 coal, 1 wood_pickaxe, 1 stone_pickaxe. To place a table, we need wood (which we have). Let's move towards the tree to our west to get more wood, or place a table right here. Let's move West to the tree.
+
+ACTION: Move West","You see:
+- stone 3 steps to your north-west
+- coal 3 steps to your west
+- path 3 steps to your north-west
+- tree 2 steps to your west
+- grass 1 step to your north
+- arrow 4 steps to your south-west
+- skeleton 5 steps to your south-west
+- cow 1 step to your west
+
+You face cow at your front.",0.0,False
+96,Do,"We need to collect more resources, especially wood, or interact with animals/mobs. Since there is a cow right in front of us, let's hit it to get food and health (achievement: Eat Cow, or just defeat it). Wait, ""Do"" hits the creature in front. Let's attack the cow.
+
+ACTION: Do","You see:
+- stone 3 steps to your north-west
+- coal 3 steps to your west
+- path 3 steps to your north-west
+- tree 2 steps to your west
+- arrow 3 steps to your south-west
+- grass 1 step to your west
+- skeleton 5 steps to your south-west
+- cow 2 steps to your north-west
+
+You face grass at your front.",0.0,False
+97,Move West,"We need to collect more wood to craft a table, or build one if we already have enough. Wait, let's check our inventory: we have 2 wood. We need 4 wood to place a table. Let's move towards the tree to our west and collect more wood.
+
+ACTION: Move West","You see:
+- stone 2 steps to your north
+- coal 2 steps to your west
+- path 2 steps to your north-west
+- tree 1 step to your west
+- grass 1 step to your south
+- skeleton 4 steps to your south-west
+- cow 1 step to your north
+
+You face tree at your front.",0.0,False
+98,Do,"To get closer to our goal of collecting achievements and exploring the world, we currently have 2 wood in our inventory and are facing a tree. We need 4 wood to place a table. Let's collect more wood from the tree in front of us.
+
+ACTION: Do","You see:
+- stone 2 steps to your north
+- coal 2 steps to your west
+- path 2 steps to your north-west
+- grass 1 step to your west
+- skeleton 4 steps to your south-west
+- cow 1 step to your north
+
+You face grass at your front.",0.0,False
+99,Move South,"We currently have 3 wood in our inventory and are facing grass. We need 4 wood to be able to place a table. Let's find another tree or move back to the tree we were chopping to collect the 4th wood. Let's move south to check for trees or explore.
+
+ACTION: Move South","You see:
+- stone 2 steps to your west
+- coal 3 steps to your north-west
+- path 3 steps to your north-west
+- grass 1 step to your west
+- skeleton 4 steps to your south-west
+- cow 2 steps to your north
+
+You face grass at your front.",0.0,False
+100,Move East,"We need 4 wood to place a table, but we currently have 3 wood. We should find another tree to collect the remaining wood. Let's move east to search for more trees and resources.
+
+ACTION: Move East","You see:
+- stone 3 steps to your west
+- coal 4 steps to your north-west
+- path 4 steps to your north-west
+- grass 1 step to your west
+- skeleton 5 steps to your south-west
+- cow 3 steps to your north-west
+
+You face grass at your front.",0.0,False
+101,Move East,"To achieve our goals, we need to collect more wood to build a table and craft tools. We currently have 3 wood in our inventory, and we need 4 wood total to place a table (or we can use what we have if we find a tree, but we need at least 4 wood to craft a table). Let's move around to find another tree. Moving East will help us explore new areas for trees and resources.
+
+ACTION: Move East","You see:
+- coal 5 steps to your north-west
+- stone 4 steps to your west
+- path 5 steps to your north-west
+- grass 1 step to your west
+- skeleton 6 steps to your south-west
+- cow 4 steps to your north-west
+
+You face grass at your front.",0.0,False
+102,Move East,"To craft a table and progress in the game, we need more wood. Let's explore the area to find another tree to chop down. We can move East to continue our exploration.
+
+ACTION: Move East","You see:
+- path 6 steps to your north-west
+- grass 1 step to your west
+- skeleton 7 steps to your south-west
+- stone 6 steps to your north-west
+- cow 5 steps to your north-west
+
+You face grass at your front.",0.0,False
+103,Move East,"We currently have 3 wood, 2 stone, and 1 coal in our inventory. We also have both a wood pickaxe and a stone pickaxe. To place a table and progress further, let's continue searching for more resources or a good spot. Let's move East to explore more of the map.
+
+ACTION: Move East","You see:
+- stone 7 steps to your north-west
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+104,Place Table,"We have wood in our inventory, so we can place a crafting table to unlock crafting achievements. Let's place the table right in front of us or where we are. Wait, to place a table we use `Place Table`. Let's do that!
+
+ACTION: Place Table","You see:
+- stone 7 steps to your north-west
+- grass 1 step to your west
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+105,Make Wood Sword,"We need to make a wood sword to progress further. Since we already have a wood pickaxe and a stone pickaxe, and a table is nearby, we can craft a wood sword. Let's make sure we are near the table or use the Make Wood Sword action.
+
+ACTION: Make Wood Sword","You see:
+- stone 7 steps to your north-west
+- grass 1 step to your west
+- table 1 step to your east
+
+You face table at your front.",1.0,False
+106,Move North,"We have already placed a table and crafted a wood pickaxe, stone pickaxe, and wood sword. We also have some stone and coal in our inventory. To progress toward other achievements (such as making a stone sword or iron tools), we need more resources like wood and stone, or we need to find a furnace/iron. 
+
+Let's first collect more wood to ensure we have enough materials for future crafting, or move towards the nearby stone. Since we are facing the table, let's turn away or move to collect resources. Wait, we need to collect more wood to make a stone sword (which requires wood and stone at a table). Let's find a tree to chop down. Looking around, there are no trees immediately in sight, but we know stone is to the north-west. Let's move towards the stone and explore.
+
+ACTION: Move North","You see:
+- stone 6 steps to your north-west
+- grass 1 step to your west
+- table 2 steps to your south-east
+
+You face grass at your front.",0.0,False
+107,Move North,"To progress further, we need to complete more achievements, such as making a stone sword or finding iron and coal to make iron tools. Currently, we have a stone pickaxe, a wood sword, some stone, and coal, but we lack wood to craft a stone sword at a table. We need to find a tree to gather more wood. Let's explore the area to find a tree.
+
+ACTION: Move North","You see:
+- stone 5 steps to your north-west
+- grass 1 step to your west
+- table 3 steps to your south-east
+
+You face grass at your front.",0.0,False
+108,Move North,"We need more wood to craft a stone sword and other advanced tools, but there are no trees immediately visible. Let's explore further north to find trees, and perhaps find more resources like coal, iron, or stone.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- stone 4 steps to your west
+- table 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+109,Move North,"We need to collect more wood and resources, and explore the map to find trees, animals, and other materials. Let's move north to continue exploring.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- stone 4 steps to your west
+
+You face grass at your front.",0.0,False
+110,Move North,"We need to collect more resources (like wood, stone, iron, coal) and defeat monsters to complete the achievements. Let's move north to find more trees and explore.
+
+ACTION: Move North","You see:
+- sand 7 steps to your north-west
+- grass 1 step to your west
+- stone 4 steps to your west
+- tree 5 steps to your north-west
+
+You face grass at your front.",0.0,False
+111,Move North,"To continue progressing in the game, we need to gather more materials, explore the map, and eventually craft better tools or defeat monsters. Let's head towards the tree to collect more wood.
+
+ACTION: Move North","You see:
+- water 7 steps to your north-west
+- sand 4 steps to your north-west
+- grass 1 step to your west
+- stone 5 steps to your south-west
+- tree 4 steps to your north-west
+
+You face grass at your front.",0.0,False
+112,Move North,"To explore further and gather more resources, let's head towards the tree to collect more wood.
+
+ACTION: Move North","You see:
+- water 3 steps to your north
+- sand 3 steps to your north-west
+- grass 1 step to your west
+- stone 6 steps to your south-west
+- tree 3 steps to your north-west
+
+You face grass at your front.",0.0,False
+113,Move North,"To gather more resources and work towards further achievements, we need to collect more wood. Let's move towards the tree located to the north-west.
+
+ACTION: Move North","You see:
+- water 2 steps to your north
+- sand 2 steps to your north-west
+- grass 1 step to your west
+- stone 7 steps to your south-west
+- tree 2 steps to your west
+
+You face grass at your front.",0.0,False
+114,Move West,"To get closer to the tree to collect more wood, we should move towards it. Since the tree is 2 steps to our west, we should first move west.
+
+ACTION: Move West","You see:
+- water 2 steps to your north
+- sand 1 step to your north
+- grass 1 step to your south
+- stone 6 steps to your south-west
+- tree 1 step to your west
+
+You face tree at your front.",0.0,False
+115,Do,"We are currently facing a tree and have the ""wood_sword"" and other tools in our inventory, and we need to collect more wood. To collect wood, we can use the ""Do"" action while facing a tree.
+
+ACTION: Do","You see:
+- water 2 steps to your north
+- sand 1 step to your north
+- grass 1 step to your west
+- stone 6 steps to your south-west
+- tree 4 steps to your east
+
+You face grass at your front.",0.0,False
+116,Move East,Move East,"You see:
+- water 2 steps to your north
+- sand 2 steps to your north-west
+- grass 1 step to your west
+- stone 7 steps to your south-west
+- tree 3 steps to your east
+
+You face grass at your front.",0.0,False
+117,Move East,"To progress further and achieve more goals, we need to gather more resources (like wood, stone, or food) and eventually craft better tools or build a furnace. Currently, we have some basic tools and resources. Let's head towards the tree to collect more wood.
+
+ACTION: Move East","You see:
+- water 2 steps to your north
+- sand 3 steps to your north-west
+- grass 1 step to your west
+- tree 2 steps to your east
+
+You face grass at your front.",0.0,False
+118,Move East,"To progress further, we need to gather more wood to craft better tools or build structures like a furnace or place plants. There is a tree 2 steps to our east. Let's move towards it to collect more wood.
+
+ACTION: Move East","You see:
+- water 2 steps to your north
+- sand 4 steps to your north-west
+- grass 1 step to your west
+- tree 1 step to your east
+
+You face tree at your front.",0.0,False
+119,Do,"To collect more wood, we are standing right in front of a tree. Let's chop it down using the 'Do' action.
+
+ACTION: Do","You see:
+- water 2 steps to your north
+- sand 4 steps to your north-west
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+120,Move East,"To make progress toward achieving all goals, we need to gather more resources like wood and stone, place structures, or craft better tools. Currently, our inventory has wood and stone, and we have a wood sword. Let's collect more wood to ensure we have enough for crafting and placing items. Moving around to find trees or water is also good. Let's explore by moving east.
+
+ACTION: Move East","You see:
+- water 3 steps to your north-west
+- sand 5 steps to your north-west
+- grass 1 step to your west
+- tree 6 steps to your north-east
+
+You face grass at your front.",0.0,False
+121,Move North,"To make progress on our achievements, we should explore and gather more resources, particularly wood and stone, or find a suitable place to set up a table or furnace if needed. We currently have a good set of tools (wood pickaxe, stone pickaxe, wood sword) and some materials. Let's move towards the tree to collect more wood.
+
+ACTION: Move North","You see:
+- water 2 steps to your north-west
+- sand 4 steps to your west
+- grass 1 step to your west
+- tree 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+122,Move North,"To progress further and secure survival and crafting options, we need to gather more resources like wood and stone. There is a tree visible 5 steps to our north-east. Let's move towards it to collect more wood.
+
+ACTION: Move North","You see:
+- water 1 step to your west
+- sand 5 steps to your south-west
+- grass 1 step to your south
+- tree 4 steps to your east
+
+You face water at your front.",0.0,False
+123,Do,"We need to increase our drink level since it is currently low (4/9) and there is water right in front of us. Let's drink from the water.
+
+ACTION: Do","You see:
+- water 1 step to your west
+- sand 5 steps to your south-west
+- grass 1 step to your south
+- tree 4 steps to your east
+
+You face water at your front.",1.0,False
+124,Do,ACTION: Do,"You see:
+- water 1 step to your west
+- sand 5 steps to your south-west
+- grass 1 step to your south
+- tree 4 steps to your east
+
+You face water at your front.",0.0,False
+125,Do,"We need to collect drink to fulfill the drink achievement and keep our hydration up. Since we are facing water, we can use the 'Do' action to drink from the lake.
+
+ACTION: Do","You see:
+- water 1 step to your west
+- sand 5 steps to your south-west
+- grass 1 step to your south
+- tree 4 steps to your east
+
+You face water at your front.",0.0,False
+126,Do,"To maintain our drink stat and ensure we are fully hydrated, we can continue to drink from the lake since we are facing water.
+
+ACTION: Do","You see:
+- water 1 step to your west
+- sand 5 steps to your south-west
+- grass 1 step to your south
+- tree 4 steps to your east
+
+You face water at your front.",0.0,False
+127,Do,"We need to drink from the water to maximize our drink status. Since we are facing water right now, we can use the ""Do"" action to drink.
+
+ACTION: Do","You see:
+- water 1 step to your west
+- sand 5 steps to your south-west
+- grass 1 step to your south
+- tree 4 steps to your east
+
+You face water at your front.",0.0,False
+128,Move East,"We have already collected wood, stone, coal, crafted pickaxes and sword, and our stats are nearly full. We need to collect iron and diamond, place furnace, craft iron tools, etc. Let's explore to find iron and coal/stone further. Let's move east to search for more resources.
+
+ACTION: Move East","You see:
+- water 1 step to your north
+- grass 1 step to your west
+- tree 3 steps to your east
+
+You face grass at your front.",0.0,False
+129,Move East,"We need to gather more resources like iron and diamond, place a furnace, and craft iron tools. Let's move towards the tree to our east to gather more wood or explore further.
+
+ACTION: Move East","You see:
+- water 1 step to your north
+- grass 1 step to your west
+- tree 2 steps to your east
+- cow 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+130,Move East,"We have some wood, stone, coal, pickaxes, and a sword. We still need to place a table and furnace, collect iron and diamonds, and craft iron tools. Let's move towards the tree to our east to gather more wood or find space to place a table.
+
+ACTION: Move East","You see:
+- water 1 step to your north
+- grass 1 step to your west
+- tree 1 step to your east
+- cow 4 steps to your north-east
+
+You face tree at your front.",0.0,False
+131,Move South,"To place a table, we need a free space in front of us. We are currently facing a tree. Let's step away from the tree or face empty grass so we can place a table and a furnace to progress toward making iron tools. Let's move south to find an open space.
+
+ACTION: Move South","You see:
+- water 2 steps to your north
+- grass 1 step to your west
+- tree 2 steps to your north-east
+- cow 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+132,Move East,"We have wood, stone, coal, a wood pickaxe, a stone pickaxe, and a wood sword. We need to place a table to craft stone tools or iron tools if we have an iron ore, but we need an iron ore and furnace first. Let's first place a table to unlock table-related crafting, or place a furnace if needed. Wait, we don't have iron yet. We need to find iron ore and coal, and mine them with a stone pickaxe. 
+
+Let's look around for stone/iron or place a table to craft further items. But we can also look for a cow to eat, or explore to find iron and coal. Let's explore eastward or southward to find iron.
+
+ACTION: Move East","You see:
+- water 3 steps to your north-west
+- grass 1 step to your west
+- tree 1 step to your north
+- cow 4 steps to your north-east
+
+You face tree at your front.",0.0,False
+133,Move East,"We have wood, stone, coal, a stone pickaxe, and a wood sword. We need to find iron to progress to iron tools (iron pickaxe and iron sword). To do this, we need to explore and find iron ore. Let's move towards the cow to check out the area or explore more of the map. Let's move east to explore further.
+
+ACTION: Move East","You see:
+- water 3 steps to your north-west
+- grass 1 step to your west
+- tree 1 step to your north
+- cow 4 steps to your north-east
+
+You face tree at your front.",0.0,False
+134,Move East,"To explore for iron, let's move past the tree towards the east to open up new areas of the map and find stone, caves, or ore.
+
+ACTION: Move East","You see:
+- water 3 steps to your north-west
+- grass 1 step to your west
+- tree 1 step to your north
+- cow 4 steps to your north-east
+
+You face tree at your front.",0.0,False
+135,Move East,Move East,"You see:
+- water 3 steps to your north-west
+- grass 1 step to your west
+- tree 1 step to your north
+- cow 4 steps to your north-east
+
+You face tree at your front.",0.0,False
+136,Do,"To progress in the game and achieve remaining goals (like placing a furnace, mining iron/diamond, and making better gear), we need to gather more resources or explore. Since we already have a wood pickaxe, stone pickaxe, wood sword, and some stone/coal, let's collect more wood or look for iron and coal underground or caves. There is a tree directly to our north, which we can punch to get more wood.
+
+ACTION: Do","You see:
+- water 3 steps to your north-west
+- grass 1 step to your west
+- tree 1 step to your north
+- cow 4 steps to your north-east
+
+You face grass at your front.",0.0,False
+137,Move North,"To collect more wood, we should face the tree and use the 'Do' action. The tree is currently one step to our north, so we should move north first, and then punch it. 
+
+ACTION: Move North","You see:
+- water 3 steps to your north-west
+- grass 1 step to your west
+- tree 1 step to your north
+- cow 4 steps to your north-east
+
+You face tree at your front.",0.0,False
+138,Do,"We need to collect more wood. Since we are facing the tree right in front of us, we can use the 'Do' action to harvest it.
+
+ACTION: Do","You see:
+- water 3 steps to your north-west
+- grass 1 step to your west
+- tree 3 steps to your north-east
+- cow 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+139,Move North,"To continue making progress, we have a good inventory of tools (wood pickaxe, stone pickaxe, wood sword) and some resources (wood, stone, coal). However, we need more materials to craft iron tools and potentially expand our base or build more items. Currently, we face grass, but there are trees and a cow nearby. Let's move towards the cow or trees to gather more food or wood. Let's move north towards the trees and cow.
+
+ACTION: Move North","You see:
+- water 2 steps to your north-west
+- grass 1 step to your west
+- tree 2 steps to your north-east
+- cow 4 steps to your north-east
+
+You face grass at your front.",0.0,False
+140,Move North,"To progress further and eventually craft iron tools, we need more resources such as iron and coal, and we should keep our food levels up. There is a cow nearby at the north-east, and trees around. Let's move towards the cow so we can hunt it for food (achievement: Eat Cow) and gather more materials.
+
+Step 1: Move towards the cow or trees. Moving North puts us closer to both the trees and the cow.
+
+ACTION: Move North","You see:
+- water 1 step to your west
+- grass 1 step to your south
+- tree 1 step to your east
+- cow 3 steps to your east
+
+You face water at your front.",0.0,False
+141,Move East,"To hunt the cow for food (achievement: Eat Cow), we need to move closer to it. The cow is currently 3 steps to our east, and we are facing water to our west. 
+
+Let's turn towards the cow by moving east.
+
+ACTION: Move East","You see:
+- water 1 step to your west
+- grass 1 step to your south
+- tree 1 step to your east
+- cow 3 steps to your east
+
+You face tree at your front.",0.0,False
+142,Move South,"We need to get closer to the cow to attack it and eventually eat it (achievement: Eat Cow). The cow is 3 steps to our east, and there is a tree blocking our direct path eastward. We should move around the tree, perhaps by moving north or south first, then moving east toward the cow. Let's move south to clear the tree in front.
+
+ACTION: Move South","You see:
+- water 2 steps to your north-west
+- grass 1 step to your west
+- zombie 3 steps to your south
+- tree 2 steps to your north-east
+- cow 4 steps to your north-east
+
+You face grass at your front.",0.0,False
+143,Move South,"We need to survive and gather more resources, or defeat nearby threats like the zombie or find food. Our health is full, food is at 7/9, and we already have tools and materials (wood, stone, coal, wood pickaxe, stone pickaxe, wood sword). A zombie is 3 steps to our south. We can move away from it, or approach it with our sword to defeat it (achievement: Defeat Zombie). Let's move towards the zombie to fight it and get achievements, or move north towards the cow/resources. Wait, let's look at the zombie position: south 3 steps. Let's face south and prepare, or move south to engage.
+
+ACTION: Move South","You see:
+- water 3 steps to your north-west
+- grass 1 step to your west
+- zombie 1 step to your south
+- tree 3 steps to your north-east
+- cow 4 steps to your north-east
+
+You face zombie at your front.",-0.2,False
+144,"We are facing a zombie directly in front of us  step to our south We have a wood sword in our inventory and  health We can attack the zombie to defeat it which will grant the Defeat Zombie achievement 
+
+Action: Do","We are facing a zombie directly in front of us (1 step to our south). We have a wood sword in our inventory and 7/9 health. We can attack the zombie to defeat it, which will grant the ""Defeat Zombie"" achievement. 
+
+Action: Do","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- water 3 steps to your north-west
+- grass 1 step to your west
+- zombie 1 step to your south
+- tree 3 steps to your north-east
+- cow 3 steps to your north-east
+
+You face zombie at your front.",0.0,False
+145,Do,"To defeat the zombie directly in front of us, we need to use the attack action (""Do""). 
+
+ACTION: Do","You see:
+- water 3 steps to your north-west
+- grass 1 step to your west
+- zombie 1 step to your south
+- tree 3 steps to your north-east
+- cow 2 steps to your north-east
+
+You face zombie at your front.",0.0,False
+146,Do,"We are facing a zombie directly in front of us and we have a wood sword. We need to attack it to defeat it and defend ourselves.
+
+ACTION: Do","You see:
+- water 3 steps to your north-west
+- grass 1 step to your west
+- zombie 1 step to your south
+- tree 3 steps to your north-east
+- cow 2 steps to your north-east
+
+You face zombie at your front.",0.0,False
+147,Do,"To defeat the zombie blocking our way and secure the ""Defeat Zombie"" achievement, we need to attack it with our wooden sword. Since we are facing the zombie directly, using the ""Do"" action will hit it.
+
+ACTION: Do","You see:
+- water 3 steps to your north-west
+- grass 1 step to your west
+- zombie 2 steps to your south-west
+- tree 3 steps to your north-east
+- cow 2 steps to your north-east
+
+You face grass at your front.",1.0,False
+148,Move North,"The zombie has been defeated, and we now need to continue gathering resources and progressing towards other achievements. Currently, we are near a cow and some trees. Collecting more wood and food (by defeating the cow or eating plants) will be useful, or we can look for iron and coal to make iron tools. Let's move towards the cow to get food.
+
+ACTION: Move North","You see:
+- water 2 steps to your north-west
+- grass 1 step to your west
+- zombie 2 steps to your south-west
+- tree 2 steps to your north-east
+- cow 2 steps to your east
+
+You face grass at your front.",0.0,False
+149,Move East,"To progress further, we need to gather more resources, find iron, or hunt the nearby cow for food. The cow is located 2 steps to our east. Moving east will put us in position to interact with or hit the cow.
+
+ACTION: Move East","You see:
+- water 2 steps to your north
+- grass 1 step to your west
+- zombie 2 steps to your south-west
+- tree 1 step to your north
+- cow 1 step to your east
+
+You face cow at your front.",0.0,False
+150,Do,"We need to hunt the cow to get food and complete the ""Eat Cow"" achievement. Since the cow is directly in front of us, we can attack it using the 'Do' action.
+
+ACTION: Do","You see:
+- water 2 steps to your north
+- grass 1 step to your south
+- zombie 1 step to your west
+- tree 1 step to your north
+- cow 2 steps to your north-east
+
+You face grass at your front.",-0.2,False
+151,Move North,"We are currently next to a zombie to our west, and our health is 5/9. We need to be careful of the zombie, but there is also a cow nearby to our north-east and we need food. However, facing a zombie is dangerous if we don't handle it, or we can move away or attack it. Wait, let's look at our surroundings: the zombie is 1 step to our west, and we are facing grass. Let's step away or attack the zombie to protect ourselves, or move to secure food. Let's move North to get closer to the cow and away from the zombie.
+
+ACTION: Move North","You see:
+- water 2 steps to your north
+- grass 1 step to your south
+- zombie 1 step to your west
+- tree 1 step to your north
+- cow 1 step to your east
+
+You face tree at your front.",0.0,False
+152,Move East,"We are next to a tree (1 step north) and a cow (1 step east), but also a zombie (1 step west). Since our health is 5/9 and we have a wood sword, we should either defend ourselves or deal with the threats/resources. Let's attack the cow to the east to get food (Eat Cow achievement), but we are currently facing north at a tree. Let's turn or move appropriately, or since we face the tree, let's harvest the tree for more wood. Wait, let's look at the cow to our east - we can turn East and attack it. But wait, we face tree at our front (North). Let's step East to face the cow and hit it to get food.
+
+ACTION: Move East","You see:
+- water 2 steps to your north
+- grass 1 step to your south
+- zombie 1 step to your west
+- tree 1 step to your north
+- cow 1 step to your east
+
+You face cow at your front.",0.0,False
+153,Do,"We are facing the cow to our east. We need to attack the cow to get the ""Eat Cow"" achievement (by hitting it until it dies, then eating it). Let's hit the cow with our ""Do"" action.
+
+ACTION: Do","You see:
+- water 2 steps to your north
+- grass 1 step to your south
+- zombie 1 step to your west
+- tree 1 step to your north
+
+You face grass at your front.",0.0,False
+154,Sleep,"To progress in the game and safely manage our health and energy, we should first place a table or craft items, but looking at our surroundings, there's a zombie 1 step to our west. Since we are facing grass, we can turn and fight the zombie if needed, or we can move away to manage our health. However, let's look at our inventory: we have wood, stone, coal, a wood pickaxe, a stone pickaxe, and a wood sword, but no table placed yet. Wait, we should probably sleep since our energy is low (4/9). Let's step away or just sleep if it's safe. But wait, we can't sleep directly unless we are in a safe spot, or maybe we can just sleep now to restore energy. Let's try sleeping to recover energy.
+
+ACTION: Sleep","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 2 steps to your north
+- grass 1 step to your south
+- zombie 1 step to your west
+- tree 1 step to your north
+
+You face grass at your front.",0.1,False
+155,Noop,"Since we are sleeping and waiting for our energy to recover, we must wait (Noop) until we wake up.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 2 steps to your north
+- grass 1 step to your south
+- zombie 1 step to your west
+- tree 1 step to your north
+
+You face grass at your front.",0.0,False
+156,Noop,ACTION: Noop,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 2 steps to your north
+- grass 1 step to your south
+- zombie 1 step to your west
+- tree 1 step to your north
+
+You face grass at your front.",-0.6,True

@@ -1,0 +1,73 @@
+{
+    "task": "default",
+    "action_frequency": {
+        "Move North": 44,
+        "Move East": 36,
+        "Do": 230,
+        "Move West": 24,
+        "Place Table": 5,
+        "Make Wood Pickaxe": 1,
+        "Make Wood Sword": 2,
+        "Move South": 22,
+        "Make Stone Pickaxe": 2,
+        "Sleep": 45,
+        "Place Plant": 1
+    },
+    "input_tokens": 892759,
+    "output_tokens": 24213,
+    "done": true,
+    "episode_return": 10.100000000000003,
+    "num_steps": 412,
+    "failed_candidates": [],
+    "score": 11.0,
+    "progression": 0.5,
+    "achievements": {
+        "collect_coal": 1,
+        "collect_diamond": 0,
+        "collect_drink": 11,
+        "collect_iron": 0,
+        "collect_sapling": 2,
+        "collect_stone": 7,
+        "collect_wood": 7,
+        "defeat_skeleton": 0,
+        "defeat_zombie": 0,
+        "eat_cow": 0,
+        "eat_plant": 0,
+        "make_iron_pickaxe": 0,
+        "make_iron_sword": 0,
+        "make_stone_pickaxe": 1,
+        "make_stone_sword": 0,
+        "make_wood_pickaxe": 1,
+        "make_wood_sword": 1,
+        "place_furnace": 0,
+        "place_plant": 1,
+        "place_stone": 0,
+        "place_table": 2,
+        "wake_up": 1
+    },
+    "process_num": "ForkProcess-1",
+    "seed": 2,
+    "agent": {
+        "type": "cot",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "gemini",
+        "model_id": "gemini-3.5-flash-lite",
+        "base_url": "http://localhost:8080/v1",
+        "generate_kwargs": {
+            "temperature": null,
+            "max_tokens": 512,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

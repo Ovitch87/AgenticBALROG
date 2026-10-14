@@ -1,0 +1,79 @@
+{
+    "task": "default",
+    "action_frequency": {
+        "Move North": 33,
+        "Move West": 33,
+        "Do": 41,
+        "Move East": 25,
+        "Place Table": 6,
+        "Move South": 27,
+        "Noop": 14,
+        "Make Wood Pickaxe": 1,
+        "Make Stone Pickaxe": 2,
+        "Make Stone Sword": 2,
+        "Place Furnace": 3,
+        "Make Iron Pickaxe": 2,
+        "Sleep": 1
+    },
+    "input_tokens": 318396,
+    "output_tokens": 10610,
+    "done": true,
+    "episode_return": 11.100000000000001,
+    "num_steps": 190,
+    "failed_candidates": [
+        "Move SouthEast",
+        "To make a stone pickaxe and stone sword we need to place a table first Lets move to a convenient spot and place the table \n\nFirst lets turn around or move to an open space We have a table in our inventory wait lets check inventory: we have wood:  stone:  woodpickaxe:  We dont have a table in inventory yet We need to make one or find one Wait we can make a table using wood Lets collect more wood first if needed or check if we can craft a table We have  wood Lets collect more wood from the nearby tree\n\nLets move towards the tree northwest\nMove West",
+        "We have collected enough stone  total but we need to place a table to craft a stone pickaxe and stone sword Lets move to a clear area or back towards where our table was or place a new table if we have wood We currently have  wood and  stone and a wood pickaxe \n\nLets check if we have a table nearby or if we can place one We can place a table using the Place Table action Lets step back onto open grass and place a table then craft our stone tools\n\nAction: Move North"
+    ],
+    "score": 12.0,
+    "progression": 0.5454545454545454,
+    "achievements": {
+        "collect_coal": 1,
+        "collect_diamond": 0,
+        "collect_drink": 12,
+        "collect_iron": 1,
+        "collect_sapling": 0,
+        "collect_stone": 6,
+        "collect_wood": 11,
+        "defeat_skeleton": 0,
+        "defeat_zombie": 3,
+        "eat_cow": 2,
+        "eat_plant": 0,
+        "make_iron_pickaxe": 0,
+        "make_iron_sword": 0,
+        "make_stone_pickaxe": 1,
+        "make_stone_sword": 1,
+        "make_wood_pickaxe": 1,
+        "make_wood_sword": 0,
+        "place_furnace": 1,
+        "place_plant": 0,
+        "place_stone": 0,
+        "place_table": 3,
+        "wake_up": 0
+    },
+    "process_num": "ForkProcess-1",
+    "seed": 10,
+    "agent": {
+        "type": "cot",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "gemini",
+        "model_id": "gemini-3.5-flash-lite",
+        "base_url": "http://localhost:8080/v1",
+        "generate_kwargs": {
+            "temperature": null,
+            "max_tokens": 512,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

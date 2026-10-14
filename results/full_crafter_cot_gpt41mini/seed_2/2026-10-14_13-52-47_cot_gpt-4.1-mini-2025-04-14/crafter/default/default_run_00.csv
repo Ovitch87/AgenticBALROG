@@ -1,0 +1,2866 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,Move West,"Step 1: Since there is grass directly in front of me and trees are further away, I should collect wood from the grass or nearby if possible to begin with. However, grass usually doesn't provide wood; the tree 6 steps south-west is the most likely source of wood.
+
+Step 2: To reach the tree at south-west, I need to move south and west. Grass is west, so I can Move West first to get closer towards the tree.
+
+Step 3: From there, I can progress towards the tree and use the Do action to collect wood once adjacent.
+
+Therefore, the immediate next step is to Move West.
+
+ACTION: Move West","You see:
+- water 7 steps to your north-west
+- grass 1 step to your west
+- sand 5 steps to your south-west
+- tree 5 steps to your south-west
+
+You face grass at your front.",0.0,False
+1,Move West,"Step 1: I need to get wood early on to start crafting tools and tables, so I should move towards the tree 5 steps to the south-west.
+
+Step 2: To move south-west, I should move south first or west first. Because grass is directly west and closer, moving west brings me one step closer to the tree. Then I can continue moving south afterward.
+
+Step 3: Once I'm adjacent to the tree, I will use Do to collect wood.
+
+Therefore, the best next step is to move west.
+
+ACTION: Move West","You see:
+- water 4 steps to your west
+- sand 4 steps to your south-west
+- grass 1 step to your west
+- tree 4 steps to your south-west
+
+You face grass at your front.",0.0,False
+2,Move West,"Step 1: I want to collect wood early to progress with crafting tools and furniture, which is essential to advance.
+
+Step 2: The tree is 4 steps to the south-west, but currently I face grass directly in front.
+
+Step 3: To move toward the tree, I can go west first since grass is one step west and will bring me closer to the tree.
+
+Step 4: After moving west a few times, I can head south to approach the south-west position of the tree.
+
+Step 5: Once adjacent to the tree, use Do to collect wood.
+
+Since the immediate step is to move closer by moving west:
+
+ACTION: Move West","You see:
+- water 3 steps to your west
+- sand 3 steps to your south-west
+- tree 3 steps to your south-west
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+3,Move West,"Step 1: The goal is to collect wood as early as possible to unlock crafting and further progress.
+Step 2: The tree, which is the source of wood, is 3 steps to the south-west.
+Step 3: Currently, I face grass 1 step west, so moving west once will put me closer to the tree.
+Step 4: After moving west, I can then move south to approach the tree.
+Step 5: Once adjacent to the tree, I can use Do to collect wood.
+Step 6: For now, the immediate next step is to move west.
+
+ACTION: Move West","You see:
+- water 2 steps to your west
+- sand 2 steps to your south-west
+- tree 2 steps to your south
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+4,Move South,"Step 1: The goal is to collect wood to unlock further crafting.
+Step 2: The nearest tree is 2 steps to the south.
+Step 3: Currently, I face grass 1 step west. To reach the tree to the south, I need to turn or move south.
+Step 4: Since my facing direction is grass west, moving west will only bring me one step closer to water, not the tree.
+Step 5: To get to the tree 2 steps south, I should face south and move south.
+Step 6: However, the only allowed movement actions are move west, east, north, or south, and no mention of turning without moving.
+Step 7: The simplest solution is to move south now to get closer to the tree.
+Step 8: Once adjacent to the tree, I can do the action ""Do"" to collect wood.
+
+ACTION: Move South","You see:
+- water 2 steps to your west
+- sand 1 step to your west
+- tree 1 step to your south
+- grass 1 step to your north
+
+You face tree at your front.",0.0,False
+5,Do,"Step 1: I see a tree directly in front of me, 1 step away.
+Step 2: I want to collect wood to get the ""Collect Wood"" achievement.
+Step 3: The ""Do"" action can be used to collect materials when facing the appropriate object.
+Step 4: Since I face the tree, using ""Do"" should collect wood from the tree.
+Step 5: This will get me wood in inventory and unlock the first achievement.
+
+ACTION: Do","You see:
+- water 2 steps to your west
+- sand 1 step to your west
+- tree 3 steps to your south-east
+- grass 1 step to your north
+
+You face grass at your front.",1.0,False
+6,Move South,"Step 1: I currently have 1 wood in inventory and have achieved the ""Collect Wood"" milestone.
+
+Step 2: I want to progress towards placing a table next, which requires some flat ground and possibly more wood.
+
+Step 3: The closest tree is now 3 steps to the south-east, and I face grass in front (north). Moving east or south might get me closer to the tree.
+
+Step 4: I notice sand 1 step to the west and water 2 steps to the west, but neither is helpful for collecting wood.
+
+Step 5: Moving south or east would help approach the tree, but I only have directions west, east, north, and south. Since the tree is southeast, moving south first may be a good step.
+
+Step 6: I currently see grass 1 step to the north, meaning I'm facing north and there is grass ahead.
+
+Step 7: I will turn around to face south (no explicit ""turn"" action, so I should move south directly.)
+
+Step 8: Move south to approach the tree.
+
+ACTION: Move South","You see:
+- water 3 steps to your north-west
+- sand 1 step to your west
+- tree 2 steps to your south-east
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+7,Move South,"Step 1: I want to gather more wood to work towards placing a table and crafting tools.
+
+Step 2: The nearest tree is 2 steps to the south-east, but I am currently facing north towards grass.
+
+Step 3: I need to move closer to the tree first. Since the tree is southeast, moving south first will bring me closer.
+
+Step 4: Move south one step to get closer to the tree.
+
+ACTION: Move South","You see:
+- water 4 steps to your north-west
+- sand 2 steps to your north-west
+- tree 1 step to your east
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+8,Move East,"Step 1: I have 1 wood in my inventory, which is a good start for crafting tools.
+
+Step 2: There is a tree 1 step to the east. I need more wood, so I should move toward that tree to collect more.
+
+Step 3: Currently, I face grass (to the front), so to face the tree, I need to turn or move towards it.
+
+Step 4: Since moving actions only include directional movement, I can simply move east to get closer to the tree and then ""Do"" to collect wood.
+
+ACTION: Move East","You see:
+- water 4 steps to your north-west
+- sand 2 steps to your north-west
+- tree 1 step to your east
+- grass 1 step to your west
+
+You face tree at your front.",0.0,False
+9,Do,"Step 1: I see a tree right in front of me, just 1 step east. Since I need to collect more wood to craft tools and progress, I should ""Do"" to collect wood from the tree.
+
+Step 2: After collecting sufficient wood, I will try to place a table and craft tools, but for now, the immediate priority is to gather more wood.
+
+ACTION: Do","You see:
+- water 4 steps to your north-west
+- sand 2 steps to your north-west
+- tree 2 steps to your south-east
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+10,Move East,"Step-by-step reasoning:
+1. I have 2 wood in inventory but no table yet.
+2. To craft any tools or items, I need a table, which requires placement.
+3. To place a table, I need to stand on flat ground and have a free space to place it in front of me.
+4. I am currently facing grass at my front, so I can place a table.
+5. Before placing the table, it’s good to collect more wood to ensure I have enough for crafting.
+6. The closest tree is 2 steps to the south-east. I should move towards it to get more wood.
+7. But first, moving east or south to get closer to the tree might help.
+8. Currently, facing grass, but the tree is south-east, so I should move east or south to approach it.
+
+Given I’m facing grass in front and the tree is to the south-east, I should start moving east or south to get closer for wood collection.
+
+ACTION: Move East","You see:
+- water 5 steps to your north-west
+- sand 3 steps to your north-west
+- tree 1 step to your south
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+11,Place Table,"Step-by-step reasoning:
+1. I have 2 wood in inventory but no table yet.
+2. To craft a wood pickaxe or wood sword, I must first place a table.
+3. To place a table, I need to stand on flat ground and have a free space in front.
+4. I am currently facing grass at my front, so the space in front should be suitable to place a table.
+5. There is a tree 1 step to my south, so after placing the table, I can craft tools and collect more wood efficiently.
+6. The best step now is to place the table directly in front of me.
+
+ACTION: Place Table","You see:
+- water 5 steps to your north-west
+- sand 3 steps to your north-west
+- tree 1 step to your south
+- grass 1 step to your west
+- table 1 step to your east
+
+You face table at your front.",1.0,False
+12,Move South,"Step-by-step reasoning:
+
+1. I currently have no items in my inventory.
+2. There is a table 1 step to my east.
+3. To get wood, I need to face a tree or be near one to use the Do action.
+4. There is a tree 1 step to my south.
+5. Since the table is to my east, I cannot craft tools until I collect some wood.
+6. First, I need to move to a position where I can collect wood from the tree.
+7. The tree is to my south, so I should turn to face south and then use Do to collect wood.
+8. However, since I currently face the table to my east, I need to either turn or move accordingly.
+9. Moving south will bring me closer to the tree.
+10. After collecting wood, I can return to the table and craft items.
+
+Therefore, the best next action is to turn to face south (since I currently face east), which in practice means moving or turning accordingly. But since I don't have a turn action, only movement, I need to move south to get closer to the tree.
+
+ACTION: Move South","You see:
+- water 5 steps to your north-west
+- sand 3 steps to your north-west
+- tree 1 step to your south
+- grass 1 step to your west
+- table 1 step to your east
+
+You face tree at your front.",0.0,False
+13,Do,"Step-by-step reasoning:
+
+1. I currently have nothing in my inventory.
+2. A tree is 1 step to my south, and I am facing it, meaning I can collect wood by using Do.
+3. Collecting wood will unlock the ""Collect Wood"" achievement and provide material for crafting.
+4. After collecting wood, I can move back toward the table (1 step east) to craft tools such as a wood pickaxe or wood sword.
+5. This sets up the base for further progression.
+
+Therefore, the best immediate action is to collect wood from the nearby tree.
+
+ACTION: Do","You see:
+- water 5 steps to your north-west
+- sand 3 steps to your north-west
+- tree 4 steps to your west
+- grass 1 step to your west
+- table 1 step to your east
+
+You face grass at your front.",0.0,False
+14,Move East,"Step-by-step reasoning:
+
+1. I have 1 wood in inventory, which is a good start for crafting.
+2. There's a table 1 step to the east, so moving east will put me in front of the table.
+3. Being next to the table allows me to craft useful items like a wood pickaxe or wood sword.
+4. Before crafting, it might be useful to collect more wood to have enough resources. There is a tree 4 steps to the west, but moving west now might take time.
+5. Since I currently face grass at my front (1 step west), I should first move east to be beside the table.
+6. Once by the table, I can plan to craft a wood pickaxe if I have enough wood; if not, I will gather more wood next.
+
+Therefore, the best immediate action is to move east towards the table.
+
+ACTION: Move East","You see:
+- water 5 steps to your north-west
+- sand 3 steps to your north-west
+- tree 4 steps to your west
+- grass 1 step to your west
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+15,Move West,"Step-by-step reasoning:
+
+1. I have 1 wood in inventory.
+2. I am facing the table 1 step to the east, meaning if I move east, I will be in front of the table.
+3. Being next to the table allows me to craft tools like wood pickaxe or wood sword if I have enough resources.
+4. I currently have only 1 wood, which might be enough to craft a wood pickaxe or a wood sword if the wood cost is low.
+5. However, usually wood pickaxe requires some wood, and maybe more than 1 wood is needed, so I need to check if crafting directly is possible.
+6. Alternatively, collecting more wood from the tree 4 steps west is a good step to gather resources.
+7. Since the tree is nearby and wood collection is the very first achievement, gathering wood first is a priority.
+8. I am currently facing the table, so I should turn to face the west (where grass and tree are) to start moving towards the tree.
+9. To face west, I will move west once now to stand on the grass tile; then further moves towards the tree.
+10. After reaching the tree, I can ""Do"" action to collect wood.
+11. Then return to the table to craft tools.
+
+ACTION: Move West","You see:
+- water 4 steps to your north-west
+- sand 2 steps to your north-west
+- tree 3 steps to your west
+- grass 1 step to your west
+- table 2 steps to your east
+
+You face grass at your front.",0.0,False
+16,Move West,"Step-by-step reasoning:
+
+1. I have 1 wood in inventory.
+2. The tree 3 steps to the west contains more wood resources.
+3. I should collect more wood to achieve the ""Collect Wood"" achievement.
+4. I am currently facing grass at 1 step west.
+5. I will move west onto the grass tile, then continue moving west towards the tree.
+6. Once at the tree, I can ""Do"" to collect wood.
+7. After collecting enough wood, I will return to the table to craft.
+8. For now, the immediate best action is to move west closer to the tree.
+
+ACTION: Move West","You see:
+- water 3 steps to your north-west
+- grass 1 step to your west
+- sand 1 step to your north
+- tree 2 steps to your west
+- table 3 steps to your east
+
+You face grass at your front.",0.0,False
+17,Move West,"Step-by-step reasoning:
+1. I have 1 wood in my inventory, but I need more wood to progress.
+2. There is a tree 2 steps to the west, so I should move towards it to collect more wood.
+3. Currently, I’m facing grass 1 step to the west, so if I move west twice I will reach the tree.
+4. Once at the tree, I can use the ""Do"" action to collect wood and earn the ""Collect Wood"" achievement.
+5. After collecting wood, I can return to the table to craft a wood pickaxe or sword.
+
+Since the immediate next step is to get closer to the tree, which is currently 2 steps west, I should move west.
+
+ACTION: Move West","You see:
+- water 2 steps to your north
+- tree 1 step to your west
+- grass 1 step to your east
+- sand 1 step to your north
+- table 4 steps to your east
+
+You face tree at your front.",0.0,False
+18,Do,"Step-by-step reasoning:
+1. I see a tree 1 step to my west and I am facing it.
+2. To collect wood, I need to use the ""Do"" action while facing the tree.
+3. Collecting wood will help me make further tools and achieve ""Collect Wood"".
+4. After collecting wood, I can move back to the table to craft pickaxes or swords.
+
+ACTION: Do","You see:
+- water 2 steps to your north
+- tree 1 step to your south
+- grass 1 step to your west
+- sand 1 step to your north
+- table 4 steps to your east
+
+You face grass at your front.",0.0,False
+19,Move East,"Step-by-step reasoning:
+1. I have 2 wood in my inventory, so I've collected some wood already, meeting the first goal (Collect Wood).
+2. I need to get to the table, which is 4 steps to the east.
+3. Currently, I am facing grass at the front to the west, so I need to turn to face east to move toward the table.
+4. Since I cannot directly turn, moving either left or right will change my facing direction effectively.
+5. Move West will move me towards grass, but that will not get me closer to the table.
+6. Move East is valid and will move me forward toward the table.
+7. From the current location, it would make sense to move east step-by-step to get to the table.
+8. Once at the table, I can use the wood to make a wood pickaxe or wood sword as next steps.
+
+ACTION: Move East","You see:
+- water 3 steps to your north-west
+- grass 1 step to your west
+- sand 1 step to your north
+- tree 2 steps to your south-west
+- table 3 steps to your east
+
+You face grass at your front.",0.0,False
+20,Move East,"Step-by-step reasoning:
+1. I want to reach the table 3 steps to the east to craft tools.
+2. I am currently facing grass at my front (west).
+3. To move east, I can simply move east step by step.
+4. Moving east now will get me closer to the table.
+
+ACTION: Move East","You see:
+- water 4 steps to your north-west
+- sand 2 steps to your north-west
+- tree 3 steps to your south-west
+- grass 1 step to your west
+- table 2 steps to your east
+
+You face grass at your front.",0.0,False
+21,Move East,"Step-by-step reasoning:
+1. I have 2 wood in my inventory but no table yet near me.
+2. I see a table 2 steps to my east; I want to get next to it to craft items.
+3. I am currently facing grass at my front (west).
+4. To reach the table, I need to face east and move towards it.
+5. First, I should turn to face east by moving east (the game doesn't have a turn command, so I assume moving east will also face that direction).
+6. I will move east to get closer to the table.
+
+ACTION: Move East","You see:
+- water 5 steps to your north-west
+- sand 3 steps to your north-west
+- grass 1 step to your west
+- tree 4 steps to your south-west
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+22,Make Wood Pickaxe,"Step-by-step reasoning:
+1. I have 2 wood in my inventory and a table right in front of me.
+2. Since I'm facing the table, I can use it to craft items like a wood pickaxe or wood sword.
+3. I want to get the achievement ""Make Wood Pickaxe"" and ""Make Wood Sword.""
+4. Crafting a wood pickaxe first is more useful as it allows mining stone, which I will need later.
+5. So, the best action now is to craft the wood pickaxe using the table and available wood.
+
+ACTION: Make Wood Pickaxe","You see:
+- water 5 steps to your north-west
+- sand 3 steps to your north-west
+- grass 1 step to your west
+- tree 4 steps to your south-west
+- table 1 step to your east
+
+You face table at your front.",1.0,False
+23,Move North,"Step-by-step reasoning:
+1. I currently have 1 wood and 1 wood pickaxe in my inventory.
+2. To progress, I need to gather stone to make a stone pickaxe and subsequently craft stone tools.
+3. Stone is likely found by mining stone blocks, which requires a wooden pickaxe (which I have).
+4. The closest stone is 3 steps north-west, near the sand and water.
+5. I need to get closer to stone to mine it.
+6. Currently, I am facing the table and the grass is to my west.
+7. To move toward stone, I need to head roughly north-west, but I can only move cardinal directions.
+8. Let's start moving north first (Move North), then adjust direction to move west toward stone.
+9. That will put me in range to mine stone and progress in achieving ""Collect Stone.""
+
+ACTION: Move North","You see:
+- water 4 steps to your north-west
+- sand 2 steps to your west
+- grass 1 step to your west
+- tree 5 steps to your south-west
+- table 2 steps to your south-east
+
+You face grass at your front.",0.0,False
+24,Move West,"Step-by-step reasoning:
+1. I want to collect stone to craft better tools.
+2. Stone is likely near the sand, which is 2 steps to the west.
+3. Currently, I see grass 1 step to the west. Moving west once will move me closer to sand and stone.
+4. So start by moving west to get closer to the sand and potential stone source.
+5. Once at or near the sand, I can try to ""Do"" to mine or collect stone.
+
+ACTION: Move West","You see:
+- water 3 steps to your north-west
+- sand 1 step to your west
+- tree 4 steps to your south-west
+- grass 1 step to your north
+- table 3 steps to your south-east
+
+You face sand at your front.",0.0,False
+25,Do,"Step-by-step reasoning:
+1. I am currently facing sand at my front, and sand is likely where stone can be found.
+2. I want to collect stone to progress to making stone tools and swords.
+3. To collect stone, I need to use the ""Do"" action while facing the stone or sand block.
+4. I have a wood pickaxe in my inventory, which should allow me to collect stone from sand/stone block.
+5. So the best immediate action is to ""Do"" to try and collect stone from the sand in front.
+
+ACTION: Do","You see:
+- water 3 steps to your north-west
+- sand 1 step to your west
+- tree 4 steps to your south-west
+- grass 1 step to your north
+- table 3 steps to your south-east
+
+You face sand at your front.",0.0,False
+26,Do,"Step-by-step reasoning:
+1. I am facing sand, which could yield stone when mined.
+2. I have a wood pickaxe, so I can mine stone.
+3. Collecting stone will help me unlock the ""Collect Stone"" achievement.
+4. Using the ""Do"" action while facing sand should mine stone.
+5. Therefore, the best immediate action is to ""Do"" to collect stone.
+
+ACTION: Do","You see:
+- water 3 steps to your north-west
+- sand 1 step to your west
+- tree 4 steps to your south-west
+- grass 1 step to your north
+- table 3 steps to your south-east
+
+You face sand at your front.",0.0,False
+27,Do,"Step-by-step reasoning:
+1. Sand can be mined to collect stone.
+2. I have a wood pickaxe which can help in mining stone.
+3. Collecting stone is essential to unlock the ""Collect Stone"" achievement and also will aid in crafting stone tools later.
+4. I should use the ""Do"" action to mine the sand and collect stone.
+
+ACTION: Do","You see:
+- water 3 steps to your north-west
+- sand 1 step to your west
+- tree 4 steps to your south-west
+- grass 1 step to your north
+- table 3 steps to your south-east
+
+You face sand at your front.",0.0,False
+28,Do,"Step-by-step reasoning:
+1. Inventory currently has wood and a wood pickaxe, but no stone.
+2. Facing sand to the west and sand can be used to collect stone.
+3. Using ""Do"" should collect stone from sand.
+4. Collecting stone unlocks the ""Collect Stone"" achievement and enables crafting stone pickaxe and stone sword later.
+5. After collecting stone, next objectives will be to continue gathering materials (coal, iron) for iron tools and weapons.
+6. So the immediate priority is to collect stone by using the ""Do"" action on sand.
+
+ACTION: Do","You see:
+- water 3 steps to your north-west
+- sand 1 step to your west
+- tree 4 steps to your south-west
+- grass 1 step to your north
+- table 3 steps to your south-east
+
+You face sand at your front.",0.0,False
+29,Do,"Step-by-step reasoning:
+
+1. You currently have wood and a wood pickaxe, but no stone.
+2. To progress, you need to collect stone. The sand block in front might give stone when you ""Do"" action on it.
+3. Using ""Do"" will collect material (stone) if possible.
+4. Once you have stone, you can place stone, craft stone pickaxe and stone sword, fulfilling achievements.
+5. So the immediate priority is to collect stone from the sand in front by using ""Do"" on it.
+
+ACTION: Do","You see:
+- water 3 steps to your north-west
+- sand 1 step to your west
+- tree 4 steps to your south-west
+- grass 1 step to your north
+- table 3 steps to your south-east
+
+You face sand at your front.",0.0,False
+30,Do,"Step-by-step reasoning:
+
+1. The sand block in front may yield stone when acted upon with ""Do.""
+2. Collecting stone is important to progress to achievements like collecting stone, placing stone, and making stone tools.
+3. The immediate goal is to get stone by doing ""Do"" on sand.
+4. Health, food, drink, and energy are good, so no need to sleep or eat now.
+5. After collecting stone, move toward the table to craft next tools.
+
+ACTION: Do","You see:
+- water 3 steps to your north-west
+- sand 1 step to your west
+- tree 4 steps to your south-west
+- grass 1 step to your north
+- table 3 steps to your south-east
+
+You face sand at your front.",0.0,False
+31,Do,"Step-by-step reasoning:
+1. The sand block in front likely contains stone or can be mined for stone, which is necessary for advancing to stone tools.
+2. Using ""Do"" on sand should allow collection of stone.
+3. After collecting stone, moving to the table to craft stone pickaxe and stone sword will unlock further achievements.
+4. Health, food, and drink levels are good, so no need to sleep or eat now.
+5. No immediate threats, so focusing on resource collection is optimal.
+
+ACTION: Do","You see:
+- water 3 steps to your north-west
+- sand 1 step to your west
+- tree 4 steps to your south-west
+- grass 1 step to your north
+- table 3 steps to your south-east
+
+You face sand at your front.",0.0,False
+32,Do,"Step-by-step reasoning:
+1. There is sand in front, which can be mined for stone to achieve the ""Collect Stone"" achievement.
+2. You currently have 1 wood and a wood pickaxe in inventory.
+3. After collecting stone, moving to the nearby table (3 steps to the south-east) will allow crafting a stone pickaxe, advancing to ""Make Stone Pickaxe.""
+4. Therefore, the immediate next step is to try to collect stone by using ""Do"" on the sand.
+
+ACTION: Do","You see:
+- water 3 steps to your north-west
+- sand 1 step to your west
+- tree 4 steps to your south-west
+- grass 1 step to your north
+- table 3 steps to your south-east
+
+You face sand at your front.",0.0,False
+33,Do,"Step-by-step reasoning:
+1. Sand in front likely provides stone if mined using the wood pickaxe.
+2. Collecting stone will unlock ""Collect Stone"" achievement.
+3. After collecting stone, moving to the nearby table (3 steps southeast) to craft stone pickaxe or stone sword is valuable.
+4. Currently facing sand, so using ""Do"" action now will gather stone.
+
+ACTION: Do","You see:
+- water 3 steps to your north-west
+- sand 1 step to your west
+- tree 4 steps to your south-west
+- grass 1 step to your north
+- table 3 steps to your south-east
+
+You face sand at your front.",0.0,False
+34,Do,"Step-by-step reasoning:
+1. You currently have a wood pickaxe and 1 wood in inventory.
+2. Sand block in front can likely yield stone when mined.
+3. Mining stone will help achieve the ""Collect Stone"" achievement.
+4. After collecting stone, you can move toward the table (3 steps southeast) to craft a stone pickaxe or stone sword.
+5. For now, mining stone by using the ""Do"" action on the sand in front is the best next step.
+
+ACTION: Do","You see:
+- water 3 steps to your north-west
+- sand 1 step to your west
+- tree 4 steps to your south-west
+- grass 1 step to your north
+- table 3 steps to your south-east
+
+You face sand at your front.",0.0,False
+35,Do,"Step-by-step reasoning:
+1. Sand in front likely contains stone, which is needed to progress and craft stone tools.
+2. Use ""Do"" to collect stone from sand to get the ""Collect Stone"" achievement.
+3. After collecting stone, move toward the table (3 steps southeast) to craft a stone pickaxe or stone sword.
+4. Gathering stone now is essential before moving to crafting advanced tools.
+
+ACTION: Do","You see:
+- water 3 steps to your north-west
+- sand 1 step to your west
+- tree 4 steps to your south-west
+- grass 1 step to your north
+- table 3 steps to your south-east
+
+You face sand at your front.",0.0,False
+36,Do,"Step-by-step reasoning:
+1. The sand in front may have stone or other minerals, so using ""Do"" here to collect stone is important to get the ""Collect Stone"" achievement.
+2. Once stone is collected, we can move towards the table (3 steps southeast) to craft a stone pickaxe.
+3. The wood pickaxe in inventory means we should upgrade tools soon.
+4. Keep an eye on health, food, and energy levels to ensure survivability.
+
+Best immediate action is to ""Do"" to gather stone from the sand.
+
+ACTION: Do","You see:
+- water 3 steps to your north-west
+- sand 1 step to your west
+- tree 4 steps to your south-west
+- grass 1 step to your north
+- table 3 steps to your south-east
+
+You face sand at your front.",0.0,False
+37,Do,"Step-by-step reasoning:
+1. You currently have 1 wood and a wood pickaxe in your inventory.
+2. You want to collect stone next to be able to craft stone tools.
+3. The sand to your west may yield stone if you use the ""Do"" action.
+4. Your health, food, drink, and energy are all good, so no immediate need to eat or sleep.
+5. After collecting stone, you can move towards the table (3 steps southeast) to craft stone pickaxe or stone sword.
+6. For now, collect stone by using ""Do"" action on the sand.
+
+ACTION: Do","You see:
+- water 3 steps to your north-west
+- sand 1 step to your west
+- tree 4 steps to your south-west
+- grass 1 step to your north
+- table 3 steps to your south-east
+
+You face sand at your front.",0.0,False
+38,Do,"Step-by-step reasoning:
+1. The goal is to collect stone to progress toward making stone tools.
+2. The sand in front might contain stone or nearby stone blocks that can be collected.
+3. Using ""Do"" action while facing sand should allow collecting stone if available.
+4. Since the energy is high, no need to sleep now.
+5. After collecting stone, the plan is to move towards the table (3 steps south-east) to craft stone pickaxe or sword.
+
+ACTION: Do","You see:
+- water 3 steps to your north-west
+- sand 1 step to your west
+- tree 4 steps to your south-west
+- grass 1 step to your north
+- table 3 steps to your south-east
+
+You face sand at your front.",0.0,False
+39,Do,"Step-by-step reasoning:
+1. I have wood and a wood pickaxe in inventory.
+2. I want to collect stone to get stone tools and unlock related achievements.
+3. Facing sand, using ""Do"" might allow me to collect stone if it's embedded or nearby.
+4. If ""Do"" doesn't yield results, I can move toward areas where stone might be found.
+5. Since energy and health are nearly full, no immediate need to sleep or eat.
+6. Once stone is collected, I should move to the table to craft a stone pickaxe or sword.
+
+ACTION: Do","You see:
+- water 3 steps to your north-west
+- sand 1 step to your west
+- tree 4 steps to your south-west
+- grass 1 step to your north
+- table 3 steps to your south-east
+
+You face sand at your front.",0.0,False
+40,Move West,"Step-by-step reasoning:
+1. I want to gather stone to progress towards making stone tools.
+2. Sand is in front, unlikely to yield stone by ""Do"" action.
+3. Nearby tree (4 steps south-west) can be reached to collect wood, but I already have wood and a wood pickaxe.
+4. The table is 3 steps south-east; going there allows crafting new tools once I have stone.
+5. Water is 3 steps north-west; I already have high drink, so no immediate need.
+6. Grass one step north is unlikely to be useful for now.
+7. Best immediate step: move towards stone or a place where stone could be obtained. But I don't see stone nearby.
+8. Since sand is at front, moving west into sand might lead to uncovering stone or a better location.
+  
+Therefore, I will move west onto the sand—this changes my position and possibly exposes new resources.
+
+ACTION: Move West","You see:
+- water 2 steps to your north-west
+- grass 1 step to your south
+- sand 1 step to your west
+- tree 3 steps to your south-west
+- table 4 steps to your south-east
+
+You face sand at your front.",0.0,False
+41,Move West,"Step-by-step reasoning:
+1. I still face sand in front and there’s sand nearby to the west and grass to the south.
+2. I want to collect wood first to get the ""Collect Wood"" achievement and to have enough materials for crafting.
+3. The tree is 3 steps to the south-west, a bit far, but reachable.
+4. Water is 2 steps to the north-west for drink, but drink is currently sufficient.
+5. Table is 4 steps south-east, which will be useful later for crafting tools.
+6. Moving west onto sand might be a way to explore closer to the tree.
+7. After moving west, I can try to approach the tree to collect wood.
+
+The best immediate action is to move west to get closer to the tree.
+
+ACTION: Move West","You see:
+- water 1 step to your north
+- tree 2 steps to your south
+- grass 1 step to your south
+- sand 1 step to your west
+- table 5 steps to your south-east
+
+You face sand at your front.",0.0,False
+42,Move North,"Step-by-step reasoning:
+
+1. I have 1 wood and 1 wood_pickaxe in my inventory, which means I have already collected wood and crafted a wood pickaxe.
+2. Water is 1 step north, which I could use to get a drink and achieve ""Collect Drink"" if I haven't already.
+3. Tree is 2 steps south, so I can collect more wood or saplings there.
+4. The table is 5 steps south-east, which I can approach later to craft more tools like a wood sword or stone pickaxe.
+5. Since I face sand to the west, moving toward the water or wood could be beneficial.
+6. First, it would be logical to drink water to regain thirst and achieve ""Collect Drink"" if needed.
+7. Water is 1 step to the north, so I should turn to face north and then use ""Do"" to collect a drink.
+
+Since I currently face sand (west), I will move north to face the water and then on the next turn do ""Do"" to drink.
+
+ACTION: Move North","You see:
+- water 1 step to your north
+- tree 2 steps to your south
+- grass 1 step to your south
+- sand 1 step to your west
+- table 5 steps to your south-east
+
+You face water at your front.",0.0,False
+43,Do,"Step-by-step reasoning:
+
+1. I am currently facing water at 1 step ahead.
+2. Using ""Do"" in front of water will allow me to drink and achieve the ""Collect Drink"" achievement.
+3. Drinking now will replenish my drink status and help maintain health and avoid starvation.
+4. After drinking, my next steps can be to move toward the tree to collect more wood or saplings and continue progressing through achievements.
+5. For now, the best immediate action is to ""Do"" and drink from the water.
+
+ACTION: Do","You see:
+- water 1 step to your north
+- tree 2 steps to your south
+- grass 1 step to your south
+- sand 1 step to your west
+- table 5 steps to your south-east
+
+You face water at your front.",1.0,False
+44,Move South,"Step-by-step reasoning:
+
+1. Drinking from the water again won't improve my status much since my drink is already 8/9.
+2. I have 1 wood and 1 wood pickaxe in inventory, which suggests I have already achieved ""Collect Wood"" and ""Make Wood Pickaxe.""
+3. To progress, I need to gather more resources. The tree 2 steps south is a prime target to collect more wood or saplings.
+4. The table 5 steps south-east could be useful later for crafting advanced tools.
+5. Facing water at front means I should turn towards the tree or move south to reach it and gather wood or saplings.
+6. I will move south to approach the tree and be in a good position to use ""Do"" to collect wood.
+
+ACTION: Move South","You see:
+- water 2 steps to your north
+- tree 1 step to your south
+- grass 1 step to your west
+- sand 1 step to your north
+- table 4 steps to your east
+
+You face tree at your front.",0.0,False
+45,Do,"Step-by-step reasoning:
+1. I am facing a tree and have 1 wood and 1 wood pickaxe already in my inventory.
+2. To progress, I need more wood to unlock achievements like Collect Wood (already done) and potentially Collect Sapling or Make Stone Pickaxe.
+3. Using ""Do"" while facing the tree will allow me to collect wood or saplings from the tree.
+4. Collecting more wood is the immediate priority before moving towards other resources like stone or coal.
+
+ACTION: Do","You see:
+- water 2 steps to your north
+- tree 2 steps to your west
+- grass 1 step to your west
+- sand 1 step to your north
+- table 4 steps to your east
+
+You face grass at your front.",0.0,False
+46,Move West,"Step-by-step reasoning:
+1. I am currently facing grass, but there is a tree 2 steps west, sand 1 step north, water 2 steps north, and a table 4 steps east.
+2. I need more wood and potentially saplings to unlock achievements.
+3. Facing grass does not provide any direct resource, so I should move toward a resource.
+4. Tree is 2 steps west, which is a good source of wood.
+5. Move west toward the tree to gather more wood or saplings.
+
+ACTION: Move West","You see:
+- water 2 steps to your north
+- grass 1 step to your south
+- tree 1 step to your west
+- sand 1 step to your north
+
+You face tree at your front.",0.0,False
+47,Do,"Step-by-step reasoning:
+1. I see a tree right in front of me at one step west.
+2. I have 2 wood already and a wood pickaxe, which means I can collect wood faster or more effectively.
+3. I want to gather more wood and possibly saplings to progress achievements like Collect Wood and Collect Sapling.
+4. The best immediate action is to use ""Do"" to collect wood from the tree in front.
+5. Collecting wood will help me progress toward crafting better tools or placing tables.
+
+ACTION: Do","You see:
+- water 2 steps to your north
+- grass 1 step to your west
+- tree 4 steps to your south-west
+- sand 1 step to your north
+
+You face grass at your front.",0.0,False
+48,Move West,"Step-by-step reasoning:
+1. I am facing grass, which doesn't help with collecting wood or other resources immediately.
+2. There is a tree 4 steps to the south-west, which is a good source of wood.
+3. Water is 2 steps to the north, which can be used to collect drinks if needed.
+4. Since I need to collect wood (to achieve Collect Wood and progress crafting), it's best to move towards the tree.
+5. The tree is south-west, meaning I must move south and west to reach it.
+6. Currently, I see grass to the west (facing grass), so moving west will bring me closer to the tree.
+
+Action: Move West to approach the tree.
+
+ACTION: Move West","You see:
+- water 3 steps to your north-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- sand 1 step to your north
+
+You face grass at your front.",0.0,False
+49,Move South,"Step-by-step reasoning:
+1. I currently have 3 wood and a wood pickaxe in my inventory.
+2. There's a tree 3 steps to the south, which can be used to collect more wood or potentially saplings.
+3. Water is 3 steps to the north-west, useful later for collecting drink if needed.
+4. Grass and sand nearby do not immediately contribute to achievements.
+5. Since I want to gather more wood to progress and can also aim to collect saplings later, it's best to move toward the tree to gather resources.
+
+Action: Move South to get closer to the tree.
+
+ACTION: Move South","You see:
+- grass 1 step to your west
+- tree 2 steps to your south
+- water 4 steps to your north-west
+- sand 2 steps to your north
+
+You face grass at your front.",0.0,False
+50,Move South,"Step-by-step reasoning:
+1. The goal is to collect wood and eventually collect saplings, make tools, and progress in achievements.
+2. There is a tree 2 steps to the south that can be used to collect wood or saplings.
+3. To reach the tree, I need to move south since I currently face grass at my front (west).
+4. After moving closer to the tree, I can use the Do action to collect wood or saplings.
+
+Best next step: Move South to get closer to the tree.
+
+ACTION: Move South","You see:
+- grass 1 step to your west
+- tree 1 step to your south
+- sand 3 steps to your north
+
+You face tree at your front.",0.0,False
+51,Do,"Step-by-step reasoning:
+1. You are currently facing a tree right in front of you (1 step south).
+2. Your inventory already has 3 wood and a wood pickaxe.
+3. You want to collect more wood or saplings to progress with achievements like ""Collect Wood"" and ""Collect Sapling"".
+4. Using the ""Do"" action when facing a tree will collect wood or saplings.
+5. Collecting more wood is productive right now to advance crafting better tools or placing necessary items.
+
+Best action now is to use ""Do"" to collect wood from the tree in front of you.
+
+ACTION: Do","You see:
+- grass 1 step to your west
+- tree 3 steps to your south
+- sand 3 steps to your north
+
+You face grass at your front.",0.0,False
+52,Move South,"Step-by-step reasoning:
+1. Current inventory has 4 wood and a wood pickaxe.
+2. Facing grass now, and there is a tree 3 steps south where more wood or saplings can be collected.
+3. To get closer to the tree, move south.
+4. Collecting more wood or possibly saplings will help achieve achievements ""Collect Wood"" and ""Collect Sapling.""
+5. After gathering wood and saplings, we can aim to place a table and craft tools to progress further.
+
+Best action now is to move south to get closer to the tree.
+
+ACTION: Move South","You see:
+- grass 1 step to your west
+- tree 2 steps to your south
+
+You face grass at your front.",0.0,False
+53,Move South,"Step-by-step reasoning:
+1. You're facing grass, and there's a tree 2 steps to your south.
+2. To collect wood (achievement 1), you should move closer to the tree.
+3. Moving south will get you closer to the tree so you can Do to collect wood.
+4. After collecting wood, you can aim to place a table or craft tools for further achievements.
+
+Best action now is to move south.
+
+ACTION: Move South","You see:
+- grass 1 step to your west
+- tree 1 step to your south
+- stone 6 steps to your south-east
+
+You face tree at your front.",0.0,False
+54,Do,"Step-by-step reasoning:
+1. You are facing a tree, and there is wood in your inventory already.
+2. Using ""Do"" while facing the tree will allow you to gather more wood, which may help with crafting or building certain items and earning the ""Collect Wood"" achievement if not yet obtained.
+3. Your current wood inventory is 4, which is a good amount, but gathering more is beneficial before moving on to other resources.
+4. After gathering more wood, consider moving towards the stone to collect stone for achievements related to stone gathering and crafting stone tools.
+5. For now, the best immediate action is to gather more wood from the tree by using the ""Do"" action.
+
+ACTION: Do","You see:
+- grass 1 step to your west
+- tree 2 steps to your south-west
+- stone 6 steps to your south-east
+
+You face grass at your front.",0.0,False
+55,Move South,"Step-by-step reasoning:
+
+1. You currently have a wood pickaxe in your inventory, which means you can start collecting stone.
+2. Stone is 6 steps to your south-east, so moving towards it to collect stone would unlock the ""Collect Stone"" achievement and enable you to craft stone items later.
+3. You are facing grass right now, so you need to turn or move to start heading south-east.
+4. Since we can only move one step per action, moving south or east will get you closer to the stone.
+5. Moving south-west (towards the tree) isn't necessary right now; focus on stone first.
+6. From your current position, move south (grass is to the west, tree south-west, stone south-east).
+
+ACTION: Move South","You see:
+- grass 1 step to your north
+- sand 7 steps to your south-west
+- tree 1 step to your west
+- stone 5 steps to your south-east
+
+You face grass at your front.",0.0,False
+56,Move North,"Step-by-step reasoning:
+1. The stone is 5 steps to your south-east, so we need to move toward that direction to ultimately collect stone.
+2. Currently, you face grass to your north, tree to your west, and stone is farther to the south-east.
+3. To move towards the stone, moving east or south will bring you closer. Since grass is to the north (in front of you), moving north won't help.
+4. Facing grass means moving north would move away from the stone.
+5. The tree is to the west. Moving west takes you closer to the stone's south-east position only if you continue moving east after that, but it's not the straightest path.
+6. The optimal path to move towards stone south-east is to first move east, then south-east.
+7. However, since you are facing grass to the north, and the tree is to your west, you cannot simply move east unless you turn.
+8. Without a turn action, the best is to move west or north. Since stone is to the south-east, moving west might be counterproductive.
+9. But the movement options only include moving west, east, north, or south on flat ground, and you face grass at front. So moving north (forward) is possible.
+10. Moving north may take you off the direct path but can be the first step to reposition yourself for better path towards stone.
+
+Therefore, the plan:
+- Move North once to reposition.
+- After that, face and head towards the stone by moving east and south.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- tree 2 steps to your south-west
+- stone 6 steps to your south-east
+
+You face grass at your front.",0.0,False
+57,Move South,"Step-by-step reasoning:
+1. You have 5 wood and a wood pickaxe in your inventory.
+2. The stone is 6 steps to the south-east, so eventually, heading in that direction to collect stone is important for achievement progress.
+3. Currently, you face grass at your front and stone is far to the south-east.
+4. Moving west takes you closer to the tree, which could be useful to collect more wood or saplings if needed later.
+5. Moving south or east would bring you closer to the stone and table (mentioned earlier as 5 steps SE).
+6. Since stone is to the south-east, moving south might be a good first step to start heading that way.
+7. However, grass is to your west, so moving west means turning and approaching the tree.
+8. Given your current position, moving south would be the most direct route towards both the tree and eventually the stone.
+
+Plan:
+- Move south to get closer to the tree and stone.
+- Use the wood pickaxe or collect wood as needed.
+- Later, collect stone to craft stone tools.
+
+ACTION: Move South","You see:
+- grass 1 step to your north
+- sand 7 steps to your south-west
+- tree 1 step to your west
+- stone 5 steps to your south-east
+
+You face grass at your front.",0.0,False
+58,Move West,"Step-by-step plan:
+1. You see a tree 1 step to your west, which can be harvested for wood and potentially saplings, helping with achievements Collect Wood and Collect Sapling.
+2. Stone is 5 steps to the south-east, but before heading there, gathering more wood and possibly saplings will better prepare you for crafting tables or tools.
+3. Facing grass in front, moving west will bring you next to the tree.
+4. Once at the tree, use Do to collect wood or saplings.
+5. After collecting enough wood and possibly saplings, later move towards stone for stone-related achievements.
+
+Best immediate action: Move West to reach the tree.
+
+ACTION: Move West","You see:
+- grass 1 step to your north
+- sand 7 steps to your south-west
+- tree 1 step to your west
+- stone 5 steps to your south-east
+
+You face tree at your front.",0.0,False
+59,Do,"Step-by-step plan:
+1. You currently have 5 wood and a wood pickaxe, which means you have started crafting tools. Next objective is to collect stone to progress to stone pickaxe and stone sword achievements.
+2. There is a tree 1 step to your west; you can gather more wood or saplings from it if needed, but since your wood count is already 5, focus should shift to stone and coal collection.
+3. Stone is 5 steps to the south-east; it will be necessary to get there soon for collecting stone and enabling stone tool crafting.
+4. First, move west to the tree to see if you can quickly collect any saplings for the Collect Sapling achievement (which you don't have yet). Collecting saplings early is beneficial.
+5. After collecting saplings (or wood if you find more), proceed towards the stone to collect it and then place a table to craft stone tools.
+
+Current best immediate action:
+- Use Do to collect sapling or wood from the tree in front.
+
+ACTION: Do","You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+- tree 3 steps to your west
+- stone 5 steps to your south-east
+
+You face grass at your front.",0.0,False
+60,Move West,"Step-by-step plan:
+1. You need to move closer to the tree 3 steps to your west to collect saplings for the ""Collect Sapling"" achievement and possibly more wood.
+2. Moving towards the stone 5 steps to the south-east is important for the ""Collect Stone"" achievement, but first it's better to get closer to the tree to gather resources.
+3. Since you currently face grass at your front and the tree is to the west, first move west.
+4. Once near the tree, use the Do action to collect saplings or wood.
+5. Later, head towards the stone to collect it.
+6. Then, proceed to place a table and craft stone tools.
+
+Next immediate action: Move West to approach the tree.
+
+ACTION: Move West","You see:
+- grass 1 step to your west
+- tree 2 steps to your west
+- cow 6 steps to your south-west
+- sand 6 steps to your south-west
+- stone 6 steps to your south-east
+
+You face grass at your front.",0.0,False
+61,Move West,"Step-by-step plan:
+1. Since you already have wood and a wood pickaxe, next goals should be to collect stone to upgrade tools (stone pickaxe) and collect food by eating a cow.
+2. The cow is 6 steps southwest; moving there might take some time but will allow achievement ""Eat Cow.""
+3. Stone is 6 steps southeast; after dealing with the cow, head there to collect stone.
+4. Start by moving southwest towards the cow.
+5. Once close to the cow, face it and use Do action to strike and collect meat.
+6. Then head towards the stone to collect it.
+7. Use collected stone and wood to place a table if needed, craft a stone pickaxe.
+
+Since you see grass at your front and the cow and stone are both 6 steps diagonally south (southwest for cow, southeast for stone), first move west to start moving toward the southwest direction.
+
+ACTION: Move West","You see:
+- grass 1 step to your north
+- sand 5 steps to your south-west
+- tree 1 step to your west
+- cow 5 steps to your south-west
+
+You face tree at your front.",0.0,False
+62,Move West,"Step-by-step plan:
+1. To collect meat for the ""Eat Cow"" achievement, you need to reach the cow 5 steps to the southwest.
+2. Currently facing a tree one step to the west. It might be efficient to move west first, since the cow is southwest.
+3. After moving west, continue moving southwest towards the cow (which will involve a sequence of moving south and west).
+4. Once in front of the cow, use Do to attack and collect meat.
+5. Eating the meat will achieve ""Eat Cow"".
+6. Then proceed to gather stone for other achievements.
+
+Current best immediate action is to move west.
+
+ACTION: Move West","You see:
+- grass 1 step to your north
+- sand 5 steps to your south-west
+- tree 1 step to your west
+- cow 5 steps to your south-west
+
+You face tree at your front.",0.0,False
+63,Move West,"Step-by-step plan:
+1. Move west to get closer to the cow located southwest.
+2. After moving west, move south to get closer to the cow.
+3. When facing the cow, use Do to attack it and collect meat.
+4. Eat the collected meat to achieve the ""Eat Cow"" achievement.
+5. After that, continue collecting stone and building tools to progress further.
+
+Current best immediate action:
+Move west.
+
+ACTION: Move West","You see:
+- grass 1 step to your north
+- sand 5 steps to your south-west
+- tree 1 step to your west
+- cow 5 steps to your south-west
+
+You face tree at your front.",0.0,False
+64,Move West,"Step-by-step plan:
+1. Move west to step onto the tree tile and get closer to the cow.
+2. Move south to approach the cow.
+3. Use Do to attack the cow and collect meat.
+4. Eat the collected meat to get the ""Eat Cow"" achievement.
+5. Then focus on collecting stone and other resources to make stronger tools and swords.
+
+Current best immediate action:
+Move West
+
+ACTION: Move West","You see:
+- grass 1 step to your north
+- sand 5 steps to your south-west
+- tree 1 step to your west
+- cow 4 steps to your south-west
+
+You face tree at your front.",0.0,False
+65,Move West,"Step-by-step plan:
+1. Move West to get closer to the tree and possibly collect wood or saplings.
+2. Move Southwest toward the cow.
+3. Use Do to attack the cow and collect meat.
+4. Eat the collected meat to get the ""Eat Cow"" achievement.
+5. With wood collected, place a table to craft better tools and weapons.
+6. Collect stone nearby to upgrade pickaxe and sword.
+7. Collect coal and iron for further tool upgrades.
+8. Place a furnace for iron and coal processing.
+9. Continue crafting better pickaxes and swords to defeat skeletons and zombies.
+
+Since the tree is right in front, moving West will get us closer for resource gathering.
+
+ACTION: Move West","You see:
+- grass 1 step to your north
+- sand 5 steps to your south-west
+- tree 1 step to your west
+- cow 5 steps to your south-west
+
+You face tree at your front.",0.0,False
+66,Do,"Step-by-step plan:
+1. Use Do to collect more wood from the tree in front.
+2. After gathering more wood, move southwest toward the cow.
+3. Use Do to attack and collect meat from the cow, aiming for ""Eat Cow"" achievement.
+4. Eat the meat to increase food and get the achievement.
+5. Use collected wood to place a table and craft more tools/weapons.
+6. Eventually gather stone, coal, and iron to progress further.
+
+Since the tree is directly in front, the immediate best action is to gather more wood.
+
+ACTION: Do","You see:
+- grass 1 step to your west
+- sand 5 steps to your south-west
+- tree 1 step to your south
+- cow 5 steps to your south-west
+
+You face grass at your front.",0.0,False
+67,Move South,"Step-by-step plan:
+1. Turn to face the tree to collect more wood.
+2. Move south to get closer to the tree.
+3. Use Do to collect wood from the tree.
+4. Head southwest toward the cow.
+5. Use Do to hit the cow and get materials to Eat Cow.
+6. Eat the cow meat for the Eat Cow achievement.
+7. With wood gathered, place a table and craft wood tools and weapons.
+8. Later, move toward stone and other resources for advanced tools and achievements.
+
+Since you currently face grass at your front and the tree is to your south, the best immediate action is to turn and move south toward the tree.
+
+ACTION: Move South","You see:
+- grass 1 step to your west
+- sand 5 steps to your south-west
+- tree 1 step to your south
+- cow 4 steps to your south-west
+
+You face tree at your front.",0.0,False
+68,Do,"Step-by-step plan:
+1. Use Do to collect wood from the tree at your front (to complete Collect Wood achievement if not done yet and gather more wood).
+2. Move southwest toward the cow.
+3. Use Do to attack the cow and collect meat.
+4. Eat the cow meat for Eat Cow achievement.
+5. Place a table with the collected wood.
+6. Craft wood sword and pickaxe if not crafted yet.
+7. Explore to find stone nearby (you have wood_pickaxe but you need stone to advance).
+8. Collect stone, then place furnace and craft stone tools.
+9. Continue exploring to collect other resources (coal, iron, diamond).
+10. Defeat zombies and skeletons to unlock combat achievements.
+
+For now, the best immediate action is to gather wood from the tree.
+
+ACTION: Do","You see:
+- grass 1 step to your west
+- sand 5 steps to your south-west
+- tree 2 steps to your north-west
+- cow 4 steps to your south-west
+
+You face grass at your front.",0.0,False
+69,Move West,"Step-by-step plan:
+1. Move towards the cow so you can interact with it and gather food (needed for Eat Cow achievement).
+2. Attack the cow to get meat.
+3. Eat the meat to fulfill the Eat Cow achievement and restore food.
+4. Then, plan to place a table and craft a wood sword if you haven’t yet.
+5. Explore nearby to collect stone (5 steps to south-east).
+6. Collect stone and then place furnace to progress towards stone tools.
+
+Since the cow is 4 steps to the south-west and you face grass at your front (north), first move west to head in that direction.
+
+ACTION: Move West","You see:
+- grass 1 step to your west
+- sand 4 steps to your south-west
+- tree 1 step to your north
+- cow 3 steps to your south-west
+
+You face grass at your front.",0.0,False
+70,Move West,"Step-by-step plan:
+1. Move west towards the cow to reduce the distance and interact.
+2. Once close to the cow (adjacent), use Do to attack the cow and obtain meat.
+3. Then, consume the meat to achieve ""Eat Cow.""
+4. After securing food, start focusing on placing a table to craft tools and weapons.
+5. Collect stone nearby to enable making stone tools and swords.
+   
+Current action: move west to get closer to the cow and interact soon.
+
+ACTION: Move West","You see:
+- grass 1 step to your west
+- sand 3 steps to your south
+- tree 2 steps to your south-west
+- cow 2 steps to your south
+
+You face grass at your front.",0.0,False
+71,Move South,"Step-by-step plan:
+1. Move south towards the cow, since it's 2 steps away in that direction.
+2. Once adjacent to the cow, use Do to attack and collect meat.
+3. Use Do again if necessary to finish the cow and collect the food for the ""Eat Cow"" achievement.
+4. Consider placing a table to craft more tools if food is sufficient.
+5. Also collect stone as it appears nearby in other directions to progress achievements.
+   
+Current action: Move South to get closer to the cow.
+
+ACTION: Move South","You see:
+- grass 1 step to your north
+- sand 2 steps to your south
+- water 4 steps to your south-west
+- tree 1 step to your west
+- cow 1 step to your south
+
+You face cow at your front.",0.0,False
+72,Do,"Step-by-step plan:
+1. Use Do to attack and collect meat from the cow since it's right in front.
+2. This will help achieve the ""Eat Cow"" achievement eventually.
+3. After collecting meat, consider eating or cooking if necessary.
+4. Continue gathering resources like stone and coal, then place a table and furnace to craft advanced tools.
+
+ACTION: Do","You see:
+- grass 1 step to your north
+- sand 2 steps to your south
+- water 4 steps to your south-west
+- tree 1 step to your west
+- cow 2 steps to your south-west
+
+You face grass at your front.",0.0,False
+73,Move South,"Step-by-step plan:
+1. Move towards the cow to be able to attack it and collect meat (for ""Eat Cow"" achievement).
+2. Currently facing grass in front and cow is 2 steps south-west, so first move south to get closer.
+3. When close enough, use Do to attack and collect from the cow.
+4. Continue gathering more materials and work towards placing a table and furnace, then crafting tools.
+
+Since the cow is south-west and we are facing north with grass in front, moving south is the best next step to approach the cow.
+
+ACTION: Move South","You see:
+- grass 1 step to your north
+- sand 1 step to your south
+- water 3 steps to your south-west
+- tree 2 steps to your north-west
+- cow 1 step to your west
+
+You face sand at your front.",0.0,False
+74,Move West,"Step-by-step plan:
+1. The cow is 1 step to the west, so turn to face west.
+2. Attack the cow using Do to kill it and collect meat.
+3. Eat the collected meat to get the ""Eat Cow"" achievement and boost food.
+4. After that, continue gathering resources like stone and coal to upgrade tools.
+
+Since we are currently facing sand (south), and the cow is to the west, the best immediate action is to move west to face the cow (or just move west if that turns the front to the cow).
+
+ACTION: Move West","You see:
+- grass 1 step to your north
+- sand 1 step to your south
+- water 3 steps to your south-west
+- tree 2 steps to your north-west
+- cow 1 step to your west
+
+You face cow at your front.",0.0,False
+75,Do,"Step-by-step plan:
+1. Since the cow is in front of you, use Do to hit it. Repeated Do actions will defeat the cow.
+2. After defeating the cow, you can collect its meat and eat it to get the ""Eat Cow"" achievement.
+3. Continue gathering resources like stone and coal to craft better tools and weapons.
+4. Place a table and then craft wood sword or pickaxe.
+5. Progress towards collecting stone, coal, and iron to complete higher achievements.
+
+For now, the immediate best action is to attack the cow.
+
+ACTION: Do","You see:
+- grass 1 step to your north
+- sand 1 step to your south
+- water 3 steps to your south-west
+- tree 2 steps to your north-west
+- cow 1 step to your west
+
+You face cow at your front.",0.0,False
+76,Do,"Step-by-step plan:
+1. Continue hitting the cow using ""Do"" to defeat it.
+2. After defeating the cow, collect meat by using ""Do"" again on the same spot.
+3. Eat the meat to gain the ""Eat Cow"" achievement.
+4. Search for stone nearby to collect.
+5. Place a table to craft better tools and weapons.
+6. Progress towards making stone tools and eventually iron tools.
+7. Explore for coal and iron to craft the iron pickaxe and iron sword.
+8. Place a furnace to make advanced tools.
+9. Collect saplings, plants, and drink from the lake to earn all achievements.
+
+Since the cow is in front of me and I want to attack it first:
+
+ACTION: Do","You see:
+- grass 1 step to your west
+- sand 1 step to your south
+- water 3 steps to your south-west
+- tree 2 steps to your north-west
+
+You face grass at your front.",1.0,False
+77,Place Table,"Step-by-step plan:
+
+1. Since I have 8 wood and a wood pickaxe, I can begin by placing a table to enable crafting more advanced tools.
+2. To place a table, I need a free spot in front of me. Currently, I face grass, which likely means an empty tile.
+3. Place the table in front.
+4. Then craft a wood sword to prepare for fighting creatures such as zombies or skeletons.
+5. Next, I should explore nearby to find stone for making stone tools.
+6. Collect stone and coal, then place a furnace to craft iron tools.
+7. Continue defeating zombies and skeletons and aim to get all achievements.
+
+First, place a table in front to start crafting better items.
+
+ACTION: Place Table","You see:
+- grass 1 step to your north
+- sand 1 step to your south
+- water 3 steps to your south-west
+- tree 2 steps to your north-west
+- table 1 step to your west
+
+You face table at your front.",0.0,False
+78,Make Wood Sword,"Step-by-step plan:
+1. Since you already have a wood pickaxe and a table in front, use the table to craft the next tool.
+2. The next logical step is to craft a wood sword to be able to fight creatures and get the ""Eat Cow"" and ""Defeat Zombie"" achievements.
+3. Craft the wood sword using the wood and table.
+4. After that, explore to find stone and coal to craft better tools like stone pickaxe and sword.
+
+ACTION: Make Wood Sword","You see:
+- grass 1 step to your north
+- sand 1 step to your south
+- water 3 steps to your south-west
+- tree 2 steps to your north-west
+- table 1 step to your west
+
+You face table at your front.",1.0,False
+79,Move West,"Step-by-step plan:
+1. Since I already crafted the wood sword, I should now start collecting more materials to progress to stone tools.
+2. Move toward the tree to gather more wood, as I still need wood and possibly get saplings.
+3. Then, locate stone nearby to be able to craft stone tools and the stone sword.
+4. Collect coal and iron when possible, to eventually craft iron tools.
+5. Also, keep an eye out for plants and water to regain energy/food/drink and to get other achievements.
+
+Currently, I see a tree 2 steps to my north-west, which is likely the best next resource to collect.
+
+Action now: Move West to get closer to the tree.
+
+ACTION: Move West","You see:
+- grass 1 step to your north
+- sand 1 step to your south
+- water 3 steps to your south-west
+- tree 2 steps to your north-west
+- table 1 step to your west
+
+You face table at your front.",0.0,False
+80,Move West,"Step-by-step plan:
+1. Move west to reach the table.
+2. Use the table to craft a wood pickaxe or wood sword if needed, but currently, I already have both.
+3. Next, collect more wood by moving to and chopping the tree 2 steps north-west.
+4. After gathering enough wood, find stone and collect it to craft stone pickaxe and stone sword.
+5. Place furnace to smelt coal and iron.
+6. Gather coal and iron to eventually make iron pickaxe and iron sword.
+7. Drink from water or eat plants/cows to maintain food, drink, and energy.
+8. Sleep if energy is low.
+
+The immediate best action is to move west toward the table to start interaction or crafting if needed.
+
+ACTION: Move West","You see:
+- grass 1 step to your north
+- sand 1 step to your south
+- water 3 steps to your south-west
+- tree 2 steps to your north-west
+- table 1 step to your west
+
+You face table at your front.",0.0,False
+81,Move West,"Step-by-step plan:
+1. Move west to stand next to the table.
+2. Use wood pickaxe to start mining stone nearby (need to move towards stone location).
+3. After collecting stone, craft stone pickaxe.
+4. Collect coal and iron to eventually craft iron pickaxe and iron sword using furnace.
+5. Place furnace near table for crafting iron tools.
+6. Maintain food and drink levels (eat or drink when needed).
+7. Defeat zombies and skeletons for combat achievements.
+8. Place plants and stones as needed for achievements.
+
+Immediate next step: Move west to stand on the table tile so I can craft or place items easier.
+
+ACTION: Move West","You see:
+- grass 1 step to your north
+- sand 1 step to your south
+- water 3 steps to your south-west
+- tree 2 steps to your north-west
+- table 1 step to your west
+
+You face table at your front.",0.0,False
+82,Move South,"Step-by-step plan:
+1. Since you are already next to the table, use the wood pickaxe to start mining stone (if stone is nearby). But currently, we don't see stone nearby, so we need to explore.
+2. To find stone, move south or west toward sand or water since trees and grass are not likely to have stone.
+3. Since there is sand one step to the south, move south to explore potentially finding stone or other resources.
+4. Collect stone, then craft stone pickaxe.
+5. Collect coal and iron later to craft iron pickaxe.
+6. Place furnace near table to craft iron tools.
+7. Maintain food and drink levels.
+8. Fight creatures to get defeating zombie and skeleton achievements.
+9. Place plants and stones as needed to complete respective achievements.
+
+Immediate next action: Move South to explore new areas and hopefully find stone.
+
+ACTION: Move South","You see:
+- grass 1 step to your north
+- sand 1 step to your west
+- water 2 steps to your south-west
+- tree 3 steps to your north-west
+- table 2 steps to your north-west
+
+You face sand at your front.",0.0,False
+83,Move West,"Step-by-step plan:
+1. Currently, facing sand which is not particularly useful but moving toward sand or water may help find stone, iron, or coal.
+2. Since the table is to the north-west, and also some trees, it might be good to gather more wood or find stone nearby by moving west or north.
+3. The immediate priority is to explore in search of stone to collect it and unlock stone-related achievements.
+4. Move West toward the sand first to explore new ground and potentially find stone nearby.
+5. When stone is found, use wood pickaxe to collect stone.
+6. Then return to the table to craft stone pickaxe and stone sword.
+7. Next, find coal and iron for iron tools and furnace placement.
+8. Manage food and drink levels by gathering plants and drinking from water if needed.
+9. Defeat creatures encountered to unlock achievements.
+
+ACTION: Move West","You see:
+- grass 2 steps to your north-west
+- sand 1 step to your west
+- water 1 step to your south
+- tree 2 steps to your north
+- table 1 step to your north
+
+You face sand at your front.",0.0,False
+84,Move North,"Step-by-step plan:
+1. Currently, facing sand, with table to the north and water nearby to the south.
+2. Since the table is just one step north, moving north would bring you to the table, allowing you to craft additional tools if needed.
+3. However, the key next step is to start collecting stone. Stone is typically found around sand or rocky areas, so moving west toward the sand might lead to stone.
+4. But before moving west, it makes sense to reach the table so that crafting can be done immediately once materials are gathered.
+5. Therefore, first move north to stand next to the table.
+6. Once at the table, then consider moving west to gather stone.
+7. Also, keep an eye on energy and drink levels and use Do action to collect or restore when needed.
+
+ACTION: Move North","You see:
+- grass 2 steps to your north-west
+- sand 1 step to your west
+- water 1 step to your south
+- tree 2 steps to your north
+- table 1 step to your north
+
+You face table at your front.",0.0,False
+85,Move North,"Step-by-step reasoning:
+
+1. The current status is good (full health, food, slightly less drink but still plenty, decent energy).
+2. Inventory has 5 wood, a wood pickaxe, and a wood sword.
+3. To progress through achievements, next goals likely involve collecting stone and then coal/iron, progressing to making stone tools.
+4. Nearby landmarks:
+   - Table 1 step to north (can craft tools here).
+   - Sand 1 step to west (stone might be nearby).
+   - Water 1 step to south (can drink if needed).
+   - Tree 2 steps to north (can gather wood).
+5. Since the table is in front (north), and crafting is needed for stone pickaxe or stone sword (both require stone and table), moving north to the table is logical to set up crafting when stone is collected.
+6. Once at the table, plan to collect stone (probably to the west near sand) and then make stone tools.
+7. Therefore, first step: move north to be at the table.
+
+ACTION: Move North","You see:
+- grass 2 steps to your north-west
+- sand 1 step to your west
+- water 1 step to your south
+- tree 2 steps to your north
+- table 1 step to your north
+
+You face table at your front.",0.0,False
+86,Move North,"Step-by-step reasoning:
+
+1. The table is directly in front, so moving onto the table tile will allow us to use it to craft tools.
+2. After moving to the table, we can plan to collect stone next (probably near sand to the west).
+3. Once we have stone, we can craft stone pickaxe and then stone sword, thus progressing achievements.
+4. It's also sensible to keep an eye on energy levels, but currently energy is 7/9, so no need to sleep now.
+5. The immediate best action is to move forward (north) onto or closer to the table.
+
+ACTION: Move North","You see:
+- grass 2 steps to your north-west
+- sand 1 step to your west
+- water 1 step to your south
+- tree 2 steps to your north
+- table 1 step to your north
+
+You face table at your front.",0.0,False
+87,Move North,"Step-by-step reasoning:
+1. The table is right in front, so moving onto it is a good next step.
+2. Once on the table, we can prepare to craft more advanced tools.
+3. We currently have wood and a wood pickaxe, but lack stone and coal.
+4. To progress, we need to collect stone and coal, then craft stone pickaxe and sword.
+5. Sand is one step west; stone might be near sand or other areas.
+6. Moving north onto the table positions us better for crafting and planning the next moves.
+
+ACTION: Move North","You see:
+- grass 2 steps to your north-west
+- sand 1 step to your west
+- water 1 step to your south
+- tree 2 steps to your north
+- table 1 step to your north
+
+You face table at your front.",0.0,False
+88,Move North,"Step-by-step reasoning:
+1. We are currently facing the table with wood, wood pickaxe, and wood sword in inventory.
+2. To progress, we need to collect stone to craft stone tools. Stone is not visible in the immediate vicinity, but sand is west, and trees are north. Perhaps exploring west and north to find stone would help.
+3. A good first step: move onto the table (north) to be in crafting position.
+4. Once on the table, we can consider crafting if we have the necessary materials.
+5. After moving onto the table, we can look around or move towards sand or other resource areas to collect stone and coal.
+
+ACTION: Move North","You see:
+- grass 2 steps to your north-west
+- sand 1 step to your west
+- water 1 step to your south
+- tree 2 steps to your north
+- table 1 step to your north
+
+You face table at your front.",0.0,False
+89,Move West,"Step-by-step reasoning:
+1. We currently stand facing the table, one step south of it.
+2. To craft stone or iron tools, we'll need stone and possibly coal and iron in the future.
+3. Nearby, there is sand to the west, water to the south, trees to the north.
+4. Stone is often near sand or under trees, so moving west towards sand might allow us to collect stone.
+5. However, before moving away from the table, we should consider if we can use the table to craft anything right now. We have wood and the wood pickaxe and sword already.
+6. Since no new crafting option is possible yet without stone, it's best to move west to try to collect stone.
+7. We will move west to head towards sand and possibly find stone there.
+
+ACTION: Move West","You see:
+- grass 1 step to your north
+- water 1 step to your south
+- diamond 7 steps to your south-west
+- sand 1 step to your west
+- tree 3 steps to your north-east
+- table 2 steps to your north-east
+
+You face sand at your front.",0.0,False
+90,Move West,"Step-by-step reasoning:
+1. We are currently facing sand one step to the west.
+2. To progress, we should collect stone to advance to stone tools.
+3. Stone often lies below sand or nearby.
+4. Moving west onto the sand will get us closer to potential stone or other resources.
+5. Once on the sand, we can use the Do action to try collecting stone.
+6. After getting stone, we can return to the table to craft stone pickaxe or sword.
+7. Also, we see diamond 7 steps to our south-west, which is valuable but too far to reach immediately.
+8. Prioritize collecting stone first.
+
+Therefore, the best immediate action is to move West onto the sand.
+
+ACTION: Move West","You see:
+- grass 2 steps to your north
+- water 1 step to your south
+- stone 7 steps to your south-west
+- diamond 6 steps to your south-west
+- sand 1 step to your west
+- tree 4 steps to your north-east
+- table 3 steps to your north-east
+
+You face sand at your front.",0.0,False
+91,Move West,"Step-by-step reasoning:
+1. We are currently facing sand one step to the west.
+2. Our inventory has wood and wood tools but no stone or stone tools yet.
+3. Stone is located 7 steps to the south-west, which is a bit far but we need to get stone to craft stone pickaxe and stone sword.
+4. Water is 1 step to the south; approaching water can allow us to drink if needed, but our drink level is 6/9, relatively sufficient.
+5. The table is 3 steps to the north-east, which we may use for crafting once we collect stone.
+6. Since we need to move towards stone, heading south-west is logical but there is sand to our west and water to south.
+7. Move west onto sand now to get closer to stone and to position ourselves better for moving south-west afterward.
+8. We should prioritize collecting stone first to progress in crafting.
+
+ACTION: Move West","You see:
+- grass 2 steps to your north
+- water 1 step to your west
+- stone 6 steps to your south-west
+- diamond 5 steps to your south-west
+- sand 1 step to your north
+- tree 5 steps to your north-east
+- table 4 steps to your north-east
+
+You face water at your front.",0.0,False
+92,Do,"Step-by-step reasoning:
+1. We are facing water at our front, which is 1 step to the west.
+2. Our drink level is 6/9, which is moderately good but can be topped up soon.
+3. Our immediate goal should be to collect stone to progress towards crafting stone tools and sword.
+4. Stone is located 6 steps to the south-west.
+5. To get closer to stone, we need to move south or west then south.
+6. Moving west straight into water would allow us to drink and replenish our drink level which might be beneficial.
+7. After drinking, we can then navigate south and then southwest to collect stone.
+8. Therefore, the best immediate action is to ""Do"" to drink from the water in front of us.
+
+ACTION: Do","You see:
+- grass 2 steps to your north
+- water 1 step to your west
+- stone 6 steps to your south-west
+- diamond 5 steps to your south-west
+- sand 1 step to your north
+- tree 5 steps to your north-east
+- table 4 steps to your north-east
+
+You face water at your front.",0.0,False
+93,Move South,"Step-by-step reasoning:
+1. We just drank water to increase our drink level; it's now 7/9.
+2. The drink level is not yet full, but it's improving.
+3. Our priority is to collect stone, which is 6 steps to the south-west.
+4. Currently, we face water to the west.
+5. To get to stone to the southwest, we should start moving south or west.
+6. Since water is to our left (west), we cannot move west without turning.
+7. We can move north to go around but that would lead us away from stone.
+8. Alternatively, we can turn and move south to approach stone.
+9. Starting by moving south will get us closer to stone.
+
+Therefore, the best immediate action is to move south.
+
+ACTION: Move South","You see:
+- grass 2 steps to your north
+- water 1 step to your west
+- stone 6 steps to your south-west
+- diamond 5 steps to your south-west
+- sand 1 step to your north
+- tree 5 steps to your north-east
+- table 4 steps to your north-east
+
+You face water at your front.",0.0,False
+94,Move South,"Step-by-step reasoning:
+1. The goal is to progress towards all achievements, and collecting stone (#10) is still remaining since we have wood but no stone yet.
+2. Stone is visible 6 steps to the south-west.
+3. We're currently facing water to the west.
+4. We need to approach the stone, so we need to move towards south-west.
+5. Since we can only move in cardinal directions, moving south or west will bring us closer.
+6. Currently facing water (west), we can move west to get closer or move south then west as needed.
+7. Moving west to step onto water tile may not be allowed unless it's flat ground - water likely is not walkable.
+8. Since we see water at 1 step west, probably we cannot move west.
+9. Considering that, moving south towards the stone, which is southwest, is likely better.
+10. Once we move south a step, we can plan next moves to west.
+11. Drinking status is at 7/9, so keep an eye but not critical now.
+
+Therefore, best immediate action:
+
+ACTION: Move South","You see:
+- grass 2 steps to your north
+- water 1 step to your west
+- stone 6 steps to your south-west
+- diamond 5 steps to your south-west
+- sand 1 step to your north
+- tree 5 steps to your north-east
+- table 4 steps to your north-east
+
+You face water at your front.",0.0,False
+95,Move South,"Step-by-step reasoning:
+
+1. Current position faces water, which is usually not walkable terrain.
+2. Our goal includes collecting stone (to get achievement #10) and eventually diamonds (#22).
+3. Stone and diamond are located southwest 5-6 steps away; to approach, we need to move south then west.
+4. Moving west is blocked by water, so the immediate best move is south.
+5. Moving south brings us closer to stone and diamond.
+6. We have plenty of wood and already made wood pickaxe and wood sword, so next resource to gather is stone to make stone tools.
+7. Keeping food, drink, and health levels high is good; current stats are good.
+8. Energy level is 6/9, which is good enough to keep moving.
+
+Therefore, the best course of action now is to move south.
+
+ACTION: Move South","You see:
+- grass 2 steps to your north
+- water 1 step to your west
+- stone 6 steps to your south-west
+- diamond 5 steps to your south-west
+- sand 1 step to your north
+- tree 5 steps to your north-east
+- table 4 steps to your north-east
+
+You face water at your front.",0.0,False
+96,Move South,"Step-by-step reasoning:
+
+1. Our goal is to complete all achievements, including collecting stone and diamond.
+2. Stone and diamond are located to the southwest about 5-6 steps away.
+3. Currently, we face water directly to the west, which we cannot move onto directly.
+4. We can move south to get closer to the south-west direction for stone and diamond.
+5. Moving south is a valid move; it takes us closer to stone and diamond.
+6. Our energy level is 6/9, still sufficient to continue moving without resting.
+7. Moving south will bring us closer to water, stone, and diamond, allowing us to collect resources.
+8. After moving south, we can check if we can collect stone or diamond resources when we are close enough.
+
+Therefore, the best immediate action is to move south.
+
+ACTION: Move South","You see:
+- grass 2 steps to your north
+- water 1 step to your west
+- stone 6 steps to your south-west
+- diamond 5 steps to your south-west
+- sand 1 step to your north
+- tree 5 steps to your north-east
+- table 4 steps to your north-east
+
+You face water at your front.",0.0,False
+97,Move South,"Step-by-step reasoning:
+
+1. Currently facing water to the west, so moving west would put us on water, which isn't allowed.
+2. Stone and diamond are to the south-west, so moving south or south-west directionally is better to approach these resources.
+3. South is free with sand 1 step north and water 1 step west, so moving south is a valid move.
+4. After moving south, we'd be closer to stone and diamond, enabling us to collect them using ""Do"" when adjacent.
+5. Energy is sufficient for a move action; food and drink levels are good.
+6. Moving south helps advance towards key resources necessary to craft better tools and weapons.
+7. Given table and tree are northeast and potentially useful later, but prioritizing resource collection first is optimal.
+
+ACTION: Move South","You see:
+- grass 2 steps to your north
+- water 1 step to your west
+- stone 6 steps to your south-west
+- diamond 5 steps to your south-west
+- sand 1 step to your north
+- tree 5 steps to your north-east
+- table 4 steps to your north-east
+
+You face water at your front.",0.0,False
+98,Move South,"Step-by-step reasoning:
+
+1. We are currently facing water to the west (front), and water is not passable terrain.
+2. Stone and diamond are visible to the south-west, so heading in that direction is desirable.
+3. Moving south or east could be useful, but water is west, sand north, so let's consider other directions.
+4. South might be blocked or unclear, but moving north (onto sand) may get us closer to tree and table resources later.
+5. But the priority now is to acquire stone and diamond, so moving west or south-west is ideal.
+6. Since west is water (not passable), let's move south first, then orient towards southwest in next turns.
+7. The ""Do"" action can be used to collect materials like stone and coal when adjacent.
+8. Energy is sufficient, but drink is a bit low (7/9), so if water is nearby, drinking might be good. Water is to the west, but blocked by water.
+9. For now, moving south seems the best option to approach resources.
+
+ACTION: Move South","You see:
+- grass 2 steps to your north
+- water 1 step to your west
+- stone 6 steps to your south-west
+- diamond 5 steps to your south-west
+- sand 1 step to your north
+- tree 5 steps to your north-east
+- table 4 steps to your north-east
+
+You face water at your front.",0.0,False
+99,Move South,"Step-by-step reasoning:
+
+1. Currently, I am facing water, which is not passable terrain; I cannot move forward.
+2. To approach the stone and diamond located to the south-west, I need to move away from the water direction.
+3. Options for movement: north (onto sand), east (unknown), south (possibly passable), or turning around.
+4. Since stone and diamond are to the south-west, moving south then west would get me closer to these resources.
+5. Moving south should be possible and would bring me closer to the stone and diamond.
+6. Drinking would be helpful since drink is 7/9 but water is behind to the west, so I won't use ""Do"" action now.
+7. The immediate priority is to get to stone to complete ""Collect Stone"" achievement and ultimately make stone tools.
+
+ACTION: Move South","You see:
+- grass 2 steps to your north
+- water 1 step to your west
+- stone 6 steps to your south-west
+- diamond 5 steps to your south-west
+- sand 1 step to your north
+- tree 5 steps to your north-east
+- table 4 steps to your north-east
+
+You face water at your front.",0.0,False
+100,Move South,"Step-by-step reasoning:
+
+1. I am currently facing water, which I cannot pass by moving forward.
+2. To approach stone and diamond (south-west), I need to move away from water.
+3. Possible directions to move: north (sand), east, south.
+4. Moving west is not possible as water lies there.
+5. Moving north is onto sand, which may be passable.
+6. Moving south is onto grass or unknown terrain and likely accessible.
+7. Since my goal is to collect stone and diamond, which are located to the south-west, moving south first and then west would be logical.
+8. Facing water now, instead of trying to move forward into water, I should turn or move in another direction.
+9. Since the game commands only allow movement in directions on flat ground, the simplest immediate move is to move south (direction where I can walk).
+10. This will put me closer to the stone and diamond spots.
+
+ACTION: Move South","You see:
+- grass 2 steps to your north
+- water 1 step to your west
+- stone 6 steps to your south-west
+- diamond 5 steps to your south-west
+- sand 1 step to your north
+- tree 5 steps to your north-east
+- table 4 steps to your north-east
+
+You face water at your front.",0.0,False
+101,Move South,"Step-by-step reasoning:
+1. I am facing water at my front, so moving forward is blocked by water.
+2. To reach stone and diamond (to the south-west), I need to move in a direction that allows movement around water.
+3. Moving south is likely passable, so I should move south to get off the water-blocked path.
+4. Once to the south, I can then try moving west to get closer to the stone and diamond.
+5. This will allow me to collect stone, coal, iron later to craft better tools.
+6. Since I am currently facing water, a move south action makes the most immediate sense.
+
+ACTION: Move South","You see:
+- grass 2 steps to your north
+- water 1 step to your west
+- stone 6 steps to your south-west
+- diamond 5 steps to your south-west
+- sand 1 step to your north
+- tree 5 steps to your north-east
+- table 4 steps to your north-east
+
+You face water at your front.",0.0,False
+102,Move South,"Step-by-step plan:
+1. Currently, I face water, so I cannot Move forward.
+2. To reach stone and diamond to the south-west, I need to navigate around the water.
+3. Moving South would be a logical step to bypass the water.
+4. After moving South, I can then turn or move West towards the stone and diamond.
+5. Collecting stone will help unlock the stone pickaxe and stone sword achievements.
+6. After acquiring stone and possibly coal or iron later, I can then craft better tools and swords.
+7. For now, the immediate action is to move South to start approaching resources.
+
+ACTION: Move South","You see:
+- grass 2 steps to your north
+- water 1 step to your west
+- stone 6 steps to your south-west
+- diamond 5 steps to your south-west
+- sand 1 step to your north
+- tree 5 steps to your north-east
+- table 4 steps to your north-east
+
+You face water at your front.",0.0,False
+103,Move North,"Step-by-step plan:
+1. I currently face water, so I cannot go forward in that direction.
+2. The important resources are stone and diamond to the south-west.
+3. To reach stone and diamond, I must find a path around the water.
+4. Since moving south is blocked by water, I should try moving north to reach the grass and sand, potentially allowing me to navigate around water.
+5. Moving north will also bring me closer to the tree and table to the north-east, which may be useful later for crafting.
+6. Once farther north, I can try to move west or south-west to reach stone and diamond.
+
+ACTION: Move North","You see:
+- grass 1 step to your north
+- water 2 steps to your west
+- sand 1 step to your west
+- tree 4 steps to your north-east
+- table 3 steps to your east
+
+You face grass at your front.",0.0,False
+104,Move North,"Step-by-step plan:
+1. I see grass right in front of me (north). Moving onto grass is safe and may get me closer to the tree to the north-east or help me collect saplings or plants later.
+2. Since I currently have wood, a wood pickaxe, and a wood sword, my next important goals are to collect stone and start crafting stone tools and weapons.
+3. The stone is located to the south-west from before, so I should first explore around to get closer to the stone.
+4. Moving north now will position me better to navigate around the water to the west.
+5. After moving north, I can then move east toward the table or north-east toward the tree to gather more resources.
+6. For now, I will take the immediate safe step of moving north onto grass.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- water 3 steps to your south-west
+- sand 1 step to your south
+- tree 3 steps to your east
+- table 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+105,Move West,"Step-by-step reasoning:
+1. I see grass directly in front (west). Moving onto grass is safe.
+2. There's a tree 3 steps to the east that I want to approach to collect wood and saplings.
+3. The table is 4 steps south-east, which will be useful for crafting tools.
+4. I want to move towards the tree to collect wood, so I should begin by moving west now (to get around the water and sand obstacles).
+5. Later I can navigate east toward the tree.
+
+ACTION: Move West","You see:
+- grass 1 step to your west
+- water 2 steps to your south-west
+- sand 1 step to your south
+- tree 4 steps to your east
+- table 5 steps to your south-east
+
+You face grass at your front.",0.0,False
+106,Move West,"Step-by-step reasoning:
+1. I currently have wood and some basic tools (wood pickaxe and wood sword).
+2. There is a tree 4 steps to the east, which I can approach to collect more wood and possibly saplings.
+3. The table is 5 steps to the south-east, which I will need for crafting more advanced tools later, but first focus on gathering resources.
+4. There is grass and some obstacles south and south-west—water and sand—so moving west to navigate around them is safer.
+5. Since I face grass directly west, moving there is safe and will eventually bring me closer to the tree area to collect wood.
+
+ACTION: Move West","You see:
+- grass 1 step to your west
+- stone 5 steps to your south-west
+- water 1 step to your south
+- sand 2 steps to your south-east
+
+You face grass at your front.",0.0,False
+107,Move West,"Step-by-step reasoning:
+1. I have 5 wood in inventory, which is enough to potentially craft more items once I find a table.
+2. Since there is stone 5 steps to the south-west, it makes sense to eventually get stone to advance to stone tools.
+3. Directly south is water and grass to the west; moving west onto grass is safe.
+4. Moving west will also bring me closer to more resources (trees or other materials) and avoid water/sand which might hinder movement.
+5. I should start moving west to collect more wood or get closer to the stone/sand area gradually.
+
+ACTION: Move West","You see:
+- grass 1 step to your west
+- path 4 steps to your west
+- stone 4 steps to your south-west
+- water 1 step to your south
+- sand 3 steps to your south-east
+
+You face grass at your front.",0.0,False
+108,Move West,"Step-by-step reasoning:
+1. I currently have wood, a wood pickaxe, and a wood sword in my inventory.
+2. There is stone 4 steps to the south-west, which is necessary to collect to progress towards stone pickaxe and stone sword.
+3. Water is directly south, so moving south is less ideal.
+4. There is grass and a path to the west, indicating easier movement and potential resource spots.
+5. Moving west will position me closer to the path and potentially give better access to resources.
+6. Collecting stone soon is important to unlock stone tools.
+
+Based on this, moving west first to approach the path and then navigate towards stone seems the best move.
+
+ACTION: Move West","You see:
+- grass 1 step to your west
+- sand 4 steps to your south-east
+- stone 3 steps to your south-west
+- path 3 steps to your west
+- water 1 step to your south
+
+You face grass at your front.",0.0,False
+109,Move West,"Step-by-step reasoning:
+1. There's stone 3 steps to the south-west, which is a valuable resource to collect next.
+2. Moving west will bring me to the path and closer to the stone.
+3. Since grass is directly in front and the path is nearby to the west, moving west is a good first step to get closer to stone.
+4. Once near the stone, I should gather it by using the 'Do' action.
+5. This will help unlock the achievement for Collect Stone and progress towards stone tools.
+
+Best action for now is to move west to get closer to the stone and path.
+
+ACTION: Move West","You see:
+- grass 1 step to your west
+- sand 4 steps to your north-west
+- stone 2 steps to your south-west
+- path 2 steps to your west
+- water 1 step to your south
+
+You face grass at your front.",0.0,False
+110,Move West,"Step-by-step reasoning:
+1. Stone is only 2 steps to the south-west, which is close.
+2. I need stone to get the Collect Stone achievement and to craft stone tools.
+3. The path and grass are less urgent than collecting stone.
+4. To get stone, I first need to move closer toward the south-west direction.
+5. Moving south will bring me closer to the stone, but I face grass now.
+6. Moving west or south-west is not a direct valid move; only cardinal directions allowed.
+7. The stone is south-west, so moving south then west or west then south will work.
+8. Currently facing grass to the west, so moving west will bring me closer to the path and eventually the stone.
+9. Moving west now is the best immediate action to approach the stone.
+
+ACTION: Move West","You see:
+- grass 1 step to your north
+- sand 3 steps to your north-west
+- stone 1 step to your south
+- path 1 step to your west
+- water 2 steps to your south-east
+
+You face path at your front.",0.0,False
+111,Move South,"Step-by-step reasoning:
+1. Stone is only 1 step to the south, accessible directly.
+2. Collecting stone early allows progress toward the ""Collect Stone"" achievement and crafting stone tools.
+3. I currently face a path, which is to the west, but stone is directly south.
+4. Moving south will take me directly to the stone.
+5. After moving south, I can use ""Do"" action to collect stone from the tile in front.
+6. I have wood in inventory, so I can eventually make stone pickaxe after collecting stone.
+7. My health, food, and drink are quite good, so no immediate need to eat or drink.
+8. Energy is 6/9, still good enough, no need to Sleep now.
+
+Therefore, the best next step is to move south toward the stone.
+
+ACTION: Move South","You see:
+- grass 1 step to your north
+- sand 3 steps to your north-west
+- stone 1 step to your south
+- path 1 step to your west
+- water 2 steps to your south-east
+
+You face stone at your front.",0.0,False
+112,Do,"Step-by-step reasoning:
+1. Stone is directly in front, so I can collect it immediately.
+2. Collecting stone will help achieve the ""Collect Stone"" achievement.
+3. After collecting stone, I can aim to craft stone tools.
+4. There's no immediate threat or need to move elsewhere now.
+
+Therefore, the best next step is to do the multiuse action to collect the stone.
+
+ACTION: Do","You see:
+- grass 1 step to your north
+- sand 3 steps to your north-west
+- stone 2 steps to your west
+- path 1 step to your west
+- water 2 steps to your south-east
+
+You face path at your front.",1.0,False
+113,Move West,"Step-by-step reasoning:
+1. I have already collected some stone and have a wood pickaxe and wood sword.
+2. I see more stone 2 steps to the west, so collecting more stone would be beneficial to eventually craft stone pickaxe and stone sword.
+3. I currently face a path to the west, which presumably is towards the stone.
+4. Moving one step west will bring me closer to the stone to collect.
+5. Collecting more stone will help achieve ""Collect Stone"" and unlock better tools.
+6. After gathering stone, I can place the table (which is 4 steps to the north-east previously seen) to start crafting better tools.
+
+Therefore, move west to approach the stone.
+
+ACTION: Move West","You see:
+- grass 1 step to your north
+- sand 2 steps to your north-west
+- path 2 steps to your south-east
+- stone 1 step to your west
+- water 3 steps to your south-east
+
+You face stone at your front.",0.0,False
+114,Do,"Step-by-step reasoning:
+
+1. I am currently facing stone 1 step in front, which is close.
+2. I need to collect stone to progress towards making a stone pickaxe and stone sword.
+3. Using the ""Do"" action while facing stone will collect stone.
+4. Collecting stone now will help me unlock the ""Collect Stone"" achievement and gather resources for crafting better tools.
+5. My health and energy are good enough to continue collecting resources.
+6. After collecting stone, I can move towards the table to craft new tools.
+
+Therefore, the best next action is to collect stone by performing ""Do"" while facing it.
+
+ACTION: Do","You see:
+- grass 1 step to your north
+- sand 2 steps to your north-west
+- path 1 step to your west
+- stone 1 step to your south
+- water 3 steps to your south-east
+
+You face path at your front.",0.0,False
+115,Move South,"Step-by-step reasoning:
+1. I currently face path, but there is stone 1 step to my south.
+2. I want to collect more stone to have enough for crafting a stone pickaxe and stone sword.
+3. However, to collect stone I need to face it first.
+4. So, I should first move south to face the stone directly.
+5. After that, I can use ""Do"" to collect stone.
+6. Since the immediate next action is to face the stone, moving south now is the right step.
+
+ACTION: Move South","You see:
+- cow 7 steps to your north-west
+- sand 2 steps to your north-west
+- path 1 step to your west
+- stone 1 step to your south
+- grass 1 step to your north
+- water 3 steps to your south-east
+
+You face stone at your front.",0.0,False
+116,Do,"Step by step plan:
+
+1. I currently face stone, with 2 stones in inventory; more stone will help craft stone pickaxe and stone sword for achievements.
+2. Use ""Do"" action to collect stone directly in front.
+3. After collecting stone, I can aim to head toward the table 4 steps north-east for crafting tools.
+4. Eventually, I want to collect cow meat (Eat Cow achievement) and collect wood from the nearby tree.
+5. Also, water is nearby for collecting drink (Collect Drink achievement).
+6. For now, collecting stone is the immediate next logical step.
+
+ACTION: Do","You see:
+- cow 7 steps to your north-west
+- sand 2 steps to your north-west
+- path 1 step to your west
+- stone 2 steps to your west
+- grass 1 step to your north
+- water 3 steps to your south-east
+
+You face path at your front.",0.0,False
+117,Move West,"Step-by-step plan:
+
+1. I currently have a wood pickaxe and wood sword, plus some stone and wood in inventory.
+2. Next major goals are to craft a stone pickaxe and stone sword, and possibly iron tools later.
+3. I need to collect more stone; there is stone 2 steps west and 1 step west.
+4. I am facing path (west), so moving west leads closer to stone deposits.
+5. I'll move west to get closer to stones for mining.
+6. After collecting more stone, I want to place a table near the existing one for crafting stone tools.
+7. Also, I want to eventually approach the cow to ""Eat Cow"" achievement.
+8. For now, moving west is best for gathering stone.
+
+ACTION: Move West","You see:
+- grass 2 steps to your north
+- sand 1 step to your north
+- cow 4 steps to your west
+- stone 1 step to your west
+- path 1 step to your east
+- water 4 steps to your south-east
+
+You face stone at your front.",0.0,False
+118,Do,"Step-by-step plan:
+1. I'm currently facing stone 1 step ahead. Collecting stone will help me progress toward crafting stone tools like the stone pickaxe and stone sword.
+2. Once I have enough stone, I can move toward the table (I saw one earlier to the north-east) to craft these tools.
+3. There is a cow 4 steps to the west; after crafting better tools, I can approach and ""Eat Cow"" for that achievement.
+4. Therefore, first priority is to collect stone now.
+
+ACTION: Do","You see:
+- grass 2 steps to your north
+- sand 1 step to your north
+- stone 1 step to your south
+- cow 3 steps to your west
+- path 1 step to your west
+- water 4 steps to your south-east
+
+You face path at your front.",0.0,False
+119,Move West,"Step-by-step course of action:
+
+1. You're currently facing path 1 step in front, and a cow is 3 steps to your west.
+2. You have wood and stone, plus a wood pickaxe and wood sword, but no stone pickaxe yet.
+3. You need to craft a stone pickaxe to efficiently mine stone and possibly iron later. For that, you need a table nearby.
+4. Previously, you saw a table 4-5 steps to the south-east or east; however, that is currently out of immediate sight.
+5. Since the cow is nearby to the west and you have a wood sword, you can approach the cow to attempt to ""Eat Cow"" for one of the achievements.
+6. To do this, move west through the path towards the cow.
+7. Later, once you get the cow achievement, you can find that table again and craft stone pickaxe.
+
+ACTION: Move West","You see:
+- tree 7 steps to your north-west
+- grass 2 steps to your north
+- sand 1 step to your north
+- stone 1 step to your west
+- cow 2 steps to your west
+- path 1 step to your east
+- water 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+120,Move West,"Step-by-step plan:
+
+1. The cow is 2 steps to the west, and you're facing stone at your front.
+2. To interact with the cow (to defeat it and eat), move west towards it.
+3. Once adjacent, use Do to hit the cow and attempt to get the ""Eat Cow"" achievement.
+4. After that, explore nearby trees and stones to gather more resources.
+5. Eventually, head towards the known table (likely to the south-east or south) to craft stone pickaxe or other tools.
+6. Maintain energy by sleeping if needed and keep drinking water or eating plants.
+
+Immediate next step is to move west towards the cow.
+
+ACTION: Move West","You see:
+- tree 7 steps to your north-west
+- grass 2 steps to your north
+- sand 1 step to your north
+- stone 1 step to your west
+- cow 3 steps to your south-west
+- path 1 step to your east
+- water 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+121,Move South,"Step-by-step plan:
+
+1. Currently, you face stone at your front and the cow is 3 steps to your south-west.
+2. Move south to get closer to the cow, as the cow is to the south-west.
+3. Once adjacent to the cow, use Do to attack and potentially defeat the cow to achieve ""Eat Cow.""
+4. Afterwards, gather resources like stone near you by using Do, and also collect trees for wood.
+5. Use the table (found previously) to craft improved tools such as a stone pickaxe and stone sword.
+6. Eventually, place a furnace once coal and iron are collected.
+7. Craft iron tools and swords, and defeat zombies and skeletons as they appear.
+
+Immediate action is to start moving south toward the cow.
+
+ACTION: Move South","You see:
+- tree 7 steps to your north-west
+- grass 2 steps to your north
+- sand 1 step to your north
+- stone 1 step to your west
+- cow 3 steps to your south-west
+- path 1 step to your east
+- water 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+122,Move South,"Step-by-step plan:
+1. Currently facing stone, cow is 3 steps to the south-west, so turning towards the cow requires moving south and west.
+2. Move south to get closer to the cow.
+3. After moving south, continue moving west until adjacent to the cow.
+4. Use the Do action to attack the cow and collect meat (Eat Cow achievement).
+5. Continue collecting wood near trees to progress toward collecting saplings and crafting better tools.
+6. Use wood and stone to upgrade to stone tools when possible.
+7. Eventually place a table and furnace to craft iron tools.
+8. Collect coal, iron, and defeat mobs like zombies and skeletons to progress achievements.
+
+Immediate next step: Move South to get closer to the cow.
+
+ACTION: Move South","You see:
+- tree 7 steps to your north-west
+- grass 2 steps to your north
+- sand 1 step to your north
+- stone 1 step to your west
+- cow 2 steps to your west
+- path 1 step to your east
+- water 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+123,Move West,"Step-by-step plan:
+1. Move west to get closer to the cow (2 steps away).
+2. Use Do action to attack the cow and collect meat (achievement: Eat Cow).
+3. After obtaining food, check if energy or drink needs replenishing; gather drink from water if needed.
+4. Continue gathering wood near trees to progress on Collect Wood and Collect Sapling.
+5. Use wood and stone in the inventory to craft stone tools at a table, so place a table soon.
+6. Place table to unlock crafting upgrades such as stone pickaxe and stone sword.
+7. Collect stone and coal as next resources.
+8. Place furnace to craft iron tools and weapons.
+9. Defeat mobs (zombie, skeleton) for their achievements.
+
+Immediate next step is to move west towards the cow.
+
+ACTION: Move West","You see:
+- tree 7 steps to your north-west
+- grass 2 steps to your north
+- sand 1 step to your north
+- stone 1 step to your west
+- cow 2 steps to your west
+- path 1 step to your east
+- water 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+124,Move West,"Step-by-step plan:
+1. The cow is 2 steps to the west, so move west to get closer.
+2. Once adjacent to the cow, use the Do action to attack and collect meat (Eat Cow achievement).
+3. Monitor the drink and food levels, replenish by drinking from water if needed.
+4. Collect wood from the nearby trees (northwest) to complete Collect Wood and Collect Sapling achievements.
+5. Use collected resources to place a table, then craft improved tools and weapons.
+6. Gather stone and coal and then place a furnace to make iron tools and swords.
+7. Defeat zombies and skeletons that may appear for combat achievements.
+
+Immediate best action now is to move west towards the cow.
+
+ACTION: Move West","You see:
+- tree 7 steps to your north-west
+- grass 2 steps to your north
+- sand 1 step to your north
+- stone 1 step to your west
+- cow 2 steps to your west
+- path 1 step to your east
+- water 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+125,Move West,"Step-by-step plan:
+1. You are currently facing stone at your front (1 step west), and the cow is 2 steps west. To get to the cow, first move west onto the stone tile.
+2. From there, continue moving west toward the cow to be in range to attack it.
+3. Use Do to attack the cow and collect meat to achieve ""Eat Cow"".
+4. After dealing with the cow, continue collecting wood from the tree northwest and gather other resources like stone, coal, and iron.
+5. Place a table to craft better tools and weapons such as stone pickaxe and sword.
+6. Collect coal and iron, then place a furnace.
+7. Craft iron tools and defeat enemies to achieve more achievements.
+
+Next immediate action is to get closer to the cow by moving west onto the stone.
+
+ACTION: Move West","You see:
+- tree 7 steps to your north-west
+- grass 2 steps to your north
+- sand 1 step to your north
+- stone 1 step to your west
+- cow 2 steps to your west
+- path 1 step to your east
+- water 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+126,Move West,"Step-by-step plan:
+1. Move west onto the stone tile to get closer to the cow (now 1 step away).
+2. From the stone tile, move west again to be adjacent to the cow (0 steps away).
+3. Use Do to attack and collect resources from the cow to get the ""Eat Cow"" achievement.
+4. Continue gathering resources such as the tree to the northwest to get wood and saplings.
+5. Build a table to craft better tools and swords (stone pickaxe and sword).
+6. Collect coal and iron near the furnace or resource spots to upgrade tools to iron level.
+7. Place furnace and craft iron pickaxe and iron sword.
+8. Defeat monsters like zombies and skeletons to get combat-related achievements.
+9. Collect drink from the lake and plants to finish corresponding achievements.
+
+Immediate next action: Move west to get closer to the cow.
+
+ACTION: Move West","You see:
+- tree 7 steps to your north-west
+- grass 2 steps to your north
+- sand 1 step to your north
+- stone 1 step to your west
+- cow 2 steps to your west
+- path 1 step to your east
+- water 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+127,Move West,"Step-by-step plan:
+1. Move west onto the stone tile to get closer to the cow (now 1 step away).
+2. Move west again to get adjacent to the cow (0 steps away).
+3. Use ""Do"" to attack and eat the cow to get the ""Eat Cow"" achievement and restore health, food, or drink.
+4. After that, move north-west towards the tree to gather wood and saplings for further crafting and achievements.
+5. Use collected wood to place a table and craft better tools.
+6. Collect stone, coal, and iron as available to craft stronger pickaxes and swords.
+7. Place furnace to craft iron tools.
+8. Defeat monsters when encountered to get combat-related achievements.
+9. Collect drink from the lake and plants to complete drinking and eating plant achievements.
+
+Immediate best next action:
+Move West to approach the cow.
+
+ACTION: Move West","You see:
+- tree 7 steps to your north-west
+- grass 2 steps to your north
+- sand 1 step to your north
+- stone 1 step to your west
+- cow 2 steps to your west
+- path 1 step to your east
+- water 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+128,Move West,"Step-by-step plan:
+1. Move west onto the stone tile to get closer to the cow (now 1 step away).
+2. Move west to be adjacent to the cow.
+3. Use ""Do"" to attack and eat the cow, achieving the ""Eat Cow"" achievement and replenishing food and possibly health.
+4. After finishing with the cow, move north-west towards the tree to collect wood and possibly saplings for the ""Collect Wood"" and ""Collect Sapling"" achievements.
+5. Use collected wood to place a table for crafting.
+6. Use crafting recipes to make better tools: stone pickaxe and stone sword.
+7. Collect stone and coal along the way.
+8. Place furnace when materials allow.
+9. Craft iron pickaxe and iron sword after collecting iron.
+10. Explore further for plants to place and eat.
+11. Drink from water to achieve ""Collect Drink.""
+12. Engage and defeat enemies like zombies and skeletons for combat achievements.
+
+Immediate next step is to approach the cow by moving west onto the stone, closing the gap for the next action.
+
+ACTION: Move West","You see:
+- tree 7 steps to your north-west
+- grass 2 steps to your north
+- sand 1 step to your north
+- stone 1 step to your west
+- cow 3 steps to your south-west
+- path 1 step to your east
+- water 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+129,Move West,"Step-by-step plan:
+
+1. Move west to get closer to the cow, which is now 3 steps to the south-west. Moving west places you closer to the cow's direction.
+2. Next, move south-west (via combinations of moves) to approach the cow within striking distance.
+3. Use ""Do"" to attack and eat the cow to gain food and complete the ""Eat Cow"" achievement.
+4. After that, head towards the tree to collect wood, fulfilling ""Collect Wood"" and potentially ""Collect Sapling.""
+5. Use wood to place a table, achieving ""Place Table.""
+6. Craft better tools like stone pickaxe and stone sword using the table and stones.
+7. Find and collect coal and iron for furnace placement and iron tools.
+8. Continue to use resources to unlock more achievements: place plants, drink water for ""Collect Drink,"" and defeat zombies/skeletons.
+
+Immediate next step: Move West to get closer to the cow.
+
+ACTION: Move West","You see:
+- tree 7 steps to your north-west
+- grass 2 steps to your north
+- sand 1 step to your north
+- cow 4 steps to your south-west
+- stone 1 step to your west
+- path 1 step to your east
+- water 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+130,Move West,"Step-by-step reasoning:
+
+1. There's a stone directly in front of me (to the west) and I have 4 stones in inventory, which is good for crafting.
+2. The cow is slightly further southwest (4 steps) but still reachable. I should get closer to the cow to ""Eat Cow"" for that achievement and restoring food.
+3. Currently, I have a wood pickaxe and wood sword, but I can improve tools soon by crafting stone tools.
+4. Water is 5 steps to the south-east, I can get to it later for ""Collect Drink.""
+5. My energy is at 5/9, neither full nor critically low, so sleeping is not the immediate priority.
+6. I want to start by moving towards the cow to eventually defeat and eat it.
+7. Moving west towards stone could also help if I want to collect more stone later, but priority is food acquisition.
+8. Since the cow is to the south-west and I face west now, moving west brings me closer to the cow, after which I can move south to close in.
+
+Therefore, the best immediate action is to move west towards the stone and closer to the cow.
+
+ACTION: Move West","You see:
+- tree 7 steps to your north-west
+- grass 2 steps to your north
+- sand 1 step to your north
+- cow 3 steps to your west
+- stone 1 step to your west
+- path 1 step to your east
+- water 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+131,Move West,"Step-by-step reasoning:
+
+1. The cow is 3 steps to the west and stone is 1 step to the west, so moving west brings me closer to both potential resources.
+2. I want to approach the cow to eventually defeat it and get the ""Eat Cow"" achievement.
+3. The stone in front might be collectible if I do the ""Do"" action while facing it, but I should prioritize moving closer to the cow first.
+4. Facing west and taking the ""Move West"" action moves me closer to both stone and cow.
+5. Food and drink levels are moderate (7/9 and 6/9) and health is full, so no immediate need to eat or drink yet.
+6. Energy is moderate, no need to sleep.
+   
+Therefore, moving west is the best immediate action.
+
+ACTION: Move West","You see:
+- tree 7 steps to your north-west
+- grass 2 steps to your north
+- sand 1 step to your north
+- cow 3 steps to your west
+- stone 1 step to your west
+- path 1 step to your east
+- water 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+132,Do,"Step-by-step reasoning:
+
+1. I currently have 5 wood and 4 stone in inventory, plus a wood pickaxe and wood sword.
+2. There is a stone 1 step to the west, and a cow 3 steps to the west.
+3. Facing stone at my front means I am facing west.
+4. Using the ""Do"" action while facing the stone can allow me to collect the stone, advancing towards the ""Collect Stone"" achievement.
+5. Collecting stone now is good, since I already have some inventory and can craft better tools soon.
+6. After collecting stone, I can approach the cow to defeat it and get the ""Eat Cow"" achievement.
+7. Food and drink are moderately high, health is full, energy is moderate, so no urgent need to sleep or eat now.
+   
+Therefore, the best immediate action is to use ""Do"" to collect the stone in front.
+
+ACTION: Do","You see:
+- tree 7 steps to your north-west
+- grass 2 steps to your north
+- sand 1 step to your north
+- cow 3 steps to your west
+- stone 1 step to your south
+- path 1 step to your west
+- water 5 steps to your south-east
+
+You face path at your front.",0.0,False
+133,Move West,"Step-by-step reasoning:
+
+1. I currently have 5 wood, 5 stone, a wood pickaxe, and a wood sword.
+2. The cow is 3 steps to the west, so approaching it could let me defeat the cow and get the ""Eat Cow"" achievement.
+3. The path is directly in front (west); moving west will bring me closer to the cow.
+4. There is stone 1 step to the south, possibly good for collecting more if needed later.
+5. At the moment, moving west will progress towards defeating the cow and collecting food.
+6. Food and drink are moderately high, so no immediate need to eat or drink.
+7. Energy is 5/9, still ok for now, no immediate need to sleep.
+
+Therefore, the best immediate action is to move west towards the cow.
+
+ACTION: Move West","You see:
+- grass 3 steps to your north
+- tree 6 steps to your north-west
+- sand 1 step to your west
+- cow 2 steps to your west
+- stone 1 step to your south
+- path 1 step to your east
+
+You face sand at your front.",0.0,False
+134,Move West,"Step-by-step reasoning:
+
+1. The cow is 2 steps to the west, and I face sand to the front (west).
+2. To defeat the cow and get the ""Eat Cow"" achievement, I need to get closer.
+3. Moving west will bring me closer to the cow.
+4. Currently, health, food, drink, and energy are sufficient, so no immediate need for eating or sleeping.
+5. Collecting food by defeating the cow is a priority.
+6. After defeating the cow, I can get food and progress toward the ""Eat Cow"" achievement.
+
+Therefore, the best action now is to move west to approach the cow.
+
+ACTION: Move West","You see:
+- grass 3 steps to your west
+- sand 1 step to your north
+- tree 5 steps to your north-west
+- cow 1 step to your west
+- stone 2 steps to your south-east
+- path 1 step to your south
+
+You face cow at your front.",0.0,False
+135,Do,"Step-by-step reasoning:
+
+1. The cow is directly in front at 1 step, so it's within reach to interact.
+2. To defeat the cow and get the ""Eat Cow"" achievement, I need to use ""Do"" to hit and defeat it.
+3. I have a wood sword, which should be effective for attacking the cow.
+4. Also, after defeating the cow, I'll be able to collect its meat (food).
+5. Health and energy are good, so I can safely engage the cow now.
+
+Therefore, the best immediate action is to attack the cow using ""Do.""
+
+ACTION: Do","You see:
+- grass 3 steps to your west
+- sand 1 step to your north
+- tree 5 steps to your north-west
+- cow 1 step to your west
+- stone 2 steps to your south-east
+- path 1 step to your south
+
+You face cow at your front.",0.0,False
+136,Do,"Step-by-step reasoning:
+
+1. You are facing the cow directly at 1 step.
+2. Your health and food are fairly high, so you can engage the cow.
+3. Using ""Do"" will hit the cow, which is necessary to defeat it for the ""Eat Cow"" achievement.
+4. After defeating the cow, you can collect meat by using ""Do"" again or as directed by the game mechanics.
+5. Therefore, attacking the cow now is the best immediate step.
+
+ACTION: Do","You see:
+- grass 3 steps to your west
+- sand 1 step to your west
+- tree 5 steps to your north-west
+- stone 2 steps to your south-east
+- path 1 step to your south
+- cow 4 steps to your north-east
+
+You face sand at your front.",0.0,False
+137,Move North,"Step-by-step reasoning:
+
+1. The cow is 4 steps to the north-east, and you are currently facing sand right in front of you.
+2. You want to get closer to the cow to eventually defeat it and earn the ""Eat Cow"" achievement.
+3. To approach the cow, you will need to move in the right direction. The cow is northeast, so moving north or east could help.
+4. Moving east seems promising since there's a path to the south and a sand tile in front.
+5. Move north first to get closer to the cow and to the trees, which can help in collecting wood and achieving early milestones.
+
+ACTION: Move North","You see:
+- sand 1 step to your west
+- grass 2 steps to your west
+- tree 4 steps to your north-west
+- path 2 steps to your south
+- stone 3 steps to your south-east
+- cow 3 steps to your north-east
+
+You face sand at your front.",0.0,False
+138,Move North,"Step-by-step reasoning:
+
+1. The cow is 3 steps to the north-east, so moving north or east will bring me closer to it. 
+2. I currently face sand to the west, so a move west won’t bring me closer to the cow. 
+3. Moving north will take me closer to the cow and also closer to trees if I want to collect wood in the future.
+4. I have wood, stone, a wood pickaxe, and a wood sword in inventory - which is good for basic tasks. I will eventually want to place a table and craft a stone pickaxe or sword.
+5. For now, moving north gets me closer to the cow and trees and helps progress for multiple achievements (like eating the cow, collecting wood).
+6. Energy and food levels are good, so no immediate need to sleep or eat.
+
+ACTION: Move North","You see:
+- sand 1 step to your south
+- grass 1 step to your west
+- tree 3 steps to your west
+- path 3 steps to your south
+- stone 4 steps to your south-east
+- cow 2 steps to your east
+
+You face grass at your front.",0.0,False
+139,Move East,"Step-by-step reasoning:
+
+1. The cow is 2 steps to the east, and I don’t currently face it (I face grass to the front).
+2. To eat the cow (achievement ""Eat Cow""), I will need to interact with it. The only relevant action for that is ""Do,"" which can hit creatures in front of me.
+3. Currently, I face grass to the front, so I need to turn or move to face the cow. The game does not provide an explicit rotate or turn action. So I need to move either north, south, east, or west to line up with the cow.
+4. The cow is east, so moving east once should put me right in front of the cow.
+5. After moving east and facing the cow, I can then use ""Do"" to attack it and gain the ""Eat Cow"" achievement.
+6. Before moving east, consider if there is any need to collect wood or stone first. I already have enough wood and stone; also, fighting the cow now will help progress achievements.
+7. Energy and food are decent, so no need to sleep or eat right now.
+  
+Next step: Move East to align with the cow and prepare to ""Do"" on it.
+
+ACTION: Move East","You see:
+- sand 1 step to your west
+- grass 1 step to your north
+- tree 4 steps to your west
+- path 2 steps to your south
+- stone 3 steps to your south
+- cow 2 steps to your south-east
+
+You face grass at your front.",0.0,False
+140,Move South,"Step-by-step reasoning:
+1. The cow is currently 2 steps to the south-east, and I face grass (north).
+2. To interact with (attack/eat) the cow, I must face it directly.
+3. Since I can only move in four cardinal directions and currently face grass (north), I need to move to get in front of the cow.
+4. Moving south once will bring me one step closer to the cow and likely face it (south).
+5. Once in front of the cow, I can use ""Do"" to hit and eat it, fulfilling the ""Eat Cow"" achievement.
+6. Current health, food, and energy levels are good; no need to sleep or eat plants now.
+7. After dealing with the cow, I can focus on other achievements (e.g., collecting saplings, placing tables, crafting stone pickaxe).
+
+Therefore, best next step is to move south toward the cow.
+
+ACTION: Move South","You see:
+- sand 1 step to your west
+- grass 2 steps to your north
+- tree 5 steps to your north-west
+- path 1 step to your south
+- stone 2 steps to your south
+- cow 2 steps to your south-east
+
+You face path at your front.",0.0,False
+141,Move South,"Step-by-step reasoning:
+1. The cow is 2 steps to the south-east and I'm facing path (south).
+2. To interact with the cow, I need to face it directly. I currently face path (south), and the cow is to my south-east, so I must reposition.
+3. Moving south onto the path will bring me closer to the cow and may help align me to face it directly.
+4. Once I am in front of the cow, I can use ""Do"" to hit and eat it, unlocking the ""Eat Cow"" achievement.
+5. Maintaining good health and food is important, so eating the cow is beneficial.
+6. After dealing with the cow, I can proceed to collect saplings, place tables, and craft better gear.
+
+Hence, best next action is to move south onto the path.
+
+ACTION: Move South","You see:
+- grass 3 steps to your north
+- tree 6 steps to your north-west
+- sand 1 step to your west
+- stone 1 step to your south
+- path 2 steps to your south-west
+- cow 1 step to your east
+
+You face stone at your front.",0.0,False
+142,Move East,"Step-by-step reasoning:
+1. There's a cow 1 step to the east, which I can interact with by facing it directly and using ""Do"" to attack and get food.
+2. Currently, I face stone at my front, and the cow is to the east.
+3. I need to turn or move to face the cow. Since I cannot directly turn, I should move east or reposition to face the cow.
+4. If I move east, I will be adjacent to the cow and likely be able to face it.
+5. Once facing the cow, I can use ""Do"" to attack and eat it, achieving the ""Eat Cow"" achievement.
+6. After dealing with the cow, I can continue collecting resources and crafting.
+
+Therefore, the best immediate action is to move east towards the cow.
+
+ACTION: Move East","You see:
+- grass 3 steps to your north
+- tree 6 steps to your north-west
+- sand 1 step to your west
+- stone 1 step to your south
+- path 2 steps to your south-west
+- cow 1 step to your east
+
+You face cow at your front.",0.0,False
+143,Do,"Step-by-step reasoning:
+1. The cow is directly in front of me and 1 step away, which is close enough to interact with.
+2. Using ""Do"" when facing a cow will allow me to hit the cow and eventually collect meat, achieving the ""Eat Cow"" achievement.
+3. My health and food are full, so attacking is safe.
+4. Attacking now will help progress achievements and provide food.
+
+ACTION: Do","You see:
+- grass 3 steps to your north
+- tree 6 steps to your north-west
+- sand 1 step to your west
+- stone 1 step to your south
+- path 2 steps to your south-west
+- cow 1 step to your east
+
+You face cow at your front.",0.0,False
+144,Do,"Step-by-step reasoning:
+1. The cow is directly in front of me, 1 step away.
+2. Using ""Do"" will attack the cow, helping progress the ""Eat Cow"" achievement.
+3. My health and food are full, so I can safely attack without needing to heal or eat.
+4. Attacking the cow now will allow me to eventually gather meat from it.
+
+ACTION: Do","You see:
+- grass 3 steps to your north
+- tree 6 steps to your north-west
+- sand 1 step to your west
+- stone 1 step to your south
+- path 1 step to your east
+
+You face path at your front.",0.0,False
+145,Move North,"Step-by-step reasoning:
+1. I currently have wood, stone, a wood pickaxe, and a wood sword.
+2. I have not yet placed a table or crafted a stone pickaxe or any iron tools.
+3. There is a tree 6 steps to my north-west, which will provide more wood.
+4. There is sand to my west and stone to my south, both useful resources.
+5. There is a path to my east, possibly leading to useful areas.
+6. My food and health are full, energy is moderate, drink slightly low but not critical.
+7. To progress achievements, I should gather more wood (achievement 1) and harvest more resources.
+8. Moving towards the tree would help gather wood.
+9. The tree is north-west, so moving north then west towards it would be good, but I'm facing path to east.
+10. It is simpler to move north first to get closer to the tree.
+
+Action: Move North
+
+ACTION: Move North","You see:
+- sand 1 step to your west
+- grass 2 steps to your north
+- tree 5 steps to your north-west
+- path 1 step to your south
+- stone 2 steps to your south
+
+You face sand at your front.",0.0,False
+146,Move North,"Step-by-step reasoning:
+1. The tree is 5 steps to the north-west, so moving north then west will bring me closer to it for wood collection (achievement 1).
+2. Currently facing sand to my west, so moving north first is aligned with getting closer to the tree.
+3. I have full health and food but only moderate drink levels; drinking can be done when near water.
+4. No immediate danger, so progressing towards wood collection is beneficial.
+5. After collecting wood, I can place a table to unlock achievement 2.
+
+Action: Move North
+
+ACTION: Move North","You see:
+- sand 1 step to your west
+- grass 1 step to your north
+- tree 4 steps to your west
+- path 2 steps to your south
+- stone 3 steps to your south
+
+You face grass at your front.",0.0,False
+147,Move West,"Step-by-step reasoning:
+1. I have wood, stone, a wood pickaxe, and a wood sword, so I've progressed somewhat.
+2. I see a tree 4 steps to my west, which can provide more wood for achievements.
+3. The sand and grass nearby are not immediately useful for current objectives.
+4. Energy is at 5/9, not full, but I can continue for now.
+5. Drinking and eating may be needed soon, but no immediate water or food here.
+6. To get closer to the tree, I should move west.
+7. Next, I can try to collect wood from the tree for achievement 1.
+
+ACTION: Move West","You see:
+- sand 1 step to your south
+- grass 1 step to your west
+- tree 3 steps to your west
+- path 3 steps to your south
+- stone 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+148,Move West,"Step-by-step reasoning:
+1. I have wood, stone, wood pickaxe, and wood sword already.
+2. To progress, I need to collect more wood and eventually place a table to craft more tools.
+3. There is a tree 3 steps to my west, within reachable distance to start collecting wood.
+4. Since I face grass at the front, moving west gets me closer to the tree.
+5. Once next to the tree, I can use ""Do"" to collect wood.
+
+ACTION: Move West","You see:
+- water 7 steps to your north-west
+- sand 1 step to your south
+- tree 2 steps to your west
+- grass 1 step to your west
+- path 4 steps to your south-east
+- stone 5 steps to your south-east
+
+You face grass at your front.",0.0,False
+149,Move West,"Step-by-step reasoning:
+1. I see a tree 2 steps west, which is a good source of wood to collect more.
+2. I currently have 5 wood, 5 stone, and a wood pickaxe and sword, so I can keep collecting more wood to ensure I have a surplus.
+3. There is water 7 steps northwest for drinking if needed later.
+4. Since the tree is only 2 steps west, I should move west to get closer and then use ""Do"" to collect wood.
+5. Facing grass means moving west will move me towards the tree.
+
+ACTION: Move West","You see nothing away from you.
+
+You face nothing at your front.",0.0,False
+150,Move West,"Step-by-step reasoning:
+1. My current energy is 5/9, which is more than half, so I don't need to sleep yet.
+2. I have wood, stone, a wood pickaxe, and a wood sword.
+3. I need to collect more materials like saplings, coal, iron, diamonds, and also place objects like table, furnace, stone, and plants to progress through achievements.
+4. I see no immediate resource to collect or craft from here; I need to move towards known resources.
+5. Water is 7 steps northwest and there is a tree 2 steps west.
+6. Moving west towards the tree is likely the best move to start collecting more wood and possibly saplings soon.
+7. Once I have enough wood, I can place a table and then proceed to make stone pickaxe etc.
+
+ACTION: Move West","You see nothing away from you.
+
+You face nothing at your front.",0.0,False
+151,Place Table,"Step-by-step reasoning:
+1. I have enough wood and stone in inventory to place a table.
+2. Placing a table will help me craft better tools and swords, progressing achievements.
+3. I don't see any immediate resources, but standing still and placing a table now can unlock the ""Place Table"" achievement and enable next crafting steps.
+4. After placing a table, I can craft a stone pickaxe using wood and stone.
+5. This progression is essential for advancing in the game.
+
+ACTION: Place Table","You see nothing away from you.
+
+You face nothing at your front.",0.0,False
+152,Place Table,"Step-by-step reasoning:
+1. I have wood, stone, a wood pickaxe, and a wood sword in my inventory.
+2. I want to progress by crafting a stone pickaxe and a stone sword for better tools.
+3. However, to craft those, I need a table placed nearby because crafting requires a table.
+4. I currently have no table placed, so placing a table is the next logical step.
+5. Since the observation says I see nothing away from me and face nothing, I likely am standing on flat ground, able to place a table.
+6. Placing a table will unlock the achievement ""Place Table"" and enable crafting stone pickaxe and stone sword.
+
+ACTION: Place Table","You see nothing away from you.
+
+You face nothing at your front.",0.0,False
+153,Place Table,"Step-by-step reasoning:
+1. I have wood and stone in my inventory, and a wood pickaxe and wood sword crafted.
+2. I want to craft a stone pickaxe and stone sword to increase my tool quality and unlock further achievements.
+3. Crafting requires a table to be placed nearby.
+4. I currently have no table placed, so placing a table next is necessary.
+5. I have enough wood to place a table.
+6. The current observation says I see nothing around me and face nothing, so I can place a table on flat ground.
+
+ACTION: Place Table","You see nothing away from you.
+
+You face nothing at your front.",0.0,False
+154,Sleep,"Step-by-step reasoning:
+1. My energy is not at maximum (4/9), so it is a good idea to recover energy by sleeping before continuing to avoid losing efficiency.
+2. I currently have enough wood and stone to craft stone tools, but I must have a table nearby. I should place a table first, but only after regaining energy.
+3. So, the immediate priority is to sleep to regain energy.
+4. After sleeping, I will place the table, then craft stone pickaxe and stone sword.
+
+ACTION: Sleep","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see nothing away from you.
+
+You face nothing at your front.",0.0,False
+155,Noop,"Step-by-step reasoning:
+1. I need to wait until my energy is full to take effective actions. I am currently sleeping to regain energy.
+2. Once energy is full, I will place a table so I can craft better tools.
+3. Then, I can craft a stone pickaxe and stone sword using the wood and stone I already have.
+4. After crafting tools, I can focus on other achievements like collecting saplings, coal, iron, and defeating enemies.
+
+Since I am currently sleeping and cannot take actions until energy is full, I must wait.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see nothing away from you.
+
+You face nothing at your front.",0.0,False
+156,Sleep,"Step-by-step reasoning:
+1. Energy is currently 4/9, not full yet, so I cannot take any actions other than continuing to sleep.
+2. Once energy is full, I will place a table to enable crafting better tools and weapons.
+3. After placing a table, I will craft a stone pickaxe and sword to improve my abilities.
+4. Then I will explore to gather other materials and continue unlocking achievements.
+
+Currently, I must keep sleeping until energy is fully restored.
+
+ACTION: Sleep","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see nothing away from you.
+
+You face nothing at your front.",0.0,False
+157,Sleep,"Step-by-step reasoning:
+1. Since the energy is not full (4/9), I must continue sleeping to restore energy before taking any further actions.
+2. Once energy is full, I should place a table to enable crafting more advanced tools.
+3. With wood and stone in inventory, after placing the table, I will craft a stone pickaxe, which I already have 5 stones for.
+4. Then I should explore to collect other materials like coal and iron to progress toward making iron tools and swords.
+5. Defeating creatures (cow, zombie, skeleton) and collecting other materials like saplings and drinking water will help unlock achievements.
+
+For now, the immediate action is to keep sleeping until energy is restored.
+
+ACTION: Sleep","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see nothing away from you.
+
+You face nothing at your front.",-0.7,False
+158,Sleep,"Step-by-step reasoning:
+1. Energy is not full (4/9), so I must continue sleeping to restore energy before taking any other action.
+2. Once energy is full, I should:
+   - Place a table (to enable crafting).
+   - Craft a stone pickaxe using wood, stone, and the table to upgrade tools.
+3. After crafting better tools, start collecting coal, iron, and other materials.
+4. Continue exploring surroundings to defeat creatures (cow, zombies, skeletons) to unlock achievements.
+5. Also, collect saplings and drinks to unlock related achievements.
+
+Since energy is currently not full, the best immediate action is to keep sleeping.
+
+ACTION: Sleep","You see nothing away from you.
+
+You face nothing at your front.",0.0,False
+159,Place Table,"Step-by-step reasoning:
+1. My health is low (2/9), but my food is full (9/9) and drink is moderate (4/9). I might need to find and eat cow or plants to regain health.
+2. I have wood, stone, a wood pickaxe, and a wood sword in inventory, but no table placed yet. Without a table nearby, I can't craft better tools.
+3. Placing a table will allow crafting of better pickaxes and swords, which opens more achievement progress.
+4. Since I see nothing around, I should place a table to start crafting.
+5. After placing a table, I can upgrade my tools using the wood and stone collected.
+
+ACTION: Place Table","You see nothing away from you.
+
+You face nothing at your front.",0.0,False
+160,Sleep,"Step-by-step reasoning:
+1. Health is low (2/9), but food is full and drink is moderate.
+2. Energy is below maximum, so sleeping will restore energy.
+3. Restoring energy will prepare me for further actions that require energy, such as fighting or gathering.
+4. Since I see nothing around, no need to move immediately.
+5. Sleep now to restore energy, then continue with other actions, like placing the table or collecting more resources.
+
+ACTION: Sleep","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see nothing away from you.
+
+You face nothing at your front.",0.0,False
+161,Sleep,"Step-by-step reasoning:
+1. Health is low (2/9), but food is full and drink is moderate.
+2. Energy is currently 4/9 and you are sleeping to restore energy.
+3. Once energy is restored (full), you can take active steps such as moving to find more resources, placing a table, or crafting tools.
+4. Best to continue sleeping until energy is fully restored to maximize action potential.
+5. After that, you might consider moving towards trees or water to gather wood and drink.
+6. For now, since you cannot take actions while sleeping, continue sleeping.
+
+ACTION: Sleep","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see nothing away from you.
+
+You face nothing at your front.",0.0,False
+162,Sleep,"Step-by-step reasoning:
+1. Your health is quite low (2/9), so prioritizing health recovery is important.
+2. Food is full, but your drink is not at max (4/9), so replenishing drink will help restore health gradually.
+3. Energy is not full (4/9), and you are still sleeping to recover it; continue doing so to regain the ability to act effectively.
+4. Once energy is full, you should move towards grass or water to use ""Do"" to collect drink, which will start healing.
+5. After improving health, you can focus on gathering other resources like stone and wood, placing table and furnace, and crafting better tools and weapons.
+
+For now, as you cannot take any other action until energy is full and you’re still sleeping, continue sleeping.
+
+ACTION: Sleep","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see nothing away from you.
+
+You face nothing at your front.",0.0,False
+163,Sleep,"Step-by-step reasoning:
+1. Your health is quite low, but your food is full and drink is only partially full.
+2. You should continue to recover energy by sleeping until it is full since you cannot act effectively without full energy.
+3. Once energy is full, you should move towards the nearest water or grass to drink and recover health.
+4. Then, gather more basic resources such as wood and stone if possible to unlock crafting other items.
+5. Use your existing wood to place a table and craft better tools and weapons step-by-step.
+6. Progressively aim to place a furnace, gather coal and iron, and craft stone and iron tools and weapons to get all achievements.
+
+For now, as you are still sleeping and energy is not full, continue sleeping.
+
+ACTION: Sleep","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see nothing away from you.
+
+You face nothing at your front.",-0.2,True

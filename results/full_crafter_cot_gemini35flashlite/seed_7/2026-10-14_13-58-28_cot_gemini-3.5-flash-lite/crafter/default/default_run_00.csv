@@ -1,0 +1,2648 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,Move West,"To achieve our goals, we need to start by collecting basic resources like wood, which is essential for crafting tools and placing a crafting table. Looking around, there is a tree nearby to the south-west, but we are currently facing grass. We need to navigate towards the tree to collect wood.
+
+Let's move towards the tree.
+
+ACTION: Move West","You see:
+- grass 1 step to your west
+- tree 4 steps to your west
+- cow 5 steps to your south-west
+
+You face grass at your front.",0.0,False
+1,Move West,"To collect wood, we need to get close to a tree. A tree is currently located 4 steps to our west. We should continue moving west to reach the tree and eventually collect wood.
+
+ACTION: Move West","You see:
+- grass 1 step to your west
+- tree 3 steps to your west
+- cow 4 steps to your south-west
+
+You face grass at your front.",0.0,False
+2,Move West,"To make progress in Crafter, our first major goals are to collect wood and craft tools. We currently see a tree 3 steps to our west. We need to move closer to the tree to interact with it and collect wood.
+
+Step 1: Move west towards the tree.
+
+ACTION: Move West","You see:
+- grass 1 step to your west
+- sand 6 steps to your south-west
+- water 7 steps to your south-west
+- tree 2 steps to your west
+- cow 4 steps to your south-west
+
+You face grass at your front.",0.0,False
+3,Move West,"To collect wood, we need to get adjacent to the tree. The tree is currently 2 steps to our west. Let's continue moving west towards the tree.
+
+ACTION: Move West","You see:
+- grass 1 step to your north
+- sand 5 steps to your south-west
+- water 6 steps to your south-west
+- tree 1 step to your west
+- cow 3 steps to your south-west
+
+You face tree at your front.",0.0,False
+4,Do,"We are now facing the tree, which is 1 step to our west. To collect wood and complete the first achievement (""Collect Wood""), we need to use the ""Do"" action while facing the tree.
+
+ACTION: Do","You see:
+- grass 1 step to your west
+- sand 5 steps to your south-west
+- water 6 steps to your south-west
+- cow 2 steps to your south
+- tree 3 steps to your south
+
+You face grass at your front.",1.0,False
+5,Place Table,"We have successfully collected wood, completing the first achievement (""Collect Wood""). Next, we should place a table to unlock the ""Place Table"" achievement and enable crafting. To do this, we need to be on or facing suitable flat ground. Currently, we face grass.
+
+Step-by-step plan:
+1. Use the ""Place Table"" action to place the crafting table in front of us.
+
+ACTION: Place Table","You see:
+- grass 1 step to your west
+- sand 5 steps to your south-west
+- water 6 steps to your south-west
+- cow 2 steps to your south
+- tree 3 steps to your south
+
+You face grass at your front.",0.0,False
+6,Place Table,"To make progress, we need to unlock more achievements. We currently have 1 wood in our inventory. The next logical steps are to place a table (to achieve ""Place Table"") and then craft a wood pickaxe (to achieve ""Make Wood Pickaxe"") or a wood sword. 
+
+Since we are facing grass, we can place the table directly in front of us.
+
+Step-by-step plan:
+1. Place the table using the ""Place Table"" action.
+
+ACTION: Place Table","You see:
+- grass 1 step to your west
+- sand 5 steps to your south-west
+- water 6 steps to your south-west
+- cow 2 steps to your south
+- tree 3 steps to your south
+
+You face grass at your front.",0.0,False
+7,Place Table,"To place a table, we need to use the ""Place Table"" action. Although we tried this previously, let's execute it again to ensure the table is placed so we can proceed with crafting tools.
+
+ACTION: Place Table","You see:
+- grass 1 step to your west
+- sand 5 steps to your south-west
+- water 6 steps to your south-west
+- cow 1 step to your south
+- tree 3 steps to your south
+
+You face grass at your front.",0.0,False
+8,Place Table,"To place a table, we first need to make sure we have wood in our inventory (which we do: 1 wood). We need to stand near or face a valid spot and execute the `Place Table` action. Let's place the table now.
+
+ACTION: Place Table","You see:
+- grass 1 step to your west
+- sand 5 steps to your south-west
+- water 6 steps to your south-west
+- cow 1 step to your south
+- tree 3 steps to your south
+
+You face grass at your front.",0.0,False
+9,Place Table,"We need to place a table to unlock further crafting options like making a wood pickaxe and wood sword, and eventually progress through other achievements. Let's place the table.
+
+ACTION: Place Table","You see:
+- grass 1 step to your west
+- sand 5 steps to your south-west
+- water 6 steps to your south-west
+- cow 1 step to your south
+- tree 3 steps to your south
+
+You face grass at your front.",0.0,False
+10,Place Table,"We need to place a crafting table on the ground so we can use it to craft tools like a wood pickaxe and wood sword. Currently, we have 1 wood in our inventory. Let's place the table.
+
+ACTION: Place Table","You see:
+- grass 1 step to your west
+- sand 5 steps to your south-west
+- water 6 steps to your south-west
+- cow 1 step to your south
+- tree 3 steps to your south
+
+You face grass at your front.",0.0,False
+11,Place Table,"To complete achievements and progress in the game, we need to place a crafting table using the wood in our inventory. Let's place the table.
+
+ACTION: Place Table","You see:
+- grass 1 step to your west
+- sand 5 steps to your south-west
+- water 6 steps to your south-west
+- cow 2 steps to your south-west
+- tree 3 steps to your south
+
+You face grass at your front.",0.0,False
+12,Place Table,"To place a crafting table, we need to use the `Place Table` action. Since the table needs to be placed on an empty space in front of us, and currently we are facing grass, let's try placing the table again.
+
+ACTION: Place Table","You see:
+- grass 1 step to your north
+- sand 5 steps to your south-west
+- water 6 steps to your south-west
+- cow 1 step to your west
+- tree 3 steps to your south
+
+You face cow at your front.",0.0,False
+13,Move South,"To place a crafting table, we need wood in our inventory (which we have: 1 wood) and we need to face an empty space or a valid surface. Currently, we face a cow. We should turn or move to find an open space where we can place the table. Let's move south to get some space.
+
+ACTION: Move South","You see:
+- grass 1 step to your west
+- sand 4 steps to your west
+- water 5 steps to your south-west
+- cow 2 steps to your north-west
+- tree 2 steps to your south
+
+You face grass at your front.",0.0,False
+14,Place Table,"To place a crafting table, we need to face an empty space (grass) and have wood in our inventory. Currently, we have 1 wood and we are facing grass. 
+
+Let's place the table to complete the ""Place Table"" achievement and unlock more crafting options.
+
+ACTION: Place Table","You see:
+- grass 1 step to your west
+- sand 4 steps to your west
+- water 5 steps to your south-west
+- cow 3 steps to your north-west
+- tree 2 steps to your south
+
+You face grass at your front.",0.0,False
+15,Place Table,"To place a crafting table, we need to have wood in our inventory (which we do) and face an empty space like grass (which we are currently facing). Placing the table will fulfill the ""Place Table"" achievement and allow us to craft tools like a wood pickaxe and wood sword.
+
+ACTION: Place Table","You see:
+- grass 1 step to your west
+- sand 4 steps to your west
+- water 5 steps to your south-west
+- cow 3 steps to your north-west
+- tree 2 steps to your south
+
+You face grass at your front.",0.0,False
+16,Place Table,"To place a crafting table, we need wood in our inventory (which we have: 1 wood) and we need to face an empty space like grass (which we are facing). Placing the table will complete the ""Place Table"" achievement and allow us to craft items next.
+
+ACTION: Place Table","You see:
+- grass 1 step to your west
+- sand 4 steps to your west
+- water 5 steps to your south-west
+- cow 3 steps to your north-west
+- tree 2 steps to your south
+
+You face grass at your front.",0.0,False
+17,Place Table,"To place a table, we need at least one wood in our inventory (which we have) and to face an open space like grass (which we are currently facing). Placing the table will achieve the ""Place Table"" goal.
+
+ACTION: Place Table","You see:
+- grass 1 step to your west
+- sand 4 steps to your west
+- water 5 steps to your south-west
+- cow 3 steps to your north-west
+- tree 2 steps to your south
+
+You face grass at your front.",0.0,False
+18,Place Table,"To place a table, we need at least one wood in our inventory (which we have) and to face an open space like grass (which we are currently facing). Placing the table will achieve the ""Place Table"" goal.
+
+ACTION: Place Table","You see:
+- grass 1 step to your west
+- sand 4 steps to your west
+- water 5 steps to your south-west
+- cow 3 steps to your north-west
+- tree 2 steps to your south
+
+You face grass at your front.",0.0,False
+19,Place Table,"We currently have 1 wood in our inventory and are facing grass, which is an open space. To complete the ""Place Table"" achievement, we simply need to use the `Place Table` action while facing a valid tile.
+
+ACTION: Place Table","You see:
+- grass 1 step to your west
+- sand 4 steps to your west
+- water 5 steps to your south-west
+- cow 4 steps to your north-west
+- tree 2 steps to your south
+
+You face grass at your front.",0.0,False
+20,Place Table,"To place a table, we need to use the `Place Table` action. We already have 1 wood in our inventory and are currently facing open grass. 
+
+ACTION: Place Table","You see:
+- grass 1 step to your west
+- sand 4 steps to your west
+- water 5 steps to your south-west
+- cow 4 steps to your north-west
+- tree 2 steps to your south
+
+You face grass at your front.",0.0,False
+21,Move South,"To complete the achievements, we first need to collect more wood so we have enough resources to craft items and place a table. The nearest tree is 2 steps to our south. Let's move south towards the tree.
+
+ACTION: Move South","You see:
+- grass 1 step to your west
+- sand 3 steps to your west
+- water 3 steps to your south
+- tree 1 step to your south
+
+You face tree at your front.",0.0,False
+22,Do,"To collect wood, we need to be facing a tree and use the ""Do"" action. Currently, there is a tree 1 step to our south, and we are facing it. Let's harvest the wood from the tree.
+
+ACTION: Do","You see:
+- grass 1 step to your west
+- sand 3 steps to your west
+- water 3 steps to your south
+- tree 2 steps to your south-east
+
+You face grass at your front.",0.0,False
+23,Move South,"To collect more wood and eventually build a table and tools, we need to find and gather more wood. Let's move towards the tree to our south-east.
+
+ACTION: Move South","You see:
+- grass 1 step to your west
+- sand 4 steps to your north-west
+- water 2 steps to your south
+- tree 1 step to your east
+
+You face grass at your front.",0.0,False
+24,Move East,"To collect more wood and build up our inventory, we should gather wood from the nearby tree. The tree is 1 step to our east. 
+
+First, let's turn towards the tree or move to it. Since the tree is 1 step to our east, let's move east to be adjacent to it, then we can punch/collect it.
+
+ACTION: Move East","You see:
+- grass 1 step to your west
+- sand 4 steps to your north-west
+- water 2 steps to your south
+- tree 1 step to your east
+
+You face tree at your front.",0.0,False
+25,Do,"To collect more wood, we are already facing the tree 1 step to our east. We can collect wood from it directly using the ""Do"" action.
+
+ACTION: Do","You see:
+- grass 1 step to your west
+- sand 4 steps to your north-west
+- water 2 steps to your south
+
+You face grass at your front.",0.0,False
+26,Move North,"To make progress, we need to collect more resources, specifically more wood to place a table and craft tools. Let's move around to find more trees.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- sand 3 steps to your west
+- water 3 steps to your south
+
+You face grass at your front.",0.0,False
+27,Move North,Move North,"You see:
+- grass 1 step to your west
+- sand 4 steps to your west
+- water 5 steps to your south-west
+- cow 3 steps to your north
+
+You face grass at your front.",0.0,False
+28,Place Table,"To craft items and advance in the game, you need to place a crafting table on the ground. Since you have 3 wood in your inventory, you can place a table and then craft tools like a wood pickaxe and wood sword.
+
+ACTION: Place Table","You see:
+- grass 1 step to your west
+- sand 4 steps to your west
+- water 5 steps to your south-west
+- table 1 step to your north
+
+You face table at your front.",1.0,False
+29,Move East,"To progress in the game, you need to collect more wood so that you have enough resources to craft a wood pickaxe and a wood sword. Looking around, there are no trees immediately in front of you, but you need to find more wood. However, you currently have 1 wood in your inventory and a table placed nearby. Let's move towards a tree to collect more wood. Wait, looking at the previous observations, you chopped down trees, but you need at least 1 wood for a pickaxe and table usage, and you currently only have 1 wood. To make a wood pickaxe, you need a nearby table and wood in inventory (usually 1 wood is enough if you already placed the table, but you also need wood for other tools). Let's explore and find more wood. 
+
+Let's move East to explore and find trees.
+
+ACTION: Move East","You see:
+- grass 1 step to your west
+- sand 5 steps to your south-west
+- water 6 steps to your south-west
+- table 2 steps to your north-west
+
+You face grass at your front.",0.0,False
+30,Move East,"To craft a wood pickaxe, you need wood in your inventory and a nearby table. Currently, you have 1 wood in your inventory and you have already placed a table nearby (though it is a couple of steps away, you can use it or place another if needed, but let's check your requirements). Wait, crafting a wood pickaxe requires wood in your inventory. Let's make sure you have enough wood. You currently have 1 wood. Let's find more wood by locating and chopping down a tree, or if 1 wood is enough, make the wood pickaxe. However, typically crafting requires wood in inventory. Let's gather more wood first to be safe, or search for a tree. 
+
+Looking around, there are no trees in your immediate view. Let's move East to explore and find trees.
+
+ACTION: Move East","You see:
+- grass 1 step to your west
+- water 7 steps to your south-west
+- table 3 steps to your north-west
+
+You face grass at your front.",0.0,False
+31,Move North,"To make a wood pickaxe, you need at least one wood in your inventory and to be near a crafting table. You currently have 1 wood in your inventory and a table is located nearby to your north-west. 
+
+Let's approach the table and craft a wood pickaxe to achieve ""Make Wood Pickaxe"".
+
+First, let's move toward the table.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- table 2 steps to your west
+- cow 4 steps to your north-west
+
+You face grass at your front.",0.0,False
+32,Move West,"To craft a wood pickaxe, we need to be near a table and have wood in our inventory. We already have 1 wood and a table is located 2 steps to our west. Let's move towards the table so we can interact with it and craft our pickaxe.
+
+ACTION: Move West","You see:
+- grass 1 step to your north
+- sand 6 steps to your south-west
+- water 7 steps to your south-west
+- table 1 step to your west
+- cow 3 steps to your north
+
+You face table at your front.",0.0,False
+33,Make Wood Pickaxe,"To craft a wood pickaxe, we need to be near a table and have wood in our inventory. We currently have 1 wood in our inventory and are standing right in front of a table. We can now use the ""Make Wood Pickaxe"" action to achieve our goal.
+
+ACTION: Make Wood Pickaxe","You see:
+- grass 1 step to your north
+- sand 6 steps to your south-west
+- water 7 steps to your south-west
+- cow 4 steps to your north-west
+- table 1 step to your west
+
+You face table at your front.",1.0,False
+34,Move North,"To make progress towards more advanced tools and achievements, our next goal should be to craft a wood sword, which also requires wood in our inventory and a nearby table. Currently, we have a wood pickaxe and used up our wood, so we need to collect more wood first. Let's find a tree.
+
+Looking around, we are right next to a table. We need to move around to find a tree to chop down for more wood.
+
+Let's move North to explore and look for a tree.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+- cow 4 steps to your north-west
+- table 2 steps to your south-west
+
+You face grass at your front.",0.0,False
+35,Move North,"We need to collect more wood to craft a wood sword and other tools. Let's move North to explore and find a tree.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- cow 4 steps to your north-west
+- table 3 steps to your south-west
+
+You face grass at your front.",0.0,False
+36,Move North,"To proceed, we need more wood to craft a wood sword and advance our tools. Let's move around to find a tree to collect more wood.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- cow 4 steps to your south-west
+- table 4 steps to your south-west
+
+You face grass at your front.",0.0,False
+37,Move North,"To get more wood and fulfill our goals of crafting tools and weapons, we need to find and collect wood from trees. Currently, we are facing open grass, so we should explore the area to locate a tree.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- cow 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+38,Move North,"To make progress and achieve more goals, we need more wood to craft a wood sword, place a furnace, and eventually mine stone. Since we are in an open grassy area, we should explore to find a tree.
+
+Let's move North to continue exploring.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+39,Move North,"We need to find trees to collect more wood so we can craft a wood sword and gather resources. Let's continue moving North to find trees or other resources.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+40,Move North,"To progress further, we need to explore and find more resources like wood (to make a wood sword and other tools) or stone. Let's continue moving North to explore new areas.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- tree 6 steps to your north-east
+
+You face grass at your front.",0.0,False
+41,Move North,"We need to collect more wood to craft a wood sword and other tools. There is a tree visible towards the north-east. Let's move towards it to collect wood.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- tree 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+42,Move North,"To collect wood, we need to reach the tree visible to the north-east. Let's continue moving north towards the tree.
+
+ACTION: Move North","You see:
+- tree 4 steps to your north-east
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+43,Move North,"To reach the tree located to the north-east, we should continue moving north.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- tree 3 steps to your east
+- cow 5 steps to your north-west
+
+You face grass at your front.",0.0,False
+44,Move East,"To get closer to the tree to collect wood (and potentially saplings/apples), we need to move towards it. The tree is 3 steps to the east. Let's move east.
+
+ACTION: Move East","You see:
+- grass 1 step to your west
+- tree 2 steps to your east
+- cow 6 steps to your north-east
+
+You face grass at your front.",0.0,False
+45,Move East,"To get closer to the tree to collect wood, we should continue moving east towards it. 
+
+ACTION: Move East","You see:
+- grass 1 step to your west
+- tree 1 step to your east
+- cow 5 steps to your north-east
+
+You face tree at your front.",0.0,False
+46,Do,"To collect wood, we need to interact with the tree directly in front of us using the ""Do"" action.
+
+ACTION: Do","You see:
+- grass 1 step to your west
+- cow 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+47,Move North,"To collect more resources, especially wood and saplings, we should explore the surrounding area or interact with nearby trees if any are visible. Currently, the tree in front of us was just harvested (as we now have 1 wood). We should look around for more wood or animals to hunt. Let's move around to find more trees.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- tree 4 steps to your north-west
+- cow 4 steps to your north-east
+
+You face grass at your front.",0.0,False
+48,Move North,"To progress in the game, we need more wood to craft better tools, weapons, and to place a table or furnace later. There is a tree visible 4 steps to our north-west. We should move towards it to collect more wood.
+
+ACTION: Move North","You see:
+- tree 3 steps to your north-west
+- grass 1 step to your west
+- cow 3 steps to your east
+
+You face grass at your front.",0.0,False
+49,Move North,"To reach the tree located 3 steps to our north-west, we should move towards the north-west direction. Let's move North first to get closer to the tree so we can collect more wood.
+
+ACTION: Move North","You see:
+- tree 2 steps to your north-west
+- grass 1 step to your west
+- cow 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+50,Move North,"We need to collect more wood. There is a tree 2 steps to our north-west. We need to move North, then West (or vice-versa) to reach it. Currently, we face grass at our front. Let's move North to get closer to the tree.
+
+ACTION: Move North","You see:
+- grass 1 step to your north
+- tree 1 step to your west
+- cow 4 steps to your north-west
+
+You face grass at your front.",0.0,False
+51,Move West,"We need to collect more wood. There is a tree 1 step to our west. Let's move West to face the tree, then use the 'Do' action to collect more wood.
+
+ACTION: Move West","You see:
+- grass 1 step to your north
+- tree 1 step to your west
+- cow 4 steps to your north-west
+
+You face tree at your front.",0.0,False
+52,Do,"We are facing a tree to our west and we have a wood pickaxe in our inventory. Let's collect more wood by using the 'Do' action.
+
+ACTION: Do","You see:
+- grass 1 step to your west
+- tree 5 steps to your north-west
+- cow 4 steps to your north-west
+
+You face grass at your front.",0.0,False
+53,Move North,"We need to continue gathering resources like wood and stone, and eventually build a table to craft better tools. Right now, let's explore and find more wood or stone. 
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- tree 4 steps to your west
+- cow 3 steps to your north-west
+
+You face grass at your front.",0.0,False
+54,Move North,"We have some wood and a wood pickaxe. We need more resources like wood and stone to build a table and progress further. Let's head towards the nearby trees to collect more wood.
+
+ACTION: Move North","You see:
+- tree 4 steps to your west
+- grass 1 step to your west
+- cow 2 steps to your west
+
+You face grass at your front.",0.0,False
+55,Move West,"To progress in the game, we need more wood to craft a table and other essential tools like a wood sword or pickaxe. There is a tree nearby to the west. Let's move closer to it to collect more wood.
+
+ACTION: Move West","You see:
+- grass 1 step to your north
+- tree 3 steps to your west
+- zombie 5 steps to your north-west
+- cow 1 step to your west
+
+You face cow at your front.",0.0,False
+56,Do,"To progress further, we should defeat the cow to get food, or collect more wood. Since a cow is right in front of us, we can attack it using the ""Do"" action to gather food and health items. Let's attack the cow.
+
+ACTION: Do","You see:
+- grass 1 step to your north
+- tree 3 steps to your west
+- zombie 4 steps to your north-west
+- cow 1 step to your west
+
+You face cow at your front.",0.0,False
+57,Do,"To progress further, we can attack the cow in front of us to get food and complete the ""Eat Cow"" achievement (once we defeat it). Since we are facing the cow, we should use the ""Do"" action to hit it.
+
+ACTION: Do","You see:
+- grass 1 step to your west
+- tree 3 steps to your west
+- zombie 4 steps to your north-west
+- cow 2 steps to your north-west
+
+You face grass at your front.",0.0,False
+58,Move North,"We need to collect more resources, craft better tools, and eventually defeat monsters or eat food to progress. Right now, we have some wood and a wood pickaxe. There's a tree nearby or we can explore further. Let's move towards the tree to collect more wood.
+
+ACTION: Move North","You see:
+- grass 1 step to your north
+- tree 2 steps to your west
+- cow 1 step to your west
+
+You face grass at your front.",0.0,False
+59,Move West,"To progress further, we need more wood and to craft a table to start making better tools and structures. Let's move West toward the tree, then collect more wood.
+
+ACTION: Move West","You see:
+- grass 1 step to your north
+- tree 2 steps to your west
+- cow 1 step to your west
+
+You face cow at your front.",0.0,False
+60,Move West,"We currently have 2 wood and a wood pickaxe. Let's get more wood by harvesting trees, and eventually craft a table to place so we can progress to better tools and achievements.
+
+Let's move West toward the cow and the trees.
+
+ACTION: Move West","You see:
+- grass 1 step to your north
+- tree 2 steps to your west
+- cow 1 step to your west
+
+You face cow at your front.",0.0,False
+61,Move North,"We need to collect more resources (wood) and build a table. Let's move around the cow toward the trees to gather more wood.
+
+ACTION: Move North","You see:
+- sand 6 steps to your north-west
+- grass 1 step to your west
+- tree 2 steps to your west
+- cow 2 steps to your south-west
+
+You face grass at your front.",0.0,False
+62,Move West,"To build a table and progress, we need more wood. There is a tree 2 steps to our west. Let's move towards it to collect more wood.
+
+ACTION: Move West","You see:
+- grass 1 step to your north
+- tree 1 step to your west
+- sand 5 steps to your north-west
+- cow 1 step to your south
+
+You face tree at your front.",0.0,False
+63,Do,"We are right in front of a tree and currently have 2 wood in our inventory. Let's chop this tree to get more wood so we can progress to making weapons or tools.
+
+ACTION: Do","You see:
+- grass 1 step to your west
+- tree 2 steps to your south-west
+- sand 5 steps to your north-west
+- cow 1 step to your south
+
+You face grass at your front.",0.0,False
+64,Move South,"We need to collect more wood and eventually build a table to craft advanced tools like a wood sword or a stone pickaxe. Let's move towards the tree nearby to chop it.
+
+ACTION: Move South","You see:
+- grass 1 step to your west
+- tree 2 steps to your south-west
+- sand 5 steps to your north-west
+- cow 1 step to your south
+
+You face cow at your front.",0.0,False
+65,Place Table,"We have 3 wood and a wood pickaxe. Let's place a crafting table so we can make a wood sword and then hunt some cows for food.
+
+ACTION: Place Table","You see:
+- grass 1 step to your west
+- tree 2 steps to your south-west
+- sand 5 steps to your north-west
+- cow 1 step to your south
+
+You face cow at your front.",0.0,False
+66,Make Wood Sword,"To progress in the game, we need to craft a wood sword to better defend ourselves and hunt for food (cows). Since we now have wood and have placed our crafting table, we can craft the wood sword.
+
+ACTION: Make Wood Sword","You see:
+- grass 1 step to your west
+- tree 2 steps to your south-west
+- sand 5 steps to your north-west
+- cow 1 step to your south
+
+You face cow at your front.",0.0,False
+67,Make Wood Sword,"We have wood in our inventory and a table placed nearby, which allows us to craft a wood sword. A wood sword will make it much easier to defeat enemies and hunt cows for food. 
+
+ACTION: Make Wood Sword","You see:
+- grass 1 step to your west
+- tree 2 steps to your south-west
+- sand 5 steps to your north-west
+- cow 2 steps to your south-east
+
+You face grass at your front.",0.0,False
+68,Make Wood Sword,"We need to make a wood sword to complete achievement #7. We already collected wood and placed a table in previous steps, and now we have 3 wood in our inventory. Let's craft the wood sword.
+
+ACTION: Make Wood Sword","You see:
+- grass 1 step to your west
+- tree 2 steps to your south-west
+- sand 5 steps to your north-west
+- cow 2 steps to your south-east
+
+You face grass at your front.",0.0,False
+69,Make Wood Sword,"We need to make a wood sword (achievement #7). We already have a wood pickaxe and 3 wood in our inventory, and a table is nearby. Let's make the wood sword now.
+
+ACTION: Make Wood Sword","You see:
+- grass 1 step to your west
+- tree 2 steps to your south-west
+- sand 5 steps to your north-west
+- cow 2 steps to your south-east
+
+You face grass at your front.",0.0,False
+70,Place Table,"To make a Wood Sword, we need a nearby table and wood in our inventory. Let's make sure we are standing next to the table we placed earlier, or place a new one if needed, and then craft the wood sword.
+
+Let's place a table first to ensure one is right in front or nearby, or just craft it directly if the table is already adjacent. Wait, we placed a table earlier, but let's check the surroundings or place one to be safe. Since we have 3 wood, let's place a table, then we can craft items.
+
+ACTION: Place Table","You see:
+- grass 1 step to your west
+- tree 2 steps to your south-west
+- sand 5 steps to your north-west
+- table 1 step to your south
+- cow 2 steps to your south-east
+
+You face table at your front.",0.0,False
+71,Make Wood Sword,"To make a Wood Sword, we need wood in our inventory and a nearby table. We currently have 1 wood and a table right in front of us. Let's craft the wood sword!
+
+ACTION: Make Wood Sword","You see:
+- grass 1 step to your west
+- tree 2 steps to your south-west
+- sand 5 steps to your north-west
+- table 1 step to your south
+- cow 2 steps to your south-east
+
+You face table at your front.",1.0,False
+72,Move South,"To continue progressing through the achievements, we should look for animals to hunt for food, collect more resources, or explore. Since we already made a wood pickaxe and wood sword, let's find the nearby cow to defeat it and eat it for food to gain the ""Eat Cow"" achievement.
+
+The cow is currently located 2 steps to our south-east. Let's move towards it to get into position to attack.
+
+ACTION: Move South","You see:
+- grass 1 step to your west
+- tree 2 steps to your south-west
+- sand 5 steps to your north-west
+- table 1 step to your south
+- cow 2 steps to your south-east
+
+You face table at your front.",0.0,False
+73,Move South,"To get the ""Eat Cow"" achievement, we need to locate a cow, defeat it, and then eat it. Currently, there is a cow 2 steps to our south-east. Since we are facing a table right in front of us, we should first move around it or away from it to navigate towards the cow. 
+
+Let's move south to get closer to the table/cow area.
+
+ACTION: Move South","You see:
+- grass 1 step to your west
+- tree 2 steps to your south-west
+- sand 5 steps to your north-west
+- table 1 step to your south
+- cow 2 steps to your south-east
+
+You face table at your front.",0.0,False
+74,Move East,"We need to eat a cow, but first we need to attack it with our weapon to defeat it. A cow is currently located 2 steps to our south-east. Since there is a table right in front of us blocking direct movement south, we should step around it to get closer to the cow. Let's move east to position ourselves properly.
+
+ACTION: Move East","You see:
+- sand 6 steps to your north-west
+- grass 1 step to your west
+- tree 3 steps to your south-west
+- table 2 steps to your south-west
+- cow 2 steps to your south
+
+You face grass at your front.",0.0,False
+75,Move South,"The cow is located 2 steps to our south. We need to get closer to it, defeat it, and then eat it to gain the ""Eat Cow"" achievement. We are currently facing grass to the north. Let's move south towards the cow.
+
+ACTION: Move South","You see:
+- grass 1 step to your north
+- tree 2 steps to your west
+- table 1 step to your west
+- cow 2 steps to your south-west
+
+You face grass at your front.",0.0,False
+76,Move South,"We need to reach and defeat the cow to eat it for the ""Eat Cow"" achievement. The cow is currently located 2 steps to our south-west. We are facing north, so we should move south to get closer to the cow.
+
+ACTION: Move South","You see:
+- grass 1 step to your north
+- tree 3 steps to your west
+- table 2 steps to your north-west
+- cow 1 step to your west
+
+You face grass at your front.",0.0,False
+77,Move West,"We are close to the cow and want to attack it to get the ""Eat Cow"" achievement. The cow is 1 step to our west. We should turn or move towards it to hit it with our wood sword. Let's move West to face the cow and attack it.
+
+ACTION: Move West","You see:
+- grass 1 step to your west
+- tree 3 steps to your west
+- cow 2 steps to your west
+- table 2 steps to your north-west
+
+You face grass at your front.",0.0,False
+78,Move West,"To get the ""Eat Cow"" achievement, we need to locate a cow, attack it (defeat it), and then eat the drop. We currently have a wood sword and a wood pickaxe. The cow is currently 2 steps to our west. 
+
+Let's move West to get closer to the cow so we can attack it with `Do`.
+
+ACTION: Move West","You see:
+- grass 1 step to your south
+- tree 2 steps to your west
+- cow 1 step to your west
+- table 1 step to your north
+
+You face cow at your front.",0.0,False
+79,Do,"We are facing a cow, and we have a wood sword in our inventory. To get the ""Eat Cow"" achievement, we need to hit the cow until it is defeated, and then collect/eat the dropped food. Hitting it is done with the `Do` action when facing it.
+
+ACTION: Do","You see:
+- grass 1 step to your west
+- tree 2 steps to your west
+- table 1 step to your north
+
+You face grass at your front.",1.0,False
+80,Move West,"To progress further, we need to gather resources, defeat monsters, and achieve other goals. Currently, we need to collect more wood and other basic materials, or explore to find zombies, skeletons, and other animals. Let's first turn towards the tree to our west, or move around to explore and collect wood. 
+
+Since we faced grass and need more wood, let's move west toward the tree.
+
+ACTION: Move West","You see:
+- grass 1 step to your south
+- tree 1 step to your west
+- table 2 steps to your north-east
+
+You face tree at your front.",0.0,False
+81,Do,"To collect more wood and build up our resources for making stone tools, we should gather wood from the tree in front of us.
+
+ACTION: Do","You see:
+- grass 1 step to your west
+- tree 1 step to your north
+- table 2 steps to your north-east
+
+You face grass at your front.",0.0,False
+82,Move North,"To collect more wood for crafting and surviving, we should face the tree and gather wood from it. 
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- tree 1 step to your north
+- table 2 steps to your north-east
+
+You face tree at your front.",0.0,False
+83,Do,"To collect more wood to build items and survive, we need to gather wood from the tree in front of us.
+
+ACTION: Do","You see:
+- grass 1 step to your west
+- tree 2 steps to your south-west
+- table 2 steps to your north-east
+
+You face grass at your front.",0.0,False
+84,Move South,"To gather more wood for crafting (like a pickaxe or other tools), we need to face a tree and harvest it. Currently, there is a tree nearby to the south-west, but we can also look for trees or move toward them. Let's move towards the south-west to find the tree.
+
+ACTION: Move South","You see:
+- tree 1 step to your west
+- grass 1 step to your north
+- table 3 steps to your north-east
+
+You face grass at your front.",0.0,False
+85,Move West,"To progress in Crafter and work towards more advanced tools (like stone or iron pickaxes) and achievements, we need more resources like wood and stone. There is a tree directly to our west. We should face it and harvest it to collect more wood.
+
+1. Turn/move towards the tree to face it.
+2. The tree is 1 step to our west. We need to move west to be right next to it or face it. Wait, we can face west by moving west or executing an action, but let's check our facing. Currently, we face grass at our front. Let's move West first to get close to the tree.
+
+ACTION: Move West","You see:
+- tree 1 step to your west
+- grass 1 step to your north
+- table 3 steps to your north-east
+
+You face tree at your front.",0.0,False
+86,Do,"To collect more wood for future crafting, we need to gather wood from the tree currently in front of us.
+
+ACTION: Do","You see:
+- tree 5 steps to your north-west
+- grass 1 step to your west
+- table 3 steps to your north-east
+
+You face grass at your front.",0.0,False
+87,Move North,"To continue progressing in the game, we need more wood to craft other tools and items (like a stone pickaxe, once we find stone). The nearest tree is to our north-west, and we currently face grass. We should move towards the tree to collect more wood.
+
+Let's move North to get closer to the tree.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- tree 4 steps to your west
+- table 2 steps to your north-east
+
+You face grass at your front.",0.0,False
+88,Move West,"To collect more wood and continue gathering resources (such as stone for a stone pickaxe), we need to reach the nearby trees. Let's move towards the tree to our west.
+
+ACTION: Move West","You see:
+- grass 1 step to your west
+- tree 3 steps to your west
+- table 3 steps to your north-east
+
+You face grass at your front.",0.0,False
+89,Move West,"To progress further in Crafter, we need to gather stone to make a stone pickaxe, and we also need to collect more wood and other materials. We currently have a wood pickaxe and wood sword. Let's move towards the trees further west to collect more wood.
+
+ACTION: Move West","You see:
+- grass 1 step to your west
+- tree 2 steps to your west
+- table 4 steps to your north-east
+
+You face grass at your front.",0.0,False
+90,Move West,"To collect more wood to build up our inventory and prepare for crafting tools, we should move towards the tree in front of us.
+
+ACTION: Move West","You see:
+- grass 1 step to your north
+- tree 1 step to your west
+- table 5 steps to your north-east
+
+You face tree at your front.",0.0,False
+91,Do,"To collect more wood and ensure we have sufficient materials for tool upgrades or placing tables/furnaces, we should interact with the tree directly in front of us.
+
+ACTION: Do","You see:
+- grass 1 step to your west
+- tree 3 steps to your north-west
+- table 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+92,Place Table,"To make progress toward our achievements, we need to gather more resources (like stone and coal) and eventually craft better tools (like a stone pickaxe). To do this, we should place a table nearby, but first, let's explore or position ourselves to find stone or gather more wood if needed. Right now, let's place the table we have in our inventory to enable crafting advanced tools once we get stone.
+
+Let's place the table.
+
+ACTION: Place Table","You see:
+- grass 1 step to your north
+- tree 3 steps to your north-west
+- table 1 step to your west
+
+You face table at your front.",0.0,False
+93,Move North,"We need to find stone and coal to progress to stone tools, a furnace, and iron tools. To find stone, we should explore the map. We already have a wood pickaxe, wood sword, and we placed a table earlier. Let's move around to search for stone.
+
+ACTION: Move North","You see:
+- tree 2 steps to your north-west
+- grass 1 step to your west
+- table 2 steps to your south-west
+
+You face grass at your front.",0.0,False
+94,Move North,"We need to find stone and coal to craft stone pickaxes, swords, and progress further. Let's explore by moving north to find stone, iron, and other resources.
+
+ACTION: Move North","You see:
+- tree 1 step to your west
+- grass 1 step to your north
+- table 3 steps to your south-west
+- sand 4 steps to your north-east
+
+You face grass at your front.",0.0,False
+95,Move North,"To progress further, we need to gather more resources like stone and coal to craft stone tools. Let's move north to explore the area for stone and other useful materials.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- tree 1 step to your north
+- table 4 steps to your south-west
+- sand 3 steps to your north-east
+
+You face tree at your front.",0.0,False
+96,Do,"To progress further and achieve more milestones, we need to gather more wood and explore for stone and other resources. Let's collect more wood from the tree in front of us.
+
+ACTION: Do","You see:
+- grass 1 step to your west
+- tree 2 steps to your south-west
+- table 4 steps to your south-west
+- sand 3 steps to your north-east
+
+You face grass at your front.",0.0,False
+97,Move North East,"To progress further, we need to gather more resources like stone and coal to craft better tools (stone pickaxe, stone sword) and place a furnace. We currently have a wood pickaxe and a wood sword, and 3 wood in our inventory. Let's explore towards the sand/stone area to find stone.
+
+Let's move towards the north-east to find stone.
+
+ACTION: Move North East","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- tree 2 steps to your south-west
+- table 4 steps to your south-west
+- sand 3 steps to your north-east
+
+You face grass at your front.",0.0,False
+98,Move North,"To progress in the game, we need to gather stone to make a stone pickaxe and stone sword. Stone is typically found near sand or mountainous areas. Let's head towards the sand/stone area to the north-east.
+
+Since we can only move in cardinal directions (North, South, East, West), let's move North first.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- tree 2 steps to your west
+- sand 2 steps to your north-east
+- table 7 steps to your south-east
+
+You face grass at your front.",0.0,False
+99,Move North,"We have wood, a wood pickaxe, and a wood sword. To progress, we need to collect stone. Stone is usually found near sand. Let's move towards the sand located to our north-east by moving North.
+
+ACTION: Move North","You see:
+- grass 1 step to your north
+- tree 1 step to your west
+- sand 1 step to your east
+
+You face grass at your front.",0.0,False
+100,Move East,"To progress further, we need to collect stone to make stone tools. Stone is typically found near sand or water. We can see sand to our east. Let's move towards the sand to locate stone.
+
+ACTION: Move East","You see:
+- grass 1 step to your west
+- tree 2 steps to your west
+- sand 1 step to your north
+
+You face sand at your front.",0.0,False
+101,Move North,Move North,"You see:
+- tree 3 steps to your south-west
+- grass 1 step to your west
+- sand 1 step to your north
+
+You face sand at your front.",0.0,False
+102,Move North,"To progress further, we need to gather more resources like stone, coal, and iron, and eventually build stone and iron tools. Since we already have a wood pickaxe and wood sword, we can now mine stone. Stone is typically found near water/sand or by exploring. Let's move towards the sand area to look for stone or cave entrances.
+
+ACTION: Move North","You see:
+- tree 3 steps to your west
+- grass 1 step to your west
+- sand 1 step to your south
+
+You face grass at your front.",0.0,False
+103,Move North,"To make further progress, we need to gather stone to upgrade our tools (Make Stone Pickaxe, Make Stone Sword) and collect other resources like coal and iron. Stone is often found around sand and dirt terrain or near water. Since we are currently near sand, let's explore the area around the sand to find stone.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- tree 3 steps to your west
+- sand 1 step to your south
+
+You face grass at your front.",0.0,False
+104,Move North,"To explore the area and find stone for crafting better tools, we need to continue moving and searching near the sand and grass boundaries.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- tree 3 steps to your north-east
+- sand 2 steps to your south
+
+You face grass at your front.",0.0,False
+105,Move North,"To progress in Crafter, we need to collect stone to make stone tools (and eventually unlock more achievements). Stone is typically found near the edges of sand or near mountains/dirt areas. Let's explore further north and east to locate stone.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- tree 2 steps to your east
+- sand 3 steps to your south
+
+You face grass at your front.",0.0,False
+106,Move East,"We have collected wood and made a wood pickaxe and wood sword. To progress, we need to collect stone, coal, iron, and diamonds. Stone is typically found near dirt or sand biomes, or near mountain edges. Let's move east to explore and find stone.
+
+ACTION: Move East","You see:
+- grass 1 step to your west
+- tree 1 step to your east
+- sand 3 steps to your south
+
+You face tree at your front.",0.0,False
+107,Do,"To progress further, we need to gather stone to upgrade our gear. Let's chop down the tree in front of us to collect more wood and clear our path to continue exploring for stone.
+
+ACTION: Do","You see:
+- grass 1 step to your west
+- tree 2 steps to your north
+- sand 3 steps to your south
+
+You face grass at your front.",0.0,False
+108,Move North,"To find stone and coal, we need to explore rocky areas, which are often found near mountains or different biomes like deserts. Let's move around to locate stone and gather more resources.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- tree 1 step to your north
+
+You face tree at your front.",0.0,False
+109,Do,"To progress further, we need to collect stone and coal, craft a stone pickaxe, and explore more. Currently, there is a tree in front of us which we can collect for more wood if needed, but let's gather resources or explore to find stone and water/drink.
+
+ACTION: Do","You see:
+- grass 1 step to your west
+- tree 3 steps to your west
+
+You face grass at your front.",0.0,False
+110,Move East,"To progress in the game, we need to find stone and coal, craft a stone pickaxe, and eventually upgrade our tools while managing our needs (like drink and food). Currently, our drink is at 4/9 and we need to find water or a drinkable source, or explore the map to find stone. Let's move east to explore new terrain and find stone or water.
+
+ACTION: Move East","You see:
+- grass 1 step to your west
+- tree 2 steps to your north
+
+You face grass at your front.",0.0,False
+111,Move East,"To progress further, we need to collect stone to make a stone pickaxe and eventually mine iron and coal. Since we currently have wood, a wood pickaxe, and a wood sword, our next priority is to explore the map to find stone, iron, and water to replenish our drink (which is currently at 4/9). 
+
+Let's explore by moving East to search for stone, water, and other resources.
+
+ACTION: Move East","You see:
+- grass 1 step to your west
+- tree 1 step to your north
+
+You face grass at your front.",0.0,False
+112,Move East,"To make further progress in the game, we need to gather more resources (like stone and coal) and keep our stats (like drink and food) up. Currently, our drink is getting a bit low (4/9), so we should look for water or a cow/plant. Let's explore eastward to find water, caves, or stone.
+
+ACTION: Move East","You see:
+- grass 1 step to your west
+- tree 2 steps to your north-west
+- cow 6 steps to your south-east
+
+You face grass at your front.",0.0,False
+113,Move South,"To keep our drink and food up, we should head towards the cow we see to the south-east. Collecting food will help us maintain our health and energy. Let's move south-east by moving south first.
+
+ACTION: Move South","You see:
+- grass 1 step to your west
+- sand 6 steps to your south-west
+- tree 2 steps to your south-west
+- cow 5 steps to your south-east
+
+You face grass at your front.",0.0,False
+114,Move South,"We need to maintain our food and health by hunting the cow we saw earlier. Let's move south towards the cow.
+
+ACTION: Move South","You see:
+- grass 1 step to your north
+- sand 5 steps to your south-west
+- tree 1 step to your west
+- cow 4 steps to your east
+
+You face grass at your front.",0.0,False
+115,Move East,"We need to get closer to the cow to hunt it for food. Let's move east towards the cow.
+
+ACTION: Move East","You see:
+- grass 1 step to your west
+- sand 6 steps to your south-west
+- tree 1 step to your south
+- cow 3 steps to your east
+
+You face grass at your front.",0.0,False
+116,Move East,"The cow is 3 steps to the east. We need to move east to get closer to it so we can attack it for food and health. 
+
+ACTION: Move East","You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+- tree 1 step to your north
+- cow 2 steps to your east
+
+You face grass at your front.",0.0,False
+117,Move East,"We need to get closer to the cow to attack it for food and health. The cow is 2 steps to our east. Since we are facing grass, we can move east.
+
+ACTION: Move East","You see:
+- tree 2 steps to your north-west
+- grass 1 step to your west
+- cow 1 step to your east
+
+You face cow at your front.",0.0,False
+118,Do,"We are standing right in front of a cow. To complete the ""Eat Cow"" achievement and gather food, we need to hit the cow using the ""Do"" action.
+
+ACTION: Do","You see:
+- tree 2 steps to your north-west
+- grass 1 step to your west
+- cow 1 step to your east
+
+You face cow at your front.",0.0,False
+119,Do,"The cow is right in front of us, and we have our wood sword equipped. We should hit the cow again to defeat it and collect food/health.
+
+ACTION: Do","You see:
+- tree 2 steps to your north-west
+- grass 1 step to your west
+- cow 3 steps to your south-east
+
+You face grass at your front.",0.0,False
+120,Move West,"To progress further in the game and unlock more achievements, we need to gather more resources like stone and coal, and eventually upgrade our tools. Currently, we have 5 wood, a wood pickaxe, and a wood sword. We need to collect stone to make stone tools. 
+
+Let's look around for stone or a cave entrance. We should explore towards the north, south, or west. Since there is a tree to our north-west and grass around, let's move west to explore for stone.
+
+ACTION: Move West","You see:
+- grass 1 step to your west
+- sand 7 steps to your south-west
+- tree 1 step to your north
+- cow 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+121,Move West,"We currently have wood, a wood pickaxe, and a wood sword, and we need to collect stone to advance to stone tools. Let's explore the area to find stone (which typically appears as gray rock/stone tiles). Since there's grass and trees around, let's explore further west.
+
+ACTION: Move West","You see:
+- grass 1 step to your west
+- sand 6 steps to your south-west
+- tree 1 step to your south
+- cow 6 steps to your south-east
+
+You face grass at your front.",0.0,False
+122,Move West,"We need to gather stone to progress to stone tools, and our drink level is a bit low (4/9). Let's continue moving west to explore for stone and potentially water to drink.
+
+ACTION: Move West","You see:
+- grass 1 step to your north
+- sand 5 steps to your south-west
+- tree 1 step to your west
+
+You face tree at your front.",0.0,False
+123,Move North,"We need to collect more resources, explore, and find stone and water to drink (since our drink is at 4/9). Let's move around to find a lake or stone. 
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- sand 6 steps to your south-west
+- tree 2 steps to your south-west
+
+You face grass at your front.",0.0,False
+124,Move South,"Our drink is getting low (4/9), and we need to find water to drink. There is sand nearby, which usually indicates water nearby. Let's head south-west towards the sand to find a lake or river.
+
+ACTION: Move South","You see:
+- grass 1 step to your north
+- sand 5 steps to your south-west
+- tree 1 step to your west
+
+You face grass at your front.",0.0,False
+125,Move South,"We need water (drink is at 3/9). Sand is visible 5 steps to our south-west, and deserts/sand usually border water. Let's move towards the sand to find a lake and drink.
+
+ACTION: Move South","You see:
+- grass 1 step to your west
+- sand 4 steps to your south-west
+- tree 1 step to your east
+
+You face grass at your front.",0.0,False
+126,Move South,"To address the low drink level (3/9), we need to find water. There is sand 4 steps to our south-west, which indicates we are getting closer to a desert/lake area. Moving towards the south-west is our best option to find water to drink.
+
+ACTION: Move South","You see:
+- grass 1 step to your west
+- sand 3 steps to your west
+- tree 2 steps to your north-east
+
+You face grass at your front.",0.0,False
+127,Move West,"To address the low drink level (3/9), we need to find water. There is sand 3 steps to our west, which likely leads to water or a lake. We should move west towards the sand to find a drink.
+
+ACTION: Move West","You see:
+- grass 1 step to your west
+- sand 2 steps to your west
+- tree 2 steps to your north
+
+You face grass at your front.",0.0,False
+128,Move West,"We need to increase our drink level (currently at 3/9). Sand is 2 steps to our west, and water (lake/ocean) is typically adjacent to sand. We should move west towards the sand to find water and drink.
+
+ACTION: Move West","You see:
+- grass 1 step to your north
+- tree 3 steps to your north-east
+- sand 1 step to your west
+
+You face sand at your front.",0.0,False
+129,Move West,"We need to increase our drink level (currently at 3/9). Sand is directly in front of us (1 step west), and water is typically found past the sand. We should move west onto the sand to get closer to water.
+
+ACTION: Move West","You see:
+- grass 1 step to your north
+- tree 4 steps to your west
+- sand 1 step to your west
+
+You face sand at your front.",0.0,False
+130,Move West,"To improve our low drink level (3/9), we need to find water. Water is typically found near sand areas. Let's step onto the sand to get closer to a water source.
+
+ACTION: Move West","You see:
+- tree 3 steps to your west
+- grass 1 step to your west
+- sand 1 step to your south
+
+You face grass at your front.",0.0,False
+131,Move South,"We need to restore our drink level (currently 3/9). Water is typically found near sand. Let's move towards the sand to find water and drink from a lake.
+
+ACTION: Move South","You see:
+- tree 3 steps to your south-west
+- grass 1 step to your west
+- sand 1 step to your north
+
+You face sand at your front.",0.0,False
+132,Move North,"We need to collect drink because our drink level is low (3/9). Let's step onto the sand and look for water (a lake) to drink.
+
+ACTION: Move North","You see:
+- tree 3 steps to your west
+- grass 1 step to your west
+- sand 1 step to your south
+
+You face grass at your front.",0.0,False
+133,Move South,"Our drink level is low (3/9). We need to find water or a lake to drink. Let's move towards the sand area or explore to find water. Looking around, there is sand nearby. Let's move South onto the sand.
+
+ACTION: Move South","You see:
+- tree 3 steps to your south-west
+- grass 1 step to your west
+- sand 1 step to your north
+
+You face sand at your front.",0.0,False
+134,Move South,"Our drink level is low (3/9). To find water, we need to explore near sand or grass. Let's move South onto the sand and look for water to fulfill the ""Collect Drink"" achievement.
+
+ACTION: Move South","You see:
+- grass 1 step to your west
+- tree 2 steps to your west
+- sand 1 step to your north
+
+You face grass at your front.",0.0,False
+135,Move West,"Our drink level is low (3/9). To find water, we need to explore near sand or water sources. Let's move West toward the sand.
+
+ACTION: Move West","You see:
+- grass 1 step to your north
+- tree 1 step to your west
+- sand 1 step to your east
+
+You face tree at your front.",0.0,False
+136,Move East,"Our drink level is low (3/9). We are next to sand, which often borders water. Let's move East to find water and collect a drink.
+
+ACTION: Move East","You see:
+- grass 1 step to your west
+- tree 2 steps to your west
+- sand 1 step to your north
+
+You face sand at your front.",0.0,False
+137,Move North,"Our drink level is low (3/9). Let's step onto the sand and look for water to collect a drink, or explore nearby. Let's move North to reach the sand.
+
+ACTION: Move North","You see:
+- tree 3 steps to your south-west
+- grass 1 step to your west
+- sand 1 step to your north
+
+You face sand at your front.",0.0,False
+138,Move North,"Our drink level is low (3/9). Let's move North onto the sand and look for water to collect a drink.
+
+ACTION: Move North","You see:
+- tree 3 steps to your west
+- grass 1 step to your west
+- sand 1 step to your south
+
+You face grass at your front.",0.0,False
+139,Move North,"Our drink level is low (3/9). Let's search for a lake or water source to drink from and collect the ""Collect Drink"" achievement. There is a lot of sand around; water is often near sand. Let's move North to explore further.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- tree 3 steps to your west
+- sand 1 step to your south
+
+You face grass at your front.",0.0,False
+140,Move East,"We need to find water to drink because our drink level is low (3/9). Let's move East towards the grass and trees to continue exploring.
+
+ACTION: Move East","You see:
+- grass 1 step to your west
+- tree 3 steps to your north-east
+- sand 1 step to your south
+
+You face grass at your front.",0.0,False
+141,Move East,"Our drink level is low (3/9). We need to find water or a lake to drink. Let's explore by moving East.
+
+ACTION: Move East","You see:
+- tree 2 steps to your north-east
+- grass 1 step to your west
+- sand 2 steps to your south-west
+
+You face grass at your front.",0.0,False
+142,Move East,"We need to find water to increase our drink level since it is currently at 3/9. Let's explore by moving East to find a lake or water source.
+
+ACTION: Move East","You see:
+- grass 1 step to your west
+- sand 3 steps to your south-west
+- tree 1 step to your north
+
+You face grass at your front.",0.0,False
+143,Move North,"We need to increase our drink level (currently at 3/9). Let's continue moving to find water or a lake.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- sand 3 steps to your south-west
+- tree 1 step to your north
+
+You face tree at your front.",0.0,False
+144,Move North,"We are low on water (drink: 3/9) and need to find a lake or water source to drink. Let's move around to explore and find water.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- sand 3 steps to your south-west
+- tree 1 step to your north
+
+You face tree at your front.",0.0,False
+145,Move East,"We need to find water to drink soon since our drink stat is low (3/9). Let's move east to explore open areas for water.
+
+ACTION: Move East","You see:
+- grass 1 step to your west
+- sand 4 steps to your south-west
+- zombie 5 steps to your north-west
+- tree 1 step to your east
+
+You face tree at your front.",0.0,False
+146,Move North,"Our drink stat is critically low (2/9). We need to find water to drink immediately. Let's move around to locate a lake or river.
+
+ACTION: Move North","You see:
+- grass 1 step to your north
+- sand 5 steps to your south-west
+- zombie 3 steps to your north-west
+- tree 1 step to your west
+
+You face grass at your front.",0.0,False
+147,Move North,"Our drink stat is critically low (2/9). We need to find water to drink immediately. Let's explore around to locate a lake or river.
+
+ACTION: Move North","You see:
+- grass 1 step to your north
+- sand 6 steps to your south-west
+- tree 2 steps to your south-west
+- zombie 1 step to your west
+
+You face grass at your front.",-0.2,False
+148,Move North,"The zombie is directly to our west and our drink is critically low (2/9). Let's move away from the zombie towards safer terrain to find water.
+
+ACTION: Move North","You see:
+- grass 1 step to your north
+- zombie 1 step to your west
+- tree 2 steps to your north-west
+
+You face grass at your front.",0.0,False
+149,Move East,"We need to drink water immediately because our drink level is critically low (2/9). Let's move east to get away from the zombie and look for a lake or water source.
+
+ACTION: Move East","You see:
+- grass 1 step to your south
+- zombie 1 step to your west
+- tree 1 step to your north
+
+You face grass at your front.",0.0,False
+150,Move East,"We need to find water immediately because our drink level is critically low (2/9). There is a zombie to our west, so we should move away from it (for example, move east or south) to search for water.
+
+ACTION: Move East","You see:
+- grass 1 step to your north
+- tree 1 step to your south
+- zombie 1 step to your west
+
+You face grass at your front.",0.0,False
+151,Move East,"Our drink level is very low (2/9), so we urgently need to find water or a drinkable source. Let's move east to explore further and avoid the zombie to our west.
+
+ACTION: Move East","You see:
+- grass 1 step to your north
+- tree 2 steps to your south-west
+- zombie 1 step to your west
+
+You face grass at your front.",0.0,False
+152,Move East,"Our drink level is extremely low (2/9) and critical. We need to find water to drink. There is water or lakes typically found by exploring open areas or near sand/grass boundaries. Let's move east to continue exploring for water while keeping distance from the zombie to our west.
+
+ACTION: Move East","You see:
+- grass 1 step to your north
+- tree 1 step to your south
+- zombie 1 step to your west
+
+You face grass at your front.",0.0,False
+153,Move North,"We are very low on drink (2/9). Let's continue exploring to find water (a lake) so we can drink. There is grass nearby, let's move North to explore further.
+
+ACTION: Move North","You see:
+- grass 1 step to your north
+- tree 2 steps to your south
+- zombie 1 step to your west
+
+You face grass at your front.",-0.2,False
+154,Move North,"We are very low on drink (2/9). Let's continue exploring to find water (a lake) so we can drink. There is grass nearby, let's move North to explore further.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- tree 2 steps to your east
+- zombie 1 step to your south
+
+You face grass at your front.",0.1,False
+155,Move North,"We are low on drink (2/9), health (6/9), and energy (4/9). We need to find water or sleep. Let's move towards open space or explore to find water. Let's move North to find a lake or more resources.
+
+ACTION: Move North","You see nothing away from you.
+
+You face nothing at your front.",0.0,False
+156,Move North,"We need to find water to increase our drink status, as it is critically low (2/9), and we also need to sleep since our energy is low (4/9). Let's move around to find a lake or a safe spot to sleep.
+
+ACTION: Move North","You see nothing away from you.
+
+You face nothing at your front.",0.0,False
+157,Move South,"We need to drink water because our drink level is critically low (2/9). Let's move south to explore for a lake or water source.
+
+ACTION: Move South","You see nothing away from you.
+
+You face nothing at your front.",0.0,False
+158,Move South,"We need to find water or a lake to drink, as our drink level is dangerously low (2/9). Let's move South to look for water.
+
+ACTION: Move South","You see:
+- grass 1 step to your west
+- tree 2 steps to your east
+- zombie 1 step to your south
+
+You face zombie at your front.",0.0,False
+159,Do,"We are facing a zombie and our health and drink levels are low. We should attack the zombie or move away if needed, but since we have a wood sword and face the zombie, we can attack it with the 'Do' action to defend ourselves and potentially clear the threat.
+
+ACTION: Do","You see:
+- grass 1 step to your west
+- tree 2 steps to your east
+- zombie 1 step to your south
+
+You face zombie at your front.",0.0,False
+160,Do,"We are facing a zombie and we want to defeat it to complete the achievement and clear the threat. Since we are already facing the zombie and have a wood sword equipped/in inventory, attacking it with the 'Do' action is the best course of action.
+
+ACTION: Do","You see:
+- grass 1 step to your west
+- tree 2 steps to your east
+- zombie 1 step to your south
+
+You face zombie at your front.",0.0,False
+161,Do,"We need to defeat the zombie in front of us. Since we are already facing it, we should use the 'Do' action to hit it with our sword.
+
+ACTION: Do","You see:
+- grass 1 step to your west
+- tree 2 steps to your east
+
+You face grass at your front.",1.0,False
+162,Move North,"Based on your current status, you are low on drink (2/9) and energy (4/9). Since you have already defeated the zombie and have a wood pickaxe and wood sword in your inventory, you should focus on finding water to drink and resting to recover your energy. 
+
+Let's look for water or a lake nearby, or rest if needed. First, let's move around to explore and find water.
+
+ACTION: Move North","You see nothing away from you.
+
+You face nothing at your front.",0.0,False
+163,Move South,"To survive and progress, your drink and energy levels are very low. You need to find a water source (like a lake) to drink from, and then sleep to recover energy. Since you don't see anything around you right now, you should explore by moving in a direction to find a lake or more resources. Let's move South to explore.
+
+ACTION: Move South","You see:
+- grass 1 step to your west
+- tree 2 steps to your east
+
+You face grass at your front.",0.0,False
+164,Move East,"To survive, your drink level is critically low (2/9), and energy is also getting low (4/9). You need to find water to drink from (lake) and then sleep. Since you don't see water immediately around you, you should move around to find a lake or water source. Let's explore by moving East.
+
+ACTION: Move East","You see:
+- grass 1 step to your west
+- tree 1 step to your east
+
+You face tree at your front.",0.0,False
+165,Move East,"To survive, your drink level is critically low (2/9), so you urgently need to find water to drink from. Since you don't see water around, you should continue exploring to find a lake. Let's move East to explore more terrain.
+
+ACTION: Move East","You see:
+- grass 1 step to your west
+- tree 1 step to your east
+
+You face tree at your front.",0.0,False
+166,Move North,"To survive, your drink level is critically low (2/9), and your health is also affected. You need to find water to drink from immediately. Since you are standing next to a tree, exploring open areas (moving North, South, or West) is a good idea to find a lake. Let's move North to continue exploring.
+
+ACTION: Move North","You see nothing away from you.
+
+You face nothing at your front.",0.0,False
+167,Move North,"Your drink level is critically low (1/9) and your health is dropping (6/9). You urgently need to find water to drink from (a lake or ocean) to recover your drink meter. Since your current surroundings are empty, you should explore to find water. Let's move North.
+
+ACTION: Move North","You see nothing away from you.
+
+You face nothing at your front.",0.0,False
+168,Move North,"Your drink level is critically low (1/9) and your health is dropping (6/9). You need to find water to drink from immediately to avoid dying. Let's continue moving North to find a lake or ocean.
+
+ACTION: Move North","You see nothing away from you.
+
+You face nothing at your front.",0.0,False
+169,Move North,"The player's drink level is critically low (1/9) and health is declining (6/9). Finding water is the absolute highest priority to prevent death. We need to explore the map by moving in a consistent direction (e.g., North) until we encounter a water tile (lake or ocean) to drink from.
+
+ACTION: Move North","You see nothing away from you.
+
+You face nothing at your front.",0.0,False
+170,Move North,"To survive, your drink level is critically low (1/9) and your health is dropping (6/9). You need to find water immediately. Continue moving in a direction (e.g., North) to explore the map and locate a lake to drink from.
+
+ACTION: Move North","You see nothing away from you.
+
+You face nothing at your front.",0.0,False
+171,Move North,"To survive, your drink level is critically low (1/9) and your health is dropping (6/9). You need to find water immediately to drink. Since you saw nothing around you in the previous steps, you should continue moving to explore the map and locate a lake.
+
+ACTION: Move North","You see nothing away from you.
+
+You face nothing at your front.",0.0,False
+172,Move North,ACTION: Move North,"You see nothing away from you.
+
+You face nothing at your front.",0.0,False
+173,Move West,"To survive and progress in Crafter, we need to manage our status vitals (drink, food, health) and continue working toward achievements (like placing a table, collecting stone, etc.). 
+
+1. **Vitals Check**: Our drink is critically low at 1/9, and health is 6/9. We need to find water to drink.
+2. **Inventory**: We have wood (5), a wood pickaxe, and a wood sword. We can place a table if needed, but finding water or food is a higher priority given our low drink level.
+3. **Exploration**: We currently see nothing around us. We need to move around to find water (a lake/river) or resources.
+
+Let's move to explore and search for water.
+
+ACTION: Move West","You see nothing away from you.
+
+You face nothing at your front.",0.0,False
+174,Move East,"**Analysis:**
+1. **Status Check:** 
+   - Health: 6/9
+   - Food: 7/9
+   - Drink: 1/9 (Critically low! If drink reaches 0, we will start taking damage.)
+   - Energy: 4/9
+2. **Goal:** Our immediate priority is to find water to drink (a lake/river) before our drink meter runs out. 
+3. **Environment:** We currently see nothing around us. We need to keep exploring and moving to find water.
+
+Let's move East to explore a different direction for water.
+
+ACTION: Move East","You see nothing away from you.
+
+You face nothing at your front.",0.0,False
+175,Move South,"**Analysis:**
+1. **Status Check:** 
+   - Health: 6/9
+   - Food: 7/9
+   - Drink: 1/9 (Critically low! We need to find water immediately to avoid losing health.)
+   - Energy: 4/9
+2. **Goal:** Find water to drink. We need to move around to locate a lake or river.
+3. **Environment:** We currently see nothing at our front. Let's move South to continue exploring for water.
+
+ACTION: Move South","You see:
+- grass 1 step to your west
+- tree 1 step to your east
+
+You face grass at your front.",0.0,False
+176,Move North,"**Analysis:**
+1. **Status Check:**
+   - Health: 6/9
+   - Food: 7/9
+   - Drink: 1/9 (Critically low! We need water immediately or our health will start draining.)
+   - Energy: 4/9 (Getting low, but drinking is the absolute priority right now).
+2. **Inventory:** We have wood (5), wood_pickaxe (1), and wood_sword (1). We already have a table placed somewhere or we can place another if needed, but our immediate threat is thirst.
+3. **Environment:** We see grass to the west and a tree to the east. We need to find water (a lake). Let's continue moving around (e.g., North or West) to find a drinkable water source.
+
+ACTION: Move North","You see nothing away from you.
+
+You face nothing at your front.",0.0,False
+177,Move North,"**Analysis:**
+1. **Status Check:**
+   - Health: 6/9
+   - Food: 7/9
+   - Drink: 1/9 (Critically low! We need water immediately or our health will start draining.)
+   - Energy: 4/9 (Getting low, but drinking is the absolute priority right now).
+2. **Inventory:** We have wood (5), wood_pickaxe (1), wood_sword (1).
+3. **Environment:** We see nothing right now. We must continue exploring to find a lake/water source to drink from before our health drops further. Let's move North to explore further.
+
+ACTION: Move North","You see nothing away from you.
+
+You face nothing at your front.",0.0,False
+178,Move East,"**Analysis:**
+1. **Status Check:**
+   - Health: 6/9
+   - Food: 7/9
+   - Drink: 1/9 (Critically low, we need to find water to drink immediately!)
+   - Energy: 4/9
+2. **Environment:** We currently see nothing around us. 
+3. **Plan:** We must keep exploring (moving around) to find a water source (lake/river) so we can use the `Do` action to drink and prevent dying of thirst. Let's move East.
+
+ACTION: Move East","You see nothing away from you.
+
+You face nothing at your front.",0.0,False
+179,Move South,"**Analysis:**
+1. **Status Check:**
+   - Health: 6/9
+   - Food: 7/9
+   - Drink: 1/9 (Critically low! We need water immediately or we will take damage from thirst.)
+   - Energy: 4/9 (We should probably sleep soon if we find a safe spot, but finding water is priority #1.)
+2. **Environment:** We see nothing away from us currently.
+3. **Plan:** We must continue exploring to find water (a lake) so we can drink. Let's move South to search for a lake.
+
+ACTION: Move South","You see nothing away from you.
+
+You face nothing at your front.",0.0,False
+180,Move South,"**Analysis:**
+1. **Status Check:**
+   - Health: 6/9
+   - Food: 7/9
+   - Drink: 1/9 (Extremely critical! We need to find water or we will start losing health rapidly.)
+   - Energy: 4/9
+
+2. **Inventory:** We have wood, a wood pickaxe, and a wood sword. We've already completed several achievements.
+
+3. **Environment:** We see nothing at our front or away from us. We need to explore to find a water source (lake) so we can use the `Do` action to drink.
+
+4. **Plan:** Let's move South to search for a lake.
+
+ACTION: Move South","You see nothing away from you.
+
+You face nothing at your front.",0.1,False
+181,Move East,"1. **Status Check:**
+   - Health: 7/9
+   - Food: 7/9
+   - Drink: 1/9 (Extremely low, we need to find water immediately to drink).
+   - Energy: 4/9
+
+2. **Inventory:** We have 5 wood, 1 wood pickaxe, and 1 wood sword.
+
+3. **Environment:** We see nothing in front of us. We need to explore around to find a lake to quench our thirst.
+
+4. **Plan:** Let's move East to search for water.
+
+ACTION: Move East","You see nothing away from you.
+
+You face nothing at your front.",0.0,False
+182,Move West,"**Analysis:**
+1. **Status Check:** 
+   - Health: 7/9
+   - Food: 7/9
+   - **Drink: 1/9** (Critically low! We urgently need to find water to drink, otherwise we will lose health rapidly.)
+   - Energy: 4/9
+2. **Inventory:** 5 wood, 1 wood pickaxe, 1 wood sword.
+3. **Environment:** We see nothing in our immediate surroundings. We need to explore to find a lake/water source. 
+
+**Plan:** Move in a direction to explore and find water. Let's move West.
+
+ACTION: Move West","You see nothing away from you.
+
+You face nothing at your front.",0.0,False
+183,Move South,"**Analysis:**
+1. **Status Check:**
+   - Health: 7/9
+   - Food: 7/9
+   - **Drink: 1/9** (Extremely low! We are at severe risk of dying from thirst if we don't drink immediately.)
+   - Energy: 4/9
+2. **Environment:** We currently see nothing around us, meaning we need to move to find a lake/water source to use the ""Do"" action and collect drink.
+3. **Plan:** We must explore to find water. Let's move South to look for a lake or river.
+
+ACTION: Move South","You see:
+- grass 1 step to your west
+- tree 1 step to your east
+
+You face grass at your front.",0.0,False
+184,Move South,"**Analysis:**
+1. **Status Check:**
+   - Health: 7/9
+   - Food: 7/9
+   - Drink: 1/9 (CRITICAL! Need water immediately to avoid dying of thirst.)
+   - Energy: 4/9
+2. **Inventory:** We have wood, a wood pickaxe, and a wood sword. We have already collected wood and made tools.
+3. **Environment:** We see grass to our west and a tree to our east. However, we desperately need a drink. There is no water visible right now. We need to explore around to find water (lakes) so we can use the `Do` action on water to collect a drink and replenish our thirst.
+4. **Plan:** Let's move around to locate a water tile. Let's move South to search for a lake.
+
+ACTION: Move South","You see:
+- grass 1 step to your west
+- tree 1 step to your east
+
+You face grass at your front.",0.0,False
+185,Move East,"**Analysis:**
+1. **Status Check:**
+   - Health: 7/9
+   - Food: 7/9
+   - Drink: 1/9 (Extremely low, critical need for water!)
+   - Energy: 3/9
+2. **Inventory:** We have wood (5), a wood pickaxe, and a wood sword.
+3. **Environment:** We are surrounded by grass and trees, but no water is currently visible in our immediate view. We must explore to find a lake or water source to drink from using the `Do` action, otherwise we will lose health quickly due to thirst.
+4. **Plan:** Let's move East to check for water near the trees, or explore further to find a lake. Let's move East.
+
+ACTION: Move East","You see:
+- grass 1 step to your west
+- tree 1 step to your east
+
+You face tree at your front.",0.0,False
+186,Move South,"**Analysis:**
+1. **Status Check:**
+   - Health: 7/9
+   - Food: 7/9
+   - Drink: 1/9 (Very low, but we need to find water. Let's look around carefully).
+   - Energy: 3/9
+2. **Environment:** There is a tree directly in front of us.
+3. **Plan:** Let's explore by moving South or North to find water or other resources. Let's move South to explore a different area.
+
+ACTION: Move South","You see:
+- grass 1 step to your west
+- tree 2 steps to your south-west
+
+You face grass at your front.",0.0,False
+187,Move East,"**Analysis:**
+1. **Status Check:**
+   - Health: 7/9
+   - Food: 7/9
+   - Drink: 1/9 (Dangerously low! We need to find water to drink immediately).
+   - Energy: 3/9
+2. **Environment:** We see grass, but no water source visible in the immediate vicinity. Let's move around to find water or a lake so we don't die of thirst. Let's move East to explore new tiles.
+
+ACTION: Move East","You see:
+- grass 1 step to your west
+- tree 1 step to your north
+
+You face grass at your front.",0.0,False
+188,Move East,"**Analysis:**
+1. **Status Check:**
+   - Health: 7/9
+   - Food: 7/9
+   - Drink: 0/9 (Critical! We need to drink from a lake/water source immediately).
+   - Energy: 3/9
+2. **Inventory:** We have wood (5), wood pickaxe, and wood sword. We have already collected wood, made a wood pickaxe, and a wood sword.
+3. **Environment:** We see grass and a tree nearby, but no water in sight yet. We need to explore around to find a water tile so we can use the `Do` action to drink. Let's move East to search for water.
+
+ACTION: Move East","You see:
+- grass 1 step to your west
+- tree 2 steps to your north-west
+
+You face grass at your front.",0.0,False
+189,Move North,"**Analysis:**
+1. **Status Check:**
+   - Health: 7/9
+   - Food: 7/9
+   - Drink: 0/9 (Critical! We need to find water to drink).
+   - Energy: 3/9
+2. **Environment:** We still need to locate water (a lake/river) to increase our drink meter. Let's continue exploring by moving North to look for water sources.
+
+ACTION: Move North","You see:
+- grass 1 step to your north
+- tree 1 step to your west
+
+You face grass at your front.",0.0,False
+190,Move North,"**Analysis:**
+1. **Status Check:**
+   - Health: 7/9
+   - Food: 7/9
+   - Drink: 0/9 (Critical! We need to find water to drink).
+   - Energy: 3/9
+2. **Environment:** We need to find water (a lake) to fulfill the ""Collect Drink"" achievement and survive. Let's move around to locate water. We'll move North to explore.
+
+ACTION: Move North","You see:
+- grass 1 step to your south
+- tree 1 step to your west
+
+You face tree at your front.",0.0,False
+191,Move North,"**Analysis:**
+1. **Status Check:**
+   - Health: 7/9
+   - Food: 7/9
+   - Drink: 0/9 (Critical! We need to find water to drink).
+   - Energy: 3/9
+   - Inventory: Wood (5), Wood Pickaxe (1), Wood Sword (1).
+2. **Environment:** We currently have no water visible, but we need to find a lake or water source to avoid dying of thirst. Let's explore by moving around.
+
+ACTION: Move North","You see:
+- grass 1 step to your south
+- tree 1 step to your west
+
+You face tree at your front.",0.0,False
+192,Move North,"**Analysis:**
+1. **Status Check:**
+   - Health: 7/9
+   - Food: 7/9
+   - Drink: 0/9 (Critical! We need to drink from a lake soon, or our health will start dropping rapidly).
+   - Energy: 3/9
+   - Inventory: Wood (5), Wood Pickaxe (1), Wood Sword (1).
+2. **Environment:** We are facing a tree, with grass around. We need to find water (Collect Drink achievement, and more importantly, stay hydrated). Let's move around to explore and locate water.
+
+ACTION: Move North","You see:
+- grass 1 step to your south
+- tree 1 step to your west
+
+You face tree at your front.",0.0,False
+193,Move North,"**Analysis:**
+1. **Status Check:**
+   - Health: 7/9
+   - Food: 7/9
+   - Drink: 0/9 (Extremely critical! We are dehydrated. If we don't drink soon, our health will deplete).
+   - Energy: 3/9
+   - Inventory: Wood (5), Wood Pickaxe (1), Wood Sword (1).
+2. **Environment:** We are facing a tree, with grass around. We need to find water to fulfill the `Collect Drink` achievement and survive. Let's move around to locate a lake or water source.
+
+ACTION: Move North","You see:
+- grass 1 step to your south
+- zombie 4 steps to your west
+- tree 1 step to your west
+
+You face tree at your front.",0.0,False
+194,Move East,"**Analysis:**
+1. **Status Check:**
+   - Health: 7/9
+   - Food: 7/9
+   - Drink: 0/9 (Critical! We are very thirsty and need to find a lake/water source immediately).
+   - Energy: 3/9
+   - Inventory: wood (5), wood_pickaxe (1), wood_sword (1).
+2. **Environment:**
+   - We are facing a tree. There is a zombie to our west, so we should be careful not to engage without reason, or we can use our wood sword if it blocks our path to water.
+   - We need to find water to fulfill the `Collect Drink` achievement and avoid death by dehydration.
+
+Let's move away from the zombie and search for water. Moving East or South is safer. Let's move East to explore for water.
+
+ACTION: Move East","You see:
+- grass 1 step to your west
+- zombie 4 steps to your west
+- tree 1 step to your south
+
+You face grass at your front.",0.0,False
+195,Move East,"**Analysis:**
+1. **Status Check:**
+   - Health: 7/9
+   - Food: 7/9
+   - Drink: 0/9 (Critical! We are severely dehydrated).
+   - Energy: 3/9
+   - Inventory: wood (5), wood_pickaxe (1), wood_sword (1).
+2. **Environment:**
+   - We face grass. There is a zombie to our west and a tree to our south.
+   - Our top priority is finding water to drink (`Collect Drink` achievement and survival). Since we haven't found water yet, we need to explore in a direction likely to have biomes with water (like open grass areas or further exploration). Let's continue moving East to explore new terrain.
+
+ACTION: Move East","You see:
+- grass 1 step to your west
+- tree 2 steps to your south-west
+- zombie 4 steps to your west
+
+You face grass at your front.",0.0,False
+196,Move East,"**Analysis:**
+1. **Status Check:**
+   - Health: 7/9
+   - Food: 7/9
+   - Drink: 0/9 (Critical! We need water urgently).
+   - Energy: 3/9
+   - Inventory: wood (5), wood_pickaxe (1), wood_sword (1).
+2. **Environment:**
+   - We face grass, with a zombie to our west and a tree nearby. We are still searching for water (lakes/rivers) to satisfy our drink meter and achieve `Collect Drink`.
+   - Let's continue exploring by moving East to find water and new resources.
+
+ACTION: Move East","You see:
+- grass 1 step to your west
+- tree 1 step to your north
+- zombie 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+197,Move East,"**Analysis:**
+1. **Status Check:**
+   - Health: 7/9
+   - Food: 6/9
+   - Drink: 0/9 (Critical need for water).
+   - Energy: 3/9
+   - Inventory: wood (5), wood_pickaxe (1), wood_sword (1).
+2. **Environment:**
+   - We are facing grass, with a tree nearby and a zombie visible to the north-east.
+   - We still urgently need water (`Collect Drink`) to avoid taking damage from thirst.
+   - Let's continue moving east/exploring to find water.
+
+ACTION: Move East","You see:
+- grass 1 step to your west
+- tree 1 step to your north
+- zombie 3 steps to your north-east
+
+You face grass at your front.",0.0,False
+198,Move East,"**Analysis:**
+1. **Status Check:**
+   - Health: 7/9
+   - Food: 6/9
+   - Drink: 0/9 (Urgent need for water to avoid health loss).
+   - Energy: 3/9
+   - Inventory: wood (5), wood_pickaxe (1), wood_sword (1).
+2. **Environment:**
+   - We are currently facing grass. There is a zombie nearby (3 steps to the north-east).
+   - Water has not been found yet. We need to keep exploring to find a lake (`Collect Drink`).
+   - Let's move east to continue our search for water.
+
+ACTION: Move East","You see:
+- tree 1 step to your south
+- grass 1 step to your west
+- zombie 1 step to your east
+
+You face zombie at your front.",-0.2,False
+199,Do,"**Analysis:**
+1. **Status Check:**
+   - Health: 5/9 (low, decreasing due to thirst)
+   - Food: 6/9
+   - Drink: 0/9 (Critically low, urgently need water!)
+   - Energy: 3/9
+   - Inventory: wood (5), wood_pickaxe (1), wood_sword (1).
+2. **Environment:**
+   - A zombie is directly in front of us (1 step to the east).
+   - We have a `wood_sword` equipped/in inventory. We can attack the zombie using `Do` to defend ourselves, or we can move away/flee. Since the zombie is blocking the east, let's hit it or move around it if needed, but dealing with it with our sword ensures safety.
+   - However, our primary urgent goal is finding water (`Collect Drink`). Let's hit the zombie first since it's right in front, or step away. Hitting it with `Do` will fight it.
+
+ACTION: Do","You see:
+- tree 1 step to your south
+- grass 1 step to your west
+- zombie 1 step to your east
+
+You face zombie at your front.",0.0,False
+200,Do,"**Analysis:**
+1. **Status Check:**
+   - Health: 5/9
+   - Food: 6/9
+   - Drink: 0/9 (Critically low!)
+   - Energy: 3/9
+   - Inventory: wood (5), wood_pickaxe (1), wood_sword (1).
+2. **Environment:**
+   - A zombie is right in front of us.
+   - We need to defeat or fend off the zombie, or step away to find water immediately. Let's attack it with `Do` since we have a wood sword and it's right in front of us, clearing the path and earning an achievement.
+
+ACTION: Do","You see:
+- tree 1 step to your south
+- grass 1 step to your west
+- zombie 1 step to your east
+
+You face zombie at your front.",0.0,False
+201,Do,"**Analysis:**
+1. **Status Check:**
+   - Health: 5/9
+   - Food: 6/9
+   - Drink: 0/9 (Critically low! We need water urgently)
+   - Energy: 3/9
+   - Inventory: wood (5), wood_pickaxe (1), wood_sword (1).
+2. **Environment:**
+   - A zombie is right in front of us.
+   - We need to deal with the zombie or move away. However, we have a sword and attacking it (`Do`) will damage/defeat it so we can survive and explore. Let's attack the zombie.
+
+ACTION: Do","You see:
+- tree 1 step to your south
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+202,Move South,"**Analysis:**
+1. **Status Check:**
+   - Health: 5/9
+   - Food: 6/9
+   - Drink: 0/9 (Critically low! We need water urgently)
+   - Energy: 3/9
+   - Inventory: wood (5), wood_pickaxe (1), wood_sword (1).
+2. **Environment:**
+   - The zombie is gone (defeated!).
+   - We need to find water to increase our drink stat, as 0/9 is dangerous. Let's look around by moving to find water or grass/lakes. There is grass around us. Let's move south toward the tree or explore.
+
+ACTION: Move South","You see:
+- tree 1 step to your south
+- grass 1 step to your west
+- zombie 7 steps to your north-east
+
+You face tree at your front.",0.0,False
+203,Move West,"**Analysis:**
+1. **Status Check:**
+   - Health: 5/9
+   - Food: 6/9
+   - Drink: 0/9 (Critically low! Need water immediately to avoid dying of thirst)
+   - Energy: 3/9
+   - Inventory: wood (5), wood_pickaxe (1), wood_sword (1)
+2. **Environment:**
+   - There is a tree to our south, grass to our west, and a zombie in the distance to the north-east.
+   - We need to find water. Let's move around or explore to locate water (lakes). Since we face a tree, let's turn or move around to find a lake/water source. Let's move West first.
+
+ACTION: Move West","You see:
+- grass 1 step to your west
+- tree 1 step to your north
+
+You face grass at your front.",0.0,False
+204,Move West,"**Analysis:**
+1. **Status Check:**
+   - Health: 5/9
+   - Food: 6/9
+   - Drink: 0/9 (Critically low! We need water immediately or we will take damage from thirst.)
+   - Energy: 3/9
+   - Inventory: wood (5), wood_pickaxe (1), wood_sword (1)
+2. **Environment:**
+   - We face grass. We need to find water (lakes/rivers) to drink. 
+   - Let's move West to explore and look for water.
+
+ACTION: Move West","You see:
+- grass 1 step to your west
+- tree 1 step to your north
+- zombie 5 steps to your north-west
+
+You face grass at your front.",0.0,False
+205,Move West,"**Analysis:**
+1. **Status Check:**
+   - Health: 5/9
+   - Food: 6/9
+   - Drink: 0/9 (Critically low, need to find water or a drink source immediately to avoid dying of thirst).
+   - Energy: 3/9
+   - Inventory: wood (5), wood_pickaxe (1), wood_sword (1)
+2. **Environment:**
+   - We face grass. There is a tree to our north and a zombie nearby to our north-west.
+   - We need to find water to fulfill our drink need. Let's continue moving west or exploring open terrain to locate a lake.
+
+ACTION: Move West","You see:
+- grass 1 step to your west
+- tree 2 steps to your south-west
+- zombie 4 steps to your north-west
+
+You face grass at your front.",0.0,False
+206,Move West,"**Analysis:**
+1. **Status Check:**
+   - Health: 5/9
+   - Food: 6/9
+   - Drink: 0/9 (Critically low, need to find water or a drink source immediately to avoid dying).
+   - Energy: 3/9
+   - Inventory: wood (5), wood_pickaxe (1), wood_sword (1)
+2. **Environment:**
+   - We face grass, with a zombie nearby to our north-west.
+   - We urgently need water to drink, so we should continue exploring to find a lake or river.
+
+Let's move west to explore further.
+
+ACTION: Move West","You see:
+- grass 1 step to your west
+- tree 1 step to your south
+- zombie 3 steps to your north-west
+
+You face grass at your front.",0.0,False
+207,Move West,"**Analysis:**
+1. **Status Check:**
+   - Health: 5/9
+   - Food: 6/9
+   - Drink: 0/9 (Critically low, need water urgently!)
+   - Energy: 3/9
+   - Inventory: wood (5), wood_pickaxe (1), wood_sword (1)
+2. **Environment:**
+   - We are currently facing grass. There is a zombie nearby to the north-west.
+   - We need to find water to fulfill the ""Collect Drink"" achievement and survive. Let's move west to continue searching.
+
+ACTION: Move West","You see:
+- grass 1 step to your south
+- tree 1 step to your west
+- zombie 2 steps to your north-west
+
+You face tree at your front.",0.0,False
+208,Move South,"**Analysis:**
+1. **Status Check:**
+   - Health: 5/9
+   - Food: 6/9
+   - Drink: 0/9 (Critically low, need water urgently to prevent dying from thirst)
+   - Energy: 3/9
+   - Inventory: wood (5), wood_pickaxe (1), wood_sword (1)
+2. **Environment:**
+   - We are facing a tree. 
+   - A zombie is 2 steps to our north-west.
+   - We still desperately need to find water to drink. Let's step around or move south/east to explore for water while avoiding the zombie. Let's move south.
+
+ACTION: Move South","You see:
+- grass 1 step to your north
+- tree 1 step to your west
+- zombie 2 steps to your west
+
+You face grass at your front.",-0.1,False
+209,Move East,"**Analysis:**
+1. **Status Check:**
+   - Health: 4/9
+   - Food: 6/9
+   - Drink: 0/9 (Critically low, dying of thirst immediately)
+   - Energy: 3/9
+   - Inventory: wood (5), wood_pickaxe (1), wood_sword (1)
+2. **Environment:**
+   - We are facing grass. A zombie is 2 steps west.
+   - We need water desperately. Let's move east to explore for water and avoid the zombie.
+
+ACTION: Move East","You see:
+- grass 1 step to your north
+- tree 1 step to your west
+- zombie 2 steps to your west
+
+You face tree at your front.",0.0,False
+210,Move East,"**Analysis:**
+1. **Status Check:**
+   - Health: 4/9
+   - Food: 6/9
+   - Drink: 0/9 (Critically low, must find water/drink immediately)
+   - Energy: 3/9
+   - Inventory: wood (5), wood_pickaxe (1), wood_sword (1)
+2. **Environment:**
+   - We are facing a tree, with a zombie nearby to the west.
+   - We need to find water or a lake to drink from to avoid dying of thirst. Let's move east to search for water.
+
+ACTION: Move East","You see:
+- grass 1 step to your north
+- tree 1 step to your west
+- zombie 2 steps to your west
+
+You face tree at your front.",0.0,False
+211,Move East,"**Analysis:**
+1. **Status Check:**
+   - Health: 4/9
+   - Food: 6/9
+   - Drink: 0/9 (Critically low, need to find water immediately)
+   - Energy: 3/9 (Low, may need to sleep soon)
+   - Inventory: wood (5), wood_pickaxe (1), wood_sword (1)
+2. **Environment:**
+   - Facing a tree, with a zombie nearby to the west.
+   - We need to find water to fulfill the drink requirement and survive. Let's move east to explore open terrain.
+
+ACTION: Move East","You see:
+- grass 1 step to your north
+- tree 1 step to your west
+- zombie 2 steps to your west
+
+You face tree at your front.",0.0,False
+212,Move East,"**Analysis:**
+1. **Status Check:**
+   - Health: 4/9
+   - Food: 6/9
+   - Drink: 0/9 (Critically low, need water urgently)
+   - Energy: 3/9 (Low, need to rest soon)
+   - Inventory: wood (5), wood_pickaxe (1), wood_sword (1)
+2. **Environment:**
+   - Facing a tree. A zombie is to the west. We need to escape the zombie, find water (for drink), and eventually find a safe spot to sleep.
+   - Let's move east to get away from the zombie and explore for water/resources.
+
+ACTION: Move East","You see:
+- grass 1 step to your north
+- tree 1 step to your west
+- zombie 2 steps to your west
+
+You face tree at your front.",0.0,False
+213,Move East,"**Analysis:**
+1. **Status Check:**
+   - Health: 4/9
+   - Food: 6/9
+   - Drink: 0/9 (Critically low, need water urgently)
+   - Energy: 3/9 (Low, need to rest soon)
+   - Inventory: wood (5), wood_pickaxe (1), wood_sword (1)
+2. **Environment:**
+   - Facing a tree. A zombie is to the west. We need to escape the zombie, find water (for drink), and eventually find a safe spot to sleep.
+   - Let's move east to get further away from the zombie and explore for water.
+
+ACTION: Move East","You see:
+- grass 1 step to your north
+- tree 1 step to your west
+- zombie 2 steps to your west
+
+You face tree at your front.",0.0,False
+214,Move East,"**Analysis:**
+1. **Status Check:**
+   - Health: 4/9
+   - Food: 6/9
+   - Drink: 0/9 (Critically low, need water urgently)
+   - Energy: 3/9 (Low, need to rest soon)
+   - Inventory: wood (5), wood_pickaxe (1), wood_sword (1)
+2. **Environment:**
+   - Facing a tree. A zombie is to the west. We need to escape the zombie, find water (for drink), and eventually find a safe spot to sleep.
+   - Let's move east to get further away from the zombie and explore for water.
+
+ACTION: Move East","You see:
+- grass 1 step to your north
+- tree 1 step to your west
+- zombie 2 steps to your west
+
+You face tree at your front.",0.0,False
+215,Move East,"**Analysis:**
+1. **Status Check:**
+   - Health: 4/9
+   - Food: 6/9
+   - Drink: 0/9 (Critically low, but need to find a lake/water source)
+   - Energy: 3/9 (Low, need to sleep eventually)
+   - Inventory: wood (5), wood_pickaxe (1), wood_sword (1)
+2. **Environment:**
+   - Facing a tree. The zombie is still to our west. 
+   - We need to move away from the zombie to safety, find water to drink, and then sleep.
+   - Let's continue moving east to put distance between us and the zombie.
+
+ACTION: Move East","You see:
+- grass 1 step to your north
+- tree 1 step to your west
+- zombie 2 steps to your west
+
+You face tree at your front.",0.0,False
+216,Move East,"**Analysis:**
+1. **Status Check:**
+   - Health: 4/9
+   - Food: 6/9
+   - Drink: 0/9 (Critically low, but we need to find water or a lake)
+   - Energy: 2/9 (Very low, need to sleep soon, but first we need to get away from the zombie)
+   - Inventory: wood (5), wood_pickaxe (1), wood_sword (1)
+2. **Environment:**
+   - Facing a tree. The zombie is 2 steps to our west.
+   - We need to move east further to escape the zombie, then find water and a safe spot to sleep.
+
+ACTION: Move East","You see:
+- grass 1 step to your north
+- tree 1 step to your west
+- zombie 2 steps to your south-west
+
+You face tree at your front.",0.0,False
+217,Move North,"**Analysis:**
+1. **Status Check:**
+   - Health: 4/9
+   - Food: 6/9
+   - Drink: 0/9 (Critically low, need water/lake soon)
+   - Energy: 2/9 (Very low, need to sleep)
+   - Inventory: wood (5), wood_pickaxe (1), wood_sword (1)
+2. **Environment:**
+   - The zombie is 2 steps to our south-west. 
+   - We are facing a tree and need to move away from the zombie. Moving North or East will increase distance from the zombie. Let's move North to gain more distance and find a safe spot.
+
+ACTION: Move North","You see:
+- grass 1 step to your south
+- tree 1 step to your west
+- zombie 2 steps to your west
+
+You face tree at your front.",0.0,False
+218,Move East,"**Analysis:**
+1. **Status Check:**
+   - Health: 4/9
+   - Food: 6/9
+   - Drink: 0/9 (Critically low, need to find water)
+   - Energy: 2/9 (Very low, need to sleep)
+   - Inventory: wood (5), wood_pickaxe (1), wood_sword (1)
+2. **Environment:**
+   - Zombie is 2 steps to our west.
+   - We need to sleep to recover energy and health, but we need to be safe from zombies first, or find a lake/water source for drink.
+   - Let's move East to get further away from the zombie.
+
+ACTION: Move East","You see:
+- grass 1 step to your west
+- tree 1 step to your south
+- zombie 3 steps to your west
+
+You face grass at your front.",0.0,False
+219,Move East,"**Analysis:**
+1. **Status Check:**
+   - Health: 4/9
+   - Food: 6/9
+   - Drink: 0/9 (Critically low, need water urgently)
+   - Energy: 2/9 (Critically low, need to sleep)
+2. **Environment:**
+   - Zombie is 3 steps west.
+   - We need to find water to drink and a safe spot to sleep. Let's move East to explore and look for a lake or water source.
+
+ACTION: Move East","You see:
+- grass 1 step to your west
+- tree 2 steps to your south-west
+- zombie 4 steps to your west
+
+You face grass at your front.",0.0,False
+220,Move East,"**Analysis:**
+1. **Status Check:**
+   - Health: 4/9
+   - Food: 6/9
+   - Drink: 0/9 (Critically low, risk of dying from thirst)
+   - Energy: 2/9 (Critically low, risk of passing out/dying)
+2. **Environment:**
+   - Zombie is nearby to the west.
+   - We need to find water to drink immediately. Let's move East to get away from the zombie and search for a lake or water.
+
+ACTION: Move East","You see:
+- grass 1 step to your west
+- tree 1 step to your north
+- zombie 4 steps to your south-west
+
+You face grass at your front.",0.0,False
+221,Move East,"**Analysis:**
+1. **Status Check:**
+   - Health: 4/9
+   - Food: 6/9
+   - Drink: 0/9 (Critically low, urgent need for water)
+   - Energy: 2/9 (Very low, need to sleep soon)
+2. **Environment:**
+   - We have wood, a wood pickaxe, and a wood sword.
+   - We need to find water to drink to avoid dying of thirst. Let's explore eastward to find water.
+
+ACTION: Move East","You see:
+- grass 1 step to your west
+- tree 1 step to your north
+- zombie 5 steps to your south-west
+
+You face grass at your front.",0.0,False
+222,Move East,"**Analysis:**
+1. **Status Check:**
+   - Health: 4/9
+   - Food: 6/9
+   - Drink: 0/9 (Critically low, urgent need for water!)
+   - Energy: 2/9 (Very low, need to sleep soon, but water/survival is paramount).
+2. **Environment:**
+   - We are surrounded by grass and trees. We need to find water to drink. Let's continue moving east to locate water or a lake.
+
+ACTION: Move East","You see:
+- tree 1 step to your south
+- grass 1 step to your west
+- zombie 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+223,Move East,"**Analysis:**
+1. **Status Check:**
+   - Health: 4/9
+   - Food: 5/9
+   - Drink: 0/9 (Critically low, urgent need to find water or a lake!)
+   - Energy: 2/9 (Very low, will need to sleep soon, but first we need water).
+2. **Environment:**
+   - We have 5 wood, a wood pickaxe, and a wood sword in inventory.
+   - We need to find water to increase the drink meter. Let's move east to search for water.
+
+ACTION: Move East","You see:
+- grass 1 step to your west
+- tree 2 steps to your south-west
+- zombie 6 steps to your north-east
+
+You face grass at your front.",0.0,False
+224,Move East,"**Analysis:**
+1. **Status Check:**
+   - Health: 4/9
+   - Food: 5/9
+   - Drink: 0/9 (Critically low, urgent need to find water or a lake!)
+   - Energy: 2/9 (Very low, but without water/drink we will die of thirst soon).
+2. **Environment:**
+   - We are surrounded by grass and trees, but no water source is currently in view.
+   - We need to continue exploring (moving East/North/South) to find a lake or water stream. Let's move East to keep searching.
+
+ACTION: Move East","You see:
+- tree 2 steps to your south
+- grass 1 step to your west
+- zombie 5 steps to your north-east
+
+You face grass at your front.",-0.1,False
+225,Move East,"**Analysis:**
+1. **Status Check:**
+   - Health: 3/9 (dropping rapidly)
+   - Food: 5/9
+   - Drink: 0/9 (Critically low! We have 0 drink and need to find a water source immediately or we will die.)
+   - Energy: 2/9
+2. **Environment:**
+   - We are exploring, but no water is in sight yet.
+   - We need to keep searching for water (lakes) immediately. Let's move East.
+
+ACTION: Move East","You see:
+- grass 1 step to your west
+- tree 2 steps to your south
+- zombie 3 steps to your north-east
+- stone 6 steps to your north-east
+
+You face grass at your front.",0.0,False
+226,Move East,"**Analysis:**
+1. **Status Check:**
+   - Health: 3/9 (low)
+   - Food: 5/9
+   - Drink: 0/9 (Critically low! We urgently need to find water or we will die.)
+   - Energy: 2/9
+2. **Environment:**
+   - We are currently surrounded by grass, trees, and a zombie nearby.
+   - We still haven't found a lake/water source to drink from.
+3. **Plan:**
+   - Continue searching for water (lakes) by moving across open terrain. Let's move East to explore new tiles.
+
+ACTION: Move East","You see:
+- grass 1 step to your west
+- tree 2 steps to your north
+- zombie 1 step to your east
+- stone 5 steps to your north-east
+
+You face zombie at your front.",-0.2,False
+227,Do,"**Analysis:**
+1. **Status Check:**
+   - Health: 1/9 (extremely critical!)
+   - Food: 5/9
+   - Drink: 0/9 (critical, though health is even more pressing)
+   - Energy: 2/9
+2. **Environment:**
+   - There is a zombie right in front of us (1 step to our east).
+   - We have a `wood_sword` in inventory.
+3. **Plan:**
+   - We are facing the zombie and our health is at 1. If we don't hit the zombie, it will hit us and likely kill us instantly. We must attack it using the `Do` action since it hits the creature in front.
+
+ACTION: Do","You see:
+- grass 1 step to your west
+- tree 2 steps to your north
+- cow 5 steps to your south-west
+- zombie 1 step to your east
+- stone 5 steps to your north-east
+
+You face zombie at your front.",0.0,False
+228,Do,"**Analysis:**
+1. **Status Check:**
+   - Health: 1/9 (very low!)
+   - Food: 5/9
+   - Drink: 0/9
+   - Energy: 2/9
+2. **Environment:**
+   - A zombie is right in front of us (1 step to the east).
+   - We have a wood sword equipped/in inventory.
+3. **Plan:**
+   - We need to defeat the zombie to survive and progress. Since we are facing it, hitting it with the `Do` action will attack it.
+
+ACTION: Do","You see:
+- grass 1 step to your west
+- tree 2 steps to your north
+- cow 5 steps to your south-west
+- zombie 1 step to your east
+- stone 5 steps to your north-east
+
+You face zombie at your front.",0.0,False
+229,Do,"**Analysis:**
+1. **Status Check:**
+   - Health: 1/9 (critically low!)
+   - Food: 5/9
+   - Drink: 0/9
+   - Energy: 2/9
+2. **Environment:**
+   - A zombie is right in front of us.
+   - We need to defeat the zombie or survive, but since it's an immediate threat, we should attack it with `Do` to eliminate it before it hits us again.
+
+ACTION: Do","You see:
+- grass 1 step to your west
+- tree 2 steps to your north
+- cow 6 steps to your south-west
+- stone 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+230,Sleep,"**Analysis:**
+1. **Status Check:**
+   - Health: 1/9 (critically low!)
+   - Food: 5/9
+   - Drink: 0/9 (Need water soon, but health is the top priority).
+   - Energy: 2/9 (Need sleep soon to recover health, but check for monsters/safety).
+2. **Environment:**
+   - The zombie is gone (we defeated it or it moved).
+   - We are currently holding a wood pickaxe and wood sword, with 5 wood in inventory.
+   - We need to regenerate health. Sleeping requires being safe from monsters and having low energy, but we can also eat food if we had any, or sleep to restore energy and health. Wait, sleeping requires being in a safe place. Let's find water first since drink is 0/9? No, drink at 0 doesn't kill you instantly, but health at 1/9 is lethal. We should `Sleep` to recover energy and health, or look for water/food. Let's try to `Sleep` since energy is 2/9.
+
+ACTION: Sleep","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- grass 1 step to your west
+- tree 2 steps to your north
+- cow 6 steps to your south-west
+- stone 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+231,Noop,"**Analysis:**
+1. **Status Check:**
+   - Health: 1/9 (critically low)
+   - Food: 5/9
+   - Drink: 0/9
+   - Energy: 2/9
+   - You are currently sleeping to recover energy and health. While sleeping, you cannot take actions until energy is full.
+
+2. **Action Plan:**
+   - Since we are sleeping, we must use the `Noop` (do nothing) action to wait out the sleep state until energy and health are restored.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- grass 1 step to your west
+- tree 2 steps to your north
+- cow 6 steps to your south-west
+- stone 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+232,Noop,Noop,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- grass 1 step to your west
+- tree 2 steps to your north
+- cow 5 steps to your south-west
+- stone 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+233,Noop,ACTION: Noop,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- grass 1 step to your west
+- tree 2 steps to your north
+- cow 5 steps to your south-west
+- stone 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+234,Noop,"To recover health and energy while sleeping, we need to wait until our energy is fully restored. Since we are currently sleeping and our energy is low (2/9), we should continue to do nothing (Noop) to allow our character to rest safely.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- grass 1 step to your west
+- tree 2 steps to your north
+- cow 5 steps to your south-west
+- stone 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+235,Noop,"To recover health and energy while sleeping, we need to wait until our energy is fully restored. Since our energy is still low (2/9), we must continue to rest safely.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- grass 1 step to your west
+- tree 2 steps to your north
+- cow 5 steps to your south-west
+- stone 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+236,Noop,Noop,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- grass 1 step to your west
+- tree 2 steps to your north
+- cow 5 steps to your south-west
+- stone 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+237,Noop,"We need to let the player finish sleeping to recover energy and health, as health is extremely low (1/9) and energy is low (2/9).
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- grass 1 step to your west
+- tree 2 steps to your north
+- cow 5 steps to your south-west
+- stone 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+238,Noop,"To recover health and energy while sleeping, we need to continue waiting until energy and health are fully restored. Since we are currently sleeping, the only valid action to wait is 'Noop'.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- grass 1 step to your west
+- tree 2 steps to your north
+- cow 5 steps to your south-west
+- stone 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+239,Noop,"We need to wait for our energy and health to fully recover while sleeping. Since the agent is sleeping, we must use the Noop action to let time pass until energy is full.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- grass 1 step to your west
+- tree 2 steps to your north
+- stone 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+240,Noop,"Our energy is currently low (2/9) and our health is very low (1/9). We are sleeping, which recovers energy over time, but since our health is at 1, we are extremely vulnerable. However, we cannot perform any action other than `Noop` while sleeping. We must wait for energy to recover.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- grass 1 step to your west
+- tree 2 steps to your north
+- stone 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+241,Noop,"We are still sleeping, which automatically requires the `Noop` action until our energy is full and we wake up.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- grass 1 step to your west
+- tree 2 steps to your north
+- cow 6 steps to your south-west
+- stone 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+242,Noop,"We are still sleeping, so we must continue using the `Noop` action while our energy refills.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- grass 1 step to your west
+- tree 2 steps to your north
+- cow 6 steps to your south-west
+- stone 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+243,Noop,"We are currently sleeping to recover health and energy. We must wait until energy is full (9/9) before we can take other actions.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- grass 1 step to your west
+- tree 2 steps to your north
+- cow 5 steps to your south-west
+- stone 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+244,Noop,"We are still sleeping to recover energy, so we must continue waiting until our energy is fully restored.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- grass 1 step to your west
+- zombie 4 steps to your west
+- tree 2 steps to your north
+- cow 5 steps to your south-west
+- stone 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+245,Noop,"We are currently sleeping to recover our energy. Since we are sleeping, we cannot take active actions until our energy reaches maximum. However, there is a zombie nearby (4 steps west), so we should keep waiting until we wake up.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- grass 1 step to your west
+- tree 2 steps to your north
+- zombie 3 steps to your west
+- stone 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+246,Noop,"We are currently sleeping with low health (1/9) and our energy is not full yet. A zombie is getting closer (3 steps west). We must remain asleep until our energy is fully restored, so we can wake up and act (fight or run).
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- grass 1 step to your west
+- tree 2 steps to your north
+- zombie 2 steps to your west
+- stone 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+247,Noop,"We are still sleeping to recover energy, but our health is critically low (1/9) and a zombie is right next to us (2 steps away). We must keep waiting until energy is full so we can wake up and defend ourselves or move away.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- grass 1 step to your west
+- tree 2 steps to your north
+- zombie 2 steps to your west
+- stone 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+248,Noop,"We are sleeping to recover energy, and our energy is currently 3/9 (not full yet). A zombie is 2 steps to our west, and our health is very low (1/9). We must remain sleeping until energy is fully restored so we can wake up and act.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- grass 1 step to your north
+- tree 2 steps to your north
+- zombie 1 step to your west
+- stone 5 steps to your north-east
+
+You face grass at your front.",-0.1,True

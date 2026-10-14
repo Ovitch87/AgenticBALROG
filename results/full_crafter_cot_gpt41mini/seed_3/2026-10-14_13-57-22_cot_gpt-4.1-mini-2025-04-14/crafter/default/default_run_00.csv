@@ -1,0 +1,3502 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,Move West,"Step 1: I want to collect wood to start progressing towards making tools.
+Step 2: To collect wood, I need to go toward the tree, which is 4 steps to the south-west.
+Step 3: First, I should move west to be closer while heading diagonally south-west.
+Step 4: Once I am close enough to the tree, I will use Do to collect wood.
+
+Since I face grass in front and the tree is 4 steps south-west, I'll begin with moving west.
+
+ACTION: Move West","You see:
+- tree 3 steps to your south-west
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+1,Move West,"Step 1: I need to get closer to the tree to collect wood.
+Step 2: The tree is 3 steps south-west, so I should move west again to get closer while maintaining a diagonal path to the tree.
+Step 3: Once I reach the tree, I can use Do to collect wood and achieve the ""Collect Wood"" achievement.
+
+ACTION: Move West","You see:
+- stone 6 steps to your south-west
+- grass 1 step to your west
+- tree 2 steps to your south-west
+- skeleton 5 steps to your south-west
+
+You face grass at your front.",0.0,False
+2,Move South,"Step 1: I want to collect wood first to get the ""Collect Wood"" achievement.
+Step 2: The tree is 2 steps to the south-west. I am currently facing west towards grass. To move diagonally to the tree, I need to move south or west and then south.
+Step 3: Moving south first will move me closer to the south-west direction path.
+Step 4: After moving south, I can then move west again to get closer to the tree.
+Step 5: Once in front of the tree, I can use Do to collect wood.
+
+For now, moving south is the best first step to approach the tree.
+
+ACTION: Move South","You see:
+- grass 1 step to your north
+- tree 1 step to your west
+- skeleton 4 steps to your west
+- stone 5 steps to your south-west
+
+You face grass at your front.",0.0,False
+3,Move West,"Step 1: I want to collect wood first to get the ""Collect Wood"" achievement.
+Step 2: The tree is 1 step to my west. I am currently facing grass at my front (which is north).
+Step 3: I need to face the tree to collect wood (since Do collects in front).
+Step 4: Move west to be in front of the tree.
+Step 5: Then I can Do to collect wood.
+
+Since I am facing north and the tree is to my west, I should first Move West.
+
+ACTION: Move West","You see:
+- grass 1 step to your north
+- tree 1 step to your west
+- skeleton 4 steps to your west
+- stone 5 steps to your south-west
+
+You face tree at your front.",0.0,False
+4,Do,"Step 1: I am facing the tree, which is perfect for collecting wood.
+Step 2: Use the ""Do"" action to collect wood from the tree.
+Step 3: This will achieve the ""Collect Wood"" achievement and get wood in my inventory.
+Step 4: After collecting wood, next steps could be to place a table, but for now, focus on collecting wood first.
+
+ACTION: Do","You see:
+- grass 1 step to your west
+- tree 3 steps to your west
+- skeleton 4 steps to your west
+- stone 5 steps to your south-west
+
+You face grass at your front.",1.0,False
+5,Move West,"Step 1: I currently have 1 wood in my inventory, which is good for crafting a table later.
+Step 2: Since the tree is 3 steps to my west and a skeleton is also to my west, I need to be cautious.
+Step 3: I should move west to get closer to the tree for more wood and eventually place a table.
+Step 4: Moving west once won't immediately put me in the skeleton’s range, but I can keep an eye on it.
+Step 5: Collecting more wood is the immediate priority so I can craft tools and progress achievements.
+
+ACTION: Move West","You see:
+- stone 4 steps to your south-west
+- path 3 steps to your west
+- skeleton 4 steps to your west
+- grass 1 step to your west
+- tree 2 steps to your west
+
+You face grass at your front.",0.0,False
+6,Move West,"Step 1: I currently have 1 wood in my inventory and see a tree 2 steps to my west, which will allow me to collect more wood to progress towards crafting a table and tools.
+
+Step 2: There's a skeleton 4 steps to my west, so I need to be careful but since it's still a few steps away, moving west towards the tree is safe for now.
+
+Step 3: Moving west 1 step will bring me closer to the tree without immediate threat from the skeleton, and I will be facing grass again, which is safe to move through or interact with.
+
+Step 4: Once closer to the tree, I can use ""Do"" to collect wood.
+
+ACTION: Move West","You see:
+- stone 3 steps to your south-west
+- path 2 steps to your west
+- skeleton 3 steps to your west
+- grass 1 step to your north
+- tree 1 step to your west
+
+You face tree at your front.",0.0,False
+7,Do,"Step 1: The tree is right in front of me (1 step west). Using ""Do"" will allow me to collect wood from the tree, which is essential for crafting a table and progressing with tools.
+
+Step 2: The skeleton is 3 steps to the west, so after collecting wood I need to consider the threat from the skeleton, but for now, collecting wood is a priority.
+
+Step 3: I currently have 1 wood in inventory. More wood is needed to craft a table and then tools.
+
+Step 4: I am facing the tree, so the next logical action is to collect wood by using ""Do"".
+
+ACTION: Do","You see:
+- stone 3 steps to your south-west
+- path 2 steps to your west
+- skeleton 3 steps to your west
+- grass 1 step to your west
+- tree 3 steps to your north-west
+
+You face grass at your front.",0.0,False
+8,Move North,"Step 1: I have 2 wood in inventory, which might be enough to place a table and start crafting.
+
+Step 2: I see a skeleton 3 steps to the west, which is potentially dangerous, so I want to avoid confrontation until I have a weapon.
+
+Step 3: I see grass 1 step to the west and a tree 3 steps to the north-west. Gathering more wood is important for crafting a table and tools.
+
+Step 4: Since the skeleton is to the west and the grass is also to the west but I doubt it will provide wood, moving north-west towards the tree to gather more wood might be safer.
+
+Step 5: To approach the tree to the north-west, I first need to move north.
+
+Therefore, my next step is to Move North.
+
+ACTION: Move North","You see:
+- stone 4 steps to your north-west
+- path 3 steps to your west
+- skeleton 4 steps to your south-west
+- grass 1 step to your west
+- tree 2 steps to your west
+
+You face grass at your front.",0.0,False
+9,Move West,"Step 1: I want to collect more wood to be able to place a table and craft tools.
+
+Step 2: There is a tree 2 steps to the west, so I should move toward that tree to gather wood.
+
+Step 3: Currently, I face grass at my front, which is 1 step to the west. Moving west will bring me closer to the tree.
+
+Step 4: This is a safe move since the skeleton is 4 steps to the south-west, so it should not be an immediate threat.
+
+ACTION: Move West","You see:
+- stone 3 steps to your north-west
+- path 2 steps to your west
+- lava 6 steps to your south-west
+- skeleton 3 steps to your south-west
+- grass 1 step to your north
+- tree 1 step to your west
+
+You face tree at your front.",0.0,False
+10,Do,"Step 1: I see a tree 1 step in front of me. Since I need more wood (currently have 2) to place a table and craft tools, gathering wood is a priority.
+
+Step 2: The skeleton is 3 steps southwest, which is not an immediate threat from the front.
+
+Step 3: Using the ""Do"" action will allow me to collect wood from the tree in front of me.
+
+Step 4: After collecting more wood, I can progress toward placing a table and crafting a wood pickaxe and sword to advance achievements.
+
+ACTION: Do","You see:
+- stone 3 steps to your north-west
+- path 2 steps to your west
+- lava 6 steps to your south-west
+- skeleton 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your north
+
+You face grass at your front.",0.0,False
+11,Move North,"Step 1: I currently have 3 wood in inventory, which is enough to place a table but I am not near a table yet. I need to place a table before I can craft tools.
+
+Step 2: There is grass 1 step to my west and a tree 3 steps to my north. Collecting wood will require reaching a tree or cutting it if I face it.
+
+Step 3: To get closer to trees and resources, I should move toward them step by step.
+
+Step 4: The skeleton is not in immediate front, so no immediate danger.
+
+Step 5: I should move towards the tree to gather more wood and possibly other materials later.
+
+ACTION: Move North","You see:
+- stone 2 steps to your west
+- path 3 steps to your south-west
+- lava 7 steps to your south-west
+- skeleton 5 steps to your south-west
+- arrow 4 steps to your south-west
+- grass 1 step to your west
+- tree 2 steps to your north
+
+You face grass at your front.",0.0,False
+12,Move West,"Step 1: I have 3 wood in my inventory, which can be used to craft some basic tools once I have a table placed.
+
+Step 2: To craft a table, I need to place it first. This means I need to be in an empty space suitable for placing the table.
+
+Step 3: Currently, I face grass 1 step to the west, and there is a tree 2 steps to the north. Moving closer to the tree could be useful to gather more wood.
+
+Step 4: There is also stone 2 steps to the west — collecting stone will unlock more achievements and the ability to craft stronger tools.
+
+Step 5: To collect stone, I need to move toward it and use Do action.
+
+Step 6: However, I need at least a wooden pickaxe to mine stone effectively. So I first need to place a table and craft a wood pickaxe.
+
+Step 7: To place a table, I need to be in a clear spot, facing a place to put the table down.
+
+Step 8: Since I see grass to my west and stone 2 steps west, the spot 1 step west seems free to move into.
+
+Therefore, the best next action is to move west 1 step to get closer to the stone and potentially get a spot to place the table.
+
+ACTION: Move West","You see:
+- stone 1 step to your west
+- path 2 steps to your south-west
+- skeleton 4 steps to your south-west
+- lava 6 steps to your south-west
+- grass 1 step to your north
+- arrow 2 steps to your south
+- tree 3 steps to your north-east
+
+You face stone at your front.",0.0,False
+13,Move North,"Step 1: I have 3 wood in my inventory, which is enough to craft a wooden table.
+
+Step 2: To craft anything, I need to place a table first on the ground.
+
+Step 3: I am currently facing stone 1 step to the west.
+
+Step 4: I want to collect stone, but I need a wooden pickaxe to mine stone properly.
+
+Step 5: Before collecting stone, I should place a table, craft a wooden pickaxe, then use that pickaxe to collect stone.
+
+Step 6: To place the table, I need an empty place in front of me, but currently, there is stone immediately in front.
+
+Step 7: So, I need to move to a position where I can place the table in front of me on an empty tile.
+
+Step 8: Since there is grass 1 step north and stone 1 step west, and I’m facing stone, the stone tile is occupied.
+
+Step 9: Moving north would put me facing a different tile that might be empty for placing the table.
+
+Step 10: Move north 1 step, then place the table in the next steps.
+
+ACTION: Move North","You see:
+- stone 1 step to your west
+- path 3 steps to your south-west
+- skeleton 5 steps to your south-west
+- grass 1 step to your south
+- tree 2 steps to your north-east
+- arrow 4 steps to your south-east
+
+You face stone at your front.",0.0,False
+14,Move South,"Step 1: I have 3 wood in inventory, enough to place a table and then craft a wooden pickaxe.
+
+Step 2: Currently, I am facing stone 1 step to the west; I cannot place a table on stone.
+
+Step 3: I see grass 1 step to my south, which is a better place to move so I can place the table on flat ground.
+
+Step 4: Move south one step to stand facing an empty grass tile where I can place a table.
+
+ACTION: Move South","You see:
+- stone 1 step to your west
+- path 2 steps to your south-west
+- skeleton 4 steps to your south-west
+- lava 6 steps to your south-west
+- arrow 3 steps to your south-west
+- grass 1 step to your north
+- tree 3 steps to your north-east
+
+You face grass at your front.",0.0,False
+15,Place Table,"Step 1: I have 3 wood in inventory, so I can place a table on flat ground, then use it to craft tools.
+
+Step 2: To place a table, I need to face an empty tile where a table can be placed.
+
+Step 3: The grass tile is 1 step to my north and I am currently facing grass at my front, so I can place the table here.
+
+Step 4: Place the table on the grass tile directly in front.
+
+ACTION: Place Table","You see:
+- stone 1 step to your west
+- path 2 steps to your south
+- skeleton 4 steps to your south-west
+- lava 6 steps to your south-west
+- arrow 2 steps to your south-west
+- grass 1 step to your north
+- table 1 step to your south
+- tree 3 steps to your north-east
+
+You face table at your front.",1.0,False
+16,Make Wood Pickaxe,"Step 1: I see the table directly in front of me, so I can use it to craft some basic tools.
+Step 2: I currently have 1 wood in inventory, which is enough to make a Wood Pickaxe or Wood Sword using the table.
+Step 3: Since pickaxes allow me to collect stone and mine more resources, crafting a Wood Pickaxe first is a good idea.
+Step 4: Craft a Wood Pickaxe with the nearby table and my wood.
+
+ACTION: Make Wood Pickaxe","You see:
+- stone 1 step to your west
+- path 1 step to your south
+- skeleton 4 steps to your south-west
+- lava 6 steps to your south-west
+- grass 1 step to your north
+- tree 3 steps to your north-east
+- arrow 6 steps to your south-east
+
+You face path at your front.",1.0,False
+17,Move West,"Step 1: I have a wood pickaxe in inventory, so I can now collect stone.
+Step 2: There is stone 1 step to the west.
+Step 3: I should move west towards the stone.
+Step 4: Once I am in front of the stone, I can use the pickaxe to collect it.
+Step 5: Collecting stone will unlock the ""Collect Stone"" achievement and provide materials for crafting a stone pickaxe or sword.
+
+ACTION: Move West","You see:
+- stone 1 step to your west
+- path 1 step to your south
+- skeleton 3 steps to your south-west
+- lava 6 steps to your south-west
+- grass 1 step to your north
+- tree 3 steps to your north-east
+
+You face stone at your front.",0.0,False
+18,Do,"Step 1: I am facing stone 1 step in front of me.
+Step 2: I have a wood pickaxe which is suitable for mining stone.
+Step 3: Use the wood pickaxe to Mine the stone in front of me by using the ""Do"" action.
+Step 4: Collecting stone will unlock the ""Collect Stone"" achievement, which helps progress towards making better tools.
+
+ACTION: Do","You see:
+- stone 2 steps to your west
+- path 1 step to your west
+- skeleton 2 steps to your south-west
+- lava 6 steps to your south-west
+- grass 1 step to your north
+- tree 3 steps to your north-east
+
+You face path at your front.",1.0,False
+19,Move West,"Step 1: I've collected 1 stone and have a wood pickaxe ready.
+Step 2: I see a skeleton 2 steps to my south-west, which is a threat.
+Step 3: To be prepared to fight the skeleton and earn the ""Defeat Skeleton"" achievement, I should get closer.
+Step 4: I face a path to the west, which will likely bring me closer to the skeleton.
+Step 5: Moving west will bring me closer to the skeleton and possibly better resources.
+
+ACTION: Move West","You see:
+- stone 1 step to your west
+- path 2 steps to your south-west
+- skeleton 1 step to your south
+- lava 5 steps to your south-west
+- grass 1 step to your east
+- tree 4 steps to your north-east
+
+You face stone at your front.",0.0,False
+20,Move South,"Step 1: I see a skeleton 1 step to the south, which poses an immediate threat.  
+Step 2: Since I have a wood pickaxe but no sword, I should engage the skeleton carefully by using the ""Do"" action, which can hit the creature in front.  
+Step 3: Currently, I face stone in front, so I need to turn to face the skeleton or move to a position where I can attack it.  
+Step 4: The skeleton is to the south, so I should move south to face it directly and then attack.  
+
+ACTION: Move South","You see:
+- stone 1 step to your west
+- path 1 step to your south
+- skeleton 2 steps to your south
+- lava 5 steps to your south-west
+- grass 1 step to your east
+- tree 4 steps to your north-east
+
+You face path at your front.",0.0,False
+21,Move South,"Step 1: I see a skeleton 2 steps to the south and I’m currently facing path in front (south).  
+Step 2: To defeat the skeleton and get the ""Defeat Skeleton"" achievement, I need to attack it.  
+Step 3: To attack, I must be standing adjacent and facing the skeleton. Moving south once will put me closer and facing path still faces south, so after moving one step, I can use ""Do"" action to attack.  
+Step 4: Moving south now is the best move to approach the skeleton safely.  
+
+ACTION: Move South","You see:
+- stone 2 steps to your north-west
+- path 1 step to your west
+- skeleton 1 step to your south
+- arrow 2 steps to your west
+- lava 4 steps to your south-west
+- grass 2 steps to your north-east
+- tree 5 steps to your north-east
+
+You face skeleton at your front.",0.0,False
+22,Do,"Step 1: You are facing the skeleton and it is 1 step in front of you.
+Step 2: To defeat the skeleton and earn the ""Defeat Skeleton"" achievement, you need to attack it.
+Step 3: The ""Do"" action can be used to hit a creature directly in front of you.
+Step 4: Since your health and food levels are good and you are facing the skeleton, the best immediate action is to attack.
+
+ACTION: Do","You see:
+- stone 2 steps to your north-west
+- path 1 step to your north
+- skeleton 1 step to your south
+- lava 4 steps to your south-west
+- arrow 1 step to your west
+- grass 2 steps to your north-east
+- tree 5 steps to your north-east
+
+You face skeleton at your front.",0.0,False
+23,Do,"Step 1: The skeleton is still 1 step in front of the player and remains a threat.
+Step 2: To defeat the skeleton, the player needs to attack it using the ""Do"" action, which is used to hit creatures in front.
+Step 3: Since health, food, drink, and energy are all near maximum, the player can safely attack without needing to heal or rest first.
+
+ACTION: Do","You see:
+- stone 2 steps to your north-west
+- skeleton 1 step to your south
+- path 1 step to your west
+- lava 4 steps to your south-west
+- grass 2 steps to your north-east
+- tree 5 steps to your north-east
+
+You face skeleton at your front.",-0.2,False
+24,Do,"Step 1: The skeleton is still one step in front, posing a threat.
+Step 2: Health is slightly reduced, but still high enough to engage in combat.
+Step 3: The best course of action is to attack the skeleton immediately using ""Do"" to try to defeat it and progress toward the ""Defeat Skeleton"" achievement.
+Step 4: After defeating the skeleton, the focus will be on collecting more materials and crafting better tools and weapons.
+
+ACTION: Do","You see:
+- stone 2 steps to your north-west
+- skeleton 4 steps to your west
+- path 1 step to your west
+- lava 4 steps to your south-west
+- grass 2 steps to your north-east
+- tree 5 steps to your north-east
+
+You face path at your front.",1.1,False
+25,Move West,"Step 1: The skeleton is now 4 steps to the west and not immediately threatening. 
+Step 2: I have a wood pickaxe in inventory, but no sword yet, so defeating the skeleton might be risky now.
+Step 3: I see stone 2 steps to the northwest, which I need to collect for crafting stone tools and swords.
+Step 4: To collect stone, I need to approach the stone location first.
+Step 5: The path is one step to the west, and stone is northwest. I should start moving west to get closer to the stone while avoiding the skeleton.
+Step 6: Once closer to the stone, I will ""Do"" to collect it.
+Step 7: This will advance the achievements toward making a stone sword and pickaxe, and eventually defeating the skeleton later with better weapons.
+
+ACTION: Move West","You see:
+- stone 1 step to your north
+- skeleton 4 steps to your west
+- grass 3 steps to your north-east
+- path 1 step to your west
+- lava 3 steps to your south-west
+- tree 6 steps to your north-east
+
+You face path at your front.",0.0,False
+26,Move North,"Step-by-step reasoning:
+1. I have one stone and a wood pickaxe, but I need more stone to craft a stone pickaxe and stone sword.
+2. I see stone 1 step to the north, so moving north and collecting that stone is a priority.
+3. The skeleton is 4 steps to the west, far enough that I can safely move towards the stone without engaging.
+4. Once close enough to stone, I will use ""Do"" to collect it.
+5. Collecting more stone enables crafting stronger tools and weapons, crucial for progressing and defeating tougher enemies.
+
+ACTION: Move North","You see:
+- stone 1 step to your north
+- grass 3 steps to your north-east
+- skeleton 3 steps to your west
+- path 1 step to your west
+- lava 3 steps to your south-west
+- tree 6 steps to your north-east
+
+You face stone at your front.",0.0,False
+27,Do,"Step-by-step reasoning:
+1. I am facing stone 1 step ahead and have a wood pickaxe.
+2. To collect stone, I need to ""Do"" at the stone.
+3. Collecting stone will allow crafting a stone pickaxe later.
+4. My health, food, drink, and energy are nearly full, so I can focus on collecting stone now.
+
+ACTION: Do","You see:
+- stone 2 steps to your north-west
+- skeleton 4 steps to your west
+- grass 3 steps to your north-east
+- path 1 step to your west
+- lava 3 steps to your south-west
+- tree 6 steps to your north-east
+
+You face path at your front.",0.0,False
+28,Move North,"Step-by-step reasoning:
+1. I have 2 stones and a wood pickaxe in my inventory.
+2. Next goal is to make a stone pickaxe, which requires wood and stone, and a nearby table.
+3. I already have a table placed.
+4. I need more wood to ensure I can craft the stone pickaxe.
+5. Observations show trees 6 steps to the north-east, which is a good source of wood.
+6. To get closer to the trees, I need to move north-east direction.
+7. Current facing is path to the front (west), so I need to move north first to align towards the trees.
+
+Best course of action: Move North to get closer to the tree and eventually collect wood.
+
+ACTION: Move North","You see:
+- stone 1 step to your west
+- skeleton 5 steps to your south-west
+- grass 2 steps to your east
+- path 1 step to your south
+- lava 4 steps to your south-west
+- tree 5 steps to your north-east
+
+You face stone at your front.",0.0,False
+29,Move East,"Step-by-step reasoning:
+1. I need to collect wood to progress towards crafting more tools and achieving more milestones.
+2. There is a tree 5 steps to my north-east which I can use to collect wood.
+3. To get closer to the tree, the best direction is to move east first, then north, or north then east.
+4. Currently, I face stone to the west.
+5. Moving east will put me closer to the tree.
+6. Therefore, moving east is the best immediate action.
+
+ACTION: Move East","You see:
+- stone 1 step to your north
+- path 1 step to your west
+- lava 5 steps to your south-west
+- grass 1 step to your east
+- tree 4 steps to your north-east
+
+You face grass at your front.",0.0,False
+30,Move East,"Step-by-step reasoning:  
+1. I need to collect wood to progress toward achievements like ""Collect Wood"" and crafting more tools.  
+2. There is a tree 4 steps to the north-east, which is a good wood source.  
+3. Currently, I face grass to the east and wood is northeast; I can move east to get closer and eventually approach the tree.  
+4. Moving east will bring me closer to the tree without hazards in sight.  
+5. Once closer to the tree, I can use the Do action to collect wood.
+
+ACTION: Move East","You see:
+- stone 2 steps to your north-west
+- path 1 step to your west
+- lava 6 steps to your south-west
+- grass 1 step to your north
+- tree 3 steps to your north-east
+
+You face grass at your front.",0.0,False
+31,Move North,"Step-by-step reasoning:  
+1. The goal is to collect more wood and progress through achievements.  
+2. There is a tree 3 steps to the north-east, which is a good source of wood.  
+3. Currently, I face grass to the north and the tree is to my north-east, so moving north will get me closer to the tree and eventually east will approach the tree directly.  
+4. Moving north will bring me closer to the tree without immediate threats.  
+5. Once closer, I can use Do to collect wood from the tree.
+
+ACTION: Move North","You see:
+- stone 1 step to your west
+- path 2 steps to your south-west
+- grass 1 step to your south
+- tree 2 steps to your north-east
+
+You face stone at your front.",0.0,False
+32,Move North,"Step-by-step reasoning:  
+1. I see stone 1 step to my west, grass 1 step to my south, and tree 2 steps to my north-east.  
+2. I already have a wood pickaxe in the inventory, so I'm equipped to mine stone and chop wood efficiently.  
+3. Since wood is crucial for further crafting and achievements, the tree 2 steps away to the north-east is a priority to reach.  
+4. From my current position facing stone in front (west), I should turn or move towards north or east to approach the tree.  
+5. Moving north to get closer to the tree and avoid stone right now seems to be the best approach.  
+6. After reaching the tree, I can collect wood using the ""Do"" action.  
+
+ACTION: Move North","You see:
+- stone 1 step to your west
+- path 2 steps to your south-west
+- grass 1 step to your south
+- tree 2 steps to your north-east
+
+You face stone at your front.",0.0,False
+33,Move North,"Step-by-step reasoning:  
+1. I am facing stone at my front, which is to the west.  
+2. The tree is 2 steps to my north-east, which is currently not directly ahead.  
+3. Grass is one step to the south.  
+4. To get wood (achievement 1: Collect Wood), I need to be near the tree and ""Do"" the action to collect wood from the tree.  
+5. First, I need to move toward the tree, which is northeast, so moving north would put me closer to the tree than moving south or west.  
+6. Moving north once will put me closer to the tree, then I can adjust east or northeast and collect the wood.  
+
+ACTION: Move North","You see:
+- stone 1 step to your west
+- path 2 steps to your south-west
+- grass 1 step to your south
+- tree 2 steps to your north-east
+
+You face stone at your front.",0.0,False
+34,Move North,"Step-by-step reasoning:  
+1. I am facing stone at my front (west).  
+2. There is a tree 2 steps to my north-east, which is where I want to go to collect wood (achieve ""Collect Wood"").  
+3. The best move to get closer to the tree is to move north, then east to get near enough to ""Do"" and collect wood.  
+4. Moving north now will bring me closer to the tree.  
+5. Once near the tree, I can ""Do"" to collect wood.  
+
+ACTION: Move North","You see:
+- stone 1 step to your west
+- path 2 steps to your south-west
+- grass 1 step to your south
+- tree 2 steps to your north-east
+
+You face stone at your front.",0.0,False
+35,Move North,"Step-by-step reasoning:
+1. I want to move towards the tree to collect wood (achievement ""Collect Wood"").
+2. Currently, I face stone at my front (west), but the tree is to my north-east.
+3. Moving north will bring me closer to the tree and get me off facing the stone.
+4. After moving north a few steps, I will be closer and can then move northeast to the tree.
+5. Eventually, once next to the tree, I can use ""Do"" to collect wood.
+
+ACTION: Move North","You see:
+- stone 1 step to your west
+- path 2 steps to your south-west
+- grass 1 step to your south
+- tree 2 steps to your north-east
+
+You face stone at your front.",0.0,False
+36,Move North,"Step-by-step reasoning:
+1. I currently face stone at my front (to the west), but the tree is to the northeast, which is where I want to go to collect wood.
+2. To reach the tree, I need to navigate away from the stone and closer to the north or east.
+3. Moving north will bring me closer to the tree, since the tree is 2 steps north-east.
+4. Once closer, I can move east or northeast, then use ""Do"" to collect wood from the tree.
+5. I have a wood pickaxe already, so eventually I might want to craft more items or collect stone, but the priority is to collect wood now to unlock the achievement ""Collect Wood"".
+
+Best action now: Move north to get closer to the tree.
+
+ACTION: Move North","You see:
+- stone 1 step to your west
+- path 2 steps to your south-west
+- grass 1 step to your south
+- tree 2 steps to your north-east
+
+You face stone at your front.",0.0,False
+37,Move North,"Step-by-step reasoning:
+1. The tree is 2 steps to the north-east, but I currently face stone directly to the west.
+2. I want to move towards the tree to collect wood and unlock the ""Collect Wood"" achievement.
+3. To move towards the north-east, first I need to face either north or east.
+4. Since I face west (stone), moving west is blocked by stone, so I can't move forward.
+5. However, the game does not show any direct turn action, and the only moves are moving in the cardinal directions on flat ground.
+6. Since I face west and cannot move forward west, I can move north or south to reposition myself.
+7. There is grass 1 step to my south and stone to the west. There's no indication of obstacles north, just stone west.
+8. If I move north, I won't change facing direction, but moving north on flat ground will reposition me closer to the tree.
+9. Then I can adjust moving to the east to get closer.
+
+Conclusion: Move North to approach the tree.
+
+ACTION: Move North","You see:
+- stone 1 step to your west
+- path 2 steps to your south-west
+- grass 1 step to your south
+- tree 2 steps to your north-east
+
+You face stone at your front.",0.0,False
+38,Do,"Step-by-step reasoning:
+1. You currently face stone to the west and cannot move forward without breaking or removing the stone.
+2. You have a wood pickaxe which can be used to collect stone.
+3. Collecting more stone is useful toward achievements like Collect Stone and for making better tools.
+4. Since you face stone directly, using Do to collect the stone would be efficient.
+5. After collecting stone, you can navigate towards the tree to collect wood and progress with crafting.
+6. Prioritize collecting stone first, so use Do now.
+
+ACTION: Do","You see:
+- stone 1 step to your west
+- path 1 step to your north
+- grass 1 step to your south
+- tree 2 steps to your north-east
+
+You face path at your front.",0.0,False
+39,Move North,"Step-by-step reasoning:
+
+1. You currently face path to the north, so moving forward will take you towards the path.
+2. There is a tree 2 steps to your north-east, which is the source of wood needed for many achievements like Collect Wood and crafting tools.
+3. To reach the tree, you need to move north (towards the path) and then east towards the tree.
+4. Moving north first will put you closer to the tree and potentially provide access to resources along the path.
+5. Collecting wood early is essential to progressing in crafting and unlocking achievements.
+
+Therefore, moving north is the best next step.
+
+ACTION: Move North","You see:
+- path 3 steps to your south-west
+- stone 1 step to your west
+- grass 1 step to your south
+- tree 1 step to your east
+
+You face stone at your front.",0.0,False
+40,Move East,"Step-by-step reasoning:
+1. You currently face stone at your front, but the tree is 1 step to the east.
+2. Since you need wood to accomplish several achievements, including making pickaxes and swords, collecting wood is a priority.
+3. To collect wood, you need to face the tree and then use the ""Do"" action to gather wood.
+4. You should turn to face east (where the tree is) by changing your direction.
+5. However, you do not have an action that explicitly changes facing direction without moving, so you can move east to get beside or in front of the tree for collection.
+6. Move East to reach the tree, then use ""Do"" to collect wood in the next step.
+
+Thus, the immediate best action is to move east.
+
+ACTION: Move East","You see:
+- path 3 steps to your south-west
+- stone 1 step to your west
+- grass 1 step to your south
+- tree 1 step to your east
+
+You face tree at your front.",0.0,False
+41,Do,"Step-by-step reasoning:
+1. You are facing the tree and want to collect wood to fulfill achievement ""Collect Wood"".
+2. Using the ""Do"" action while facing a tree will collect wood.
+3. You already have a wood pickaxe, but accumulating more wood is beneficial for crafting and placing tables.
+4. Collecting wood early is essential for progressing toward crafting tools and furniture.
+
+ACTION: Do","You see:
+- path 3 steps to your south-west
+- stone 1 step to your west
+- grass 1 step to your south
+- tree 4 steps to your north-east
+
+You face grass at your front.",0.0,False
+42,Do,"Step-by-step reasoning:  
+1. Facing grass, which can be collected (likely yielding plants) that will help for achievements like ""Collect Plant"" or ""Eat Plant"".  
+2. Collecting plants early will help unlock achievements and food sources.  
+3. Using ""Do"" while facing grass will collect the plant.  
+4. After collecting plants, I can move towards the tree for more wood gathering next.  
+
+ACTION: Do","You see:
+- path 3 steps to your south-west
+- stone 1 step to your west
+- grass 1 step to your south
+- tree 4 steps to your north-east
+
+You face grass at your front.",0.0,False
+43,Do,"Step-by-step reasoning:
+1. Facing grass, so ""Do"" will let me collect plants, progressing toward achievements like ""Place Plant"" or ""Eat Plant.""
+2. Collecting plants will also likely increase my food or resources.
+3. After collecting plants, it would be beneficial to gather more wood next by moving towards the tree to the north-east.
+4. Since I have a wood pickaxe, mining stone and collecting wood will help me craft better tools later.
+
+ACTION: Do","You see:
+- path 3 steps to your south-west
+- stone 1 step to your west
+- grass 1 step to your south
+- tree 4 steps to your north-east
+
+You face grass at your front.",0.0,False
+44,Move East,"Step-by-step reasoning:
+1. Currently facing grass and standing near resources but no immediate threat.
+2. I have 1 wood and 3 stone and already have a wood pickaxe.
+3. To progress towards achievements, I should collect more wood from the tree 4 steps to the northeast.
+4. First, I need to navigate toward the tree for wood collection.
+5. Since the tree is northeast, moving east first will get me closer to the tree.
+6. After moving east a few times, I can then face the tree and ""Do"" to collect wood.
+
+ACTION: Move East","You see:
+- stone 2 steps to your west
+- path 1 step to your west
+- grass 1 step to your north
+- tree 3 steps to your north-east
+
+You face grass at your front.",0.0,False
+45,Move North,"Step-by-step reasoning:
+
+1. The tree is 3 steps to the northeast, so I need to get closer to it to collect wood.
+2. I'm currently facing grass to the north, so moving north once will bring me closer to the tree.
+3. After moving north, I'll be 2 steps south of the tree, and I can plan further movement towards the tree.
+4. Continuing to move north or east afterwards will allow me to reach the tree.
+5. Once adjacent to the tree, I can use ""Do"" to collect wood and unlock the ""Collect Wood"" achievement.
+
+ACTION: Move North","You see:
+- stone 1 step to your west
+- path 2 steps to your south-west
+- grass 1 step to your south
+- tree 2 steps to your north-east
+
+You face stone at your front.",0.0,False
+46,Do,"Step-by-step reasoning:
+
+1. I currently have 1 wood and 3 stones in my inventory, and I already have a wood_pickaxe.
+2. To unlock more achievements, such as making stone tools or swords, I need to collect more wood and stone, and potentially place a table.
+3. There is a tree 2 steps to the north-east, but I'm currently facing stone directly in front of me.
+4. To move toward the tree, I need to adjust my position by moving east or north, eventually getting close enough to the tree to collect wood.
+5. Facing stone in front, I can try to collect stone next to me by turning or moving towards it.
+6. Since the stone is directly in front, I can use the ""Do"" action to collect the stone to get closer to the ""Collect Stone"" achievement.
+7. After collecting stone, I will continue moving towards the tree to get more wood.
+
+ACTION: Do","You see:
+- stone 1 step to your west
+- path 1 step to your north
+- grass 1 step to your south
+- tree 2 steps to your north-east
+
+You face path at your front.",0.0,False
+47,Move North,"Step-by-step reasoning:
+
+1. I want to collect more wood to progress towards achievements like collecting wood, making wood tools, and eventually crafting better pickaxes.
+2. The tree is 2 steps to my north-east, so I should move towards it to collect wood.
+3. Currently, I face the path to the north, so I can move north first.
+4. After moving north, I can then move east toward the tree to get closer for wood collection.
+5. Once near the tree, I can use the ""Do"" action to collect wood.
+
+ACTION: Move North","You see:
+- zombie 7 steps to your north-west
+- stone 1 step to your west
+- path 3 steps to your south-west
+- grass 1 step to your south
+- tree 1 step to your east
+
+You face stone at your front.",0.0,False
+48,Move East,"Step-by-step reasoning:
+
+1. There's a zombie 7 steps to the north-west, potentially a threat but not immediate.
+2. I have 1 wood, 4 stone, and 1 wood pickaxe in inventory already.
+3. There's a tree 1 step to the east, which can provide more wood for crafting further tools or achievements.
+4. I'm facing stone at my front (west), but the tree is east, so I need to turn to face the tree by moving east.
+5. Moving east towards the tree will allow me to collect more wood.
+6. Collecting more wood helps achieve ""Collect Wood"" and supports crafting better tools like stone pickaxe.
+7. The zombie is not close enough to require immediate combat, but I should be prepared after gathering resources.
+
+ACTION: Move East","You see:
+- path 3 steps to your south-west
+- stone 1 step to your west
+- zombie 6 steps to your north-west
+- grass 1 step to your south
+- tree 1 step to your east
+
+You face tree at your front.",0.0,False
+49,Do,"Step-by-step reasoning:
+1. I am currently facing a tree 1 step ahead, and I have a wood pickaxe available.
+2. Using the wood pickaxe on the tree will help me collect wood, which is essential for many achievements like ""Collect Wood,"" and crafting other tools and items.
+3. The zombie is 6 steps away to the north-west, not an immediate threat, so I can safely focus on gathering resources first.
+4. Collecting wood now is a good priority to build up resources.
+5. Therefore, the best immediate action is to use ""Do"" to collect wood from the tree.
+
+ACTION: Do","You see:
+- path 3 steps to your south-west
+- stone 1 step to your west
+- zombie 6 steps to your north-west
+- grass 1 step to your south
+
+You face grass at your front.",0.0,False
+50,Place Table,"Step-by-step reasoning:
+1. The current inventory includes wood, stone, and a wood pickaxe.
+2. There's a zombie 6 steps to the north-west, but it's not an immediate threat since it's a bit far and I am facing grass in front.
+3. Grass can potentially be used to place a plant or for other resource gathering.
+4. To progress toward achievements, I need to collect more resources and craft tools.
+5. I currently have 2 wood and 4 stone, so making a stone pickaxe is possible if I have a table placed nearby.
+6. However, there’s no mention of a placed table nearby, so the first step should be placing a table.
+7. To place a table, I need to face an empty space where I can put the table.
+8. I face grass, so this might be suitable for placing a table.
+9. Placing a table will allow me to start crafting tools efficiently.
+
+ACTION: Place Table","You see:
+- path 3 steps to your south-west
+- stone 1 step to your west
+- zombie 6 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.1,False
+51,Make Stone Pickaxe,"Step-by-step reasoning:
+
+1. I currently face a table, which means I can craft tools if I have the required materials.
+2. Inventory contains a wood pickaxe, but I have 4 stones and possibly wood (although the inventory isn’t detailed regarding wood, but a wood pickaxe is present which implies having wood).
+3. Making a stone pickaxe is a good upgrade and an achievement.
+4. To craft a stone pickaxe, I need wood, stone, and a nearby table, which I have.
+5. Crafting a stone pickaxe will help me mine stone and further upgrade to iron pickaxe later.
+6. The zombie is 6 steps away, which is far enough not to be immediately dangerous.
+7. My energy, health, food, and drink are all high, so no need to rest or eat now.
+
+Best course of action: Craft Stone Pickaxe.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 3 steps to your south-west
+- stone 1 step to your west
+- zombie 6 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+52,Make Stone Pickaxe,"Step-by-step reasoning:
+
+1. I have 4 stones in inventory and a wood pickaxe, with a table nearby.
+2. I can craft a stone pickaxe on the table, using wood and stone.
+3. Crafting the stone pickaxe is an achievement and will help me progress further.
+4. Health, food, drink, and energy are all sufficient, so no need to eat or sleep now.
+5. The zombie is far, so no immediate threat.
+6. Therefore, the best move now is to craft the stone pickaxe.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 3 steps to your south-west
+- stone 1 step to your west
+- zombie 6 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+53,Make Stone Pickaxe,"Step-by-step reasoning:
+
+1. I have a wood pickaxe but want a stone pickaxe to mine stone and progress further.
+2. I have enough stone (4) and wood to make a stone pickaxe.
+3. I am facing the table, so I can craft the stone pickaxe now.
+4. Crafting the stone pickaxe will unlock achievement 14 (Make Stone Pickaxe).
+5. Zombie is far away and poses no immediate threat.
+6. Food, drink, energy, and health are all good, so no need to eat or sleep.
+7. Therefore, the next best action is to craft the stone pickaxe.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 3 steps to your south-west
+- stone 1 step to your west
+- zombie 6 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+54,Make Stone Pickaxe,"Step-by-step reasoning:
+
+1. I have a wood pickaxe in my inventory but I also have 4 stones, which means I can make a stone pickaxe using the table.
+2. Making a stone pickaxe is valuable because it will allow me to mine stone and other resources more efficiently.
+3. Since I am already facing the table, I can craft the stone pickaxe immediately.
+4. This will help progress towards the achievement ""Make Stone Pickaxe.""
+5. No immediate danger from the zombie that is still quite far away.
+6. My health, food, drink, and energy are all relatively high, so I do not need to sleep or eat right now.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 3 steps to your south-west
+- stone 1 step to your west
+- zombie 6 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+55,Make Stone Pickaxe,"Step-by-step reasoning:
+1. I currently have 4 stones and a wood pickaxe.
+2. I can make a stone pickaxe using the table (which is right in front).
+3. Making a stone pickaxe will allow me to mine stone and possibly other materials faster.
+4. It also earns me the achievement ""Make Stone Pickaxe.""
+5. The zombie is still far away, so no immediate threat.
+6. My health, food, drink, and energy are all good, so no need to sleep or eat now.
+7. Therefore, crafting the stone pickaxe now is optimal.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 3 steps to your south-west
+- stone 1 step to your west
+- zombie 6 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+56,Make Stone Pickaxe,"Step-by-step reasoning:
+1. I have wood_pickaxe in inventory, but not the stone pickaxe yet.
+2. I have stones (4), wood_pickaxe, and a table nearby.
+3. The zombie is still 6 steps away, no immediate danger.
+4. Making the stone pickaxe now will unlock an achievement and improve my toolset.
+5. No immediate need to move or gather resources currently; crafting is the priority.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 3 steps to your south-west
+- stone 1 step to your west
+- zombie 6 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+57,Make Stone Pickaxe,"Step-by-step reasoning:
+1. I have 4 stones and a wood pickaxe in my inventory.
+2. I am standing next to a table, which is required to craft a stone pickaxe.
+3. Crafting a stone pickaxe will unlock the ""Make Stone Pickaxe"" achievement and improve my toolset.
+4. The zombie is still far away (6 steps), so no immediate threat.
+5. Crafting the stone pickaxe now is the most efficient progression.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 3 steps to your south-west
+- stone 1 step to your west
+- zombie 6 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+58,Make Stone Pickaxe,"Step-by-step reasoning:
+1. I have enough stone and the required wooden pickaxe, so crafting the stone pickaxe is possible and beneficial.
+2. Crafting the stone pickaxe is the logical next step to improve my tools.
+3. The zombie is too far away to require immediate combat or evasion, so I can safely craft now.
+4. Facing the table allows me to craft directly without moving.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 3 steps to your south-west
+- stone 1 step to your west
+- zombie 6 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+59,Make Stone Pickaxe,"Step-by-step reasoning:
+1. I have enough stone and a wooden pickaxe, and I see the crafting table in front of me.
+2. Crafting the stone pickaxe is a priority because it will allow me to mine stone and progress further.
+3. The zombie is still far enough not to be an immediate threat.
+4. Since I face the table, I can craft the stone pickaxe now.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 3 steps to your south-west
+- stone 1 step to your west
+- zombie 6 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+60,Make Stone Pickaxe,"Step-by-step reasoning:
+1. I currently have wood_pickaxe but have not crafted the stone_pickaxe yet.
+2. The inventory shows 4 stones, which is enough to craft a stone pickaxe.
+3. I am already facing the table, so I can craft the stone pickaxe here.
+4. Crafting the stone pickaxe will allow me to mine stone more efficiently and progress toward achievements involving stone tools.
+5. The zombie is not close enough to pose an immediate threat, so crafting the pickaxe is safe.
+6. Once the stone pickaxe is made, I can consider collecting more stone or preparing to make stone swords or other items.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 3 steps to your south-west
+- stone 1 step to your west
+- zombie 6 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+61,Make Stone Pickaxe,"Step-by-step reasoning:
+1. I have 4 stones and a wood pickaxe, which means I can craft a stone pickaxe if I have wood and stone at the table.
+2. I face the table, so I am in the correct position to craft the stone pickaxe.
+3. Crafting the stone pickaxe now will improve mining efficiency for stone and unlock achievements related to stone tools.
+4. There is no immediate threat from the zombie 6 steps away.
+5. I should craft the stone pickaxe to progress in achievements.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 3 steps to your south-west
+- stone 1 step to your west
+- zombie 5 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+62,Move East,"Step-by-step reasoning:
+1. I have 4 stones and a wood pickaxe in inventory.
+2. The inventory does not list wood, so I need to collect wood first to craft a stone pickaxe.
+3. The table is in front, and if I had wood I could craft the stone pickaxe at the table.
+4. From previous observations, there was a tree 1 step to the east.
+5. However, currently facing the table, I can move east to face the tree and collect wood.
+6. After collecting wood, I can return to the table and craft the stone pickaxe.
+7. Also, the zombie is 5 steps away, not an immediate threat, but I should be cautious.
+8. So the immediate next step is to move east towards the tree to collect wood.
+
+ACTION: Move East","You see:
+- path 3 steps to your south-west
+- stone 1 step to your west
+- zombie 5 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+63,Move East,"Step-by-step reasoning:
+1. Currently facing the table, but I need wood in inventory to craft the stone pickaxe.
+2. I already have a wood pickaxe but no wood in inventory.
+3. From previous observations, there is a tree 1 step to the east.
+4. Moving east will face the tree, allowing me to collect wood.
+5. After collecting wood, I can move back to the table and craft the stone pickaxe.
+6. The zombie is 5 steps away, so no immediate threat, but I should keep an eye on it.
+
+Best immediate action is to move east towards the tree.
+
+ACTION: Move East","You see:
+- path 3 steps to your south-west
+- stone 1 step to your west
+- zombie 5 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+64,Move East,"Step-by-step reasoning:
+1. I have a wood pickaxe but no wood in inventory.
+2. To craft a stone pickaxe, I need wood and stone at the table.
+3. There is stone west, wood (tree) east, so I should collect wood first.
+4. I'm currently facing the table; moving east will face the tree.
+5. Once I collect wood from the tree, I can return to the table and craft the stone pickaxe.
+6. The zombie is 5 steps away, not an immediate threat but to be cautious.
+7. The best immediate action is to move east towards the tree to collect wood.
+
+ACTION: Move East","You see:
+- path 3 steps to your south-west
+- stone 1 step to your west
+- zombie 5 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+65,Move East,"Step-by-step reasoning:
+
+1. I currently have a wood pickaxe and 4 stones in my inventory.
+2. To make a stone pickaxe, I need wood and stone at the table.
+3. There is a table 1 step to the east, and a stone 1 step to the west.
+4. There's grass to the south and a zombie 5 steps to the northwest, but the zombie is not an immediate threat.
+5. I am currently facing the table, but I need to collect wood first before crafting the stone pickaxe.
+6. Since wood is not currently in my inventory, I need to find and collect wood.
+7. The previous observations indicate that there was wood or trees near the table to the east.
+8. Therefore, I should move east to get closer to wood (likely near or past the table).
+9. Once I have wood, I can return to the table (facing east), then craft the stone pickaxe.
+
+ACTION: Move East","You see:
+- path 3 steps to your south-west
+- stone 1 step to your west
+- zombie 5 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+66,Move East,"Step-by-step reasoning:
+
+1. I have a wood pickaxe and 4 stones in my inventory, but no wood currently.
+2. There is a table directly in front of me to the east, and a stone 1 step west.
+3. I see grass one step to the south, and a zombie 5 steps northwest.
+4. To make a stone pickaxe, I need wood and stone near the table.
+5. I currently don't have wood, so I need to collect wood first.
+6. Since wood isn't immediately visible here, it's likely I need to explore.
+7. Moving east toward the table may bring me closer to wood resources.
+8. After moving, I can look around and if I find wood, I can then use the table to make the stone pickaxe.
+
+ACTION: Move East","You see:
+- path 3 steps to your south-west
+- stone 1 step to your west
+- zombie 4 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+67,Move South,"Step-by-step reasoning:
+
+1. I have a wood pickaxe but no wood in my inventory to make stone pickaxe yet.
+2. There is a table right in front of me (east), which is needed to craft tools.
+3. There is stone 1 step west and grass 1 step south.
+4. Zombies are farther away (4 steps northwest); no immediate threat.
+5. To get wood, I should move towards a location where wood is found or collect wood if possible.
+6. Since there's grass south and path southwest, perhaps moving south or southwest to find wood is a good idea.
+7. However, since my focus now is to use the table effectively, I should first move onto the table to enable crafting interaction.
+8. Alternatively, I can move east onto the table, then try to make a craft if I find wood or stone.
+9. Since I have stones but no wood, maybe I need to collect wood first.
+10. Since no visible wood currently, I should move south towards grass to explore area for wood.
+11. So the best immediate action is to move south to collect wood later.
+
+ACTION: Move South","You see:
+- stone 1 step to your west
+- path 1 step to your north
+- grass 1 step to your south
+- table 2 steps to your north-east
+
+You face grass at your front.",0.0,False
+68,Move North,"Step-by-step reasoning:
+
+1. I have a wood pickaxe and 4 stones in inventory.
+2. There's a table 2 steps to my north-east, which is required for crafting stone pickaxe.
+3. I see stone 1 step to my west, path 1 step to my north, and grass 1 step to my south.
+4. To craft a stone pickaxe, I need to be next to a table and have wood and stone.
+5. I currently have stone but no wood in inventory. I must collect wood first.
+6. There's grass in front, going south, and path to the north.
+7. I don't see any wood directly now, but I can move towards the path or explore nearby areas.
+8. Moving north towards path brings me closer to the table (north-east), so I can reach the table soon.
+9. After approaching the table, the next step is to find and collect wood near the path or move around to find wood.
+10. For now, the best immediate action is to move north to get closer to the table and explore the path area.
+
+ACTION: Move North","You see:
+- path 3 steps to your south-west
+- stone 1 step to your west
+- grass 1 step to your south
+- zombie 3 steps to your north
+- table 1 step to your east
+
+You face stone at your front.",0.0,False
+69,Move South,"Step-by-step reasoning:
+
+1. I have a wood pickaxe and 4 stones but no wood currently in inventory.
+2. There is a zombie 3 steps to the north, which could be a threat.
+3. There's a table 1 step to the east, which I need to be next to in order to craft a stone pickaxe.
+4. To craft a stone pickaxe, I need wood and stone. I have stone but no wood.
+5. There's grass 1 step to the south and stone 1 step to the west.
+6. I currently face stone at my front (west).
+7. To collect wood, I need to find a tree or sapling, which likely is on grass or path tiles.
+8. The zombie is nearby; to avoid combat unless ready, I should be cautious moving north.
+9. Better to first move one step east to be next to the table and then craft the stone pickaxe if I had wood.
+10. Since I don’t have wood, I need to collect wood first.
+11. The best approach is to move south onto grass to search for wood or saplings.
+12. After collecting wood, I can return to the table to make the stone pickaxe.
+
+ACTION: Move South","You see:
+- stone 1 step to your west
+- path 1 step to your north
+- grass 1 step to your south
+- table 2 steps to your north-east
+
+You face grass at your front.",0.0,False
+70,Move South,"Step-by-step reasoning:
+
+1. I currently have a wood pickaxe but no wood or other resources in inventory except stones.
+2. I see stone 1 step west, path 1 step north, grass 1 step south, and the table 2 steps northeast.
+3. To progress, I need to collect wood first (to get the ""Collect Wood"" achievement and to craft better tools).
+4. Grass might have trees or saplings nearby, so moving south onto grass could allow me to gather wood or saplings.
+5. I will move south onto grass to explore and potentially gather wood or saplings.
+
+ACTION: Move South","You see:
+- stone 2 steps to your west
+- path 1 step to your west
+- grass 1 step to your north
+- table 3 steps to your north-east
+
+You face grass at your front.",0.0,False
+71,Move North,"Step-by-step reasoning:
+
+1. I currently have a wood pickaxe and stones but no wood in inventory.
+2. I need to collect wood to progress, which means I need to find wood to collect or a tree to chop.
+3. The current observation shows grass 1 step to the north, stone 2 steps to the west, path 1 step to the west, and the table 3 steps to the north-east.
+4. Trees typically grow on grass, so moving onto grass to the north may bring me closer to wood.
+5. Alternatively, moving west towards path and stone doesn't seem to immediately help with collecting wood.
+6. Therefore, it's best to move north onto the grass to find potential wood sources.
+
+ACTION: Move North","You see:
+- stone 1 step to your west
+- path 1 step to your north
+- grass 1 step to your south
+- table 2 steps to your north-east
+
+You face path at your front.",0.0,False
+72,Move North,"Step-by-step reasoning:
+
+1. The inventory indicates I have a wood pickaxe and some stone, but no wood.
+2. To craft better tools and progress, I need to collect wood.
+3. The observation shows path 1 step straight ahead (north), table 2 steps to the north-east, stone 1 step to the west, and grass 1 step to the south.
+4. Trees or wood sources usually exist on the path or grass; I should try moving towards either.
+5. Since path is in front and possibly leads to wood or trees, moving north onto the path is a good next step to explore.
+6. Once on the path, I can explore surrounding tiles or attempt to collect wood if I find suitable sources.
+
+ACTION: Move North","You see:
+- path 3 steps to your south-west
+- stone 1 step to your west
+- grass 1 step to your south
+- zombie 3 steps to your north
+- table 1 step to your east
+
+You face stone at your front.",0.0,False
+73,Do,"Step-by-step reasoning:
+1. There is a zombie 3 steps to the north, which could be a threat later but not immediately adjacent.
+2. I currently face stone at my front, which might be collectible by ""Do"" action if close enough.
+3. I need more materials, especially wood, to progress.
+4. There is a table 1 step to the east, which can be used to craft items if I have the required materials.
+5. The best course of action would be to collect the stone in front first (to accumulate resources).
+6. After collecting stone, I can explore options to get wood, possibly by moving to grass or path tiles nearby where wood/saplings might be collected.
+
+ACTION: Do","You see:
+- path 1 step to your north
+- stone 1 step to your west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face path at your front.",0.0,False
+74,Move South,"Step-by-step reasoning:
+1. I currently have 5 stones and a wood pickaxe in inventory.
+2. To progress further, I need to gather wood, which is necessary for crafting better tools and items.
+3. Wood typically comes from trees or saplings, which might be found near grass or other natural areas.
+4. The grass tile to the south might yield wood or saplings if I use the ""Do"" action there.
+5. I should move towards grass to attempt gathering wood or saplings.
+6. Since I currently face path to the north, I can turn around by moving west or south, or just move directly south to reach grass.
+
+Given that grass is 1 step south, the best action is to move south to reach the grass tile.
+
+ACTION: Move South","You see:
+- stone 1 step to your west
+- path 1 step to your north
+- grass 1 step to your south
+- table 2 steps to your north-east
+
+You face grass at your front.",0.0,False
+75,Do,"Step-by-step reasoning:
+1. I am currently facing grass and standing on a flat ground area.
+2. To progress, I need to collect wood or saplings. Grass tiles may contain saplings or materials to collect.
+3. Using the ""Do"" action on grass can collect saplings or potentially wood.
+4. I have a wood pickaxe ready to use, so after collecting wood or saplings, I can craft better tools later.
+5. Energy and food are sufficient now, so no immediate need to sleep or eat.
+6. Therefore, the best immediate action is to ""Do"" on the grass tile in front to attempt collecting wood or saplings.
+
+ACTION: Do","You see:
+- stone 1 step to your west
+- path 1 step to your north
+- grass 1 step to your south
+- table 2 steps to your north-east
+
+You face grass at your front.",0.0,False
+76,Do,"Step-by-step reasoning:
+1. I am facing grass, which might yield saplings or other useful materials if I use the ""Do"" action.
+2. Collecting saplings is an achievement goal, and might be important for future crafting or planting.
+3. My inventory currently holds stone and a wood pickaxe, but no wood or saplings.
+4. I have sufficient health, food, drink, and energy to proceed with exploration and collection.
+5. The table is a bit away to the north-east, so I should first focus on collecting materials before moving toward crafting or placing objects.
+
+Therefore, the best next step is to ""Do"" on the grass to collect saplings or other materials.
+
+ACTION: Do","You see:
+- stone 1 step to your west
+- path 1 step to your north
+- grass 1 step to your south
+- table 2 steps to your north-east
+
+You face grass at your front.",0.0,False
+77,Do,"Step-by-step reasoning:
+1. The grass in front might give saplings or other plant-related materials when collected, which helps achieve ""Collect Sapling"" and ""Place Plant"".
+2. My current environment allows me to collect stone (5 units already), but gathering saplings is also important as per achievement goals.
+3. The table to the north-east can be useful for crafting pickaxes and swords, but first let's collect more materials.
+4. Facing grass, I should use the ""Do"" action to gather sapling or plant-related material.
+5. After collecting saplings, I can move toward the table to craft new tools or place objects.
+
+Best immediate action: collect saplings by using ""Do"" on the grass in front.
+
+ACTION: Do","You see:
+- stone 1 step to your west
+- path 1 step to your north
+- grass 1 step to your south
+- table 2 steps to your north-east
+
+You face grass at your front.",0.0,False
+78,Move North,"Step-by-step reasoning:
+
+1. Inventory contains a wood pickaxe and 5 stones, so I can craft a stone pickaxe if I get wood nearby.
+2. The table 2 steps to the north-east is where I can craft items, so moving closer there is beneficial.
+3. Currently facing grass to the south, collecting saplings could help achieve the ""Collect Sapling"" achievement.
+4. Food and drink levels are moderate (6/9), so no immediate need to eat or drink.
+5. Since the table is nearby, it's better to move towards it for future crafting.
+6. To reach the table 2 steps to the north-east, I should move north and then east.
+7. However, I am currently facing grass to the south, and seeing path 1 step north, so moving north is straightforward.
+
+Best immediate action: Move North towards the path and closer to the table.
+
+ACTION: Move North","You see:
+- path 1 step to your north
+- stone 1 step to your west
+- grass 1 step to your south
+- zombie 4 steps to your north-east
+- table 1 step to your east
+
+You face path at your front.",0.0,False
+79,Move West,"Step-by-step reasoning:
+
+1. The zombie is 4 steps to the north-east, which is a bit distant, so no immediate threat.
+2. There's a table 1 step to the east, standing right next to it will allow crafting items.
+3. There is stone 1 step to the west, which can be collected to achieve the ""Collect Stone"" achievement if we do the ""Do"" action facing stone.
+4. Facing path in front, moving east to the table will allow crafting pickaxes or swords once we have required resources.
+5. Since we already have a wood pickaxe and stones in inventory, collecting stone first is beneficial to confirm the ""Collect Stone"" achievement.
+6. Therefore, turn to face the stone west, ""Do"" to collect the stone.
+
+To do that, we need to turn west or move west.
+
+But I only see moving commands, no turning commands.
+
+Assuming I cannot turn, but the description says ""You face path at your front,"" so to face stone to the west, I must move west one step.
+
+Once facing stone, I can use ""Do"" to collect stone.
+
+Plan:
+
+- Move West (to face stone)
+- Do (collect stone)
+
+Since only one action at a time, I will first Move West.
+
+ACTION: Move West","You see:
+- path 1 step to your north
+- stone 1 step to your west
+- grass 1 step to your south
+- zombie 3 steps to your north
+- table 1 step to your east
+
+You face stone at your front.",0.0,False
+80,Do,"Step-by-step reasoning:
+
+1. You are currently facing stone at your front, and stone is 1 step away.
+2. Your inventory already has 5 stone, but collecting more stone unlocks achievement 10: Collect Stone.
+3. Using ""Do"" action facing stone will collect stone.
+4. The zombie is 3 steps away to the north, not an immediate threat, but be cautious.
+5. After collecting stone, you can plan to move to the table east to craft items like stone pickaxe or stone sword if you have the required resources.
+6. Since collecting stone now will progress the achievements, it is the best immediate action.
+
+ACTION: Do","You see:
+- path 1 step to your west
+- stone 2 steps to your west
+- grass 1 step to your south
+- zombie 3 steps to your north
+- table 1 step to your east
+
+You face path at your front.",0.0,False
+81,Move East,"Step-by-step reasoning:
+
+1. Inventory has 6 stones and a wood pickaxe. Achievements for collecting stone and making a wood pickaxe are already likely completed.
+2. The table is 1 step east, near you. You can use the table to craft new tools, such as a stone pickaxe or stone sword, if you have the materials.
+3. You have 6 stone, but no wood in inventory currently visible from the data. To craft stone pickaxe or stone sword, you need wood and stone.
+4. There is stone 2 steps to the west, but no wood visible nearby. It could be beneficial to move towards the table first, as it allows crafting.
+5. Moving east to the table is prudent to prepare for crafting when you acquire wood.
+6. Zombie 3 steps to the north does not pose an immediate threat.
+
+Since your goal is to progress and you have no visible wood in inventory, going to the table now is best.
+
+ACTION: Move East","You see:
+- path 1 step to your west
+- stone 2 steps to your west
+- grass 1 step to your south
+- zombie 3 steps to your north
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+82,Move South,"Step-by-step reasoning:
+
+1. The goal is to collect wood to unlock the ""Collect Wood"" achievement and start crafting better tools.
+2. You have a wood pickaxe, so you can mine wood if you find trees nearby.
+3. Currently, wood is not visible in the immediate vicinity, but grass and path are nearby. Grass might lead to saplings or trees if you explore further.
+4. The table is in front; you don’t currently have wood in inventory so crafting anything right now is not possible.
+5. The zombie is 3 steps north, so avoid heading that way for now.
+6. Moving south towards grass might lead to trees/wood or saplings eventually.
+7. Collecting wood then placing table and crafting tools is a critical early progression step.
+
+Best course of action: move south towards the grass to explore for wood.
+
+ACTION: Move South","You see:
+- stone 1 step to your west
+- path 1 step to your north
+- grass 1 step to your south
+- table 2 steps to your north-east
+
+You face grass at your front.",0.0,False
+83,Move South,"Step-by-step reasoning:
+
+1. You currently have a wood pickaxe and stone in inventory, but no wood.
+2. To get the ""Collect Wood"" achievement and progress, you need to find wood.
+3. The observation shows grass to the south, which might lead to trees or saplings from which you can gather wood.
+4. The table and path to the north-east and north might be useful later for crafting, but first you need basic resources.
+5. The zombie is not currently visible nearby; safety is good.
+6. Using ""Do"" action on grass might collect saplings or plants, but won't get wood.
+7. Moving south into grass could lead you to trees for wood.
+8. Therefore, move south to explore and find wood.
+
+ACTION: Move South","You see:
+- stone 2 steps to your west
+- path 1 step to your west
+- grass 1 step to your north
+- table 3 steps to your north-east
+
+You face grass at your front.",0.0,False
+84,Do,"Step-by-step reasoning:
+
+1. The inventory already contains a wood pickaxe and some stone.
+2. To progress, collecting wood is a key early achievement and resource.
+3. The current view shows grass directly ahead, which might yield saplings or plants but not wood.
+4. There is a path to the west, and stone two steps west—both could lead to areas where wood is available.
+5. The table is visible to the north-east but is currently too far to craft anything more.
+6. Moving north onto grass might help explore further for trees to collect wood.
+7. Alternatively, try using ""Do"" on grass to collect saplings (achievement 4) or plants (achievement 8) early on.
+8. Collecting saplings first can help with placing plants later.
+9. ""Do"" on grass now may yield saplings or plants.
+
+Therefore, taking the ""Do"" action facing grass is a good step now.
+
+ACTION: Do","You see:
+- stone 2 steps to your west
+- path 1 step to your west
+- grass 1 step to your north
+- table 3 steps to your north-east
+
+You face grass at your front.",0.0,False
+85,Move North,"Step-by-step reasoning:
+
+1. We currently have 6 stones and a wood pickaxe in our inventory, which is good for mining stones or upgrading tools but we haven't collected any wood yet.
+2. The observation shows a table 3 steps to the north-east, which can be used for crafting tools after gathering wood.
+3. To craft other pickaxes or swords, we need wood and possibly coal or iron later on.
+4. Collecting wood is the first achievement and essential for crafting better tools.
+5. There is grass directly in front of us to the north; using ""Do"" on grass can give saplings or plants, but ""wood"" is obtained by using ""Do"" on trees.
+6. Since no trees are visible now, we should move toward an area where trees or wood can be found.
+7. There is a path 1 step west and stone 2 steps west, and grass 1 step north.
+8. Moving north might let us explore more area in that direction to look for wood.
+9. Alternatively, moving west towards the path may also lead to wood resources.
+10. Since grass is directly ahead (north), moving north is a logical step to explore for trees or wood.
+
+ACTION: Move North","You see:
+- stone 1 step to your west
+- path 1 step to your north
+- grass 1 step to your south
+- table 2 steps to your north-east
+
+You face path at your front.",0.0,False
+86,Move North,"Step-by-step reasoning:
+
+1. We have a wood pickaxe but no wood in inventory yet, and wood is needed for crafting tools and upgrades.
+2. We see a path 1 step ahead (north), which might lead to a forest or trees where wood can be collected.
+3. Since the table is 2 steps to the north-east, it's not immediately reachable from the path; first, we want to gather wood to use the table effectively.
+4. Moving north onto the path may allow us to find trees or wood resources nearby.
+5. Once wood is collected, we can move to the table to craft new tools.
+
+Goal: Move north to explore for wood.
+
+ACTION: Move North","You see:
+- path 1 step to your west
+- stone 2 steps to your west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face path at your front.",0.0,False
+87,Move West,"Step-by-step reasoning:
+1. You have a wood pickaxe but you currently don't have any wood in your inventory.
+2. To craft better tools or weapons, wood is necessary.
+3. Since there's a path 1 step to the west and stone 2 steps to the west, and you see table 1 step to the east, but prefer to first gather wood.
+4. The table might be useful later, but first you need wood.
+5. To collect wood, you should move towards an area where you can find trees or saplings.
+6. Since you see a path to the west, moving west might bring you closer to wood resources.
+7. Once you find wood, use the 'Do' action to collect it.
+
+Best immediate action is to move west to explore for wood.
+
+ACTION: Move West","You see:
+- skeleton 7 steps to your north-west
+- path 1 step to your east
+- stone 1 step to your west
+- grass 2 steps to your south-east
+- table 2 steps to your east
+
+You face stone at your front.",0.0,False
+88,Do,"Step-by-step reasoning:
+
+1. You currently have a wood_pickaxe and 6 stones in inventory, but no wood.
+2. To progress with crafting more advanced tools and achieve more achievements, you need to collect wood first.
+3. No wood or saplings are immediately visible here, but there's a table 2 steps to the east.
+4. You could move toward the table to craft items later once you gather wood.
+5. There is a stone 1 step in front of you; you can collect stone, which might be useful later for crafting stone tools.
+6. There is a skeleton 7 steps to the northwest, which might be a future threat but not immediate danger.
+7. Food and drink levels are good but keep an eye on them.
+
+Best immediate action is to collect the stone in front to increase your stone inventory and move towards crafting stone tools and swords later.
+
+ACTION: Do","You see:
+- skeleton 7 steps to your north-west
+- path 1 step to your west
+- stone 1 step to your north
+- grass 2 steps to your south-east
+- table 2 steps to your east
+
+You face path at your front.",0.0,False
+89,Move East,"Step-by-step reasoning:
+
+1. The goal is to complete all achievements, starting with collecting wood which hasn't been done yet.
+2. There's a table 2 steps east, which we will need later to craft tools.
+3. The path is in front, which is 1 step west from current facing direction.
+4. We currently face a path, but to reach the table, we might need to navigate towards the east.
+5. The north has a stone 1 step away, which can be collected later for stone achievements.
+6. Since no wood or saplings are visible nearby, we should move closer to the table to prepare for crafting.
+7. Move towards the east to approach the table.
+
+ACTION: Move East","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+90,Make Stone Pickaxe,"Step-by-step reasoning:
+
+1. You already have a wood pickaxe and some stone in your inventory.
+2. The table is right in front of you, which means you can craft items here.
+3. Next logical step is to craft a stone pickaxe, since you have enough stone and wood pickaxe already.
+4. Crafting a stone pickaxe unlocks the ""Make Stone Pickaxe"" achievement and lets you mine stone more efficiently.
+5. Since you have a wood pickaxe, but no stone pickaxe yet, and stone is available, making a stone pickaxe is a priority.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+91,Make Stone Pickaxe,"Step-by-step reasoning:
+
+1. You have 7 stones and a wood pickaxe in your inventory.
+2. You are standing facing the table, which means you can craft items here.
+3. You can craft a stone pickaxe using wood and stone at the table.
+4. Crafting a stone pickaxe will unlock the ""Make Stone Pickaxe"" achievement, and it will allow you to collect stone more efficiently later.
+5. You still have enough energy, food, and drink, so no need to sleep or drink now.
+6. No immediate threats (zombies or skeletons) nearby, so it's a good time to focus on tools improvement.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+92,Make Stone Pickaxe,"Step-by-step reasoning:
+
+1. You currently have a wood pickaxe, 7 stones, and are standing facing a table.
+2. With wood and stone in inventory, you can craft a stone pickaxe at the table.
+3. Crafting the stone pickaxe will unlock the achievement ""Make Stone Pickaxe.""
+4. A stone pickaxe is better than a wood pickaxe and is necessary to collect more stone or mine iron later.
+5. Your health, food, drink, and energy are sufficient, so no need to rest or eat now.
+6. After crafting the stone pickaxe, next steps might include collecting more stone or moving toward other resource spots.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+93,Make Stone Pickaxe,"Step 1: You have wood and stone in the inventory, and a table nearby. Crafting a stone pickaxe is a priority because it is an achievement and allows better resource collection (like mining stone and iron).
+
+Step 2: You face the table, so you can craft the stone pickaxe now. This will unlock the ""Make Stone Pickaxe"" achievement.
+
+Step 3: After crafting the stone pickaxe, you can plan to collect more materials like coal or iron, or prepare to make a stone sword for combat.
+
+For now, crafting the stone pickaxe is the best immediate action.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+94,Make Stone Pickaxe,"Step 1: I have a wood pickaxe but I also have 7 stones, so crafting a stone pickaxe will unlock the achievement and improve my tool.
+
+Step 2: I am facing a table, and crafting requires being near a table.
+
+Step 3: I have enough stone and wood to craft the stone pickaxe with the table.
+
+Step 4: Craft the stone pickaxe now.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+95,Make Stone Pickaxe,"Step 1: I have 7 stones and a wood pickaxe in inventory.
+Step 2: I am near a table and facing it, which allows me to craft tools.
+Step 3: Crafting a stone pickaxe requires wood and stone with a table nearby.
+Step 4: Crafting a stone pickaxe will unlock achievement 14 and improve my ability to mine resources.
+Step 5: I should craft the stone pickaxe now.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+96,Make Stone Pickaxe,"Step 1: I have 7 stones and a wood pickaxe in my inventory.
+Step 2: I am near a table and facing it, so I can craft a tool.
+Step 3: Crafting a stone pickaxe is beneficial to gather resources more effectively and to unlock the achievement for making it.
+Step 4: To craft a stone pickaxe, I need wood and stone; I have enough stone and presumably wood from the earlier steps.
+Step 5: I will craft the stone pickaxe now.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+97,Make Stone Pickaxe,"Step 1: I have a wood pickaxe in my inventory but not a stone pickaxe yet.
+Step 2: I have enough stone (7) and presumably wood to make a stone pickaxe.
+Step 3: I am currently facing the table, which is necessary to craft tools.
+Step 4: Crafting the stone pickaxe will help me gather stone and other resources more efficiently, which is important for progression.
+Step 5: Making the stone pickaxe now is the best next step.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+98,Make Stone Pickaxe,"Step 1: I have 7 stones in my inventory, which is enough to craft a stone pickaxe.
+Step 2: I am facing the table, which is necessary to craft tools.
+Step 3: Crafting the stone pickaxe will allow me to collect stone and other materials more efficiently.
+Step 4: Crafting the stone pickaxe is essential to progress by unlocking achievements and gathering better resources.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+99,Make Stone Pickaxe,"Step 1: I have 7 stones and a wood pickaxe already.
+Step 2: Being in front of a table means I can craft something.
+Step 3: Crafting a stone pickaxe requires wood and stone, which I have.
+Step 4: Crafting a stone pickaxe now improves gathering efficiency for stone and other resources, unlocking more achievements.
+Step 5: No urgent need to collect food or drink right now as those levels are good.
+Step 6: No pressing need to place anything or move for now since the table is in front.
+Step 7: Best to craft the stone pickaxe now.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+100,Make Stone Pickaxe,"Step 1: I have just crafted a wood pickaxe, but to craft a stone pickaxe, I need a table, wood, and stone. I have 7 stones and a wood pickaxe in my inventory, but no wood is mentioned explicitly. Likely, I have wood somewhere or have enough to craft the stone pickaxe.
+
+Step 2: Standing in front of the table allows me to craft. Crafting a stone pickaxe ensures faster and more efficient resource collection, especially stone.
+
+Step 3: Since crafting the stone pickaxe was the repeated suggestion earlier, now I should confirm crafting it.
+
+Step 4: After crafting the stone pickaxe, I should aim to collect stone or other resources and continue progressing towards achievements like making stone sword or gathering iron.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+101,Make Stone Pickaxe,"Step 1: I have a wood pickaxe but no wood explicitly in the inventory. However, I have 7 stones, so I can upgrade from wood to stone pickaxe to improve mining efficiency.
+
+Step 2: To craft a stone pickaxe, I need a table (which is 1 step east) and resources: wood and stone. I only have stones and a wood pickaxe, but no explicit wood, so presumably some wood is either in inventory or nearby. Alternatively, I might need to collect wood first.
+
+Step 3: Since I am already facing the table, I should attempt to craft the stone pickaxe now if possible.
+
+Step 4: If crafting fails, I may need to collect wood first.
+
+Given the last observations, the best immediate action is:
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+102,Move South,"Step 1: I have a wood pickaxe already crafted.
+Step 2: My inventory has stones but no wood; I need wood to make a stone pickaxe.
+Step 3: The table is in front, and I need the table to craft tools.
+Step 4: To get wood, I need to find a tree or sapling to collect wood.
+Step 5: There's grass to the south, which might have saplings or wood nearby.
+Step 6: I should move south to search for wood or saplings to collect.
+Step 7: Once I collect wood, I can return to the table and craft a stone pickaxe using wood and stone.
+Step 8: After making a stone pickaxe, I can proceed to upgrade tools and eventually make swords or other items to defeat enemies.
+
+ACTION: Move South","You see:
+- stone 1 step to your west
+- path 1 step to your north
+- grass 1 step to your south
+- table 2 steps to your north-east
+
+You face grass at your front.",0.0,False
+103,Do,"Step 1: I currently have a wood pickaxe and stones but no wood in my inventory.
+Step 2: I see grass in front of me and a stone 1 step to the west.
+Step 3: I need to collect wood to craft better tools and progress.
+Step 4: Grass might have saplings that can be collected or wood nearby.
+Step 5: I should try ""Do"" action facing grass to collect wood or saplings.
+Step 6: If unsuccessful, I can try moving west to collect stone or explore north to the table.
+
+ACTION: Do","You see:
+- stone 1 step to your west
+- path 1 step to your north
+- grass 1 step to your south
+- table 2 steps to your north-east
+
+You face grass at your front.",0.0,False
+104,Do,"Step 1: I already have a wood pickaxe and stones, but no wood in inventory, which is necessary for crafting further tools and weapons.
+Step 2: There is grass in front of me, which can potentially yield saplings or other materials by using the ""Do"" action.
+Step 3: Collecting saplings or wood is important for progressing to crafting better pickaxes and swords.
+Step 4: I should try ""Do"" action on the grass directly to see if I can collect saplings or wood.
+Step 5: If that fails, I can consider moving west to collect stone or exploring towards the table to craft more tools later.
+
+ACTION: Do","You see:
+- stone 1 step to your west
+- path 1 step to your north
+- grass 1 step to your south
+- table 2 steps to your north-east
+
+You face grass at your front.",0.0,False
+105,Do,"Step 1: I have a wood pickaxe and a good number of stones but no wood in my inventory, which is essential for making other tools and crafting achievements.
+
+Step 2: The grass in front of me may yield saplings or wood when I use the ""Do"" action, which is required for achievements like collecting wood, making wood swords, and placing plants.
+
+Step 3: Since I want to collect wood to progress with crafting achievements, I should try ""Do"" on the grass to collect saplings or wood.
+
+Step 4: If that does not yield wood, I could consider moving toward the table (north-east) to craft items once I have wood, or move westwards to gather stone and coal later.
+
+ACTION: Do","You see:
+- stone 1 step to your west
+- path 1 step to your north
+- grass 1 step to your south
+- table 2 steps to your north-east
+
+You face grass at your front.",0.0,False
+106,Do,"Step-by-step reasoning:
+1. I have a wood pickaxe already, but I don’t have wood in my inventory.
+2. Collecting wood is an early achievement and necessary for crafting better tools and weapons.
+3. The grass in front might yield wood or saplings when I ""Do"" the action.
+4. My health, food, drink, and energy levels are sufficient, so I don’t need to rest or eat right now.
+5. Using ""Do"" on the grass is a good approach to try to get wood or saplings.
+6. After collecting wood, I can move to the nearby table to make other tools or weapons.
+
+ACTION: Do","You see:
+- stone 1 step to your west
+- path 1 step to your north
+- grass 1 step to your south
+- table 2 steps to your north-east
+
+You face grass at your front.",0.0,False
+107,Do,"Step-by-step reasoning:
+1. I have a stone inventory and a wood pickaxe but no wood.
+2. The grass in front might yield wood or saplings when acted upon.
+3. Collecting wood early is important for crafting tools and achieving ""Collect Wood.""
+4. After getting wood, I can move towards the table to craft new tools.
+5. My health, food, and energy are sufficient, so no need to sleep or eat now.
+6. Using ""Do"" on the grass is the best choice to collect wood or other resources.
+
+ACTION: Do","You see:
+- stone 1 step to your west
+- path 1 step to your north
+- grass 1 step to your south
+- table 2 steps to your north-east
+
+You face grass at your front.",0.0,False
+108,Do,"Step-by-step reasoning:
+1. My current inventory has stone and a wood_pickaxe, but no wood, which is essential to craft other tools and progress.
+2. Facing grass directly, I might be able to collect wood or saplings by using the ""Do"" action on it.
+3. Collecting wood early is a priority because it unlocks multiple achievements and crafting options.
+4. After collecting wood, I can move towards the table (2 steps north-east) to craft additional items like stone pickaxe or wood sword.
+5. Energy and health are good, so I don't need to sleep or rest now.
+6. ""Do"" on the grass seems like the best immediate action to try and collect wood or sapling.
+
+ACTION: Do","You see:
+- stone 1 step to your west
+- path 1 step to your north
+- grass 1 step to your south
+- table 2 steps to your north-east
+
+You face grass at your front.",0.0,False
+109,Do,"Step-by-step reasoning:
+1. Facing grass, ""Do"" action might allow me to collect wood or saplings, which are essential for crafting.
+2. Collecting wood early helps unlock achievements like Collect Wood and crafting wood-based tools.
+3. I have a wood pickaxe already, so collecting more resources is useful.
+4. After collecting wood, I can move toward the table to craft new tools.
+5. Current food and drink are not at max but sufficient; no immediate need to eat or drink.
+6. Energy is reasonably high, so no need to sleep now.
+
+ACTION: Do","You see:
+- stone 1 step to your west
+- path 1 step to your north
+- grass 1 step to your south
+- table 2 steps to your north-east
+
+You face grass at your front.",0.0,False
+110,Move West,"Step-by-step reasoning:
+1. I have a wood pickaxe and 7 stone in inventory, which is enough to craft a stone pickaxe.
+2. There's a table 2 steps to my north-east; I need to get to the table to craft.
+3. To get to the table, I can move north and then east towards the table.
+4. Before moving, I can collect nearby stone (1 step west) to increase stone inventory for crafting potential stone sword later.
+5. Facing grass now, ""Do"" action might collect wood (if any) or saplings; but I already have sufficient wood.
+6. Since stone is more critical now, I should first collect stone by moving west, then move towards the table.
+7. Food and drink are not at max, but still in reasonable range, so I can postpone eating or drinking.
+
+Plan: 
+- Move west to collect stone
+- Do to collect stone
+- Move towards table
+- Craft stone pickaxe and then stone sword
+
+ACTION: Move West","You see:
+- stone 1 step to your west
+- path 1 step to your north
+- grass 1 step to your south
+- table 2 steps to your north-east
+
+You face stone at your front.",0.0,False
+111,Do,"Step-by-step reasoning:
+1. I see stone directly in front of me (west).
+2. I have 7 stone in inventory already, so collecting more stone is good for crafting stone tools and swords.
+3. Using ""Do"" in front of stone will collect stone.
+4. After collecting stone, I will move towards the table to craft the stone pickaxe.
+
+ACTION: Do","You see:
+- stone 2 steps to your west
+- path 1 step to your west
+- grass 1 step to your south
+- table 2 steps to your north-east
+
+You face path at your front.",0.0,False
+112,Move West,"Step-by-step reasoning:
+1. I currently have 8 stones and a wood pickaxe. The next goal is to make a stone pickaxe.
+2. To make a stone pickaxe, I need a table, wood, and stone. I already have enough stone and a wood pickaxe, assuming I have wood.
+3. The table is 2 steps to my north-east. I need to move closer to the table to craft the stone pickaxe.
+4. The path is right in front of me (to the west), so I should start moving west first to get closer to the table.
+5. After moving west, I can adjust my position to face the table and craft the stone pickaxe.
+
+ACTION: Move West","You see:
+- path 1 step to your north
+- skeleton 6 steps to your north-west
+- stone 1 step to your west
+- grass 1 step to your east
+- table 3 steps to your north-east
+
+You face stone at your front.",0.0,False
+113,Move North,"Step-by-step reasoning:
+1. I have a wood pickaxe and 8 stones, so I should craft a stone pickaxe to progress.
+2. To make it, I need to be near the table, which is 3 steps to my north-east.
+3. Currently, I’m facing a stone 1 step west, so I should move towards the table area.
+4. Path north is viable and getting closer to the table; moving north now is better than moving west.
+5. There is a skeleton 6 steps northwest, but it is not an immediate threat.
+6. I can move north to get closer to the table, then later move northeast towards it.
+
+ACTION: Move North","You see:
+- path 1 step to your west
+- skeleton 5 steps to your north-west
+- stone 1 step to your north
+- grass 2 steps to your south-east
+- table 2 steps to your east
+
+You face stone at your front.",0.0,False
+114,Move East,"Step-by-step reasoning:
+1. You are currently facing stone 1 step to your north.
+2. The table is 2 steps east, so moving to face or get closer to the table will help craft the stone pickaxe.
+3. The skeleton is still some distance away, no immediate threat.
+4. Since the table is east and you are facing north, to get closer or face the table, turning or moving east is needed.
+5. Since you cannot turn, you'd need to move or adjust position to face the table.
+6. Moving east will bring you closer to the table.
+7. Moving north will keep you facing stone but not closer to the table. Moving west leads to path but it's unclear how it helps immediately.
+8. Best course is to move east to get closer to the table.
+
+ACTION: Move East","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+115,Make Stone Pickaxe,"Step-by-step reasoning:
+
+1. You have 8 stones and a wood pickaxe in your inventory.
+2. You are currently facing a table 1 step to your east.
+3. Since you have enough stone, you can craft a stone pickaxe at the table.
+4. Crafting the stone pickaxe will advance your progress and unlock an achievement.
+5. You should use the ""Make Stone Pickaxe"" action at the table.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+116,Make Stone Pickaxe,"Step-by-step reasoning:
+
+1. You already have a wood pickaxe but have enough stone (8 stones) to craft a stone pickaxe.
+2. Crafting the stone pickaxe requires a nearby table, which you have in front of you.
+3. Making the stone pickaxe will unlock the ""Make Stone Pickaxe"" achievement and improve your toolset for mining.
+4. Therefore, the best next action is to craft the stone pickaxe at the table.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+117,Make Stone Pickaxe,"Step-by-step reasoning:
+
+1. You have 8 stones and a wood pickaxe; you can upgrade to a stone pickaxe using the table.
+2. Crafting the stone pickaxe will unlock the ""Make Stone Pickaxe"" achievement.
+3. You are facing the table, which is required for crafting.
+4. You have sufficient stone, so crafting the stone pickaxe is possible.
+5. This will improve your tool, allowing you to mine stone and better defend yourself.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+118,Make Stone Pickaxe,"Step-by-step reasoning:
+
+1. Your current wood_pickaxe can be improved to a stone_pickaxe by crafting at the table.
+2. You have enough stone (8) for making a stone pickaxe.
+3. Crafting the stone pickaxe will unlock achievement 14 (Make Stone Pickaxe).
+4. You are already facing the table, so crafting is immediately possible.
+5. Upgrading tools early on will make collecting stone, coal, and iron easier and help you progress further.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+119,Make Stone Pickaxe,"Step-by-step reasoning:
+1. You have 8 stones and one wood pickaxe in your inventory.
+2. You are facing a table, which allows you to craft tools.
+3. Crafting a stone pickaxe requires wood, stone, and a table. You likely have enough wood since a wood pickaxe was already crafted.
+4. Making a stone pickaxe will unlock the ""Make Stone Pickaxe"" achievement, advancing your progression in the game.
+5. Therefore, the next logical step is to craft the stone pickaxe at the table.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+120,Make Stone Pickaxe,"Step-by-step reasoning:  
+1. You have enough stone and a wood pickaxe, so making a stone pickaxe is the next logical step.  
+2. You are facing a table, which is necessary to craft the stone pickaxe.  
+3. Crafting the stone pickaxe will unlock the achievement ""Make Stone Pickaxe"".  
+4. Once you have a stone pickaxe, you can proceed to collect more stone efficiently and advance to crafting stone tools and weapons.  
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+121,Make Stone Pickaxe,"Step-by-step reasoning:
+1. You currently have 8 stones and a wood pickaxe in your inventory.
+2. You are facing a table, and the crafting of a stone pickaxe requires a table, wood, and stone.
+3. Since you already have wood and sufficient stone, and you are in front of a table, crafting a stone pickaxe now is the best immediate action.
+4. Crafting the stone pickaxe allows better resource collection and unlocks the ""Make Stone Pickaxe"" achievement.
+5. After that, you can continue collecting more stone or proceed towards other goals like making a stone sword or placing a furnace.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+122,Make Stone Pickaxe,"Step-by-step reasoning:
+1. You have wood_pickaxe and 8 stones in inventory.
+2. You are facing the table, which is required to craft new items.
+3. Crafting a stone pickaxe requires wood, stone, and a table — all requirements are met.
+4. Crafting the stone pickaxe will unlock the achievement ""Make Stone Pickaxe"" and improve your ability to collect stone efficiently.
+5. This is an important milestone before moving on to gathering coal or iron, or making better weapons.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- arrow 4 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+123,Make Stone Pickaxe,"Step-by-step reasoning:
+1. You have enough stone and a wood pickaxe already.
+2. Crafting a stone pickaxe now is a good next step, using the table in front of you.
+3. A stone pickaxe will allow you to collect stone more efficiently, unlocking achievement 14.
+4. After making the stone pickaxe, you can focus on gathering coal, iron, and eventually making stronger tools and weapons.
+5. Your health and food levels are good, so no urgency to eat or sleep right now.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+124,Make Stone Pickaxe,"Step-by-step reasoning:
+
+1. You have 8 stones in your inventory, which is enough to make a stone pickaxe.
+2. You're facing a table, which allows you to craft tools.
+3. Crafting a stone pickaxe is essential to gather stone more efficiently and achieve the ""Make Stone Pickaxe"" achievement.
+4. Your health and food levels are adequate, so no immediate need to eat or drink.
+5. Energy is at 5/9, which is enough to proceed with crafting.
+
+Based on this, the best action now is to craft the stone pickaxe.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- skeleton 4 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+125,Make Stone Pickaxe,"Step-by-step reasoning:
+
+1. You currently have a wood pickaxe in your inventory but enough stone to craft a stone pickaxe, which is more efficient.
+2. You are next to a table which is required to craft the stone pickaxe.
+3. Crafting a stone pickaxe will allow you to collect stone more effectively and unlock the ""Make Stone Pickaxe"" achievement.
+4. There's a skeleton nearby (4 steps northwest), but it is not immediately threatening; you can prepare before engaging.
+5. Your health and food levels are adequate; no immediate need to eat or drink.
+6. Energy is sufficient for crafting and movement.
+
+Best course of action is to craft the stone pickaxe now at the table.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+126,Make Stone Pickaxe,"Step-by-step reasoning:
+
+1. You have wood pickaxe and 8 stones in inventory.
+2. You're standing next to a table, facing it.
+3. You can now upgrade your tools by crafting a stone pickaxe with wood and stone at the table.
+4. Crafting stone pickaxe will unlock the achievement ""Make Stone Pickaxe"" and improve your toolset for gathering.
+5. Your food and drink are not at max, but still sufficient; no immediate need to eat or drink.
+6. Health and energy are good, so you can proceed with crafting.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- arrow 4 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+127,Make Stone Pickaxe,"Step-by-step reasoning:
+
+1. You currently have a wood pickaxe and stones; crafting a stone pickaxe requires wood and stone at a table.
+2. Wood is presumably still in your inventory or nearby; if not, you need to collect some wood first.
+3. The table is right in front of you, allowing crafting actions.
+4. Crafting the stone pickaxe will unlock the achievement and improve your mining efficiency.
+5. Health is full, food and drink are moderate; no urgent need to eat or drink now.
+6. After making the stone pickaxe, next steps would be collecting more materials or progressing to place a furnace, but first focus on crafting.
+
+Thus, the best immediate action is to craft the stone pickaxe.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+128,Make Stone Pickaxe,"Step-by-step reasoning:
+
+1. You have 8 stones in your inventory and a wood pickaxe, which is enough to craft a stone pickaxe.
+2. The table is right in front of you, so you can craft the stone pickaxe here.
+3. Crafting a stone pickaxe is important to progress further since it allows mining stone and better materials more efficiently.
+4. Your food and drink are moderately low but still sufficient for now; focus on crafting first.
+5. After crafting the stone pickaxe, you can proceed to collect more stone or other resources to unlock more achievements.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+129,Make Stone Pickaxe,"Step-by-step reasoning:
+1. You have a wood pickaxe and 8 stones but no stone pickaxe yet.
+2. You are facing a table, which is required to craft the stone pickaxe.
+3. Crafting a stone pickaxe now will allow you to collect stone and other resources more efficiently later.
+4. Your food and drink are moderately low but still sufficient for now; priority should be on crafting the stone pickaxe first.
+5. After crafting, you can move north or northwest to collect more stone or other resources.
+6. So the immediate best action is to craft the stone pickaxe at the table in front of you.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- skeleton 4 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+130,Make Stone Pickaxe,"Step 1: Craft the stone pickaxe using the table in front of you and the stone you have, since having a stone pickaxe will improve your ability to gather stones and craft better tools.
+Step 2: After crafting the stone pickaxe, move toward the stone 2 steps to the northwest to collect more stone.
+Step 3: Be prepared to deal with the skeleton 4 steps to the northwest after collecting stone, possibly by crafting a stone sword later or avoiding it initially until better equipped.
+Step 4: Keep an eye on food and drink levels; you might need to collect them after gathering materials and crafting better weapons.
+
+Given the immediate options and goals, the first action is to craft the stone pickaxe.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- skeleton 4 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+131,Make Stone Pickaxe,"Step 1: Now that I have stone in my inventory and I'm facing the table, I can craft a stone pickaxe. This will allow me to gather stone more efficiently.
+Step 2: After crafting the stone pickaxe, I should collect more stone by moving toward the nearby stone (2 steps north-west) and using Do to gather it.
+Step 3: I need to keep my health and resources in mind. Currently, health is full, but food and drink are somewhat low; I should plan to collect food or drink soon.
+Step 4: The skeleton is 4 steps to the north-west, so I should avoid it for now until I have a better weapon like a stone sword.
+Step 5: Later, I can craft a stone sword and defeat the skeleton to gain the ""Defeat Skeleton"" achievement.
+
+For this turn, the best action is to craft the stone pickaxe at the table.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- skeleton 4 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+132,Make Stone Pickaxe,"Step 1: I currently have a wood pickaxe and 8 stones, and I'm facing the table. To increase my tool efficiency, the next best step is to craft a stone pickaxe at the table since I have enough materials.
+
+Step 2: Once I have the stone pickaxe, I can better collect materials like stone more quickly.
+
+Step 3: I still need to improve my food and drink levels, so after crafting, I should plan to collect food (e.g., eat plant or eat cow if available) and drink (from lake if nearby).
+
+Step 4: There's a skeleton 4 steps to the northwest which I should avoid until I craft a better weapon such as a stone sword. After making the stone pickaxe, I can then aim to make a stone sword.
+
+Step 5: In summary, crafting the stone pickaxe first is the logical next action.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- skeleton 3 steps to your north
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+133,Make Stone Pickaxe,"Step 1: I currently have a wooden pickaxe but enough stone (8) to upgrade to a stone pickaxe. Crafting the stone pickaxe will improve my ability to mine stone and other materials more efficiently.
+
+Step 2: There is a skeleton 3 steps to the north. I should avoid combat until I have better weapons (stone sword or better).
+
+Step 3: Food and drink are low (4/9 and 3/9). After crafting the stone pickaxe, I should look for safe ways to restore food and drink to maintain energy and health.
+
+Step 4: Since I am facing a table and have the materials, I should craft the stone pickaxe now.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- skeleton 3 steps to your north
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+134,Make Stone Pickaxe,"Step 1: I have enough stone (8) and a wood pickaxe to craft a stone pickaxe at the table in front of me.
+Step 2: Crafting the stone pickaxe will improve my mining tools, allowing me to get stones and possibly other materials more efficiently.
+Step 3: I see a skeleton 3 steps to the north, which is a potential threat, so I should avoid moving north until I'm better equipped or ready for combat.
+Step 4: Food and drink are moderate but should be replenished soon to maintain health and energy.
+Step 5: For now, crafting the stone pickaxe is the best immediate action to progress towards achievements.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+135,Make Stone Pickaxe,"Step 1: Craft the stone pickaxe at the table in front of me because I have enough stone and a wood pickaxe, and this will upgrade my tool, enabling me to mine stone more efficiently.
+
+Step 2: After crafting the stone pickaxe, I can go collect more stone or other materials like wood or coal to continue progressing toward other achievements.
+
+Step 3: The health, food, and drink levels are decent but should be monitored; I might need to collect food or drink later.
+
+Step 4: Avoid the skeleton for now as I’m not equipped with a sword or armor yet; it’s best to improve tools and gather materials first.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+136,Make Stone Pickaxe,"Step 1: Craft the stone pickaxe at the table in front, since I have enough stone and the wood pickaxe already.
+
+Step 2: After crafting the stone pickaxe, I can gather more stone or coal to progress towards other achievements like making a furnace or stone sword.
+
+Step 3: Food and drink levels are a bit low, so after crafting, I should consider collecting drink or food.
+
+Step 4: Avoid engaging the skeleton until I have a weapon.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+137,Make Stone Pickaxe,"Step 1: Craft the stone pickaxe using the table in front. I have enough stone (8) and wood pickaxe for this.
+
+Step 2: After crafting the stone pickaxe, I can gather more stone or coal for later achievements (like placing furnace or making iron pickaxe).
+
+Step 3: Food and drink are low (4/9 and 3/9), so after crafting, I should move to gather resources to restore food and drink—possibly by moving south to grass or west to path to find more resources or animals.
+
+Step 4: Avoid confrontation with the skeleton until I have a stronger weapon or better equipment.
+
+Therefore, the immediate best action is to craft the stone pickaxe now.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+
+You face table at your front.",0.0,False
+138,Make Stone Pickaxe,"Step 1: Craft the stone pickaxe using the table in front since I have enough stone and a wood pickaxe in inventory. This will help gather stone faster and prepare for stronger tools and weapons.
+
+Step 2: After crafting the stone pickaxe, explore the nearby area to collect more resources like stone and coal, potentially moving towards the stone 2 steps northwest.
+
+Step 3: Restore food and drink levels by collecting from grass or other sources nearby to maintain health and energy for more actions.
+
+Step 4: Avoid engaging the skeleton until I have a better weapon, possibly a stone sword or iron sword later.
+
+Immediate best action: craft the stone pickaxe.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- table 1 step to your east
+- zombie 6 steps to your south-east
+
+You face table at your front.",0.0,False
+139,Make Stone Pickaxe,"Step 1: Craft the stone pickaxe using the table in front since I have enough stone and wood_pickaxe in inventory. This will allow faster and more efficient stone collection.
+
+Step 2: After crafting the stone pickaxe, move towards the stone 2 steps to the northwest to collect more stone for future crafting goals.
+
+Step 3: Collect food and drink by interacting with grass or nearby resources to maintain health, food, and drink levels.
+
+Step 4: Avoid engaging the zombie at this point until better armed, possibly with a stone or iron sword.
+
+Since I am currently facing the table and have the required materials to make a stone pickaxe, I will craft it first.
+
+ACTION: Make Stone Pickaxe","You see:
+- path 1 step to your west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- skeleton 3 steps to your north
+- table 1 step to your east
+- zombie 5 steps to your south-east
+
+You face table at your front.",0.0,False
+140,Move North,"Step 1: I just crafted a stone pickaxe, so it's safe to collect some stone to ensure the inventory remains stocked for future crafting.
+Step 2: Move to collect stone 2 steps northwest using the stone pickaxe, which is more efficient.
+Step 3: Monitor health, food, and drink levels to avoid risks; current food and drink levels are low, so eventually I should eat or drink.
+Step 4: There’s a skeleton 3 steps north and zombie 5 steps southeast, so avoid engagement until better equipped.
+Step 5: Consider moving southwest or south to find food or a drink source (grass is south, could be useful).
+Step 6: Once enough resources are collected and health/food/drink stabilized, consider crafting weapons or preparing to fight skeleton or zombie for achievements.
+
+Given immediate options, the best next step is to collect stone with the pickaxe, which will be done by moving northwest closer to the stone.
+
+ACTION: Move North","You see:
+- path 1 step to your south
+- stone 1 step to your west
+- skeleton 3 steps to your north
+- grass 1 step to your east
+- table 2 steps to your south-east
+- coal 6 steps to your north-east
+- zombie 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+141,Move East,"Step 1: Your health is full, but food and drink are low. It's important to restore them soon to maintain health and stamina.
+Step 2: You currently see grass 1 step to the east, which might be useful for collecting plants or food.
+Step 3: There's stone 1 step to the west and you have 8 stone in inventory, plenty for now.
+Step 4: Skeleton is 3 steps north and zombie 5 steps southeast—engaging them now may be risky without a weapon.
+Step 5: You face stone at your front, but it's safer to restore food and drink before exploring or fighting.
+Step 6: Moving east to grass seems the best immediate step to potentially gather food or plants.
+Step 7: After collecting food/drink, plan to craft weapons or engage enemies.
+
+ACTION: Move East","You see:
+- stone 1 step to your north
+- path 1 step to your west
+- skeleton 5 steps to your north-west
+- grass 1 step to your east
+- table 1 step to your south
+- coal 5 steps to your north-east
+- zombie 3 steps to your south-east
+- tree 4 steps to your east
+
+You face grass at your front.",0.0,False
+142,Do,"Step 1: Your health is full, but food and drink are low, so prioritizing food or drink is important.
+Step 2: You are currently facing grass, which could be a source of plants (food) or other resources.
+Step 3: There's a table 1 step south, which can be used for crafting.
+Step 4: You have 8 stone and a wood pickaxe in your inventory, but you haven't crafted a sword yet, which could be useful to defend against the nearby skeleton and zombie.
+Step 5: There's a tree 4 steps east, which can be useful for collecting wood if needed.
+Step 6: Zombies and skeletons nearby pose a threat, so gathering food/drink and crafting a weapon should be prioritized before fighting.
+Step 7: The immediate best action is to try to collect food or plants from the grass in front before crafting or fighting.
+
+ACTION: Do","You see:
+- stone 1 step to your north
+- path 1 step to your west
+- skeleton 4 steps to your north-west
+- grass 1 step to your east
+- table 1 step to your south
+- zombie 2 steps to your south-east
+- coal 5 steps to your north-east
+- tree 4 steps to your east
+
+You face grass at your front.",0.0,False
+143,Do,"Step 1: Your food and drink levels are somewhat low, so collecting plant-based food or drinking is advisable.
+Step 2: Facing grass, you can try to collect a plant to increase food.
+Step 3: There is a zombie 2 steps to the south-east, so avoid confrontations for now.
+Step 4: After collecting food, consider moving towards coal or crafting weapons at the table.
+Step 5: For now, prioritize survival by collecting food/drink.
+
+ACTION: Do","You see:
+- stone 1 step to your north
+- path 1 step to your west
+- skeleton 4 steps to your north-west
+- grass 2 steps to your south
+- table 1 step to your south
+- zombie 1 step to your east
+- coal 5 steps to your north-east
+- tree 4 steps to your east
+
+You face zombie at your front.",-0.2,False
+144,Do,"Step 1: The zombie is right in front of you, posing an immediate threat. You should defend yourself or try to attack the zombie.
+
+Step 2: You currently have a wood pickaxe, which may be less effective for attacking. However, you do not have a sword yet.
+
+Step 3: Since the zombie is 1 step in front of you, you can use the ""Do"" action to hit it directly.
+
+Step 4: After attacking, you can consider moving away or continuing to attack depending on the situation.
+
+Given the immediate threat, the best action now is to attack the zombie directly.
+
+ACTION: Do","You see:
+- stone 1 step to your north
+- path 1 step to your west
+- skeleton 4 steps to your north-west
+- grass 2 steps to your south
+- table 1 step to your south
+- zombie 1 step to your east
+- coal 5 steps to your north-east
+- tree 4 steps to your east
+
+You face zombie at your front.",0.0,False
+145,Do,"Step 1: The zombie is immediately in front of you and is a danger. You should try to defeat it to get the ""Defeat Zombie"" achievement.
+
+Step 2: You currently have a wood pickaxe, which might not be the best weapon, but it's what you have, so attacking is necessary.
+
+Step 3: Use the ""Do"" action to attack the zombie directly.
+
+ACTION: Do","You see:
+- stone 1 step to your north
+- path 1 step to your west
+- skeleton 4 steps to your north-west
+- grass 2 steps to your south
+- table 1 step to your south
+- zombie 1 step to your east
+- coal 5 steps to your north-east
+- tree 4 steps to your east
+
+You face zombie at your front.",0.0,False
+146,Do,"Step 1: The zombie is immediately in front of me and poses a threat. I must attack to defeat it and get the ""Defeat Zombie"" achievement.
+
+Step 2: I have a wood pickaxe, which is better used for mining rather than combat, but I have no sword yet.
+
+Step 3: Use the ""Do"" action to attack the zombie and try to defeat it.
+
+ACTION: Do","You see:
+- stone 1 step to your north
+- path 1 step to your west
+- skeleton 4 steps to your north-west
+- arrow 3 steps to your north-west
+- grass 2 steps to your south
+- table 1 step to your south
+- zombie 1 step to your east
+- coal 5 steps to your north-east
+- tree 4 steps to your east
+
+You face zombie at your front.",0.0,False
+147,Do,"Step 1: The zombie is still directly in front and a threat to health. I should attack it now using ""Do"" to try to defeat it and get the ""Defeat Zombie"" achievement.
+
+Step 2: After defeating the zombie, I can look into crafting better weapons or collecting more materials.
+
+Step 3: Health is not full but not critically low, so attacking is safe.
+
+ACTION: Do","You see:
+- stone 1 step to your north
+- path 1 step to your west
+- skeleton 4 steps to your north-west
+- grass 2 steps to your south
+- table 1 step to your south
+- zombie 1 step to your east
+- coal 5 steps to your north-east
+- tree 4 steps to your east
+
+You face zombie at your front.",0.0,False
+148,Do,"Step 1: The zombie is still a threat directly in front. Attacking it now using ""Do"" could help reduce or eliminate the threat and possibly get the ""Defeat Zombie"" achievement.
+
+Step 2: Health is at 7/9, which is sufficient to continue fighting without needing to immediately retreat or heal.
+
+Step 3: Continue hitting the zombie until it's defeated to ensure safety and progress.
+
+Step 4: Once the zombie is defeated, consider collecting nearby coal or crafting stronger weapons.
+
+ACTION: Do","You see:
+- stone 1 step to your north
+- path 1 step to your west
+- skeleton 4 steps to your north-west
+- grass 1 step to your east
+- table 1 step to your south
+- coal 5 steps to your north-east
+- tree 4 steps to your east
+
+You face grass at your front.",1.0,False
+149,Move East,"Step 1: Currently, you are facing grass with no immediate threats right in front, but there is a table one step south and trees to the east at 4 steps. The skeleton and coal are a bit distant but could be approached later.
+
+Step 2: You have a wood pickaxe, wood is required to make other tools, and you have 8 stones in inventory.
+
+Step 3: Since there is a table nearby (one step to the south), and you have stones, it would be good to place stones to progress towards making stone tools once you have a stone pickaxe.
+
+Step 4: Alternatively, you might want to progress towards collecting wood or crafting a stone pickaxe. You don't have wood in the inventory as per the last observed inventory, so collecting wood would help.
+
+Step 5: To collect wood, you need to be near a tree. The tree is 4 steps east, so moving east is a good next step.
+
+Step 6: Moving east towards the tree allows you to collect wood to unlock achievements Collect Wood (1) and proceed towards Crafting better tools.
+
+ACTION: Move East","You see:
+- stone 1 step to your north
+- path 2 steps to your west
+- skeleton 5 steps to your north-west
+- grass 1 step to your west
+- table 2 steps to your south-west
+- coal 4 steps to your north-east
+- tree 3 steps to your east
+
+You face grass at your front.",0.0,False
+150,Move East,"Step 1: I need to improve my tools to advance achievements related to stone and iron items, so collecting wood is essential as I only have a wood pickaxe but no raw wood in inventory.
+
+Step 2: There's a tree 3 steps to the east, so moving east will allow me to get closer and collect wood.
+
+Step 3: Once I reach the tree, I can use the ""Do"" action to collect wood.
+
+Step 4: Collecting wood will help unlock the Collect Wood achievement and also provide material to craft better tools at the table nearby.
+
+Step 5: After collecting wood, I can return to the table (2 steps south-west) to craft stone or wooden tools.
+
+Best immediate action: Move East to get closer to the tree for wood gathering.
+
+ACTION: Move East","You see:
+- path 3 steps to your west
+- stone 2 steps to your north-west
+- skeleton 6 steps to your north-west
+- grass 1 step to your west
+- table 3 steps to your south-west
+- coal 3 steps to your north
+- tree 2 steps to your east
+
+You face grass at your front.",0.0,False
+151,Move East,"Step 1: I see a tree 2 steps to the east, which is a good source for collecting wood. I need wood to fulfill the Collect Wood achievement and to craft better tools.
+
+Step 2: My health is slightly low (7/9), and my food and drink levels are moderate. I should avoid combat for now and prioritize resource gathering and restoration.
+
+Step 3: I should move closer to the tree to collect wood efficiently.
+
+Step 4: Once near the tree, I can use the Do action to collect wood.
+
+Step 5: After gathering wood, I’ll return to the nearby table (3 steps to the south-west) for crafting better tools like a wood sword or stone pickaxe.
+
+For now, moving east brings me closer to the tree.
+
+ACTION: Move East","You see:
+- skeleton 7 steps to your north-west
+- path 4 steps to your west
+- stone 2 steps to your north
+- grass 1 step to your west
+- table 4 steps to your south-west
+- coal 4 steps to your north-west
+- tree 1 step to your east
+
+You face tree at your front.",0.0,False
+152,Do,"Step 1: I see a tree 1 step to my east, which is ideal for collecting wood to complete the ""Collect Wood"" achievement.
+
+Step 2: I currently have a wood pickaxe in inventory, which will help me collect wood faster.
+
+Step 3: My health is 7/9, which is not critical, and I should avoid unnecessary fights now.
+
+Step 4: My food and drink levels are low (4/9 and 2/9), so eventually I need to find food and drink, but first collecting wood is a priority.
+
+Step 5: I should use the ""Do"" action facing the tree to collect wood.
+
+ACTION: Do","You see:
+- skeleton 7 steps to your north-west
+- path 4 steps to your west
+- stone 2 steps to your north
+- grass 1 step to your west
+- table 4 steps to your south-west
+- coal 4 steps to your north-west
+- tree 4 steps to your north-east
+
+You face grass at your front.",0.0,False
+153,Move West,"Step 1: I need to prioritize collecting wood since I only have 1 wood and wood is vital for crafting tools and weapons.
+Step 2: The closest tree is 4 steps to the north-east, but currently I face grass 1 step west.
+Step 3: Move towards the tree to get wood. First, I should start moving north-east or at least north to get closer to the tree.
+Step 4: Because I see grass 1 step west and path 4 steps west, moving west can get me onto the path and possibly closer to resources or easier movement.
+Step 5: Also, my food and drink levels are getting low, so I should keep an eye out for drink or food sources.
+Step 6: There is stone 2 steps north and coal 4 steps north-west, which will be useful later for iron tools.
+Step 7: For now, moving west to the grass step is good to start heading towards resources.
+
+ACTION: Move West","You see:
+- path 3 steps to your west
+- stone 2 steps to your north-west
+- skeleton 6 steps to your north-west
+- grass 1 step to your west
+- table 3 steps to your south-west
+- coal 3 steps to your north
+- tree 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+154,Move North,"Step 1: My health is slightly reduced, and my food and drink are getting low, so keeping an eye out for food and drink sources is important in the near future.
+
+Step 2: I currently have 1 wood, 8 stone, and a wood pickaxe. I can craft better tools once I have coal and possibly iron.
+
+Step 3: Coal is 3 steps north, stone 2 steps north-west, and a tree 5 steps north-east. Collecting coal next will help me eventually craft iron tools.
+
+Step 4: Since I’m facing grass at my front, moving north should bring me closer to coal.
+
+Step 5: Moving north will also get me closer to stone and possibly a tree on the way.
+
+Therefore, moving north is a logical next step to start gathering coal for progressing towards better tools.
+
+ACTION: Move North","You see:
+- path 2 steps to your north-west
+- stone 1 step to your west
+- skeleton 5 steps to your north-west
+- grass 1 step to your south
+- table 4 steps to your south-west
+- coal 2 steps to your north
+- tree 4 steps to your east
+
+You face stone at your front.",0.1,False
+155,Move North,"Step 1: I see coal 2 steps to the north and a stone directly in front. Coal is essential for making iron tools and furnaces, so collecting coal soon is important.
+
+Step 2: Stone is directly in front. Since I already have 8 stone and a wood pickaxe, I don't need to collect more stone for now and can use this opportunity to move towards the coal.
+
+Step 3: Since the coal is 2 steps north and I’m facing stone directly in front (west), I should move around the stone towards the north to get closer to the coal.
+
+Step 4: The grass is 1 step south, but moving south will take me away from the coal.
+
+Step 5: The best direction to move to reach the coal is north, so I should turn or move towards north.
+
+Since I seem to be facing west at stone, I should orient myself first by moving west or north. Moving west will bring me to the stone tile, so I can collect stone if I want, but with 8 already, I don’t need it now.
+
+Better to turn and move north instead, so let's move north to get closer to coal.
+
+ACTION: Move North","You see:
+- path 2 steps to your north-west
+- stone 1 step to your west
+- skeleton 5 steps to your north-west
+- grass 1 step to your south
+- table 4 steps to your south-west
+- coal 2 steps to your north
+- tree 4 steps to your east
+
+You face stone at your front.",0.0,False
+156,Move West,"Step 1: I am currently facing stone at my front (west). The coal is 2 steps to the north, so I need to reorient myself to get closer to the coal.
+
+Step 2: Moving west means going onto the stone tile, which might not be necessary right now since I already have 8 stone.
+
+Step 3: Moving north would bring me closer to the coal, which is important to collect soon for iron tools.
+
+Step 4: However, I am facing west (stone), so moving north directly is not possible; I need to turn around or move in a way to face north.
+
+Step 5: Moving south will bring me to grass, but this is away from the coal.
+
+Step 6: Best action is to move west to the stone tile, then on following step, move north to approach coal.
+
+Step 7: Alternatively, maybe I can place a stone in front to build up or create something, but I don't currently have an immediate need.
+
+Conclusion: I should move west to the stone tile in front, which is one step closer to the north direction, then on the next step, plan to move north.
+
+ACTION: Move West","You see:
+- path 2 steps to your north-west
+- stone 1 step to your west
+- skeleton 5 steps to your north-west
+- grass 1 step to your south
+- table 4 steps to your south-west
+- coal 2 steps to your north
+- tree 4 steps to your east
+
+You face stone at your front.",0.0,False
+157,Move West,"Step 1: I am facing stone to the west, which is directly in front of me.
+Step 2: Coal is 2 steps to the north; to reach it, I need to go north eventually.
+Step 3: Moving west onto the stone tile might help get closer to the coal, but it will not bring me directly nearer to the coal; the coal is north from my current location.
+Step 4: Moving west might block my path or waste time; a more direct route is preferable.
+Step 5: I can first turn to face north by moving north or south, but currently, I can only move forward in the direction I'm facing (stone to the west).
+Step 6: Since I can't change facing direction explicitly, I should move west now onto the stone, then next turn try to move north towards coal.
+Step 7: Collecting coal is important to make iron tools later.
+Step 8: I have low energy (4/9), but I still can move a few times.
+Step 9: No immediate threat nearby; the zombie and skeleton are far; I can safely move.
+Step 10: Best to pick up coal soon and then plan to build furnace and iron tools.
+
+Final decision: Move West to get onto stone tile, then plan to move north next.
+
+ACTION: Move West","You see:
+- path 2 steps to your north-west
+- stone 1 step to your west
+- skeleton 5 steps to your north-west
+- grass 1 step to your south
+- table 4 steps to your south-west
+- coal 2 steps to your north
+- tree 4 steps to your east
+
+You face stone at your front.",0.0,False
+158,Move West,"Step 1: I am facing stone 1 step west, so moving west will bring me onto stone.
+Step 2: Coal is 2 steps north from my new position, so after moving west, I can turn to face north and move towards the coal to collect it.
+Step 3: Collecting coal is important to progress towards achievements involving iron tools and furnace.
+Step 4: I currently have 1 wood and 8 stones, and a wood pickaxe. Acquiring coal helps unlock iron tool creation.
+Step 5: No immediate danger is noted nearby, so moving west is safe.
+Step 6: Energy is 4/9, still sufficient for a few actions without sleep for now.
+Step 7: Moving west onto stone aligns my position toward the coal location.
+
+Final decision: Move West to position myself for coal collection.
+
+ACTION: Move West","You see:
+- path 2 steps to your north-west
+- stone 1 step to your west
+- skeleton 5 steps to your north-west
+- grass 1 step to your south
+- table 4 steps to your south-west
+- coal 2 steps to your north
+- tree 4 steps to your east
+
+You face stone at your front.",0.0,False
+159,Move West,"Step 1: I am facing stone 1 step to the west, so moving west will put me onto stone.
+Step 2: From that position, coal is 2 steps to the north, closer to collect next.
+Step 3: Coal is essential for making iron tools and furnaces later, which unlocks further achievements.
+Step 4: Health, food, drink, and energy are sufficient to continue moving and collecting coal.
+Step 5: No immediate threats nearby to prevent moving west safely.
+Step 6: After moving west, I can plan to move north to collect coal.
+Step 7: Moving onto the stone also helps me achieve the ""Collect Stone"" and ""Place Stone"" achievements if I further interact with stone blocks.
+
+Final action: Move West to approach coal and stone.
+
+ACTION: Move West","You see:
+- path 2 steps to your north-west
+- stone 1 step to your west
+- skeleton 5 steps to your north-west
+- grass 1 step to your south
+- table 4 steps to your south-west
+- coal 2 steps to your north
+- tree 4 steps to your east
+
+You face stone at your front.",0.0,False
+160,Move West,"Step 1: I am looking at stone 1 step to the west. Stone is already plentiful in the inventory (8 stones), so collecting more stone now is less urgent.
+Step 2: Coal is 2 steps to the north. Coal is important for making an iron pickaxe and furnace, which are needed for advanced achievements.
+Step 3: My health is slightly reduced (8/9), food is moderate (3/9), drink is low (2/9), and energy is low (4/9). I need to watch the drink and energy but can still move.
+Step 4: I should move toward the coal to collect it next, by moving north after moving west to get closer.
+Step 5: Moving west first onto the stone will not block me and will put me in position to move north to coal.
+
+ACTION: Move West","You see:
+- path 2 steps to your north-west
+- stone 1 step to your west
+- skeleton 5 steps to your north-west
+- grass 1 step to your south
+- table 4 steps to your south-west
+- coal 2 steps to your north
+- tree 4 steps to your east
+
+You face stone at your front.",0.0,False
+161,Move West,"Step 1: I see stone 1 step to my west and coal 2 steps to my north. Coal is important to collect for making a furnace and iron tools, which will help me progress.
+
+Step 2: Health is 8/9, which is fairly good, but drink is low at 2/9, so later I might need to find water or plants to restore it.
+
+Step 3: Energy is low (4/9), so I might need to sleep soon, but collecting coal first is priority.
+
+Step 4: To get to the coal 2 steps north, I need to move west first (onto stone), and then north.
+
+Step 5: I face stone, so moving west is valid.
+
+ACTION: Move West","You see:
+- path 2 steps to your north-west
+- stone 1 step to your west
+- skeleton 5 steps to your north-west
+- grass 1 step to your south
+- table 4 steps to your south-west
+- coal 2 steps to your north
+- tree 4 steps to your east
+
+You face stone at your front.",0.0,False
+162,Move West,"Step 1: I see coal 2 steps to the north, which is needed to make a furnace and iron tools, advancing my achievements.
+
+Step 2: To get to the coal, I need to move onto the stone first, which is 1 step to the west.
+
+Step 3: My health is good (8/9), food is a bit low (3/9), drink is low (2/9), and energy is low (4/9). I should keep an eye out for food or drink soon, or consider sleeping after collecting coal.
+
+Step 4: I currently face stone, so moving west is valid and gets me closer to the coal.
+
+ACTION: Move West","You see:
+- path 2 steps to your north-west
+- stone 1 step to your west
+- skeleton 5 steps to your north-west
+- grass 1 step to your south
+- table 4 steps to your south-west
+- coal 2 steps to your north
+- tree 4 steps to your east
+
+You face stone at your front.",0.0,False
+163,Move West,"Step 1: I am currently facing stone 1 step to the west. Moving west will place me on the stone block, positioning me closer to the coal which is 2 steps to the north.
+
+Step 2: I want to collect coal which is important for making a furnace and iron tools.
+
+Step 3: My food and drink are low, but I don't see any immediate food or water sources in front currently; I will prioritize reaching coal first to advance tools.
+
+Step 4: After moving onto the stone, next move north to get to the coal, then use ""Do"" action to collect it.
+
+Therefore, the best immediate action is to move west onto the stone block.
+
+ACTION: Move West","You see:
+- path 2 steps to your north-west
+- stone 1 step to your west
+- skeleton 5 steps to your north-west
+- grass 1 step to your south
+- table 4 steps to your south-west
+- coal 2 steps to your north
+- tree 4 steps to your east
+
+You face stone at your front.",0.0,False
+164,Move West,"Step 1: I am standing facing stone 1 step to the west, with coal 2 steps to the north beyond it.
+
+Step 2: My food and drink are low, so eventually I will need to replenish those to maintain health and energy.
+
+Step 3: I have wood and stone, and a wood pickaxe, but no coal yet. Coal is vital for making a furnace.
+
+Step 4: To get coal, I need to move onto the stone to the west, then move north to reach the coal.
+
+Step 5: After getting coal, I can place a furnace and progress toward iron tools.
+
+Therefore, the best immediate action is to move west onto the stone.
+
+ACTION: Move West","You see:
+- path 2 steps to your north-west
+- stone 1 step to your west
+- skeleton 5 steps to your north-west
+- grass 1 step to your south
+- table 4 steps to your south-west
+- coal 2 steps to your north
+- tree 4 steps to your east
+
+You face stone at your front.",0.0,False
+165,Move West,"Step 1: I am currently facing stone 1 step to the west. Moving onto the stone will bring me closer to the coal 2 steps north of my current position.
+
+Step 2: Coal is essential to place a furnace, and the furnace is needed to craft iron tools and swords. So the priority now is to collect coal.
+
+Step 3: Food and drink are low but still at survivable levels, so I don’t need to eat or drink immediately but should keep an eye on it.
+
+Step 4: After moving west onto the stone, I will move north to collect the coal.
+
+Therefore, the best immediate action is to move west to get closer to coal.
+
+ACTION: Move West","You see:
+- path 2 steps to your north-west
+- stone 1 step to your west
+- skeleton 5 steps to your north-west
+- grass 1 step to your south
+- table 4 steps to your south-west
+- coal 2 steps to your north
+- tree 4 steps to your east
+
+You face stone at your front.",0.0,False
+166,Move West,"Step 1: I’m facing stone 1 step west, so moving west will put me on the stone and bring me closer to the coal 2 steps north.
+
+Step 2: After moving west, I should move north to collect the coal since it is close and essential for crafting a furnace.
+
+Step 3: I have wood and a wood pickaxe ready, and a good amount of stone, so collecting coal will enable me to eventually make better tools and armor (iron tools come after furnace and coal, but I don’t have iron yet).
+
+Step 4: My food and drink are low but still manageable; I should prioritize collecting resources before addressing those.
+
+Therefore, the immediate best action is to move west onto the stone.
+
+ACTION: Move West","You see:
+- path 2 steps to your north-west
+- stone 1 step to your west
+- skeleton 5 steps to your north-west
+- grass 1 step to your south
+- table 4 steps to your south-west
+- coal 2 steps to your north
+- tree 4 steps to your east
+
+You face stone at your front.",0.0,False
+167,Move West,"Step 1: I am currently facing stone at my front which is 1 step west. Moving west will get me closer to the coal 2 steps to the north.
+
+Step 2: After moving west, I can then move north to collect the coal to help with crafting a furnace later.
+
+Step 3: My drink is very low at 1/9, but I don’t see any water nearby right now, so collecting nearby resources is prioritized first to enable better tools and survival.
+
+Step 4: Collecting coal will allow me to place a furnace and eventually craft iron tools and swords needed to defeat stronger enemies like skeletons.
+
+Step 5: I also need to keep an eye on food and drink, but currently, the best step is to get that coal first.
+
+Therefore, the best immediate action is to move west.
+
+ACTION: Move West","You see:
+- path 2 steps to your north-west
+- stone 1 step to your west
+- skeleton 5 steps to your north-west
+- grass 1 step to your south
+- table 4 steps to your south-west
+- coal 2 steps to your north
+- tree 4 steps to your east
+
+You face stone at your front.",0.0,False
+168,Do,"Step 1: I see stone directly in front of me (1 step west), and coal 2 steps to the north. Since I have 8 stone already, it might be more valuable now to collect coal for crafting a furnace later.
+
+Step 2: My drink level is 1/9, which is low. To avoid dying, I should prioritize getting some drink soon. However, I do not see water nearby right now.
+
+Step 3: Moving west to collect the stone in front can increase stone inventory further and possibly bring me closer to other resources.
+
+Step 4: After collecting the stone, I can plan the path to the coal to gather more diverse resources.
+
+Step 5: I have a wood pickaxe in the inventory, which means I can mine resources like stone and coal effectively.
+
+Therefore, the best immediate action is to do the multiuse action (""Do"") to collect the stone in front.
+
+ACTION: Do","You see:
+- path 1 step to your west
+- stone 1 step to your north
+- skeleton 5 steps to your north-west
+- grass 1 step to your south
+- table 4 steps to your south-west
+- coal 2 steps to your north
+- tree 4 steps to your east
+
+You face path at your front.",0.0,False
+169,Move West,"Step 1: Drink level is critically low (1/9), so I need to find water or lake soon to replenish drink.
+
+Step 2: Health is 8/9, food is 3/9, so eating food is less urgent than drink.
+
+Step 3: Currently facing path to my front (west).
+
+Step 4: There is stone 1 step to my north and coal 2 steps to my north.
+
+Step 5: Since to the west is a path, better to explore in that direction first to potentially find lake or other resources.
+
+Step 6: I have a wood pickaxe, so can mine stone or coal if I reach them.
+
+Step 7: Movement west to explore seems reasonable.
+
+ACTION: Move West","You see:
+- stone 1 step to your west
+- path 1 step to your north
+- skeleton 4 steps to your north-west
+- arrow 3 steps to your north-west
+- grass 1 step to your south
+- table 3 steps to your south-west
+- coal 3 steps to your north-east
+- zombie 4 steps to your south-east
+
+You face stone at your front.",0.0,False
+170,Do,"Step 1: My drink is critically low (1/9), so replenishing it is urgent.
+
+Step 2: I see no lake nearby, but I can look for a place to drink or continue collecting materials for crafting better tools or weapons.
+
+Step 3: There is stone 1 step ahead (west), and coal is 3 steps to my north-east — coal will be important later for making iron tools.
+
+Step 4: A zombie is 4 steps to the south-east and a skeleton 4 steps to the north-west. Avoiding them for now is safer since I’m low on drink and not well equipped.
+
+Step 5: Since the stone is right in front, I can collect it now to progress on achievements like ""Collect Stone"" and be better prepared.
+
+Step 6: Taking the stone now before moving towards coal or the table.
+
+ACTION: Do","You see:
+- stone 2 steps to your west
+- path 1 step to your west
+- skeleton 4 steps to your north-west
+- grass 1 step to your south
+- table 3 steps to your south-west
+- coal 3 steps to your north-east
+- zombie 3 steps to your south-east
+
+You face path at your front.",0.0,False
+171,Move West,"Step 1: Drink is critically low (1/9), so I need to replenish it soon to avoid dying.
+
+Step 2: I see grass 1 step to the south, which might be useful later for collecting plants or other resources, but not urgent now.
+
+Step 3: The table is 3 steps to the south-west, which is where I can craft tools and weapons.
+
+Step 4: I have 1 wood and 9 stone, and a wood pickaxe already.
+
+Step 5: The coal is 3 steps to the north-east, needed for iron tools later.
+
+Step 6: There’s a skeleton 4 steps to my north-west and a zombie 3 steps to my south-east, so heading directly to any resources in those directions might be risky.
+
+Step 7: Since I face a path at my front (west), moving west might bring me closer to the stone (2 steps west), which can be collected to unlock ""Collect Stone"" achievements and craft stone tools.
+
+Step 8: My energy is 4/9, so doesn't require sleep now.
+
+Step 9: Given the urgent drink need, moving towards a lake or drink source might be preferable after collecting a bit more stone or moving towards the table eventually.
+
+Step 10: Moving west along the path seems safe and closer to stone and possibly lake or other resources.
+
+ACTION: Move West","You see:
+- stone 1 step to your west
+- path 1 step to your north
+- skeleton 4 steps to your north-west
+- grass 1 step to your south
+- table 2 steps to your south
+- coal 4 steps to your north-east
+- zombie 3 steps to your south-east
+
+You face stone at your front.",0.0,False
+172,Move South,"Step 1: My drink level is critically low (1/9), so I need to replenish it soon to avoid death.
+
+Step 2: I see grass 1 step to the south and a table 2 steps to the south, so moving south could bring me closer to the table and potentially to water sources (there might be a lake nearby), allowing me to drink.
+
+Step 3: Moving west towards the stone could help me collect stone for making stone tools, but replenishing drink is more urgent.
+
+Step 4: Since I am facing stone at front (west), but drink is critical, prioritizing moving south is better to get to the table and maybe find water.
+
+Step 5: Hence, move south towards grass and table.
+
+ACTION: Move South","You see:
+- stone 2 steps to your west
+- path 1 step to your west
+- skeleton 5 steps to your north-west
+- grass 2 steps to your south
+- table 1 step to your south
+- zombie 1 step to your east
+- coal 5 steps to your north-east
+
+You face table at your front.",-0.2,False
+173,Make Wood Sword,"Step 1: My drink level is very low (1/9), so I need to drink soon to avoid dying or losing more health.
+
+Step 2: I am facing the table 1 step to the south, and a zombie is 1 step to the east, which could be a threat if I move recklessly.
+
+Step 3: I should check if I can use the ""Do"" action to interact with the table or nearby resources. However, ""Do"" can collect material, drink from lake, or hit creature in front. The table itself cannot be drunk from, so it’s not helpful for drinking.
+
+Step 4: The zombie 1 step to my east is dangerous. I need to either attack or create distance.
+
+Step 5: Since I have a wood pickaxe, not a sword, and the zombie is close, I should avoid attacking with suboptimal weapons unless necessary.
+
+Step 6: Moving south to the table might be a strategic move to prepare crafting actions or use table for making tools or sword, but it doesn't solve the immediate threat.
+
+Step 7: Moving west towards stone might allow me to collect stone if I face it, but it’s 2 steps away.
+
+Step 8: Drink is critical; no lake near as far as observed.
+
+Step 9: Food is moderate at 3/9; health is 6/9.
+
+Step 10: Since I face the table, I can stand at this safe spot and use ""Make Wood Sword"" if I have enough wood and table nearby to prepare a weapon to face zombies or skeletons.
+
+Step 11: Inventory says I have 1 wood and 9 stone, and a wood pickaxe; probably can make a wood sword if I have enough wood and table.
+
+Step 12: Craft wood sword to prepare for fighting zombie.
+
+ACTION: Make Wood Sword","You see:
+- stone 2 steps to your west
+- path 1 step to your west
+- skeleton 5 steps to your north-west
+- grass 2 steps to your south
+- table 1 step to your south
+- zombie 1 step to your east
+- coal 5 steps to your north-east
+
+You face table at your front.",1.0,False
+174,Move East,"Step 1: I am currently facing the table (1 step south), zombie is 1 step east which is a threat.
+
+Step 2: My health is 6/9, food 3/9, drink very low at 1/9, and energy is moderate at 4/9. Drink level is critical, so ideally I need to drink soon, but no lake or water source is visible nearby.
+
+Step 3: I have a wood sword, so I am better equipped to fight the zombie.
+
+Step 4: Since zombie is 1 step east, I must either attack it or avoid being attacked.
+
+Step 5: Attacking the zombie from current position requires facing it. Currently, I face south (table), so I need to turn to face east or move east (if possible).
+
+Step 6: No explicit action to turn, only movement actions. So to face east, I can move east or west etc.
+
+Step 7: Since zombie is 1 step east, I can move east to be in front of zombie and then use Do to attack it, or try to hit without getting damage.
+
+Step 8: Moving east risks immediate contact with zombie. But if I want to attack, it might be necessary.
+
+Step 9: Alternatively, I could stay put and see if zombie moves or attack first.
+
+Step 10: Considering I have wood sword and need to defeat zombie for an achievement, attacking now is reasonable.
+
+Step 11: Therefore, move east closer to the zombie, then use Do next turn to attack.
+
+ACTION: Move East","You see:
+- stone 2 steps to your west
+- path 1 step to your west
+- skeleton 5 steps to your north-west
+- arrow 4 steps to your north-west
+- grass 2 steps to your south
+- table 1 step to your south
+- zombie 1 step to your east
+- coal 5 steps to your north-east
+
+You face zombie at your front.",0.0,False
+175,Do,"Step 1: I see the zombie is 1 step in front of me, and I currently face it, so I can attack it directly with the Do action.
+
+Step 2: Attacking the zombie will progress towards the ""Defeat Zombie"" achievement and decrease its threat.
+
+Step 3: My health is 6/9, food and energy levels are okay, but drink is critically low at 1/9. But since the zombie is an immediate threat, I should deal with it first.
+
+Step 4: After attacking, I can consider moving to a safer location or looking for a water source to replenish my drink.
+
+Step 5: For now, attacking the zombie in front is the best immediate course of action.
+
+ACTION: Do","You see:
+- stone 2 steps to your west
+- path 1 step to your west
+- skeleton 5 steps to your north-west
+- grass 2 steps to your south
+- table 1 step to your south
+- zombie 1 step to your east
+- coal 5 steps to your north-east
+
+You face zombie at your front.",0.0,False
+176,Do,"Step 1: The zombie is an immediate threat one step to the east; attacking it now is important to avoid damage.
+
+Step 2: I have a wood sword in the inventory, which is effective for combat.
+
+Step 3: Health is reasonably high (6/9), food moderate (3/9), but drink is low (1/9), so I'll have to look for water soon after dealing with the zombie.
+
+Step 4: Attacking the zombie now is urgent, then potentially moving south towards the table to craft or west/north to find coal or water.
+
+Step 5: For this turn, the best action is to attack the zombie directly.
+
+ACTION: Do","You see:
+- stone 2 steps to your west
+- path 1 step to your west
+- skeleton 5 steps to your north-west
+- grass 2 steps to your south
+- table 1 step to your south
+- zombie 1 step to your east
+- coal 5 steps to your north-east
+
+You face zombie at your front.",0.0,False
+177,Do,"Step 1: The zombie is directly in front and the immediate threat. I have a wood sword, which is useful for fighting.
+
+Step 2: Attacking the zombie now is important to avoid taking damage, and possibly defeat it quickly.
+
+Step 3: After dealing with the zombie, I can move south to the table to craft other tools or move towards coal to gather more resources.
+
+Step 4: Drink is low, but first I need to survive the zombie encounter.
+
+Step 5: Attack the zombie.
+
+ACTION: Do","You see:
+- stone 2 steps to your west
+- path 1 step to your west
+- skeleton 4 steps to your north-west
+- grass 1 step to your east
+- table 1 step to your south
+- zombie 2 steps to your south-east
+- coal 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+178,Move South,"Step 1: My health is 6/9, drink is low at 1/9, and food is moderate at 3/9. I need to recover drink soon to avoid further vulnerability.
+
+Step 2: There is a zombie 2 steps southeast, which may be a threat if I approach recklessly, so I should prepare carefully.
+
+Step 3: The table is 1 step to the south; moving there would allow me to craft more tools or weapons if needed.
+
+Step 4: The grass is directly in front; collecting plants might allow me to eat and recover food or health later.
+
+Step 5: There's coal 5 steps to the northeast, which will be needed for advanced tools like iron pickaxes or swords.
+
+Step 6: Considering my current needs, it is safer to gather food and drink first to regain strength, by collecting plants or drinking water when available.
+
+Step 7: Move south to the table to craft or prepare and then plan to pick up coal and iron materials afterward.
+
+Based on the above, the best immediate step is to move south toward the table.
+
+ACTION: Move South","You see:
+- stone 2 steps to your west
+- path 1 step to your west
+- skeleton 4 steps to your north-west
+- arrow 3 steps to your north-west
+- grass 2 steps to your south
+- table 1 step to your south
+- zombie 1 step to your east
+- coal 5 steps to your north-east
+
+You face table at your front.",-0.2,False
+179,Move South,"Step 1: Health and drink are critically low (4/9 health, 1/9 drink), so restoring them should be the top priority.
+
+Step 2: I'm currently facing the table, which is useful if I want to craft, but crafting right now might not help as much as recovering health and drink.
+
+Step 3: There is grass 2 steps to the south, which might allow me to collect plants or food to restore some health or food.
+
+Step 4: There is a zombie 1 step east, presenting a threat if I move carelessly in that direction.
+
+Step 5: The zombie in front (east) is a danger; engaging now might be risky given low health.
+
+Step 6: Drinking from water or eating plants tends to restore health or drink, so I should look for options to recover.
+
+Step 7: Since the table is at my front and grass is near south, moving south toward the grass could allow collecting it to eat or place plants.
+
+Step 8: Alternatively, I could ""Do"" the table to see if it does anything useful, but ""Do"" is described as for collecting, drinking, or hitting creatures, and there's no resource in front except the table.
+
+Step 9: To avoid the zombie, avoiding east is important; south seems safer.
+
+Step 10: After moving south and collecting grass (if possible), I can eat the plant to restore food and health.
+
+Therefore, the best next step is to move south.
+
+ACTION: Move South","You see:
+- stone 2 steps to your west
+- path 1 step to your west
+- skeleton 4 steps to your north-west
+- grass 2 steps to your south
+- table 1 step to your south
+- zombie 1 step to your east
+- coal 5 steps to your north-east
+
+You face table at your front.",0.0,False
+180,Move South,"Step 1: I currently face a table 1 step to the south.
+Step 2: Health and drink are critically low, so regaining those is urgent.
+Step 3: There is grass 2 steps south, where I can possibly collect a plant to eat and restore food and possibly health.
+Step 4: The zombie 1 step to the east is a threat, so I should avoid moving east for now.
+Step 5: Moving south puts me closer to the grass and the table, which might allow me to place a plant or craft if needed.
+Step 6: Once near the grass, I can attempt to ""Do"" to collect it, then ""Place Plant"" and ""Eat Plant"" to restore food and health.
+Step 7: Moving south seems the safest way to both evade the zombie and start regaining health and drink.
+
+ACTION: Move South","You see:
+- stone 2 steps to your west
+- path 1 step to your west
+- skeleton 3 steps to your north-west
+- grass 2 steps to your south
+- table 1 step to your south
+- zombie 1 step to your east
+- coal 5 steps to your north-east
+
+You face table at your front.",0.1,False
+181,Move South,"Step 1: I need to prioritize increasing my food and drink levels to restore health and energy.
+Step 2: I see the grass 2 steps south, and a table 1 step south. The table can be used for crafting or placing plants.
+Step 3: The zombie 1 step to the east is a threat, so avoid moving east or facing east.
+Step 4: Since I face the table at my front (south), moving south will bring me closer to the grass and let me interact with the table.
+Step 5: After moving south, I can ""Place Plant"" on the table and ""Do"" to collect grass or plant material to eat and restore food/drink.
+Step 6: Avoid the skeleton to the northwest for now.
+Step 7: Proceed south safely.
+
+ACTION: Move South","You see:
+- stone 2 steps to your west
+- path 1 step to your west
+- skeleton 4 steps to your north-west
+- grass 2 steps to your south
+- table 1 step to your south
+- zombie 1 step to your east
+- coal 5 steps to your north-east
+
+You face table at your front.",0.0,False
+182,Move South,"Step 1: I am low on food and drink (2/9 and 1/9), so I should prioritize restoring those to increase health and energy.
+Step 2: The table is right in front of me to the south, and the grass is 2 steps south, so I should move south twice to reach the grass.
+Step 3: The zombie to the east and skeleton to the northwest may pose threats, so I should avoid moving towards them.
+Step 4: After moving south to the grass, I should use ""Do"" to collect the grass, which can lead to the ""Eat Plant"" achievement.
+Step 5: Then I can potentially place a plant on the table to get the ""Place Plant"" achievement.
+Step 6: Once food and drink are improved, I can consider making better tools or weapons.
+
+Preferred immediate action: Move South to get closer to grass.
+
+ACTION: Move South","You see:
+- stone 2 steps to your west
+- path 1 step to your west
+- skeleton 4 steps to your north-west
+- grass 2 steps to your south
+- arrow 4 steps to your south-west
+- table 1 step to your south
+- zombie 1 step to your east
+- coal 5 steps to your north-east
+
+You face table at your front.",0.0,False
+183,Move South,"Step 1: Currently, my health, food, and drink are low, with risky enemies nearby (zombie east and skeleton northwest), so safety and replenishment are priorities.
+
+Step 2: The table is 1 step south. Moving onto it may help craft or place plants if I get materials.
+
+Step 3: Grass is 2 steps to the south, past the table – I can collect it to help with food by eating the plant (Eat Plant achievement).
+
+Step 4: Avoid engaging the zombie now since I'm low on health.
+
+Step 5: First, move south onto the table (1 step), then next step I can move south again to grass for collection.
+
+Since the immediate decision is next step: move south to get near table and toward grass.
+
+ACTION: Move South","You see:
+- stone 2 steps to your west
+- path 1 step to your west
+- skeleton 3 steps to your north-west
+- arrow 3 steps to your south-west
+- grass 2 steps to your south
+- table 1 step to your south
+- zombie 1 step to your east
+- coal 5 steps to your north-east
+
+You face table at your front.",0.0,False
+184,Move South,"Step 1: I am currently facing the table, one step south. I want to use the table to potentially craft items or place things.
+Step 2: There is a zombie 1 step to my east, which is dangerous if I move east or do nothing.
+Step 3: I have wood_pickaxe and wood_sword in inventory, so I am already equipped for basic fighting.
+Step 4: My health is a bit low (5/9), and food and drink are very low (2/9 and 1/9). I need to replenish these soon to avoid dying.
+Step 5: Moving south onto the table may enable me to craft better tools or place objects.
+Step 6: I should not engage the zombie now as my health and nutrition are low. Instead, I'll prepare by moving to a safe spot (the table) and then plan to collect food or drink soon.
+Step 7: I can't directly collect grass or food now since it’s 2 steps south, but I can approach slowly.
+Step 8: Moving south to the table is a safe step and brings me closer to the grass.
+
+ACTION: Move South","You see:
+- stone 2 steps to your west
+- path 1 step to your west
+- skeleton 4 steps to your north-west
+- arrow 2 steps to your south-west
+- grass 2 steps to your south
+- table 1 step to your south
+- zombie 1 step to your east
+- coal 5 steps to your north-east
+
+You face table at your front.",-0.2,False
+185,Move South,"Step 1: My health, food, drink, and energy are critically low, so survival is my top priority. Replenishing food and drink is essential before engaging any threats.
+
+Step 2: There's a zombie 1 step to the east, which is very dangerous given my current health.
+
+Step 3: There's grass 2 steps south, and a table 1 step south.
+
+Step 4: I want to get to the grass to try to collect plants for food (Eat Plant achievement) or other resources.
+
+Step 5: First, I will move south onto the table to get closer to the grass safely.
+
+Step 6: Afterwards, I can attempt to move further south to the grass and Do to collect/eat if possible.
+
+ACTION: Move South","You see:
+- stone 2 steps to your west
+- path 1 step to your north
+- skeleton 4 steps to your north-west
+- arrow 1 step to your west
+- grass 2 steps to your south
+- table 1 step to your south
+- zombie 1 step to your east
+- coal 5 steps to your north-east
+
+You face table at your front.",0.0,False
+186,Move South,"Step 1: I have very low health, food, drink, and energy, so survival is critical.  
+Step 2: There is a zombie 1 step to the east, posing an immediate threat.  
+Step 3: I am currently facing the table 1 step to my south, and behind me to the west is an arrow 1 step away.  
+Step 4: To avoid the zombie threat, I should avoid moving east toward it.  
+Step 5: Moving south onto the table will place me away from the zombie, allowing safer access to resources like grass 2 steps to the south which can be used for Eat Plant achievement or collecting materials.  
+Step 6: After moving south, I can consider collecting or eating plants to restore food and health.  
+
+ACTION: Move South","You see:
+- stone 2 steps to your west
+- path 1 step to your west
+- skeleton 4 steps to your north-west
+- grass 2 steps to your south
+- table 1 step to your south
+- arrow 3 steps to your south
+- zombie 1 step to your east
+- coal 5 steps to your north-east
+
+You face table at your front.",0.0,False
+187,Move South,"Step 1: My health, food, and drink are very low, making survival my top priority.  
+Step 2: There is a zombie 1 step to the east, threatening me if I move east or do nothing.  
+Step 3: I face the table directly to the south, and grass is 2 steps to the south.  
+Step 4: Moving south onto the table can give me better positioning away from the zombie and closer to grass.  
+Step 5: After moving south, I can try to move onto the grass to collect or eat plants to restore food and drink.  
+Step 6: Avoiding combat now is important until I restore health and energy.  
+
+ACTION: Move South","You see:
+- stone 2 steps to your west
+- path 1 step to your west
+- skeleton 4 steps to your north-west
+- grass 2 steps to your south-east
+- table 1 step to your south
+- arrow 2 steps to your south
+- zombie 1 step to your east
+- coal 5 steps to your north-east
+
+You face table at your front.",0.0,False
+188,Move South,"Step 1: Your health, food, and drink levels are very low. To survive longer, you need to restore food and drink first.  
+Step 2: You are facing a table directly south, with grass 2 steps south-east and arrows nearby. There is a zombie just 1 step east, which is a threat if you stay idle or move east.  
+Step 3: Moving south to the table is safe, as it's right in front of you, and could give you better position to access the grass and other resources.  
+Step 4: After moving onto the table, next step is to go towards the grass to collect/eat plants or do actions to increase food and drink.  
+Step 5: Avoiding combat now is important due to low health; regain resources first.  
+
+ACTION: Move South","You see:
+- stone 2 steps to your west
+- path 1 step to your west
+- skeleton 3 steps to your south
+- grass 2 steps to your south
+- zombie 1 step to your east
+- coal 5 steps to your north-east
+
+You face path at your front.",0.0,False
+189,Move South,"Step 1: Your health, food, and drink are low, and energy is also low. Survival depends on restoring these resources first.  
+Step 2: You see grass 2 steps to the south, which can provide plants for food and drink.  
+Step 3: There is a zombie 1 step to the east, which poses an immediate threat if you move east or stay in place, but you can avoid it for now.  
+Step 4: The path is in front (west), but this is not helpful immediately.  
+Step 5: Moving south towards grass is safer and better for resource gathering. After moving south, you can use Do to collect plants and restore food and drink.  
+Step 6: Avoid combat until you have restored health and resources.
+
+ACTION: Move South","You see:
+- path 1 step to your west
+- stone 3 steps to your north-west
+- skeleton 2 steps to your south
+- grass 1 step to your north
+- zombie 1 step to your east
+
+You face grass at your front.",0.0,False
+190,Do,"Step 1: Your health, food, and drink are low; you need to recover resources quickly to survive.  
+Step 2: You see grass 1 step north, which can be collected for food and drink, improving your stats.  
+Step 3: There's a skeleton 2 steps south and a zombie 1 step east posing immediate threats; avoid engaging now until you have better health.  
+Step 4: Collecting grass is safer and a priority. Use the ""Do"" action to collect from grass and restore food and drink.  
+Step 5: After restoring food and drink, you can consider fighting or crafting.
+
+ACTION: Do","You see:
+- path 1 step to your west
+- stone 3 steps to your north-west
+- skeleton 3 steps to your south
+- grass 1 step to your north
+- zombie 1 step to your east
+
+You face grass at your front.",-0.2,False
+191,Do,"Step 1: Your health, food, and drink are critically low, especially drink. Prioritize recovering drink to avoid dying soon.  
+Step 2: You are facing grass 1 step north. Using ""Do"" on grass should help collect plant for food/drink and possibly gain ""Eat Plant"" achievement.  
+Step 3: After collecting grass, if your drink and food increase, you can consider fighting or moving to gather better materials or craft weapons.  
+Step 4: Avoid fighting the skeleton or zombie now since your health is very low.  
+Step 5: After improving drink/food, try to find a lake for drinking or resources such as coal/iron or further crafting actions.
+
+ACTION: Do","You see:
+- path 1 step to your west
+- stone 3 steps to your north-west
+- skeleton 2 steps to your south
+- grass 1 step to your north
+- zombie 1 step to your east
+
+You face grass at your front.",0.0,False
+192,Do,"Step 1: Your health and drink are critically low, with drink at 0/9. You must recover drink immediately to avoid dying from thirst.  
+Step 2: You're facing grass to the north. You can ""Do"" on grass to try to collect a plant (which can later be eaten for food and drink).  
+Step 3: After collecting a plant, you may be able to eat it to increase your drink or food levels, restoring your survivability.  
+Step 4: Avoid combat with skeleton or zombie at this moment due to your low health and stats.  
+Step 5: Once drink and food improve, focus on moving to safer areas and gathering additional resources.
+
+ACTION: Do","You see:
+- path 1 step to your west
+- stone 3 steps to your north-west
+- grass 1 step to your north
+- skeleton 3 steps to your south
+- zombie 1 step to your east
+
+You face grass at your front.",0.0,False
+193,Do,"Step 1: Your health is critically low (1/9), and drink is 0/9, which is dangerous for survival. You need to prioritize recovering drink and food immediately.
+
+Step 2: Facing grass at your front, using ""Do"" can collect plants, which you can then eat to restore food and possibly drink.
+
+Step 3: After collecting the plant, try to use ""Do"" again to eat the plant to recover food and drink.
+
+Step 4: Avoid moving towards zombies or skeletons as your health is very low.
+
+Given that you currently face grass, the best first action is to ""Do"" to collect plants.
+
+ACTION: Do","You see:
+- path 1 step to your west
+- stone 3 steps to your north-west
+- grass 1 step to your north
+- skeleton 4 steps to your north-west
+- zombie 2 steps to your south-east
+
+You face grass at your front.",0.0,False
+194,Do,"Step 1: Your health is critically low (1/9) and drink is at zero, meaning you need to restore both food and drink immediately to survive.
+
+Step 2: You are facing grass, which can be collected by using ""Do"". Collecting grass might allow you to eat plants for food, helping with your low food level.
+
+Step 3: After collecting the grass, you can attempt to eat it to restore your food and possibly drink.
+
+Step 4: Given your low health, you should avoid combat or moving towards enemies like the zombie or skeleton.
+
+Step 5: The first necessary action is to use ""Do"" to collect the grass in front of you.
+
+ACTION: Do","You see:
+- path 1 step to your west
+- stone 3 steps to your north-west
+- grass 1 step to your north
+- skeleton 4 steps to your north-west
+- arrow 3 steps to your south
+- zombie 1 step to your east
+
+You face grass at your front.",1.0,False
+195,Do,"Step 1: Your health is critically low, food and drink are also very low, meaning survival depends on restoring these levels.
+
+Step 2: You are facing grass and have sapling in your inventory, which can be used to place plants and possibly collect more plant-based food.
+
+Step 3: Since you currently see grass in front, you should use ""Do"" to collect it. This may allow you to eat a plant soon and increase your food level.
+
+Step 4: Once you have collected grass or plant material, attempt to eat it to restore food.
+
+Step 5: Your energy is low, so after increasing food and drink, you might want to rest (Sleep) to restore energy.
+
+Step 6: Avoid combat until your health and resources improve.
+
+Based on these steps, the best immediate action is to collect the grass in front.
+
+ACTION: Do","You see:
+- path 1 step to your west
+- stone 3 steps to your north-west
+- grass 1 step to your north
+- skeleton 4 steps to your north-west
+- arrow 2 steps to your south
+- zombie 1 step to your east
+
+You face grass at your front.",0.0,False
+196,Do,"Step 1: Your health is critically low at 1/9, with low food and drink levels. Immediate priority is survival—restoring food and drink to avoid starving and dying.
+
+Step 2: You see grass in front of you, which you can collect with ""Do"" and potentially eat afterward to improve your food level.
+
+Step 3: You currently have no drink. Although not visible in immediate surroundings, collecting drink should be a priority after improving food.
+
+Step 4: Avoid engaging in combat as you have very low health.
+
+Step 5: After gathering grass, try to eat plants if possible to increase food points.
+
+Step 6: Once food is restored, check surroundings for water or drink sources to restore drink.
+
+Step 7: Then consider sleeping to restore energy if possible.
+
+Given your current facing (grass), the best immediate action is to collect the grass by performing ""Do.""
+
+ACTION: Do","You see:
+- path 1 step to your west
+- stone 3 steps to your north-west
+- grass 1 step to your north
+- skeleton 4 steps to your north-west
+- arrow 1 step to your south
+- zombie 1 step to your east
+
+You face arrow at your front.",0.0,False
+197,Move North,"Step 1: Your health is critically low at 1/9, so survival is the highest priority. 
+
+Step 2: Your food (2/9) and drink (0/9) are also dangerously low, which can result in health dropping further. You need to find food and drink quickly to recover health and sustain energy.
+
+Step 3: You currently face an arrow (likely an item on the ground) to the south and a zombie 1 step to the east. Engaging the zombie now with such low health is very risky and likely to be fatal.
+
+Step 4: The grass 1 step to the north may provide plants to collect and potentially eat to improve food.
+
+Step 5: The path 1 step to the west may lead to safer or resource-rich areas. 
+
+Step 6: The arrow is in front, but picking it up isn't the top priority because it won't restore food or drink.
+
+Step 7: Since your drink is zero, finding water or lake to drink from is crucial.
+
+Step 8: Move cautiously to avoid the zombie for now.
+
+Best immediate action: Move north to get to the grass (potential food) rather than approaching the arrow or zombie. You can then collect grass by using ""Do"" on next step and try to restore food.
+
+ACTION: Move North","You died.
+
+
+
+You see:
+- stone 2 steps to your west
+- path 1 step to your west
+- skeleton 4 steps to your north-west
+- grass 2 steps to your south
+- arrow 1 step to your south
+- zombie 1 step to your east
+- coal 5 steps to your north-east
+
+You face path at your front.",-0.1,True

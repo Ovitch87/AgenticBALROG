@@ -1,0 +1,1427 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,Move West,"Step 1: Since I face grass in front and have nothing in inventory, I should start by collecting wood to complete the ""Collect Wood"" achievement. Typically, collecting wood can be done by breaking trees or wood-related items nearby. However, since the observation says grass is in front and to the west, I should move to a position where I can find wood.
+
+Step 2: Move west to potentially be closer to trees or wood sources.
+
+Step 3: Once near or facing wood, I can use the Do action to collect wood.
+
+Therefore, the next immediate step is to move west.
+
+ACTION: Move West","You see:
+- grass 1 step to your west
+- tree 6 steps to your south-west
+
+You face grass at your front.",0.0,False
+1,Move West,"Step 1: The tree is 6 steps to the south-west, which is diagonally in that direction. I currently face grass in front, so moving west or south will help me get closer to the tree.
+
+Step 2: Moving west will bring me closer to the tree since it is located to the south-west.
+
+Step 3: Once I get closer to the tree, I can use the Do action on the tree to collect wood and accomplish the ""Collect Wood"" achievement.
+
+Therefore, the best immediate action is to move west to eventually reach the tree.
+
+ACTION: Move West","You see:
+- tree 5 steps to your south-west
+- grass 1 step to your west
+- stone 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+2,Move West,"Step 1: My goal is to collect wood first (achievement 1), so I need to get close to the tree to do that.
+
+Step 2: The tree is 5 steps south-west from my current position. To approach the tree, I should move west and south to get closer.
+
+Step 3: Currently, to get to the tree, moving west will bring me closer by one step horizontally.
+
+Step 4: After moving west enough times, I can then move south to reach the tree.
+
+Step 5: Once I am adjacent to the tree, I can use the ""Do"" action to collect wood.
+
+Therefore, the best immediate next action is to move west.
+
+ACTION: Move West","You see:
+- stone 6 steps to your north-west
+- grass 1 step to your west
+- tree 4 steps to your south-west
+- coal 6 steps to your south-west
+- path 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+3,Move West,"Step 1: The highest priority is to collect wood first to get achievement 1 and help craft tools later.
+
+Step 2: The tree is 4 steps to the south-west, so I need to move towards the south-west to get near the tree.
+
+Step 3: Since I can only move one direction at a time (Move West, East, North, South), I will choose one movement that best approaches the tree.
+
+Step 4: Moving west is 1 step closer horizontally and keeps me aligned towards the tree.
+
+Step 5: I will continue moving west until I am near the tree, then move south if needed.
+
+Step 6: Once adjacent to the tree, I will ""Do"" to collect wood.
+
+Step 7: Subsequent steps will focus on using the wood to craft tools and get other achievements.
+
+For now, the best immediate action is to move west.
+
+ACTION: Move West","You see:
+- stone 5 steps to your north-west
+- path 4 steps to your west
+- grass 1 step to your west
+- tree 3 steps to your south-west
+- coal 5 steps to your south-west
+
+You face grass at your front.",0.0,False
+4,Move West,"Step 1: The primary goal is to collect wood first to start gathering resources and unlock the first achievement.
+
+Step 2: The tree is 3 steps to the south-west, so I need to move west and then south to get near the tree.
+
+Step 3: Since the tree is closer west (path 4 steps west, grass 1 step west), moving west first will help me get closer to the tree.
+
+Step 4: Move west now to approach the tree.
+
+ACTION: Move West","You see:
+- stone 4 steps to your north-west
+- path 3 steps to your west
+- grass 1 step to your west
+- tree 2 steps to your south
+- coal 4 steps to your south-west
+
+You face grass at your front.",0.0,False
+5,Move South,"Step 1: The nearby tree is 2 steps south, which is close and will provide wood when I perform the ""Do"" action facing it.
+
+Step 2: To get wood, I need to face the tree, so I need to move south twice to get next to it.
+
+Step 3: Currently, I'm facing grass in front (which is to the west). Since the tree is south, I should move south to approach it.
+
+Step 4: After moving south twice, I can use the ""Do"" action to collect wood from the tree.
+
+ACTION: Move South","You see:
+- stone 3 steps to your south-west
+- path 3 steps to your west
+- grass 1 step to your west
+- tree 1 step to your south
+- coal 3 steps to your south-west
+- cow 4 steps to your south-east
+
+You face tree at your front.",0.0,False
+6,Do,"Step 1: I am already facing the tree 1 step to the south, so I can attempt to collect wood by performing the ""Do"" action.
+
+Step 2: Collecting wood will earn the ""Collect Wood"" achievement and provide materials for crafting other items.
+
+Step 3: After collecting wood, I should plan to place a table nearby and craft a wood pickaxe and wood sword.
+
+Since the immediate best action is to collect wood:
+
+ACTION: Do","You see:
+- stone 3 steps to your south-west
+- path 3 steps to your west
+- grass 1 step to your west
+- tree 2 steps to your west
+- coal 3 steps to your south-west
+- cow 4 steps to your south-east
+
+You face grass at your front.",1.0,False
+7,Move West,"Step 1: I want to collect more wood, so I should face the tree 2 steps to the west.
+Step 2: Move west to get closer to the tree.
+Step 3: Once next to the tree, I can use ""Do"" to collect more wood.
+Step 4: After collecting enough wood, I can place a table to enable crafting.
+Step 5: With wood and the table, I can craft a wood pickaxe and wood sword.
+
+Right now, the best immediate action to move closer to the tree is to move west.
+
+ACTION: Move West","You see:
+- coal 2 steps to your south-west
+- stone 2 steps to your south
+- path 2 steps to your west
+- grass 1 step to your north
+- tree 1 step to your west
+- cow 5 steps to your south-east
+- skeleton 6 steps to your south-east
+
+You face tree at your front.",0.0,False
+8,Do,"Step 1: I want to collect more wood to achieve the ""Collect Wood"" achievement and to have enough resources to place a table and craft tools.
+Step 2: Since I face the tree at my front and I have 1 wood in inventory, using ""Do"" in front of a tree will collect wood.
+Step 3: After collecting enough wood, I can place a table and craft a wood pickaxe and wood sword to progress in achievements.
+
+Therefore, the best immediate action is to use ""Do"" to collect wood from the tree.
+
+ACTION: Do","You see:
+- coal 2 steps to your south-west
+- stone 2 steps to your south
+- path 2 steps to your west
+- grass 1 step to your west
+- cow 5 steps to your south-east
+- skeleton 6 steps to your south-east
+
+You face grass at your front.",0.0,False
+9,Move West,"Step 1: I have 2 wood in inventory but no table placed yet. To craft tools like a wood pickaxe or wood sword, I need a table nearby.  
+Step 2: I see grass 1 step to my west, so moving west onto grass is safe and will bring me closer to the area where I can place a table and collect more resources.  
+Step 3: Collecting more wood is important to continue progressing. If I move west, I may get closer to trees or a better spot to place a table.  
+
+Therefore, the best immediate action is to move west.
+
+ACTION: Move West","You see:
+- stone 3 steps to your north-west
+- grass 1 step to your north
+- coal 1 step to your south
+- path 1 step to your west
+- cow 6 steps to your south-east
+- skeleton 7 steps to your south-east
+
+You face path at your front.",0.0,False
+10,Move West,"Step 1: I have 2 wood in inventory, but no table placed yet. Placing a table is necessary before crafting tools like wood pickaxe or sword.  
+Step 2: I need to find a suitable spot to place a table. The path is directly in front (west), and grass is to the north. Placing the table on flat ground like the path or grass is possible.  
+Step 3: Moving onto the path (west) will bring me closer to coal (south) and stone (northwest), which I will need later to progress toward stone tools.  
+Step 4: Moving west onto the path is a good step to approach resources and find a spot for placing a table.  
+
+ACTION: Move West","You see:
+- coal 2 steps to your south-east
+- stone 2 steps to your north
+- water 7 steps to your south-west
+- grass 1 step to your east
+- path 1 step to your west
+- cow 7 steps to your south-east
+
+You face path at your front.",0.0,False
+11,Move West,"Step 1: I have 2 wood in my inventory, which is enough to place a table.  
+Step 2: I need to find a location to place a table. The path is 1 step west, grass 1 step east, stone 2 steps north, coal 2 steps southeast, and water 7 steps southwest. The path sounds like a good flat spot to place a table.  
+Step 3: Moving west onto the path will position me to place the table and then craft initial tools like a wood pickaxe or wood sword.  
+Step 4: After placing the table, I can craft a wood pickaxe to collect stone and coal, then progress through achievements.  
+
+ACTION: Move West","You see:
+- stone 2 steps to your west
+- grass 2 steps to your east
+- tree 4 steps to your west
+- water 5 steps to your south-west
+- coal 3 steps to your south-east
+- path 1 step to your west
+
+You face path at your front.",0.0,False
+12,Move West,"Step 1: Move west onto the path, positioning myself closer to stone, coal, and trees.
+Step 2: Place a table using 2 wood if possible to enable crafting tools.
+Step 3: Use the table to craft a wood pickaxe.
+Step 4: Use wood pickaxe to collect stone and coal.
+Step 5: Progress through craft milestones and achieve more goals.
+
+Currently, I am facing the path 1 step west and have 2 wood in inventory, so moving west to reach the path is the best immediate move.
+
+ACTION: Move West","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+
+You face stone at your front.",0.0,False
+13,Do,"Step 1: Since I am facing stone just 1 step ahead, I should try to collect stone to progress toward achievements like ""Collect Stone"" and later crafting stone tools.
+
+Step 2: Use the ""Do"" action to collect the stone in front of me.
+
+This will get me the stone resource early on, which is important.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+
+You face stone at your front.",0.0,False
+14,Do,"Step 1: Collect the stone right in front of me by using the ""Do"" action. This will progress the ""Collect Stone"" achievement and also provide materials necessary for crafting stone tools.
+
+Step 2 (after collecting stone): I can then move toward the tree 3 steps west to gather more wood for crafting.
+
+For now, the best immediate action is to collect the stone in front.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+
+You face stone at your front.",0.0,False
+15,Do,"Step 1: Use ""Do"" to collect the stone right in front of me. This will help unlock the ""Collect Stone"" achievement and gather resources for stone tools.
+
+Step 2: After obtaining stone, move west toward the tree to collect wood, aiming for the ""Collect Wood"" achievement and future crafting.
+
+Step 3: Place a table once wood is gathered, then craft a wood pickaxe and eventually upgrade to stone tools.
+
+For now, the best immediate action is to collect the stone.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+
+You face stone at your front.",0.0,False
+16,Do,"Step 1: Use ""Do"" to collect the stone in front of me, unlocking the ""Collect Stone"" achievement and gaining materials for crafting stone tools.
+Step 2: Move west toward the tree to collect wood, necessary for crafting tools and furniture.
+Step 3: Place a table with the wood collected to craft tools like a wooden pickaxe and wooden sword.
+Step 4: Use the wooden pickaxe to mine stone more efficiently and gather other resources like coal and iron.
+Step 5: Progress by crafting stone tools and weapons, and continue gathering materials to unlock further achievements.
+
+For now, the immediate best action is to collect the stone.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+
+You face stone at your front.",0.0,False
+17,Do,"Step 1: Use ""Do"" to collect the stone in front of me. This will help achieve ""Collect Stone"" and provide materials for crafting stone tools later.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+
+You face stone at your front.",0.0,False
+18,Do,"Step 1: Use ""Do"" to collect the stone directly in front of me. Collecting stone early enables crafting stone tools later to progress achievements.
+Step 2: After collecting stone, move west toward the tree to collect wood, supporting the ""Collect Wood"" achievement and to have material for crafting.
+Step 3: Collect wood by facing the tree and using ""Do"".
+Step 4: Place a table and proceed to craft some tools (wood pickaxe and stone pickaxe), moving closer to coal and other resources as needed.
+Step 5: Continue progressing toward other achievements, gathering coal, iron, animals, and crafting weapons.
+
+For now, the immediate next step is to collect the stone right in front.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+
+You face stone at your front.",0.0,False
+19,Do,"Step 1: Collect the stone directly in front of me to progress towards the ""Collect Stone"" achievement and to get materials for stone tools.
+Step 2: After collecting stone, move west toward the tree to gather wood, which helps with the ""Collect Wood"" achievement and materials for crafting.
+Step 3: Face the tree and use ""Do"" to collect wood.
+Step 4: Place a table somewhere nearby to craft wooden tools (wood pickaxe, wood sword).
+Step 5: Use wood and stone to craft stone tools (stone pickaxe and stone sword).
+Step 6: From there, collect coal and iron to craft iron tools, and progress through further achievements.
+
+For now, the immediate next step is to collect stone from the front.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+
+You face stone at your front.",0.0,False
+20,Do,"Step 1: Since stone is directly in front of me, use ""Do"" to collect the stone. This helps unlock the ""Collect Stone"" achievement and provides materials for stone tools.
+Step 2: Then I will want to collect more wood by moving to the tree and using ""Do"" to gather wood—help completing ""Collect Wood"".
+Step 3: After gathering wood, I should place a table to enable crafting.
+Step 4: Craft a wood pickaxe with the table and my wood to progress towards ""Make Wood Pickaxe"".
+Step 5: Continue collecting coal and iron to craft better tools and swords and complete achievements progressively.
+
+For now, the immediate best action is to collect the stone in front.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+
+You face stone at your front.",0.0,False
+21,Do,"Step 1: Collect the stone in front by using ""Do"" to gather stone, unlocking the ""Collect Stone"" achievement.  
+Step 2: Move west towards the tree to gather more wood by using ""Do"" on the tree, progressing towards ""Collect Wood"" achievement.  
+Step 3: Once enough wood is collected, place a table to craft tools.  
+Step 4: Craft a wood pickaxe using the table and wood to progress towards ""Make Wood Pickaxe"" achievement.  
+Step 5: After that, move to collect coal and iron to craft better tools and weapons.
+
+Since the stone is directly in front of me right now, best immediate action is to collect it.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+
+You face stone at your front.",0.0,False
+22,Move West,"Step 1: Move west to the stone since it is 1 step to the west and currently facing stone, but cannot collect stone from current facing direction.
+Step 2: Once at the stone, use Do to collect stone from the location.
+Step 3: Then move towards the tree west to collect wood (using Do on the tree).
+Step 4: After gathering some wood, place a table.
+Step 5: Craft a wood pickaxe at the table.
+Step 6: Explore the area for coal and iron, collecting those resources.
+Step 7: Use resources and furnace for crafting better pickaxes and swords.
+
+Since I am facing the stone but the stone is to my west and I'm not yet there, I must Move West first.
+
+ACTION: Move West","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+
+You face stone at your front.",0.0,False
+23,Move West,"Step 1: Move west onto the stone which is 1 step away.
+Step 2: Use ""Do"" to collect the stone.
+Step 3: Move west towards the tree to collect wood.
+Step 4: Use ""Do"" to collect wood from the tree (achieve initial wood collection).
+Step 5: Place a table using collected wood.
+Step 6: Craft a wood pickaxe at the table.
+Step 7: Search for coal (3 steps north) and collect it using ""Do"".
+Step 8: Explore for iron and other resources.
+Step 9: Use resources to place furnace and upgrade pickaxes and weapons.
+
+Currently, since I am facing stone and the stone is 1 step west, I will move west onto it.
+
+ACTION: Move West","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+
+You face stone at your front.",0.0,False
+24,Do,"Step 1: Since you're facing stone 1 step west and have 2 wood in inventory, the next logical action is to collect stone to help craft stone tools later.
+
+Step 2: Use ""Do"" action to collect the stone in front (collect stone achievement).
+
+Step 3: After collecting stone, you can proceed to move west towards the tree to collect wood.
+
+Step 4: Collect wood by ""Do"" near the tree.
+
+Step 5: Place a table using wood in inventory to start crafting tools.
+
+Step 6: Craft wood pickaxe at the table using wood.
+
+Step 7: Move north or towards coal to collect coal, as it is needed for better tools.
+
+Currently, the immediate next step is to collect the stone in front.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+
+You face stone at your front.",0.0,False
+25,Do,"Step 1: Use ""Do"" to collect the stone in front. This will grant the ""Collect Stone"" achievement and provide stone for crafting stone tools later.
+
+After collecting stone:
+
+Step 2: Move west towards the tree to collect wood, since additional wood is needed.
+
+Step 3: Use ""Do"" to collect wood from the tree.
+
+Step 4: Place a table using the collected wood.
+
+Step 5: Craft a wood pickaxe at the table.
+
+Step 6: Seek coal to upgrade tools and progress.
+
+The immediate next step is to collect the stone in front of you.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+
+You face stone at your front.",0.0,False
+26,Do,"Step 1: Use ""Do"" to collect the stone in front of me, which is one step to the west. This will help me complete the ""Collect Stone"" achievement and gather material for tools.
+
+After that, I will move towards the tree to collect wood to fulfill achievements related to collecting wood and crafting.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+
+You face stone at your front.",0.0,False
+27,Do,"Step 1: Use ""Do"" to collect the stone that is right in front of me (1 step west). This will get the ""Collect Stone"" achievement and add stone to the inventory.
+
+Step 2: Move west towards the tree, which is 3 steps away, to collect wood next (for the ""Collect Wood"" achievement).
+
+Step 3: Use ""Do"" near the tree to collect wood.
+
+Step 4: Place a table to craft tools.
+
+Step 5: Use the table and collected wood to make a wood pickaxe and a wood sword.
+
+Step 6: Explore coal and iron locations to collect those resources to eventually build stone and iron tools.
+
+For now, the immediate best action is to collect the stone right in front.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+
+You face stone at your front.",0.0,False
+28,Do,"Step 1: Harvest the stone right in front by using ""Do"" to collect stone and earn the ""Collect Stone"" achievement.  
+Step 2: Move west towards the tree to collect wood (wood is already in inventory, but more wood might be needed).  
+Step 3: Use ""Do"" near the tree to collect more wood if needed.  
+Step 4: Place a table to enable crafting.  
+Step 5: Use the table and collected wood to craft a wood pickaxe and wood sword as initial tools.  
+Step 6: Move north to collect coal and later iron, to upgrade pickaxes and swords to stone and iron versions.  
+
+Since stone is directly in front, the immediate best action is to collect it.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+
+You face stone at your front.",0.0,False
+29,Do,"Step 1: Collect the stone right in front by using ""Do"" to get the ""Collect Stone"" achievement.  
+Step 2: Move west towards the tree to collect wood (more wood might be needed for crafting).  
+Step 3: Use ""Do"" near the tree to collect wood and gain the ""Collect Wood"" achievement.  
+Step 4: Place table using the wood from inventory to get ""Place Table"" achievement.  
+Step 5: Craft a wood pickaxe at the table with wood in inventory for the ""Make Wood Pickaxe"" achievement.  
+Step 6: Consider moving north to collect coal after getting basic tools.  
+
+Currently, the best immediate action is to collect the stone that is directly in front.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+
+You face stone at your front.",0.0,False
+30,Move West,"Step 1: Move west 1 step to stand next to the stone and be closer to the tree.  
+Step 2: Use ""Do"" action to collect the stone in front. This will achieve the ""Collect Stone"" achievement.  
+Step 3: Move west towards the tree to reach it (3 steps total), then use ""Do"" to collect wood to achieve ""Collect Wood"".  
+Step 4: Use collected wood to place a table, achieving ""Place Table"".  
+Step 5: Craft a wood pickaxe at the table with wood in inventory, achieving ""Make Wood Pickaxe"".  
+Step 6: Move north towards coal and collect it, to get ""Collect Coal"".  
+
+For now, the immediate next step is moving west closer to the stone.
+
+ACTION: Move West","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- arrow 4 steps to your east
+
+You face stone at your front.",0.0,False
+31,Do,"Step 1: Use ""Do"" action to collect the stone in front of me, since I'm facing stone 1 step west and have enough wood for crafting later.
+
+Step 2: After collecting stone, move west towards the tree to collect wood, achieving ""Collect Wood.""
+
+Step 3: Once wood and stone are collected, place a table and make a wood pickaxe.
+
+Step 4: Move north to collect coal for later iron pickaxe.
+
+Immediate best action now is to collect stone directly in front.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 4 steps to your west
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- arrow 3 steps to your east
+
+You face stone at your front.",0.0,False
+32,Do,"Current inventory has 2 wood, no stone yet.
+
+Goal step-by-step plan:
+
+1. Collect the stone right in front of me by using ""Do"" to gain stone for crafting achievements.
+2. Move west towards the tree to collect wood for crafting pickaxes and swords.
+3. Place a table once enough wood is collected.
+4. Use the table and wood to craft a wood pickaxe.
+5. Move north to collect coal.
+6. Continue gathering materials for iron tools and swords.
+7. Place a furnace to make iron tools.
+8. Explore other achievements like placing plants, eating cow or plant, defeating enemies.
+
+Immediate step: collect stone directly in front.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- arrow 2 steps to your east
+- skeleton 4 steps to your east
+
+You face stone at your front.",0.0,False
+33,Do,"Step-by-step plan:
+
+1. Collect the stone that is right in front of me (to get stone material for crafting).
+2. Move west towards the tree to collect wood (for crafting table and tools).
+3. After gathering enough wood, place a table to enable crafting.
+4. Craft wooden pickaxe once table is placed and sufficient materials are available.
+5. Move north to collect coal.
+6. Explore crafting stone pickaxe, stone sword, and eventually iron tools by finding iron and placing furnace.
+7. Collect other resources like saplings, plants, and food items like cow or plants.
+8. Defeat enemies (skeleton, zombie) after crafting weaponry.
+9. Drink from water source as needed.
+10. Sleep when energy is low.
+
+Immediate action: Collect stone that is directly in front.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- arrow 1 step to your east
+- skeleton 4 steps to your east
+
+You face stone at your front.",0.0,False
+34,Do,"Step-by-step plan:
+1. Collect the stone right in front of me to increase stone inventory.
+2. After collecting stone, move west toward the tree to collect wood (to increase wood inventory).
+3. With wood and stone collected, place a table near to craft tools.
+4. Move north to gather coal.
+5. Craft better tools (stone pickaxe, stone sword).
+6. Prepare to defeat skeleton with sword.
+7. Explore to collect other resources and achieve other milestones.
+
+Current best immediate action: Collect the stone in front.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- skeleton 4 steps to your east
+
+You face stone at your front.",-0.2,False
+35,Do,"Step-by-step plan:
+1. Collect the stone right in front to increase stone inventory.
+2. Move west towards the tree to collect wood.
+3. Move north to collect coal.
+4. Place a table and craft wooden and stone tools (pickaxe and sword).
+5. Prepare to defeat the skeleton using the stone sword.
+
+Given the situation, first collect the stone in front.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 4 steps to your west
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- arrow 3 steps to your east
+- skeleton 4 steps to your east
+
+You face stone at your front.",0.0,False
+36,Do,"Step-by-step plan:
+
+1. Collect the stone directly in front (1 step west).
+2. Move west towards the tree to collect wood.
+3. Move north to collect coal.
+4. Place a table nearby to craft tools.
+5. Make a wood pickaxe and then a stone pickaxe.
+6. Make a wood sword or stone sword to be able to fight the skeleton.
+7. Approach and defeat the skeleton.
+8. Continue collecting resources and progressing to other achievements.
+
+Currently, the best immediate action is to collect the stone in front.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- arrow 2 steps to your east
+- skeleton 4 steps to your east
+
+You face stone at your front.",0.0,False
+37,Do,"Step-by-step plan:
+1. Collect the stone that is right in front of you (stone 1 step west) to get stone in inventory.
+2. Move west towards the tree to collect wood (to increase wood inventory).
+3. Move north to collect coal.
+4. Place a table to craft tools.
+5. Craft a wood pickaxe and then a stone pickaxe.
+6. Craft a sword to be able to fight the skeleton.
+7. Approach and defeat the skeleton.
+8. Continue to explore and collect other materials and achievements.
+
+Since the stone is directly in front and can be collected now, the best immediate action is to collect the stone.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- arrow 1 step to your east
+- skeleton 4 steps to your east
+
+You face stone at your front.",0.0,False
+38,Do,"Step-by-step plan:
+1. Collect the stone directly in front of you (1 step west) to start accumulating stone resources.
+2. Move west towards the tree to collect wood and increase wood inventory.
+3. Move north towards the coal to collect coal.
+4. With wood, stone, and coal, place a table nearby to craft tools.
+5. Craft a wood pickaxe first if needed, then a stone pickaxe.
+6. Craft a wood or stone sword.
+7. Approach the skeleton cautiously and defeat it to get the ""Defeat Skeleton"" achievement.
+8. Explore water to collect drink and plants to eat.
+9. Continue to place furnace, make iron pickaxe and iron sword as inventory allows.
+10. Collect other resources to achieve all goals.
+
+Since stone is right next to you and you have wood available, collect stone now.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+
+You face stone at your front.",-0.2,False
+39,Do,"Step-by-step plan:
+1. Collect the stone in front of you to get stone resource (since it is directly ahead and you have wood in inventory).
+2. After collecting the stone, move west towards the tree to collect wood.
+3. Once enough wood is gathered, place a table to craft tools.
+4. Move north to collect coal.
+5. Use wood, stone, and coal to craft a stone pickaxe and a stone sword.
+6. Find and defeat skeleton to get the ""Defeat Skeleton"" achievement.
+7. Explore the map for other resources like iron, plants, and water to drink.
+8. Place furnace and make iron tools as inventory allows.
+9. Collect saplings, diamonds, and other achievements.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+
+You face stone at your front.",0.0,False
+40,Do,"Step-by-step plan:
+1. Collect the stone that is directly in front of you to get the stone resource.
+2. Move west towards the tree to collect wood to increase your wood count.
+3. Move north to collect coal.
+4. Place a table using collected wood.
+5. Make wood pickaxe, then make stone pickaxe using collected stone and wood.
+6. Explore to find iron, plants, or animals (like cows) and collect or defeat as needed.
+7. Place furnace when iron and coal are acquired.
+8. Craft iron pickaxe and iron sword.
+9. Defeat skeleton and zombies.
+10. Collect remaining achievements (sapling, drink, plant, diamond, eating cow, eating plant, waking up).
+
+Since stone is right in front:
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+
+You face stone at your front.",0.0,False
+41,Do,"Step-by-step plan:
+
+1. Since the stone is directly in front of you and you see stone at 1 step west, you should collect the stone by doing the multiuse action (Do).
+2. After collecting stone, move west towards the tree to collect wood (to get achievement Collect Wood and have wood for crafting).
+3. Move north to collect coal after wood collection.
+4. Place a table using wood.
+5. Make wood pickaxe.
+6. Collect more resources like sapling, plant, and explore for iron and other materials.
+7. Eventually craft stone pickaxe and other tools/weapons.
+8. Defeat enemies and gather foods and drinks as necessary.
+9. Continue gathering achievements progressively.
+
+Current priority: collect stone first.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+
+You face stone at your front.",0.0,False
+42,Do,"Step-by-step plan:
+
+1. Use Do action to collect the stone directly in front of you. This will earn the ""Collect Stone"" achievement and give you stone for crafting.
+2. Move west towards the tree to collect wood for crafting tools and placing a table.
+3. Move north to collect coal as it will be needed for iron tools.
+4. Place a table using wood.
+5. Craft a wood pickaxe with the table and wood to improve resource gathering.
+6. Continue to explore and collect saplings, plants, and possibly iron to upgrade tools and unlock more achievements.
+7. Defeat enemies using crafted weapons such as swords.
+8. Eat food items like cow or plants and drink to maintain health and energy.
+9. Place furnace eventually to smelt iron and craft iron tools.
+10. Progress until all achievements are completed.
+
+Currently, the first and immediate step is to collect the stone at your front.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- arrow 4 steps to your east
+
+You face stone at your front.",0.0,False
+43,Do,"Step-by-step plan:
+
+1. Since you face stone just one step west, use Do to collect the stone directly in front of you and gain the ""Collect Stone"" achievement.
+2. After collecting stone, move west 3 steps to the tree to gather wood and fulfill the ""Collect Wood"" achievement.
+3. Place a table using the wood you collected to unlock that achievement.
+4. Use the table and gathered wood to craft a wood pickaxe.
+5. Then proceed towards coal to collect it.
+6. Continue resource gathering and crafting to unlock further achievements.
+
+Given your current positioning, the immediate best action is to collect the stone in front.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 4 steps to your west
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- arrow 3 steps to your east
+
+You face stone at your front.",0.0,False
+44,Do,"Step-by-step plan:
+
+1. Since stone is still in front of you, use Do to collect the stone. This will help towards the ""Collect Stone"" achievement and gathering more materials.
+2. After collecting stone, move west 3 steps to the tree to collect wood for ""Collect Wood"" achievement.
+3. Once you have enough wood, place a table and craft a wood pickaxe.
+4. Then proceed north to collect coal.
+5. Continue gathering resources and crafting to progress through other achievements.
+
+Immediate best action is to collect the stone in front.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- arrow 2 steps to your east
+
+You face stone at your front.",0.0,False
+45,Do,"Step-by-step plan:
+
+1. Since you are facing stone that is 1 step ahead and you currently have 2 wood but no stone collected yet, use Do to collect stone first. This grants progress towards ""Collect Stone"" achievement and gives needed resources.
+2. After collecting the stone, move west to the tree (which is 3 steps away) to collect wood, aiming for ""Collect Wood"" achievement and gather more wood for crafting.
+3. Place a table using wood, then craft a wood pickaxe using the table and wood in inventory to achieve ""Make Wood Pickaxe.""
+4. Then move north to collect coal for future iron tools.
+5. Continue exploring and gathering other materials like iron, and craft better pickaxes and swords.
+
+Right now, the immediate best action is to collect stone in front.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- arrow 1 step to your east
+- skeleton 4 steps to your east
+
+You face stone at your front.",0.0,False
+46,Do,"Step-by-step plan:
+
+1. Since stone is directly in front and you have no stone in inventory yet, first collect the stone by ""Do"" action to progress toward ""Collect Stone"" achievement.
+2. Afterwards, move west toward the tree (3 steps away) to collect wood and later have more materials for crafting.
+3. Once you have enough wood and stone, place a table and craft a wood pickaxe (""Make Wood Pickaxe"") to increase gathering efficiency.
+4. Then proceed to collect coal to eventually work on making iron tools and weapons.
+5. Keep an eye on health and food; if health is low, try to heal by eating or defeating creatures like skeletons or cows to ""Eat Cow"" and ""Defeat Skeleton"" achievements.
+
+Given current step, the best immediate action is to collect the stone right in front.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- skeleton 4 steps to your east
+
+You face stone at your front.",-0.2,False
+47,Do,"Step-by-step plan:
+1. Your health is low (3/9), so prioritizing safety and food is important.
+2. You have wood in inventory but no stone yet. Since stone is directly in front, collect it now to progress toward making stone tools.
+3. After collecting stone, consider moving west to the tree to gather more wood.
+4. Later, collect coal to craft iron tools and weapons.
+5. If health gets critically low, consider eating or defeating a creature (like the skeleton) for food/loot, but be cautious due to current low health.
+
+Immediate action is to collect the stone in front.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 4 steps to your west
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- arrow 3 steps to your east
+- skeleton 4 steps to your east
+
+You face stone at your front.",0.0,False
+48,Do,"Step-by-step plan:  
+1. Collect the stone right in front of you to progress toward making stone tools (achievement: Collect Stone).  
+2. After collecting the stone, move west toward the tree to collect more wood (achievement: Collect Wood) if needed.  
+3. Next, try to reach coal to gather it for iron tools.  
+4. Keep your health and food in check, consider eating or drinking if low.  
+5. Once you have wood, stone, and coal, place a table and craft pickaxes and swords as needed.  
+
+Current priority is to collect the stone in front of you.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- arrow 2 steps to your east
+- skeleton 4 steps to your east
+
+You face stone at your front.",0.0,False
+49,Do,"Step-by-step plan:
+1. Collect the stone right in front of you by using the Do action.
+2. After collecting stone, move west to the tree to collect wood, as you currently have 2 wood but may need more for crafting.
+3. Then head north to collect coal, which is essential for making iron tools.
+4. Place a table somewhere safe to craft tools.
+5. Craft wood and stone pickaxes and swords progressively.
+6. Keep an eye on health — currently at 3/9, so avoid fights until better equipped.
+7. If low on food or drink, find a way to replenish.
+
+First priority now: collect the stone directly in front.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- arrow 1 step to your east
+- skeleton 4 steps to your east
+
+You face stone at your front.",0.0,False
+50,Do,"Step-by-step plan:
+
+1. Use ""Do"" to collect the stone directly in front of you.
+2. After collecting stone, move west to the tree to collect wood (needed for crafting).
+3. Then head north towards the coal to collect it.
+4. Place a table nearby to craft tools.
+5. Craft a stone pickaxe to better mine materials.
+6. Recover health by avoiding fights, possibly find cows or plants later.
+7. Progress towards crafting swords and defeating zombies/skeletons when better equipped.
+
+Currently, the best immediate action is to collect the stone in front.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- skeleton 5 steps to your south-east
+
+You face stone at your front.",-0.1,False
+51,Do,"Step-by-step plan:
+1. The stone is in front and can be collected, but you currently have 0 stone in inventory. Collecting stone will help with future crafting, so first collect the stone in front.
+2. After collecting stone, consider moving towards the tree west to collect more wood.
+3. With wood and stone collected, next move towards coal north to collect coal.
+4. Gather materials to place a table for crafting tools like pickaxes and swords.
+5. Because health is low (2/9), avoid fighting the skeleton for now. Consider drinking or eating if health regeneration is possible or going to sleep if energy is low (energy is 8/9 now, so no need to sleep).
+6. Focus on gathering resources first to craft stronger tools and weapons.
+
+Currently, the best immediate action is to collect the stone directly in front.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- skeleton 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+52,Do,"Step-by-step plan:
+
+1. Your health is very low (2/9), so it is risky to engage enemies or move toward potential threats like the skeleton.
+2. You have decent food and drink levels, so eating or drinking is not urgent.
+3. Since stone is right in front, and you have 2 wood already, collecting stone now will help progress toward crafting tools.
+4. After collecting stone, you can consider moving west toward the tree to get more wood if needed.
+5. Prioritize gathering materials safely before crafting or fighting.
+
+Immediate action: Collect the stone in front.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- skeleton 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+53,Do,"Step-by-step plan:
+1. Your health is very low (2/9), so engaging enemies should be avoided for now.
+2. There is stone directly in front of you, which you can collect to progress toward crafting better tools.
+3. Collecting stone now will help unlock achievements and improve your crafting capabilities.
+4. After gaining stone, you can plan to collect wood from the tree 3 steps west and coal 3 steps north.
+5. Avoid moving toward the skeleton, which is 5 steps southeast and could pose danger.
+
+Best immediate action: collect the stone in front of you.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- skeleton 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+54,Do,"Step-by-step plan:
+1. Collect the stone directly in front to gain stone for future crafting.
+2. After collecting stone, move west towards the tree to gather wood.
+3. Then move north to collect coal.
+4. Avoid the skeleton by staying away or preparing weapons later.
+
+Since the stone is directly in front, the best immediate action is to collect it.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- skeleton 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+55,Do,"Step-by-step plan:
+1. Your health is low (2/9), so avoid fighting the skeleton for now.
+2. Collect the stone that is 1 step west; it will be useful for crafting stone tools.
+3. Move west to the stone and collect it (Do facing the stone).
+4. After collecting stone, move west towards the tree to collect wood for crafting.
+5. Later, collect coal to craft better tools and weapons.
+6. Consider crafting a stone sword to defend against the skeleton.
+7. If needed, rest or heal as necessary.
+
+Right now, the immediate best action is to collect the stone.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- skeleton 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+56,Do,"Step-by-step plan:
+
+1. Your health is low, so avoid fighting the skeleton or any creatures right now.
+2. Currently facing stone 1 step west, collect this stone by using Do to get stone resources.
+3. After collecting stone, move west towards the tree to gather wood, since you already have some wood but more is beneficial.
+4. Then collect coal to unlock better pickaxes and swords.
+5. Once you have wood, stone, and coal, craft stone pickaxe and stone sword for better survival and combat ability.
+6. Rest or eat if health or energy decline.
+7. Try to avoid confrontation with skeletons until adequately equipped.
+
+Immediate action: gather the stone in front.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- skeleton 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+57,Do,"Step-by-step plan:
+1. Health is very low at 2/9, so avoid combat.
+2. You are facing stone 1 step west; use Do to collect the stone.
+3. After collecting stone, move west towards the tree to gather wood (important for tools).
+4. Then move north towards coal to collect it.
+5. Use collected wood and stone at a table to craft a stone pickaxe and stone sword for better defense.
+6. If health is low, prioritize finding food or healing methods.
+   
+Immediate next action: Collect the stone in front.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- skeleton 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+58,Do,"Step-by-step plan:
+1. Your health is very low (2/9), so avoid combat for now.
+2. You are facing stone 1 step west, and you need stone to make better tools.
+3. Use ""Do"" to collect the stone in front of you.
+4. After collecting stone, plan to move west toward the tree to gather more wood.
+5. Once you have wood and stone, craft a stone pickaxe and sword at a table.
+6. Then, gather coal to craft a furnace.
+7. Prioritize healing or finding food if possible to increase health.
+
+Immediate next action: Collect stone.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- skeleton 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+59,Do,"Step-by-step plan:
+
+1. Collect the stone in front of you to progress towards crafting stone tools.
+2. After collecting stone, move west towards the tree to gather wood.
+3. Once you have sufficient wood and stone, place a table near your location to start crafting.
+4. Make a stone pickaxe for better resource gathering.
+5. Gather coal (to the north) to eventually craft a furnace.
+6. Craft a stone sword to defend yourself from skeletons or zombies.
+
+Immediate next step: Collect the stone in front of you.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- skeleton 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+60,Do,"Step-by-step plan:
+1. Collect the stone in front of you to increase stone resources.
+2. Move west towards the tree to collect wood.
+3. Move north or towards coal if possible to get fuel.
+4. Place a table using some wood.
+5. Craft a wood pickaxe or stone pickaxe to improve resource gathering and defense.
+6. Prepare to defend against the skeleton by crafting a sword (wood or stone depending on materials).
+7. Eventually, collect iron and coal to create a furnace and iron tools.
+
+Since your health is low (2/9), you should avoid fighting a skeleton now.
+
+Immediate next step: pick up the stone in front of you to progress stepwise.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- skeleton 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+61,Do,"Step-by-step plan:
+1. Collect the stone directly in front of you to increase stone resources.
+2. Move west towards the tree to collect wood for crafting a table.
+3. Once you have enough wood, place a table.
+4. Continue gathering materials like coal to prepare for furnace placement.
+5. Craft wood or stone tools as available.
+6. Avoid risking combat since health is low.
+7. Drink or eat if needed to maintain health and energy, but current food and drink are okay.
+
+Immediate next action: collect the stone in front.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- skeleton 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+62,Do,"Step-by-step plan:
+1. Collect the stone directly in front to gather resources for crafting stone tools and placing stone.
+2. After collecting stone, move west towards the tree to collect wood, enabling us to eventually craft a table and pickaxes.
+3. Subsequently, collect coal by moving north to prepare for placing a furnace and making iron tools.
+4. Avoid combat for now due to low health.
+5. Use Do action to gather resources as needed.
+6. Consider sleeping if energy drops too low, but currently it’s sufficient.
+
+Immediate next action: collect the stone right in front.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- skeleton 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+63,Do,"Step-by-step plan:
+1. Your health is very low (2/9), so fighting enemies now is risky.
+2. You have wood but no stone yet. Collecting the stone directly in front will help you craft stone tools.
+3. After collecting stone, consider moving towards the west to collect wood from the tree, increasing your wood supply.
+4. Then move north to collect coal to enable crafting iron tools later.
+5. Avoid combat until you improve your gear and health.
+6. Drink or eat if needed to maintain food and drink levels.
+7. Since health is low, avoid direct confrontations and consider sleeping if energy drops.
+
+Immediate action: collect the stone one step west by using Do.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- skeleton 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+64,Do,"Step-by-step plan:
+1. Collect the stone in front by using ""Do"" to get stone material for crafting stone tools.
+2. After getting stone, move west toward the tree to harvest more wood for crafting and placing a table.
+3. Then move north to collect coal to enable crafting iron tools later.
+4. Avoid combat for now as health is low.
+5. Drink or eat if food or drink levels get low.
+6. Sleep only if energy becomes too low.
+  
+Immediate action: collect stone in front.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- skeleton 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+65,Do,"Step-by-step plan:
+1. Collect the stone right in front of you by using ""Do"" to collect it.
+2. Once you have stone, move to the west to chop the tree and collect more wood.
+3. Use collected wood and stone on a table to craft stone pickaxe later.
+4. Move north to gather coal for crafting iron tools eventually.
+5. Keep track of your health and avoid skeleton until you have better weapons.
+6. Drink or eat if needed, and sleep if energy drops too low.
+
+Immediate action: collect stone in front.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- skeleton 4 steps to your east
+
+You face stone at your front.",0.0,False
+66,Do,"Step-by-step plan:
+1. Collect the stone right in front of you since you see it stands 1 step west.
+2. After collecting stone, move west to the tree to collect wood.
+3. Avoid the skeleton to the east by moving west or south safely.
+4. After gathering enough wood and stone, place a table.
+5. Use the table to craft wooden and stone tools.
+6. Gather coal by heading north after securing weapons.
+7. Keep an eye on health and consider resting/sleeping if it goes too low.
+
+Immediate action: collect the stone in front of you.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+
+You face stone at your front.",0.0,False
+67,Do,"Step-by-step plan:
+
+1. Collect the stone in front of you to gain stone in inventory.
+2. Move west towards the tree to collect wood to increase wood amount in inventory.
+3. Place a table using collected wood.
+4. Use the table and materials to craft a wood pickaxe.
+5. With the wood pickaxe, collect stone and coal more efficiently.
+6. Craft a stone pickaxe once there is enough stone collected.
+7. Collect coal to prepare for iron tools and furnace.
+8. Manage health by eating if food becomes low.
+9. Explore and prepare to fight skeletons and other creatures for combat achievements.
+
+Immediate action: collect the stone in front of you.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+
+You face stone at your front.",0.0,False
+68,Do,"Step-by-step reasoning:
+
+1. Health is low (2/9), but food and drink levels are okay (above half).
+2. The immediate priority is to regain health safely. Since eating is not yet an option and no mention of food to consume, avoid fighting for now.
+3. Stone is right in front; collecting it will get stone for crafting.
+4. Next, move west towards the tree to gather wood, since only 2 wood in inventory so far—might need more wood for tables and tools.
+5. Collect stone and wood to craft a table and then make wood or stone tools to improve harvesting.
+6. Coal is 3 steps north, but due to low health avoid going straight for coal until stronger.
+7. Energy is 7/9, no immediate need to sleep.
+8. Avoid skeleton for now (none in direct vicinity).
+
+Immediate best action: collect the stone in front to continue gathering essential resources.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- arrow 4 steps to your east
+
+You face stone at your front.",0.0,False
+69,Do,"Step 1: Collect the stone in front by using ""Do"" to get stone early for tools and achievements.
+
+Step 2: After collecting stone, move west towards the tree to gather wood, which is necessary for making tools and crafting a table.
+
+Step 3: Avoid the skeleton for now due to low health; focus on gathering resources.
+
+Step 4: Monitor health and food; if health remains low, consider returning to safe places or sleeping if energy drops.
+
+For now, the best immediate action is to collect the stone in front.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 4 steps to your west
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- arrow 3 steps to your east
+
+You face stone at your front.",0.0,False
+70,Do,"Step 1: Your health is low (2/9), so avoid engaging with hostile creatures for now.
+Step 2: You have 2 wood but no stone yet. The stone in front would be useful to collect for making stone tools.
+Step 3: Collect the stone in front to achieve the ""Collect Stone"" achievement and gather materials for better tools.
+Step 4: After collecting stone, you can move west toward the tree to gather more wood.
+Step 5: Monitor your health and food; if energy drops, consider sleeping.
+
+For now, the best immediate action is to collect the stone in front.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- arrow 2 steps to your east
+
+You face stone at your front.",0.0,False
+71,Do,"Step 1: The stone is right in front of you and collecting it will grant the ""Collect Stone"" achievement and help progress towards making stone tools.  
+Step 2: After collecting the stone, consider moving west to the tree to gather more wood, which is essential for crafting tools and achievements.  
+Step 3: Avoid hostile creatures like skeletons for now since your health is low (2/9).  
+Step 4: Monitor your food, drink, and energy levels and use Sleep if energy falls too low.  
+
+Since the stone is directly in front and can be collected now, the immediate best action is to collect it.
+
+ACTION: Do","You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+- arrow 1 step to your east
+
+You face stone at your front.",0.0,False
+72,Do,"Step 1: I have 2 wood in inventory but no stone yet. The stone is directly in front, so collecting stone now will earn the ""Collect Stone"" achievement and provide materials for crafting stone tools.  
+Step 2: Health is low (2/9), so I should avoid any combat or risky moves for now.  
+Step 3: After collecting stone, I can move west towards the tree to collect wood, improving my resources and working towards ""Collect Wood"" and ""Make Wood Pickaxe.""  
+Step 4: Energy and food are okay for now, so no need to sleep immediately.  
+Step 5: Avoid the arrow and skeleton for now.  
+
+ACTION: Do","You died.
+
+
+
+You see:
+- tree 3 steps to your west
+- grass 3 steps to your east
+- water 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north
+- path 1 step to your south
+
+You face stone at your front.",-0.2,True

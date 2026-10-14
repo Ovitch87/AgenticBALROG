@@ -1,0 +1,52 @@
+{
+    "task": "BabyAI-MixedTrainLocal-v0/putnext",
+    "action_frequency": {
+        "go forward": 78,
+        "turn left": 9,
+        "turn right": 6,
+        "pick up": 25,
+        "toggle": 10
+    },
+    "input_tokens": 104909,
+    "output_tokens": 401,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 128,
+    "failed_candidates": [
+        "play",
+        "go forward\nturn left\ngo forward\nturn right\ngo forward\nturn left",
+        "pick up\ntoggle",
+        "go forward\ntoggle",
+        "go forward\ntoggle",
+        "go forward\nturn right",
+        "go forward\npick up"
+    ],
+    "mission": "put the grey box next to the grey key",
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 15,
+    "agent": {
+        "type": "naive",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "vllm",
+        "model_id": "qwen3.5:2b",
+        "base_url": "http://127.0.0.1:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 128,
+            "thinking_budget": null,
+            "reasoning_effort": "none"
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}
