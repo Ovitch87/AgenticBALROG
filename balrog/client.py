@@ -213,6 +213,12 @@ class OpenAIWrapper(LLMClientWrapper):
                 "model": self.model_id,
                 "max_tokens": self.client_kwargs.get("max_tokens", 1024),
             }
+            
+            ################################# add reasoning effort ###########################################
+            reasoning_effort = self.client_kwargs.get("reasoning_effort")
+            if reasoning_effort is not None:
+                api_kwargs["reasoning_effort"] = reasoning_effort
+            ##################################################################################################
 
             temperature = self.client_kwargs.get("temperature")
             if temperature is not None:

@@ -1,0 +1,48 @@
+{
+    "task": "BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to",
+    "action_frequency": {
+        "go forward": 81,
+        "turn left": 13,
+        "turn right": 4,
+        "drop": 4,
+        "pick up": 19,
+        "toggle": 7
+    },
+    "input_tokens": 101469,
+    "output_tokens": 498,
+    "done": true,
+    "episode_return": 0.0,
+    "num_steps": 128,
+    "failed_candidates": [
+        "toggle\n\nWait I see only walls and a key There is nothing on the tile directly in front for me to pick up or toggle besides the wall The tip says it doesnt make sense to repeat the same action But if I move forward too far and cant find it Lets try toggle again as an action Actually looking closely at the current state there is no object below me or in front other than the wall Since toggle acts on objects in front of you and theres nothing there besides a wall maybe I should turn leftright to change orientation But the goal is ",
+        "play"
+    ],
+    "mission": "go to the grey key after you pick up the grey box",
+    "progression": 0.0,
+    "process_num": null,
+    "seed": 2,
+    "agent": {
+        "type": "naive",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "vllm",
+        "model_id": "qwen3.5:2b",
+        "base_url": "http://127.0.0.1:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 128,
+            "thinking_budget": null,
+            "reasoning_effort": "none"
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

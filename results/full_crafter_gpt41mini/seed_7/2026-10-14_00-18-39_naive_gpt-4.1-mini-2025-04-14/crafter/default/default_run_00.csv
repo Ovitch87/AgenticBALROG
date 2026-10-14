@@ -1,0 +1,4192 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,Do,,"You see:
+- grass 1 step to your west
+- tree 5 steps to your south-east
+
+You face grass at your front.",0.0,False
+1,Move West,,"You see:
+- grass 1 step to your west
+- cow 6 steps to your south-west
+- tree 6 steps to your south-east
+
+You face grass at your front.",0.0,False
+2,Move West,,"You see:
+- grass 1 step to your west
+- cow 5 steps to your south-west
+
+You face grass at your front.",0.0,False
+3,Do,,"You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+4,Do,,"You see:
+- grass 1 step to your west
+
+You face grass at your front.",1.0,False
+5,Move West,,"You see:
+- cow 7 steps to your north-west
+- sand 4 steps to your west
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+6,Move West,,"You see:
+- cow 7 steps to your north-west
+- sand 3 steps to your west
+- water 4 steps to your west
+- path 7 steps to your south-west
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+7,Move West,,"You see:
+- sand 2 steps to your west
+- water 3 steps to your west
+- path 6 steps to your south-west
+- cow 6 steps to your north-west
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+8,Move West,,"You see:
+- sand 1 step to your west
+- water 2 steps to your west
+- stone 7 steps to your south-west
+- path 5 steps to your south-west
+- cow 5 steps to your north-west
+- grass 1 step to your north
+
+You face sand at your front.",0.0,False
+9,Move West,,"You see:
+- sand 1 step to your north
+- water 1 step to your west
+- stone 6 steps to your south-west
+- path 4 steps to your south-west
+- cow 4 steps to your north-west
+- grass 1 step to your east
+
+You face water at your front.",0.0,False
+10,Do,,"You see:
+- sand 1 step to your north
+- water 1 step to your west
+- stone 6 steps to your south-west
+- path 4 steps to your south-west
+- cow 4 steps to your north-west
+- grass 1 step to your east
+
+You face water at your front.",1.0,False
+11,Do,,"You see:
+- sand 1 step to your north
+- water 1 step to your west
+- stone 6 steps to your south-west
+- cow 5 steps to your north-west
+- path 4 steps to your south-west
+- grass 1 step to your east
+
+You face water at your front.",0.0,False
+12,Do,,"You see:
+- sand 1 step to your north
+- water 1 step to your west
+- cow 6 steps to your north-west
+- stone 6 steps to your south-west
+- path 4 steps to your south-west
+- grass 1 step to your east
+
+You face water at your front.",0.0,False
+13,Do,,"You see:
+- sand 1 step to your north
+- water 1 step to your west
+- cow 6 steps to your north-west
+- stone 6 steps to your south-west
+- path 4 steps to your south-west
+- grass 1 step to your east
+
+You face water at your front.",0.0,False
+14,Do,,"You see:
+- sand 1 step to your north
+- water 1 step to your west
+- cow 6 steps to your north-west
+- stone 6 steps to your south-west
+- path 4 steps to your south-west
+- grass 1 step to your east
+
+You face water at your front.",0.0,False
+15,Do,,"You see:
+- sand 1 step to your north
+- water 1 step to your west
+- stone 6 steps to your south-west
+- cow 5 steps to your north-west
+- path 4 steps to your south-west
+- grass 1 step to your east
+
+You face water at your front.",0.0,False
+16,Do,,"You see:
+- sand 1 step to your north
+- water 1 step to your west
+- stone 6 steps to your south-west
+- cow 5 steps to your north-west
+- path 4 steps to your south-west
+- grass 1 step to your east
+
+You face water at your front.",0.0,False
+17,Move West,,"You see:
+- sand 1 step to your north
+- water 1 step to your west
+- stone 6 steps to your south-west
+- cow 5 steps to your north-west
+- path 4 steps to your south-west
+- grass 1 step to your east
+
+You face water at your front.",0.0,False
+18,Do,,"You see:
+- sand 1 step to your north
+- water 1 step to your west
+- stone 6 steps to your south-west
+- cow 4 steps to your north-west
+- path 4 steps to your south-west
+- grass 1 step to your east
+
+You face water at your front.",0.0,False
+19,Do,,"You see:
+- sand 1 step to your north
+- water 1 step to your west
+- stone 6 steps to your south-west
+- cow 4 steps to your north-west
+- path 4 steps to your south-west
+- grass 1 step to your east
+
+You face water at your front.",0.0,False
+20,Do,,"You see:
+- sand 1 step to your north
+- water 1 step to your west
+- stone 6 steps to your south-west
+- cow 4 steps to your north-west
+- path 4 steps to your south-west
+- grass 1 step to your east
+
+You face water at your front.",0.0,False
+21,Move East,,"You see:
+- sand 1 step to your west
+- water 2 steps to your west
+- stone 7 steps to your south-west
+- cow 5 steps to your north-west
+- path 5 steps to your south-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+22,Place Plant,,"You see:
+- sand 1 step to your west
+- water 2 steps to your west
+- stone 7 steps to your south-west
+- path 5 steps to your south-west
+- cow 4 steps to your north-west
+- grass 1 step to your north
+- plant 1 step to your east
+
+You face plant at your front.",1.0,False
+23,Do,,"You see:
+- sand 1 step to your west
+- water 2 steps to your west
+- stone 7 steps to your south-west
+- path 5 steps to your south-west
+- cow 4 steps to your north-west
+- grass 1 step to your north
+- plant 1 step to your east
+
+You face plant at your front.",0.0,False
+24,Do,,"You see:
+- sand 1 step to your west
+- water 2 steps to your west
+- stone 7 steps to your south-west
+- path 5 steps to your south-west
+- cow 3 steps to your north-west
+- grass 1 step to your north
+- plant 1 step to your east
+
+You face plant at your front.",0.0,False
+25,Do,,"You see:
+- sand 1 step to your west
+- water 2 steps to your west
+- stone 7 steps to your south-west
+- path 5 steps to your south-west
+- cow 3 steps to your north-west
+- grass 1 step to your north
+- plant 1 step to your east
+
+You face plant at your front.",0.0,False
+26,Do,,"You see:
+- sand 1 step to your west
+- water 2 steps to your west
+- stone 7 steps to your south-west
+- path 5 steps to your south-west
+- cow 3 steps to your north-west
+- grass 1 step to your north
+- plant 1 step to your east
+
+You face plant at your front.",0.0,False
+27,Do,,"You see:
+- sand 1 step to your west
+- water 2 steps to your west
+- stone 7 steps to your south-west
+- path 5 steps to your south-west
+- cow 3 steps to your north-west
+- grass 1 step to your north
+- plant 1 step to your east
+
+You face plant at your front.",0.0,False
+28,Do,,"You see:
+- sand 1 step to your west
+- water 2 steps to your west
+- stone 7 steps to your south-west
+- path 5 steps to your south-west
+- cow 3 steps to your north-west
+- grass 1 step to your north
+- plant 1 step to your east
+
+You face plant at your front.",0.0,False
+29,Do,,"You see:
+- sand 1 step to your west
+- water 2 steps to your west
+- stone 7 steps to your south-west
+- path 5 steps to your south-west
+- cow 3 steps to your north-west
+- grass 1 step to your north
+- plant 1 step to your east
+
+You face plant at your front.",0.0,False
+30,Do,,"You see:
+- sand 1 step to your west
+- water 2 steps to your west
+- stone 7 steps to your south-west
+- path 5 steps to your south-west
+- cow 3 steps to your north-west
+- grass 1 step to your north
+- plant 1 step to your east
+
+You face plant at your front.",0.0,False
+31,Do,,"You see:
+- sand 1 step to your west
+- water 2 steps to your west
+- stone 7 steps to your south-west
+- path 5 steps to your south-west
+- cow 3 steps to your north-west
+- grass 1 step to your north
+- plant 1 step to your east
+
+You face plant at your front.",0.0,False
+32,Do,,"You see:
+- sand 1 step to your west
+- water 2 steps to your west
+- stone 7 steps to your south-west
+- path 5 steps to your south-west
+- cow 4 steps to your north-west
+- grass 1 step to your north
+- plant 1 step to your east
+
+You face plant at your front.",0.0,False
+33,Do,,"You see:
+- sand 1 step to your west
+- water 2 steps to your west
+- stone 7 steps to your south-west
+- path 5 steps to your south-west
+- cow 3 steps to your north-west
+- grass 1 step to your north
+- plant 1 step to your east
+
+You face plant at your front.",0.0,False
+34,Do,,"You see:
+- sand 1 step to your west
+- water 2 steps to your west
+- stone 7 steps to your south-west
+- path 5 steps to your south-west
+- cow 3 steps to your north-west
+- grass 1 step to your north
+- plant 1 step to your east
+
+You face plant at your front.",0.0,False
+35,Do,,"You see:
+- sand 1 step to your west
+- water 2 steps to your west
+- stone 7 steps to your south-west
+- path 5 steps to your south-west
+- cow 3 steps to your north-west
+- grass 1 step to your north
+- plant 1 step to your east
+
+You face plant at your front.",0.0,False
+36,Do,,"You see:
+- sand 1 step to your west
+- water 2 steps to your west
+- stone 7 steps to your south-west
+- path 5 steps to your south-west
+- cow 3 steps to your north-west
+- grass 1 step to your north
+- plant 1 step to your east
+
+You face plant at your front.",0.0,False
+37,Move North,,"You see:
+- water 3 steps to your west
+- sand 1 step to your west
+- path 6 steps to your south-west
+- cow 2 steps to your west
+- grass 1 step to your north
+- plant 2 steps to your south-east
+
+You face grass at your front.",0.0,False
+38,Do,,"You see:
+- water 3 steps to your west
+- sand 1 step to your west
+- path 6 steps to your south-west
+- cow 2 steps to your west
+- grass 1 step to your north
+- plant 2 steps to your south-east
+
+You face grass at your front.",0.0,False
+39,Do,,"You see:
+- water 3 steps to your west
+- sand 2 steps to your west
+- path 6 steps to your south-west
+- cow 1 step to your west
+- grass 1 step to your north
+- plant 2 steps to your south-east
+
+You face grass at your front.",0.0,False
+40,Move West,,"You see:
+- water 3 steps to your west
+- sand 2 steps to your west
+- path 6 steps to your south-west
+- cow 1 step to your west
+- grass 1 step to your north
+- plant 2 steps to your south-east
+
+You face cow at your front.",0.0,False
+41,Do,,"You see:
+- water 3 steps to your west
+- sand 2 steps to your west
+- path 6 steps to your south-west
+- cow 1 step to your west
+- grass 1 step to your north
+- plant 2 steps to your south-east
+
+You face cow at your front.",0.0,False
+42,Do,,"You see:
+- water 3 steps to your west
+- sand 2 steps to your west
+- path 6 steps to your south-west
+- cow 1 step to your west
+- grass 1 step to your north
+- plant 2 steps to your south-east
+
+You face cow at your front.",0.0,False
+43,Do,,"You see:
+- water 3 steps to your west
+- sand 1 step to your west
+- path 6 steps to your south-west
+- grass 1 step to your north
+- plant 2 steps to your south-east
+
+You face sand at your front.",1.0,False
+44,Move West,,"You see:
+- sand 1 step to your west
+- water 2 steps to your west
+- path 5 steps to your south-west
+- grass 1 step to your east
+- plant 3 steps to your south-east
+
+You face sand at your front.",0.0,False
+45,Move West,,"You see:
+- sand 1 step to your north
+- grass 2 steps to your east
+- water 1 step to your west
+- path 4 steps to your south-west
+- skeleton 5 steps to your south-east
+- plant 4 steps to your south-east
+
+You face water at your front.",0.0,False
+46,Do,,"You see:
+- sand 1 step to your north
+- grass 2 steps to your east
+- water 1 step to your west
+- path 4 steps to your south-west
+- arrow 4 steps to your south-east
+- skeleton 5 steps to your south-east
+- plant 4 steps to your south-east
+
+You face water at your front.",0.0,False
+47,Do,,"You see:
+- sand 1 step to your north
+- grass 2 steps to your east
+- water 1 step to your west
+- path 4 steps to your south-west
+- arrow 3 steps to your south-east
+- skeleton 5 steps to your south-east
+- plant 4 steps to your south-east
+
+You face water at your front.",0.0,False
+48,Do,,"You see:
+- sand 1 step to your north
+- grass 3 steps to your north-east
+- water 1 step to your west
+- path 4 steps to your south-west
+- arrow 2 steps to your east
+- skeleton 5 steps to your south-east
+- plant 4 steps to your south-east
+
+You face water at your front.",0.0,False
+49,Do,,"You see:
+- sand 1 step to your north
+- grass 2 steps to your east
+- water 1 step to your west
+- path 4 steps to your south-west
+- arrow 3 steps to your north-east
+- skeleton 5 steps to your south-east
+- plant 4 steps to your south-east
+
+You face water at your front.",0.0,False
+50,Do,,"You see:
+- sand 1 step to your north
+- grass 2 steps to your east
+- water 1 step to your west
+- path 4 steps to your south-west
+- arrow 4 steps to your north-east
+- skeleton 5 steps to your south-east
+- plant 4 steps to your south-east
+
+You face water at your front.",0.0,False
+51,Do,,"You see:
+- sand 1 step to your north
+- grass 2 steps to your east
+- water 1 step to your west
+- path 4 steps to your south-west
+- arrow 5 steps to your north-east
+- skeleton 4 steps to your south-east
+- plant 4 steps to your south-east
+
+You face water at your front.",0.0,False
+52,Do,,"You see:
+- sand 1 step to your north
+- grass 2 steps to your east
+- water 1 step to your west
+- path 4 steps to your south-west
+- skeleton 4 steps to your south-east
+- plant 4 steps to your south-east
+
+You face water at your front.",0.0,False
+53,Do,,"You see:
+- sand 1 step to your north
+- grass 2 steps to your east
+- water 1 step to your west
+- path 4 steps to your south-west
+- skeleton 4 steps to your south-east
+- plant 4 steps to your south-east
+
+You face water at your front.",0.0,False
+54,Do,,"You see:
+- sand 1 step to your north
+- grass 2 steps to your east
+- water 1 step to your west
+- path 4 steps to your south-west
+- skeleton 4 steps to your south-east
+- plant 4 steps to your south-east
+
+You face water at your front.",0.0,False
+55,Do,,"You see:
+- sand 1 step to your north
+- grass 2 steps to your east
+- water 1 step to your west
+- path 4 steps to your south-west
+- arrow 3 steps to your south-east
+- skeleton 4 steps to your south-east
+- plant 4 steps to your south-east
+
+You face water at your front.",0.0,False
+56,Do,,"You see:
+- sand 1 step to your north
+- grass 3 steps to your north-east
+- water 1 step to your west
+- path 4 steps to your south-west
+- arrow 2 steps to your east
+- skeleton 4 steps to your south-east
+- plant 4 steps to your south-east
+
+You face water at your front.",0.0,False
+57,Move West,,"You see:
+- sand 1 step to your north
+- grass 2 steps to your east
+- water 1 step to your west
+- path 4 steps to your south-west
+- skeleton 3 steps to your south-east
+- arrow 3 steps to your north-east
+- plant 4 steps to your south-east
+
+You face water at your front.",0.0,False
+58,Do,,"You see:
+- sand 1 step to your north
+- grass 2 steps to your east
+- water 1 step to your west
+- path 4 steps to your south-west
+- arrow 4 steps to your north-east
+- skeleton 4 steps to your south-east
+- plant 4 steps to your south-east
+
+You face water at your front.",0.0,False
+59,Do,,"You see:
+- sand 1 step to your north
+- grass 2 steps to your east
+- water 1 step to your west
+- path 4 steps to your south-west
+- arrow 3 steps to your south-east
+- skeleton 4 steps to your south-east
+- plant 4 steps to your south-east
+
+You face water at your front.",0.0,False
+60,Move East,,"You see:
+- sand 1 step to your west
+- water 2 steps to your west
+- path 5 steps to your south-west
+- grass 2 steps to your north-east
+- arrow 1 step to your east
+- skeleton 4 steps to your south-east
+- plant 3 steps to your south-east
+
+You face arrow at your front.",0.0,False
+61,Move East,,"You see:
+- sand 1 step to your west
+- water 2 steps to your west
+- path 5 steps to your south-west
+- grass 1 step to your east
+- arrow 2 steps to your north-east
+- skeleton 4 steps to your south-east
+- plant 3 steps to your south-east
+
+You face grass at your front.",0.0,False
+62,Do,,"You see:
+- sand 1 step to your west
+- water 2 steps to your west
+- path 5 steps to your south-west
+- arrow 3 steps to your north-east
+- grass 1 step to your east
+- skeleton 4 steps to your south-east
+- plant 3 steps to your south-east
+
+You face grass at your front.",0.0,False
+63,Do,,"You see:
+- sand 1 step to your west
+- water 2 steps to your west
+- path 5 steps to your south-west
+- arrow 4 steps to your north-east
+- grass 1 step to your east
+- skeleton 4 steps to your south-east
+- plant 3 steps to your south-east
+
+You face grass at your front.",0.0,False
+64,Do,,"You see:
+- sand 1 step to your west
+- water 2 steps to your west
+- path 5 steps to your south-west
+- grass 1 step to your east
+- skeleton 4 steps to your south-east
+- plant 3 steps to your south-east
+
+You face grass at your front.",0.0,False
+65,Do,,"You see:
+- sand 1 step to your west
+- water 2 steps to your west
+- path 5 steps to your south-west
+- grass 1 step to your east
+- arrow 3 steps to your south-east
+- skeleton 4 steps to your south-east
+- plant 3 steps to your south-east
+
+You face grass at your front.",0.0,False
+66,Do,,"You see:
+- sand 1 step to your west
+- water 2 steps to your west
+- path 5 steps to your south-west
+- grass 1 step to your east
+- arrow 2 steps to your south-east
+- plant 3 steps to your south-east
+- skeleton 5 steps to your south-east
+
+You face grass at your front.",0.0,False
+67,Do,,"You see:
+- sand 1 step to your west
+- water 2 steps to your west
+- path 5 steps to your south-west
+- grass 2 steps to your north-east
+- arrow 1 step to your east
+- skeleton 4 steps to your south-east
+
+You face arrow at your front.",0.0,False
+68,Move East,,"You see:
+- sand 1 step to your west
+- water 2 steps to your west
+- path 5 steps to your south-west
+- grass 1 step to your east
+- arrow 2 steps to your north-east
+- skeleton 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+69,Do,,"You see:
+- sand 1 step to your west
+- cow 4 steps to your west
+- water 2 steps to your west
+- path 5 steps to your south-west
+- arrow 3 steps to your north-east
+- grass 1 step to your east
+- skeleton 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+70,Move East,,"You see:
+- water 3 steps to your west
+- sand 1 step to your west
+- path 6 steps to your south-west
+- arrow 1 step to your east
+- grass 1 step to your north
+- skeleton 4 steps to your south-east
+- cow 4 steps to your east
+
+You face arrow at your front.",0.0,False
+71,Move East,,"You see:
+- water 3 steps to your west
+- sand 1 step to your west
+- path 6 steps to your south-west
+- grass 1 step to your north
+- arrow 2 steps to your north-east
+- skeleton 4 steps to your south-east
+- cow 5 steps to your south-east
+
+You face grass at your front.",0.0,False
+72,Do,,"You see:
+- water 3 steps to your west
+- sand 1 step to your west
+- path 6 steps to your south-west
+- grass 1 step to your north
+- arrow 3 steps to your north-east
+- skeleton 4 steps to your south-east
+- cow 5 steps to your south-east
+
+You face grass at your front.",0.0,False
+73,Move North,,"You see:
+- water 3 steps to your north
+- sand 1 step to your west
+- grass 1 step to your north
+- arrow 3 steps to your north-east
+
+You face grass at your front.",0.0,False
+74,Do,,"You see:
+- water 3 steps to your north
+- sand 1 step to your west
+- grass 1 step to your north
+- arrow 3 steps to your south-east
+
+You face grass at your front.",0.0,False
+75,Do,,"You see:
+- water 3 steps to your north
+- sand 1 step to your west
+- grass 1 step to your north
+- arrow 2 steps to your south-east
+
+You face grass at your front.",0.0,False
+76,Place Plant,,"You see:
+- water 3 steps to your north
+- sand 1 step to your west
+- plant 1 step to your north
+- grass 1 step to your south
+- arrow 1 step to your east
+
+You face plant at your front.",0.0,False
+77,Do,,"You see:
+- water 3 steps to your north
+- sand 1 step to your west
+- plant 1 step to your north
+- grass 1 step to your south
+- arrow 2 steps to your north-east
+
+You face plant at your front.",0.0,False
+78,Do,,"You see:
+- water 3 steps to your north
+- sand 1 step to your west
+- plant 1 step to your north
+- grass 1 step to your south
+- arrow 2 steps to your south
+
+You face plant at your front.",0.0,False
+79,Do,,"You see:
+- water 3 steps to your north
+- sand 1 step to your west
+- plant 1 step to your north
+- arrow 1 step to your south
+- grass 1 step to your east
+- skeleton 3 steps to your south
+
+You face plant at your front.",0.0,False
+80,Do,,"You see:
+- water 3 steps to your north
+- sand 1 step to your west
+- plant 1 step to your north
+- grass 1 step to your south
+
+You face plant at your front.",-0.2,False
+81,Do,,"You see:
+- water 3 steps to your north
+- sand 1 step to your west
+- plant 1 step to your north
+- grass 1 step to your south
+
+You face plant at your front.",0.0,False
+82,Do,,"You see:
+- water 3 steps to your north
+- sand 1 step to your west
+- plant 1 step to your north
+- grass 1 step to your south
+- arrow 3 steps to your south
+
+You face plant at your front.",0.0,False
+83,Do,,"You see:
+- water 3 steps to your north
+- sand 1 step to your west
+- plant 1 step to your north
+- grass 1 step to your south
+- arrow 2 steps to your south
+
+You face plant at your front.",0.0,False
+84,Do,,"You see:
+- water 3 steps to your north
+- sand 1 step to your west
+- plant 1 step to your north
+- arrow 1 step to your south
+- grass 1 step to your east
+
+You face plant at your front.",0.0,False
+85,Do,,"You see:
+- water 3 steps to your north
+- sand 1 step to your west
+- plant 1 step to your north
+- grass 1 step to your south
+
+You face plant at your front.",-0.2,False
+86,Do,,"You see:
+- water 3 steps to your north
+- sand 1 step to your west
+- plant 1 step to your north
+- grass 1 step to your south
+
+You face plant at your front.",0.0,False
+87,Do,,"You see:
+- water 3 steps to your north
+- sand 1 step to your west
+- plant 1 step to your north
+- grass 1 step to your south
+
+You face plant at your front.",0.0,False
+88,Do,,"You see:
+- water 3 steps to your north
+- sand 1 step to your west
+- plant 1 step to your north
+- grass 1 step to your south
+
+You face plant at your front.",0.0,False
+89,Do,,"You see:
+- water 3 steps to your north
+- sand 1 step to your west
+- plant 1 step to your north
+- grass 1 step to your south
+
+You face plant at your front.",0.0,False
+90,Move North,,"You see:
+- water 3 steps to your north
+- sand 1 step to your west
+- plant 1 step to your north
+- grass 1 step to your south
+- arrow 3 steps to your south
+- cow 6 steps to your north-east
+
+You face plant at your front.",0.0,False
+91,Do,,"You see:
+- water 3 steps to your north
+- sand 1 step to your west
+- plant 1 step to your north
+- grass 1 step to your south
+- arrow 2 steps to your south
+- cow 7 steps to your north-east
+
+You face plant at your front.",0.0,False
+92,Place Plant,,"You see:
+- water 3 steps to your north
+- sand 1 step to your west
+- plant 1 step to your north
+- arrow 1 step to your south
+- grass 1 step to your east
+- cow 7 steps to your north-east
+
+You face plant at your front.",0.0,False
+93,Do,,"You see:
+- water 3 steps to your north
+- sand 1 step to your west
+- cow 4 steps to your west
+- plant 1 step to your north
+- grass 1 step to your south
+
+You face plant at your front.",-0.2,False
+94,Move West,,"You see:
+- sand 1 step to your west
+- water 3 steps to your south-west
+- cow 3 steps to your west
+- plant 2 steps to your north-east
+- grass 1 step to your east
+
+You face sand at your front.",0.0,False
+95,Move West,,"You see:
+- sand 1 step to your west
+- grass 2 steps to your east
+- water 2 steps to your south-west
+- cow 3 steps to your north-west
+- plant 3 steps to your north-east
+
+You face sand at your front.",0.0,False
+96,Move West,,"You see:
+- grass 3 steps to your east
+- tree 6 steps to your north-west
+- water 1 step to your south
+- sand 1 step to your west
+- cow 2 steps to your north-west
+- plant 4 steps to your north-east
+
+You face sand at your front.",0.0,False
+97,Move South,,"You see:
+- grass 3 steps to your east
+- tree 6 steps to your north-west
+- water 1 step to your south
+- sand 1 step to your north
+- cow 1 step to your west
+- plant 4 steps to your north-east
+
+You face water at your front.",0.0,False
+98,Move South,,"You see:
+- grass 3 steps to your east
+- tree 6 steps to your north-west
+- water 1 step to your south
+- cow 2 steps to your north-west
+- sand 1 step to your west
+- plant 4 steps to your north-east
+
+You face water at your front.",0.0,False
+99,Do,,"You see:
+- grass 3 steps to your east
+- tree 6 steps to your north-west
+- water 1 step to your south
+- cow 3 steps to your north-west
+- sand 1 step to your west
+- skeleton 5 steps to your south-east
+- plant 4 steps to your north-east
+
+You face water at your front.",0.0,False
+100,Move South,,"You see:
+- cow 4 steps to your north-west
+- tree 6 steps to your north-west
+- grass 3 steps to your east
+- water 1 step to your south
+- sand 1 step to your west
+- skeleton 5 steps to your south-east
+- plant 4 steps to your north-east
+
+You face water at your front.",0.0,False
+101,Do,,"You see:
+- cow 4 steps to your north-west
+- tree 6 steps to your north-west
+- grass 3 steps to your east
+- water 1 step to your south
+- sand 1 step to your west
+- skeleton 5 steps to your south-east
+- plant 4 steps to your north-east
+
+You face water at your front.",0.0,False
+102,Do,,"You see:
+- cow 5 steps to your north-west
+- tree 6 steps to your north-west
+- grass 3 steps to your east
+- water 1 step to your south
+- sand 1 step to your west
+- skeleton 5 steps to your south-east
+- plant 4 steps to your north-east
+
+You face water at your front.",0.1,False
+103,Move South,,"You see:
+- cow 5 steps to your north-west
+- tree 6 steps to your north-west
+- grass 3 steps to your east
+- water 1 step to your south
+- sand 1 step to your west
+- arrow 4 steps to your south-east
+- skeleton 5 steps to your south-east
+- plant 4 steps to your north-east
+
+You face water at your front.",0.0,False
+104,Do,,"You see:
+- cow 5 steps to your north-west
+- tree 6 steps to your north-west
+- grass 3 steps to your east
+- water 1 step to your south
+- sand 1 step to your west
+- arrow 3 steps to your south-east
+- skeleton 5 steps to your south-east
+- plant 4 steps to your north-east
+
+You face water at your front.",0.0,False
+105,Do,,"You see:
+- cow 4 steps to your north-west
+- tree 6 steps to your north-west
+- grass 3 steps to your east
+- water 1 step to your south
+- sand 1 step to your west
+- arrow 2 steps to your east
+- skeleton 5 steps to your south-east
+- plant 4 steps to your north-east
+
+You face water at your front.",0.0,False
+106,Do,,"You see:
+- cow 3 steps to your north-west
+- tree 6 steps to your north-west
+- grass 3 steps to your east
+- water 1 step to your south
+- sand 1 step to your west
+- arrow 3 steps to your north-east
+- skeleton 4 steps to your south-east
+- plant 4 steps to your north-east
+
+You face water at your front.",0.0,False
+107,Do,,"You see:
+- grass 3 steps to your east
+- tree 6 steps to your north-west
+- water 1 step to your south
+- cow 4 steps to your north-west
+- sand 1 step to your west
+- arrow 3 steps to your south-east
+- skeleton 4 steps to your south-east
+- plant 4 steps to your north-east
+
+You face water at your front.",0.0,False
+108,Do,,"You see:
+- grass 3 steps to your east
+- tree 6 steps to your north-west
+- water 1 step to your south
+- cow 5 steps to your north-west
+- sand 1 step to your west
+- arrow 2 steps to your east
+- skeleton 4 steps to your south-east
+- plant 4 steps to your north-east
+
+You face water at your front.",0.0,False
+109,Do,,"You see:
+- grass 3 steps to your east
+- tree 6 steps to your north-west
+- water 1 step to your south
+- cow 5 steps to your north-west
+- sand 1 step to your west
+- arrow 3 steps to your north-east
+- skeleton 4 steps to your south-east
+- plant 4 steps to your north-east
+
+You face water at your front.",0.0,False
+110,Move South,,"You see:
+- grass 3 steps to your east
+- tree 6 steps to your north-west
+- water 1 step to your south
+- cow 5 steps to your north-west
+- sand 1 step to your west
+- arrow 4 steps to your north-east
+- skeleton 4 steps to your south-east
+- plant 4 steps to your north-east
+
+You face water at your front.",0.0,False
+111,Do,,"You see:
+- cow 5 steps to your north-west
+- tree 6 steps to your north-west
+- grass 3 steps to your east
+- water 1 step to your south
+- sand 1 step to your west
+- arrow 5 steps to your north-east
+- skeleton 4 steps to your south-east
+- plant 4 steps to your north-east
+
+You face water at your front.",0.0,False
+112,Move East,,"You see:
+- sand 1 step to your west
+- cow 5 steps to your north-west
+- water 2 steps to your south-west
+- skeleton 4 steps to your south-east
+- plant 3 steps to your north-east
+- grass 2 steps to your east
+
+You face sand at your front.",0.0,False
+113,Move West,,"You see:
+- cow 5 steps to your north-west
+- tree 6 steps to your north-west
+- grass 3 steps to your east
+- water 1 step to your south
+- sand 1 step to your west
+- arrow 4 steps to your south-east
+- skeleton 5 steps to your south-east
+- plant 4 steps to your north-east
+
+You face sand at your front.",0.0,False
+114,Move West,,"You see:
+- stone 7 steps to your north-west
+- grass 3 steps to your west
+- water 1 step to your south
+- cow 4 steps to your north-west
+- tree 5 steps to your north-west
+- sand 1 step to your west
+- arrow 4 steps to your south-east
+- skeleton 6 steps to your south-east
+- plant 5 steps to your north-east
+
+You face sand at your front.",0.0,False
+115,Move West,,"You see:
+- stone 6 steps to your north-west
+- grass 2 steps to your north-west
+- water 2 steps to your south
+- cow 2 steps to your west
+- tree 4 steps to your north-west
+- sand 1 step to your west
+- arrow 4 steps to your east
+- skeleton 7 steps to your south-east
+
+You face sand at your front.",0.0,False
+116,Move West,,"You see:
+- stone 5 steps to your north-west
+- grass 1 step to your north
+- water 2 steps to your south
+- cow 1 step to your west
+- tree 3 steps to your north-west
+- sand 1 step to your south
+
+You face cow at your front.",0.0,False
+117,Do,,"You see:
+- stone 5 steps to your north-west
+- grass 1 step to your west
+- water 2 steps to your south
+- tree 3 steps to your north-west
+- cow 2 steps to your south-west
+- sand 1 step to your south
+
+You face grass at your front.",0.0,False
+118,Move West,,"You see:
+- stone 4 steps to your north-west
+- cow 1 step to your south
+- grass 1 step to your west
+- water 2 steps to your south
+- tree 2 steps to your north
+- sand 1 step to your east
+
+You face grass at your front.",0.0,False
+119,Do,,"You see:
+- stone 4 steps to your north-west
+- cow 1 step to your south
+- grass 1 step to your west
+- water 2 steps to your south
+- tree 2 steps to your north
+- sand 1 step to your east
+
+You face grass at your front.",0.0,False
+120,Do,,"You see:
+- stone 4 steps to your north-west
+- cow 2 steps to your south-west
+- grass 1 step to your west
+- water 2 steps to your south
+- tree 2 steps to your north
+- sand 1 step to your east
+
+You face grass at your front.",0.0,False
+121,Do,,"You see:
+- stone 4 steps to your north-west
+- cow 3 steps to your south-west
+- grass 1 step to your west
+- water 2 steps to your south
+- tree 2 steps to your north
+- sand 1 step to your east
+
+You face grass at your front.",0.0,False
+122,Do,,"You see:
+- stone 4 steps to your north-west
+- cow 3 steps to your south-west
+- grass 1 step to your west
+- water 2 steps to your south
+- tree 2 steps to your north
+- sand 1 step to your east
+
+You face grass at your front.",0.0,False
+123,Do,,"You see:
+- stone 4 steps to your north-west
+- cow 3 steps to your south-west
+- grass 1 step to your west
+- water 2 steps to your south
+- tree 2 steps to your north
+- sand 1 step to your east
+
+You face grass at your front.",0.0,False
+124,Do,,"You see:
+- stone 4 steps to your north-west
+- cow 4 steps to your south-west
+- grass 1 step to your west
+- water 2 steps to your south
+- tree 2 steps to your north
+- sand 1 step to your east
+
+You face grass at your front.",0.0,False
+125,Do,,"You see:
+- stone 4 steps to your north-west
+- grass 1 step to your west
+- water 2 steps to your south
+- cow 4 steps to your south-west
+- tree 2 steps to your north
+- sand 1 step to your east
+
+You face grass at your front.",0.0,False
+126,Do,,"You see:
+- stone 4 steps to your north-west
+- grass 1 step to your west
+- water 2 steps to your south
+- cow 4 steps to your south-west
+- tree 2 steps to your north
+- sand 1 step to your east
+
+You face grass at your front.",0.0,False
+127,Do,,"You see:
+- stone 4 steps to your north-west
+- grass 1 step to your west
+- water 2 steps to your south
+- cow 4 steps to your south-west
+- tree 2 steps to your north
+- sand 1 step to your east
+
+You face grass at your front.",0.0,False
+128,Do,,"You see:
+- stone 4 steps to your north-west
+- grass 1 step to your west
+- water 2 steps to your south
+- cow 4 steps to your south-west
+- tree 2 steps to your north
+- sand 1 step to your east
+- skeleton 5 steps to your north-east
+
+You face grass at your front.",0.1,False
+129,Do,,"You see:
+- stone 4 steps to your north-west
+- grass 1 step to your west
+- cow 5 steps to your south-west
+- water 2 steps to your south
+- tree 2 steps to your north
+- sand 1 step to your east
+- skeleton 4 steps to your east
+
+You face grass at your front.",0.0,False
+130,Do,,"You see:
+- stone 4 steps to your north-west
+- grass 1 step to your west
+- cow 6 steps to your south-west
+- water 2 steps to your south
+- tree 2 steps to your north
+- sand 1 step to your east
+- skeleton 4 steps to your east
+
+You face grass at your front.",0.0,False
+131,Do,,"You see:
+- stone 4 steps to your north-west
+- grass 1 step to your west
+- cow 6 steps to your south-west
+- water 2 steps to your south
+- tree 2 steps to your north
+- sand 1 step to your east
+- skeleton 3 steps to your east
+
+You face grass at your front.",0.0,False
+132,Move West,,"You see:
+- path 7 steps to your north-west
+- cow 5 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your north-east
+- sand 2 steps to your east
+- stone 3 steps to your north-west
+- water 2 steps to your south
+- arrow 3 steps to your east
+- skeleton 4 steps to your east
+
+You face grass at your front.",0.0,False
+133,Move West,,"You see:
+- stone 2 steps to your north
+- grass 1 step to your west
+- tree 4 steps to your west
+- cow 4 steps to your south-west
+- sand 4 steps to your south-east
+- water 2 steps to your south
+- arrow 3 steps to your east
+
+You face grass at your front.",0.0,False
+134,Move West,,"You see:
+- stone 2 steps to your north
+- grass 1 step to your west
+- tree 3 steps to your west
+- cow 3 steps to your south-west
+- sand 4 steps to your east
+- water 2 steps to your south
+- arrow 3 steps to your east
+
+You face grass at your front.",0.0,False
+135,Move West,,"You see:
+- stone 3 steps to your north
+- grass 1 step to your west
+- tree 2 steps to your west
+- cow 2 steps to your south
+- sand 4 steps to your south-west
+- water 3 steps to your south
+- arrow 3 steps to your east
+
+You face grass at your front.",0.0,False
+136,Move West,,"You see:
+- stone 4 steps to your north-west
+- grass 1 step to your north
+- tree 1 step to your west
+- cow 3 steps to your north
+- sand 3 steps to your south
+- water 4 steps to your south-east
+- arrow 3 steps to your east
+
+You face tree at your front.",0.0,False
+137,Do,,"You see:
+- stone 4 steps to your north-west
+- grass 1 step to your west
+- tree 2 steps to your north-west
+- path 3 steps to your north
+- cow 2 steps to your north
+- sand 3 steps to your south
+- water 4 steps to your south-east
+- arrow 2 steps to your east
+
+You face grass at your front.",1.0,False
+138,Move West,,"You see:
+- stone 3 steps to your north
+- grass 1 step to your west
+- tree 1 step to your north
+- path 4 steps to your north-east
+- cow 3 steps to your north-east
+- sand 4 steps to your south-east
+- arrow 2 steps to your east
+- water 5 steps to your south-east
+
+You face grass at your front.",0.0,False
+139,Move West,,"You see:
+- stone 3 steps to your west
+- grass 1 step to your west
+- tree 2 steps to your north-east
+- path 5 steps to your north-east
+- cow 3 steps to your north-east
+- arrow 2 steps to your east
+- sand 5 steps to your south-east
+- water 6 steps to your south-east
+
+You face grass at your front.",0.0,False
+140,Move West,,"You see:
+- stone 2 steps to your west
+- grass 1 step to your west
+- tree 2 steps to your south
+- arrow 2 steps to your east
+- path 6 steps to your north-east
+- cow 4 steps to your north-east
+- sand 6 steps to your south-east
+- water 7 steps to your south-east
+
+You face grass at your front.",0.0,False
+141,Move West,,"You see:
+- stone 1 step to your west
+- coal 6 steps to your south-west
+- grass 1 step to your south
+- tree 3 steps to your south-east
+- arrow 2 steps to your east
+- path 7 steps to your north-east
+- cow 6 steps to your north-east
+- sand 7 steps to your south-east
+
+You face stone at your front.",0.0,False
+142,Do,,"You see:
+- stone 1 step to your west
+- coal 6 steps to your south-west
+- grass 1 step to your south
+- arrow 1 step to your east
+- tree 3 steps to your south-east
+- path 7 steps to your north-east
+- cow 6 steps to your north-east
+- sand 7 steps to your south-east
+
+You face stone at your front.",0.0,False
+143,Do,,"You see:
+- stone 1 step to your west
+- coal 6 steps to your south-west
+- grass 1 step to your south
+- tree 3 steps to your south-east
+- path 7 steps to your north-east
+- cow 6 steps to your north-east
+- sand 7 steps to your south-east
+
+You face stone at your front.",-0.2,False
+144,Do,,"You see:
+- stone 1 step to your west
+- coal 6 steps to your south-west
+- grass 1 step to your south
+- tree 3 steps to your south-east
+- path 7 steps to your north-east
+- cow 6 steps to your north-east
+- sand 7 steps to your south-east
+
+You face stone at your front.",0.0,False
+145,Do,,"You see:
+- stone 1 step to your west
+- coal 6 steps to your south-west
+- grass 1 step to your south
+- tree 3 steps to your south-east
+- path 7 steps to your north-east
+- cow 5 steps to your north-east
+- sand 7 steps to your south-east
+
+You face stone at your front.",0.0,False
+146,Do,,"You see:
+- stone 1 step to your west
+- coal 6 steps to your south-west
+- grass 1 step to your south
+- tree 3 steps to your south-east
+- path 7 steps to your north-east
+- cow 5 steps to your north-east
+- sand 7 steps to your south-east
+
+You face stone at your front.",0.0,False
+147,Do,,"You see:
+- stone 1 step to your west
+- coal 6 steps to your south-west
+- grass 1 step to your south
+- tree 3 steps to your south-east
+- path 7 steps to your north-east
+- cow 5 steps to your north-east
+- sand 7 steps to your south-east
+
+You face stone at your front.",0.0,False
+148,Do,,"You see:
+- stone 1 step to your west
+- coal 6 steps to your south-west
+- grass 1 step to your south
+- tree 3 steps to your south-east
+- path 7 steps to your north-east
+- cow 5 steps to your north-east
+- sand 7 steps to your south-east
+
+You face stone at your front.",0.0,False
+149,Do,,"You see:
+- stone 1 step to your west
+- coal 6 steps to your south-west
+- grass 1 step to your south
+- tree 3 steps to your south-east
+- path 7 steps to your north-east
+- cow 5 steps to your north-east
+- sand 7 steps to your south-east
+
+You face stone at your front.",0.0,False
+150,Do,,"You see:
+- stone 1 step to your west
+- coal 6 steps to your south-west
+- grass 1 step to your south
+- tree 3 steps to your south-east
+- path 7 steps to your north-east
+- cow 4 steps to your east
+- sand 7 steps to your south-east
+
+You face stone at your front.",0.0,False
+151,Place Stone,,"You see:
+- stone 1 step to your west
+- coal 6 steps to your south-west
+- grass 1 step to your south
+- tree 3 steps to your south-east
+- path 7 steps to your north-east
+- cow 4 steps to your east
+- sand 7 steps to your south-east
+
+You face stone at your front.",0.0,False
+152,Do,,"You see:
+- stone 1 step to your west
+- coal 6 steps to your south-west
+- grass 1 step to your south
+- tree 3 steps to your south-east
+- path 7 steps to your north-east
+- cow 4 steps to your east
+- sand 7 steps to your south-east
+
+You face stone at your front.",0.0,False
+153,Do,,"You see:
+- stone 1 step to your west
+- coal 6 steps to your south-west
+- grass 1 step to your south
+- tree 3 steps to your south-east
+- path 7 steps to your north-east
+- cow 4 steps to your east
+- sand 7 steps to your south-east
+
+You face stone at your front.",0.0,False
+154,Move South,,"You see:
+- stone 2 steps to your north-west
+- coal 5 steps to your south-west
+- grass 1 step to your west
+- tree 2 steps to your south-east
+- cow 4 steps to your east
+- sand 6 steps to your south-east
+
+You face grass at your front.",0.1,False
+155,Move West,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face grass at your front.",0.0,False
+156,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face grass at your front.",0.0,False
+157,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- cow 4 steps to your east
+
+You face grass at your front.",0.0,False
+158,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- cow 4 steps to your east
+
+You face grass at your front.",0.0,False
+159,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- cow 3 steps to your east
+
+You face grass at your front.",0.0,False
+160,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- cow 2 steps to your east
+
+You face grass at your front.",0.0,False
+161,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- cow 1 step to your east
+
+You face grass at your front.",0.0,False
+162,Move East,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- cow 1 step to your east
+
+You face cow at your front.",0.0,False
+163,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- cow 1 step to your east
+
+You face cow at your front.",0.0,False
+164,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- cow 2 steps to your north-east
+
+You face grass at your front.",0.0,False
+165,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- cow 2 steps to your north-east
+
+You face grass at your front.",0.0,False
+166,Place Plant,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- cow 2 steps to your north-east
+- plant 1 step to your east
+
+You face plant at your front.",0.0,False
+167,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- cow 2 steps to your north-east
+
+You face grass at your front.",0.0,False
+168,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- cow 3 steps to your north-east
+
+You face grass at your front.",0.0,False
+169,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- cow 2 steps to your north-east
+
+You face grass at your front.",0.0,False
+170,Move North,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- cow 2 steps to your north-east
+
+You face stone at your front.",0.0,False
+171,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- cow 2 steps to your north-east
+
+You face stone at your front.",0.0,False
+172,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- cow 2 steps to your north-east
+
+You face stone at your front.",0.0,False
+173,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- cow 2 steps to your north-east
+
+You face stone at your front.",0.0,False
+174,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- cow 2 steps to your north-east
+
+You face stone at your front.",0.0,False
+175,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- cow 2 steps to your north-east
+
+You face stone at your front.",0.0,False
+176,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- cow 3 steps to your north-east
+
+You face stone at your front.",0.0,False
+177,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- cow 3 steps to your north-east
+
+You face stone at your front.",0.0,False
+178,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- cow 3 steps to your north-east
+
+You face stone at your front.",0.0,False
+179,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- cow 3 steps to your north-east
+
+You face stone at your front.",0.0,False
+180,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- cow 3 steps to your north-east
+
+You face stone at your front.",0.1,False
+181,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- cow 4 steps to your north-east
+
+You face stone at your front.",0.0,False
+182,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- cow 5 steps to your north-east
+
+You face stone at your front.",0.0,False
+183,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- cow 6 steps to your north-east
+
+You face stone at your front.",0.0,False
+184,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- cow 6 steps to your north-east
+
+You face stone at your front.",0.0,False
+185,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- cow 6 steps to your north-east
+
+You face stone at your front.",0.0,False
+186,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- cow 6 steps to your north-east
+
+You face stone at your front.",0.0,False
+187,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- cow 7 steps to your north-east
+
+You face stone at your front.",0.0,False
+188,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- cow 7 steps to your north-east
+
+You face stone at your front.",0.0,False
+189,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- cow 7 steps to your north-east
+
+You face stone at your front.",0.0,False
+190,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+- cow 7 steps to your north-east
+
+You face stone at your front.",0.0,False
+191,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+192,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+193,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+194,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+195,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+196,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+197,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+198,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+199,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+200,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+201,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+202,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+203,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+204,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+205,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+206,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.1,False
+207,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+208,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+209,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+210,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+211,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+212,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+213,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+214,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+215,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+216,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+217,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+218,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+219,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+220,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+221,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+222,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+223,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+224,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+225,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+226,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+227,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+228,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+229,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+230,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+231,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+232,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.1,False
+233,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+234,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+235,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+236,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+237,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+238,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+239,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+240,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+241,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+242,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+243,Do,,"You see:
+- stone 1 step to your north
+- coal 4 steps to your south-west
+- grass 1 step to your west
+- tree 3 steps to your south
+
+You face stone at your front.",0.0,False
+244,Move West,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- tree 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+245,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- tree 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+246,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- tree 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+247,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- tree 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+248,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- tree 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+249,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- zombie 3 steps to your south
+- tree 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+250,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- zombie 3 steps to your south
+- tree 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+251,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- zombie 3 steps to your south
+- tree 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+252,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- zombie 3 steps to your south
+- tree 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+253,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- zombie 3 steps to your south
+- tree 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+254,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- zombie 3 steps to your south
+- tree 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+255,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- zombie 3 steps to your south
+- tree 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+256,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- zombie 3 steps to your south
+- tree 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+257,Move West,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+258,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.1,False
+259,Place Stone,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+260,Place Stone,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+261,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+262,Move West,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+263,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+264,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+265,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+266,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+267,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+268,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+269,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+270,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+271,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+272,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+273,Move West,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+274,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+275,Move West,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+276,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+277,Move West,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+278,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+279,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+280,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+281,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+282,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+283,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+284,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+285,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+286,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+287,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+288,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+289,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+290,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+291,Noop,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+292,Noop,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+293,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+294,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+295,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+296,Noop,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+297,Noop,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+298,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+299,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+300,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+301,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+302,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+303,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+304,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+305,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+306,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+307,Noop,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+308,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+309,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+310,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+311,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+312,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+313,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+314,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+315,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+316,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+317,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+318,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+319,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+320,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+321,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+322,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+323,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+324,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+325,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+326,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+327,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- zombie 4 steps to your south-east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+328,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+329,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+330,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+331,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+332,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+333,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+334,Sleep,,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+335,Sleep,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",-0.1,False
+336,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+337,Move West,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+338,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+339,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+340,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+341,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+342,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+343,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+344,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+345,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+346,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+347,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+348,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+349,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+350,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+351,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",-0.1,False
+352,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+353,Move West,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+354,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+355,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+356,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+357,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+358,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+359,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+360,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+361,Move West,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+362,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+363,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+364,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+365,Move West,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+366,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+367,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",-0.1,False
+368,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+369,Move West,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+370,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+371,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+372,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+373,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+374,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+375,Move West,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+376,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+377,Move East,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- tree 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+378,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- tree 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+379,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- tree 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+380,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- tree 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+381,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- tree 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+382,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- tree 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+383,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- tree 4 steps to your south-east
+
+You face grass at your front.",-0.1,False
+384,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- tree 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+385,Move West,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+386,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+387,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+388,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+389,Move West,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+390,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+391,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+392,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+393,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+394,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+395,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+396,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+397,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+398,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+399,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",-0.1,False
+400,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+401,Move West,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+402,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+403,Move West,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+404,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+405,Move West,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+406,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+407,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+408,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+409,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+410,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+411,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+412,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+413,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+414,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+415,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",-0.1,False
+416,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+417,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+418,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+419,Move West,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+420,Do,,"You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+421,Move East,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- tree 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+422,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- tree 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+423,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- tree 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+424,Place Table,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- tree 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+425,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- tree 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+426,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- tree 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+427,Place Plant,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- plant 1 step to your east
+- tree 4 steps to your south-east
+
+You face plant at your front.",0.0,False
+428,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- plant 1 step to your east
+- tree 4 steps to your south-east
+
+You face plant at your front.",0.0,False
+429,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- plant 1 step to your east
+- tree 4 steps to your south-east
+
+You face plant at your front.",0.0,False
+430,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- plant 1 step to your east
+- tree 4 steps to your south-east
+
+You face plant at your front.",0.0,False
+431,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- plant 1 step to your east
+- tree 4 steps to your south-east
+
+You face plant at your front.",-0.1,False
+432,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- plant 1 step to your east
+- tree 4 steps to your south-east
+
+You face plant at your front.",0.0,False
+433,Eat Plant,,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- plant 1 step to your east
+- tree 4 steps to your south-east
+
+You face plant at your front.",0.0,False
+434,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- plant 1 step to your east
+- tree 4 steps to your south-east
+
+You face plant at your front.",0.0,False
+435,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- plant 1 step to your east
+- tree 4 steps to your south-east
+
+You face plant at your front.",0.0,False
+436,Eat Plant,,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- plant 1 step to your east
+- tree 4 steps to your south-east
+
+You face plant at your front.",0.0,False
+437,Eat Plant,,"
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- plant 1 step to your east
+- tree 4 steps to your south-east
+
+You face plant at your front.",0.0,False
+438,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- plant 1 step to your east
+- tree 4 steps to your south-east
+
+You face plant at your front.",0.0,False
+439,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- plant 1 step to your east
+- tree 4 steps to your south-east
+
+You face plant at your front.",0.0,False
+440,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- plant 1 step to your east
+- tree 4 steps to your south-east
+
+You face plant at your front.",0.0,False
+441,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- plant 1 step to your east
+- tree 4 steps to your south-east
+
+You face plant at your front.",0.0,False
+442,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- plant 1 step to your east
+- tree 4 steps to your south-east
+
+You face plant at your front.",0.0,False
+443,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- plant 1 step to your east
+- tree 4 steps to your south-east
+
+You face plant at your front.",0.0,False
+444,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- plant 1 step to your east
+- tree 4 steps to your south-east
+
+You face plant at your front.",0.0,False
+445,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- plant 1 step to your east
+- tree 4 steps to your south-east
+
+You face plant at your front.",0.0,False
+446,Do,,"You see:
+- path 4 steps to your west
+- stone 1 step to your north
+- coal 3 steps to your south-west
+- grass 1 step to your west
+- plant 1 step to your east
+- tree 4 steps to your south-east
+
+You face plant at your front.",0.0,False
+447,Move West,,"You died.
+
+
+
+You see:
+- stone 1 step to your west
+- lava 6 steps to your north-west
+- path 3 steps to your west
+- coal 2 steps to your south-west
+- grass 1 step to your east
+- plant 2 steps to your east
+- tree 5 steps to your south-east
+
+You face stone at your front.",-0.1,True
