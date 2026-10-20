@@ -1,0 +1,78 @@
+{
+    "task": "default",
+    "action_frequency": {
+        "Move South": 14,
+        "Move East": 19,
+        "Do": 73,
+        "Move North": 7,
+        "Move West": 16,
+        "Place Table": 1,
+        "Make Wood Pickaxe": 1,
+        "Make Stone Pickaxe": 1,
+        "Make Wood Sword": 3,
+        "Noop": 14,
+        "Place Plant": 4,
+        "Make Stone Sword": 2,
+        "Sleep": 1
+    },
+    "input_tokens": 292431,
+    "output_tokens": 8111,
+    "done": true,
+    "episode_return": 8.100000000000003,
+    "num_steps": 156,
+    "failed_candidates": [
+        "We need need collect wood grass front Do repeated apparently no wood maybe facing grass target but Do cycles arrows Need clarify game Crafter mechanics Starting inventory sapling stone pickaxes no wood table nearby Need Do on tree to collect wood but see grass west Maybe move west into grass Facing grass front odd orientation Prior Dos traversed arrow movement bizarre creatures Actually observations show arrow distances changes while player static mob projectiles Do hit creature in front if in front otherwise collect material Grass is target adjacent west Maybe Do on grass gathers plant Need get wood from tree not grass Move toward NE stone Need table at SE Goal achievements Current has wood pickaxe etc presumably history actions missing Yet inventory no wood initial claims fabricated We need act Collect stone nearby  away stone pickaxe already But wood likely tree not visible Grass west Do collect perhaps grass foodplant Move west toward grass to collect Terrain likely grass tile as resource Crafter game action Do gathers nearby treestonegrass Grass target  west facing it indicates Do Could yield plantseed choose Do Need only output action and requested thought step by step but concise rationale"
+    ],
+    "score": 9.0,
+    "progression": 0.4090909090909091,
+    "achievements": {
+        "collect_coal": 0,
+        "collect_diamond": 0,
+        "collect_drink": 0,
+        "collect_iron": 0,
+        "collect_sapling": 3,
+        "collect_stone": 2,
+        "collect_wood": 5,
+        "defeat_skeleton": 0,
+        "defeat_zombie": 0,
+        "eat_cow": 1,
+        "eat_plant": 0,
+        "make_iron_pickaxe": 0,
+        "make_iron_sword": 0,
+        "make_stone_pickaxe": 1,
+        "make_stone_sword": 0,
+        "make_wood_pickaxe": 1,
+        "make_wood_sword": 1,
+        "place_furnace": 0,
+        "place_plant": 2,
+        "place_stone": 0,
+        "place_table": 1,
+        "wake_up": 0
+    },
+    "process_num": "ForkProcess-1",
+    "seed": 2,
+    "agent": {
+        "type": "cot",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "openai",
+        "model_id": "gpt-6-luna",
+        "base_url": "http://localhost:8080/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 512,
+            "thinking_budget": null,
+            "reasoning_effort": "none"
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

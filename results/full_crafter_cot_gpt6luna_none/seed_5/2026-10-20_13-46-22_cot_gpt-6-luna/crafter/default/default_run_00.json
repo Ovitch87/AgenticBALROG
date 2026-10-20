@@ -1,0 +1,73 @@
+{
+    "task": "default",
+    "action_frequency": {
+        "Noop": 1,
+        "Move West": 3,
+        "Do": 13,
+        "Move East": 13,
+        "Move North": 11,
+        "Move South": 4,
+        "Place Table": 1,
+        "Make Wood Pickaxe": 1
+    },
+    "input_tokens": 68805,
+    "output_tokens": 2560,
+    "done": true,
+    "episode_return": 4.1,
+    "num_steps": 47,
+    "failed_candidates": [
+        "We need begin collecting wood but only grass west Do on grass likely collect Crafter terrain starts grass trees nearby hidden Need move west then perhaps Do grass gives nothing The observations say grass one step west front grass Could Do to interact harvest Grass can collect sapling Typical Crafter game actions: Do collects resources from tree stone etc Grass is traversable perhaps move west Need single action move west ENTITY ACTION valid exact Need stepwise brief think Could say move west to explore beyond grass since no resources currently ACTION Move West"
+    ],
+    "score": 5.0,
+    "progression": 0.22727272727272727,
+    "achievements": {
+        "collect_coal": 0,
+        "collect_diamond": 0,
+        "collect_drink": 0,
+        "collect_iron": 0,
+        "collect_sapling": 1,
+        "collect_stone": 2,
+        "collect_wood": 4,
+        "defeat_skeleton": 0,
+        "defeat_zombie": 0,
+        "eat_cow": 0,
+        "eat_plant": 0,
+        "make_iron_pickaxe": 0,
+        "make_iron_sword": 0,
+        "make_stone_pickaxe": 0,
+        "make_stone_sword": 0,
+        "make_wood_pickaxe": 1,
+        "make_wood_sword": 0,
+        "place_furnace": 0,
+        "place_plant": 0,
+        "place_stone": 0,
+        "place_table": 1,
+        "wake_up": 0
+    },
+    "process_num": "ForkProcess-1",
+    "seed": 5,
+    "agent": {
+        "type": "cot",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "openai",
+        "model_id": "gpt-6-luna",
+        "base_url": "http://localhost:8080/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 512,
+            "thinking_budget": null,
+            "reasoning_effort": "none"
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

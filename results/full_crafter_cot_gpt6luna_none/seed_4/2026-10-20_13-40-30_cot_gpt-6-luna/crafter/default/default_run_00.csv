@@ -1,0 +1,1634 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,Move West,"Grass is directly in front of you, but collecting it does not directly advance an achievement. I should head west to explore and look for wood, which is needed to make a table and several tools.ACTION: Move West","You see:
+- grass 1 step to your west
+- sand 6 steps to your south-west
+- water 7 steps to your south-west
+
+You face grass at your front.",0.0,False
+1,Move West,"I should explore west to find trees and collect wood, the first priority for crafting a table and tools. Grass is in the way but can be crossed by moving west. ACTION: Move West","You see:
+- sand 5 steps to your south-west
+- water 4 steps to your west
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+2,Move West,"I need to explore for wood. Grass is directly west, so move west to continue scouting the nearby terrain. Once I find a tree, I can collect wood and work toward a table and tools.
+
+ACTION: Move West","You see:
+- water 3 steps to your west
+- sand 4 steps to your south-west
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+3,Move West,"The westward route is still grass, while water is only three steps away. I should continue exploring for trees and wood; move west along the grass. ACTION: Move West","You see:
+- water 2 steps to your west
+- sand 3 steps to your south-west
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+4,Move West,"The grass tile directly west is safe to enter, and moving that way continues exploration toward the nearby water. I should look for trees and gather wood while keeping the water location in mind. ACTION: Move West","You see:
+- water 1 step to your west
+- stone 4 steps to your west
+- iron 5 steps to your south-west
+- sand 2 steps to your south
+- grass 1 step to your north
+
+You face water at your front.",0.0,False
+5,Do,"We need to progress achievements, first collect wood and place table, requiring locate trees. Water is directly ahead, and Do can collect drink when facing water. Do that for achievement, then move away and explore for wood.ACTION: Do","You see:
+- water 1 step to your west
+- stone 4 steps to your west
+- iron 5 steps to your south-west
+- sand 2 steps to your south
+- grass 1 step to your north
+
+You face water at your front.",1.0,False
+6,Do,"The water is directly in front, so use Do to collect a drink and earn the Collect Drink achievement. ACTION: Do","You see:
+- water 1 step to your west
+- stone 4 steps to your west
+- iron 5 steps to your south-west
+- sand 2 steps to your south
+- grass 1 step to your north
+
+You face water at your front.",0.0,False
+7,Move North,"To make progress, start by collecting wood from a nearby tree; the current view shows only grass, water, and distant stone and iron, so move away from the water toward the grassy area to find resources. ACTION: Move North","You see:
+- water 1 step to your west
+- stone 4 steps to your west
+- iron 6 steps to your south-west
+- sand 3 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+8,Move North,"We need start collecting essentials. Water is immediately west, but we are facing grass north; the nearby stone is several steps away and collecting it generally needs a pickaxe. Move north into the grassy area to search for trees and other resources, avoiding the water edge. ACTION: Move North","You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+9,Move North,"I should move away from the water and continue through the grassy area to find trees and collect wood, which is needed for early crafting achievements. The grass directly north is the safest next step. ACTION: Move North","You see:
+- water 2 steps to your west
+- stone 6 steps to your south-west
+- sand 1 step to your west
+- grass 1 step to your south
+
+You face sand at your front.",0.0,False
+10,Move South,The nearby water and sand are not useful for the immediate wood and table achievements. Move south onto grass to explore for trees and collect wood. ACTION: Move South,"You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+11,Move North,"We’re standing on grass and facing north. There’s no wood visible, so explore the grass ahead to find trees; avoid stepping onto the nearby sand or water.ACTION: Move North","You see:
+- water 2 steps to your west
+- stone 6 steps to your south-west
+- sand 1 step to your west
+- grass 1 step to your south
+
+You face sand at your front.",0.0,False
+12,Move South,"We’re facing sand, with grass immediately to the south. Step back onto grass, then continue exploring for wood rather than moving onto the sand. ACTION: Move South","You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+13,Move South,"I’m on grass, with water one step west and no resources collected yet. Moving north previously led onto sand, so I should explore the grass to the south instead.ACTION: Move South","You see:
+- water 1 step to your west
+- stone 4 steps to your west
+- iron 6 steps to your south-west
+- sand 3 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+14,Move North,"I need to begin gathering wood to unlock the table and tools, while exploring grass rather than repeatedly stepping onto nearby sand or water. There are no trees visible in the observation, so I’ll move north across the grass to explore.ACTION: Move North","You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+15,Move North,"I’m on grass with no materials, and there’s no visible wood or tree to collect nearby. The grass to the north is the best direction to continue exploring away from the water and sand.ACTION: Move North","You see:
+- water 2 steps to your west
+- stone 6 steps to your south-west
+- sand 1 step to your west
+- grass 1 step to your south
+
+You face sand at your front.",0.0,False
+16,Move East,"I’m on grass, but the westward route is blocked by sand and water, and there are no collectible resources visible nearby. I should continue exploring across grass rather than repeat the moves that have kept me in this area.ACTION: Move East","You see:
+- water 3 steps to your west
+- sand 2 steps to your west
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+17,Move East,"The westward route is blocked by sand and water, so I should head east to explore grass and look for resources.ACTION: Move East","You see:
+- water 4 steps to your west
+- sand 3 steps to your west
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+18,Move East,"I’m on grass with no items, so I should explore the nearby grassy terrain for wood and other resources. Move East will take me away from the water and sand.  
+ACTION: Move East","You see:
+- water 4 steps to your north-east
+- sand 3 steps to your north
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+19,Move West,"I have no items, so the priority is to find and collect wood, then gather resources for crafting. The visible grass is one step west, so I should explore that direction. ACTION: Move West","You see:
+- water 4 steps to your west
+- sand 3 steps to your west
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+20,Move West,"Grass is the only nearby resource, so I should approach it and use Do to collect what it provides. ACTION: Move West","You see:
+- water 3 steps to your west
+- sand 2 steps to your west
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+21,Do,"The grass is directly in front of you, so use Do to gather it. ACTION: Do","You see:
+- water 3 steps to your west
+- sand 2 steps to your west
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+22,Move West,"You’re facing grass, but grass itself isn’t one of the listed achievement materials. Head west toward the nearby water to collect a drink, then explore for wood and saplings. ACTION: Move West","You see:
+- water 2 steps to your west
+- stone 6 steps to your south-west
+- sand 1 step to your west
+- grass 1 step to your south
+
+You face sand at your front.",0.0,False
+23,Move West,Move West toward the nearby water to collect a drink. ACTION: Move West,"You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- sand 2 steps to your north-east
+- grass 1 step to your east
+
+You face water at your front.",0.0,False
+24,Do,"Water is directly in front, and collecting a drink is an achievement. Use Do to drink. ACTION: Do","You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- sand 2 steps to your north-east
+- grass 1 step to your east
+
+You face water at your front.",0.0,False
+25,Move East,"The drink achievement is already complete, and water is blocking the way west. Grass is one step east, so move east to explore for useful resources and avoid staying at the water’s edge.
+
+ACTION: Move East","You see:
+- water 2 steps to your west
+- stone 6 steps to your south-west
+- sand 1 step to your west
+- grass 1 step to your south
+
+You face grass at your front.",0.0,False
+26,Move South,"We need collect wood first, which requires finding a tree. The nearby grass to the south is a safe direction to explore, while west is blocked by sand and water. Move south to continue scouting. ACTION: Move South","You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+27,Move North,"We need locate a tree to collect wood. The view only shows grass to the north and nearby water/sand, so move north to explore that grassy tile. Once we find a tree, use Do to collect wood, then craft essential tools and pursue the achievements. ACTION: Move North","You see:
+- water 2 steps to your west
+- stone 6 steps to your south-west
+- sand 1 step to your west
+- grass 1 step to your south
+
+You face sand at your front.",0.0,False
+28,Move South,"The nearby sand and water offer no immediate wood, food, or crafting materials. I should explore away from them to find a tree or other resources. The grass is one step south, so I’ll head south to continue scouting. ACTION: Move South","You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+29,Move South,Move South,"You see:
+- water 1 step to your west
+- stone 4 steps to your west
+- iron 6 steps to your south-west
+- sand 3 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+30,Do,"Collect the nearby grass-facing resource first, since it may be a tree or plant material needed for crafting. Then head toward the stone and iron deposits for later achievements.ACTION: Do","You see:
+- water 1 step to your west
+- stone 4 steps to your west
+- iron 6 steps to your south-west
+- sand 3 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+31,Move West,"Grass is not a collectible resource, and Do will not help while facing it. Turn toward the nearby stone deposit by moving west, then approach it. ACTION: Move West","You see:
+- water 1 step to your west
+- stone 4 steps to your west
+- iron 6 steps to your south-west
+- sand 3 steps to your north-west
+- grass 1 step to your north
+
+You face water at your front.",0.0,False
+32,Do,"Water is directly in front of you, so use Do to collect a drink. Then head to the nearby stone deposit; you’ll need a pickaxe before you can collect stone. ACTION: Do","You see:
+- water 1 step to your west
+- stone 4 steps to your west
+- iron 6 steps to your south-west
+- sand 3 steps to your north-west
+- grass 1 step to your north
+
+You face water at your front.",0.0,False
+33,Do,"You’re adjacent to water and facing it, so use Do to collect a drink and complete that achievement. Then we should gather wood and make a table and wooden pickaxe before attempting to collect stone.
+
+ACTION: Do","You see:
+- water 1 step to your west
+- stone 4 steps to your west
+- iron 6 steps to your south-west
+- sand 3 steps to your north-west
+- grass 1 step to your north
+
+You face water at your front.",0.0,False
+34,Move North,"The drink achievement is complete, but the water is still directly in front of you, blocking progress west. Move north onto grass, then explore for trees and collect wood so you can craft a table and wooden tools. Keep an eye on food and energy as you explore.
+
+ACTION: Move North","You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+35,Move South,"We have no items yet, and the nearby water is to the west. The last action was Move North, which appears to have returned us to the grass tile north of the water. We should head away from the water and toward the stone and iron, while looking for trees and resources. The stone is southwest, but without a pickaxe we should first gather wood and make a table and wooden pickaxe. Move south to continue exploring the grassy area.  
+ACTION: Move South","You see:
+- water 1 step to your west
+- stone 4 steps to your west
+- iron 6 steps to your south-west
+- sand 3 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+36,Move North,"We have no resources, so we should explore the surrounding grass for trees and collect wood before attempting the nearby stone. The grass tile to the north is the only visible route away from the water, so move north to explore.  
+ACTION: Move North","You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+37,Move East,"We’re trapped in a loop between the water and grass. The grass is directly north, and moving north has previously returned to this same observation, so instead move east to seek new terrain and resources. ACTION: Move East","You see:
+- water 2 steps to your west
+- sand 3 steps to your north-west
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+38,Move West,"We need to start gathering wood, but nothing in sight except grass. The grass is directly west, so move west and continue exploring for trees and resources.  
+ACTION: Move West","You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face water at your front.",0.0,False
+39,Move North,"The water is directly in front, so using Do would not help while facing it. Move north onto the nearby grass to explore and look for resources.  
+ACTION: Move North","You see:
+- water 2 steps to your west
+- stone 6 steps to your south-west
+- sand 1 step to your west
+- grass 1 step to your south
+
+You face sand at your front.",0.0,False
+40,Move South,"You’re on sand with grass immediately to the south; the earlier attempt to harvest while facing grass yielded nothing. Move onto the grass and use Do to collect nearby resources.  
+ACTION: Move South","You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+41,Move South,"You’re facing grass, but no resources are reported nearby besides stone and iron. First, explore toward the stone to find collectable resources and build inventory. Move southwest by heading south toward the stone.  
+ACTION: Move South","You see:
+- water 1 step to your west
+- stone 4 steps to your west
+- iron 6 steps to your south-west
+- sand 3 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+42,Do,"You’re facing grass, so use Do to gather it; this may collect wood or a sapling and begin progress toward crafting. ACTION: Do","You see:
+- water 1 step to your west
+- stone 4 steps to your west
+- iron 6 steps to your south-west
+- sand 3 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+43,Move South,"Grass won’t provide wood, and we need to explore for trees. Move south to continue across the terrain. ACTION: Move South","You see:
+- water 1 step to your west
+- stone 4 steps to your west
+- iron 5 steps to your south-west
+- sand 2 steps to your south
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+44,Move South,"We need wood first, but the nearby front is grass and repeated Do did not collect anything. The terrain to the south is sand, so head away from this dead end and explore for trees. ACTION: Move South","You see:
+- water 1 step to your west
+- stone 5 steps to your north-west
+- iron 4 steps to your west
+- path 6 steps to your south-west
+- grass 1 step to your north
+- sand 1 step to your south
+
+You face sand at your front.",0.0,False
+45,Move South,"We need find wood to start the crafting achievements. The immediate terrain is sand to the south and grass to the north, with no tree or collectible visible. Move onto sand to explore beyond the current spot. ACTION: Move South","You see:
+- stone 4 steps to your west
+- iron 5 steps to your north-west
+- path 5 steps to your south-west
+- water 1 step to your west
+- grass 1 step to your north
+- sand 4 steps to your south-east
+
+You face water at your front.",0.0,False
+46,Move North,"I need wood before pursuing crafting achievements. I’m near water, with grass one step north; moving north gets me off the water-facing position and lets me inspect the nearby grass for resources. ACTION: Move North","You see:
+- water 1 step to your west
+- stone 5 steps to your north-west
+- iron 4 steps to your west
+- path 6 steps to your south-west
+- grass 1 step to your north
+- sand 1 step to your south
+
+You face grass at your front.",0.0,False
+47,Do,"I have no resources, so crafting cannot begin yet. Grass is directly in front; I should use Do to gather from it and check whether it yields a useful resource such as a plant or sapling. Then I can seek wood and a table. ACTION: Do","You see:
+- water 1 step to your west
+- stone 5 steps to your north-west
+- iron 4 steps to your west
+- path 6 steps to your south-west
+- grass 1 step to your north
+- sand 1 step to your south
+
+You face grass at your front.",0.0,False
+48,Move South,"Grass is directly in front, but gathering from it is unlikely to provide the wood needed for early crafting. I should head toward the nearby path, where trees and other useful resources may be found. The path lies to the south-west, so I’ll move south to get closer. ACTION: Move South","You see:
+- stone 4 steps to your west
+- iron 5 steps to your north-west
+- path 5 steps to your south-west
+- water 1 step to your west
+- grass 1 step to your north
+- sand 4 steps to your south-east
+
+You face water at your front.",0.0,False
+49,Do,"The water is directly in front, so use Do to collect a drink and earn the Collect Drink achievement. ACTION: Do","You see:
+- stone 4 steps to your west
+- iron 5 steps to your north-west
+- path 5 steps to your south-west
+- water 1 step to your west
+- grass 1 step to your north
+- sand 4 steps to your south-east
+
+You face water at your front.",0.0,False
+50,Move North,"Drink is already full, so Do is unlikely to earn the collection achievement. Turn toward the grass to gather wood and begin crafting. ACTION: Move North","You see:
+- water 1 step to your west
+- stone 5 steps to your north-west
+- iron 4 steps to your west
+- path 6 steps to your south-west
+- grass 1 step to your north
+- sand 1 step to your south
+
+You face grass at your front.",0.0,False
+51,Do,"Gathering wood and saplings is the best way to start, since both are needed for early achievements and wood enables crafting. A successful Do on the grass ahead can collect vegetation; your food and drink are safe enough to spend a few turns gathering. ACTION: Do","You see:
+- water 1 step to your west
+- stone 5 steps to your north-west
+- iron 4 steps to your west
+- path 6 steps to your south-west
+- grass 1 step to your north
+- sand 1 step to your south
+
+You face grass at your front.",0.0,False
+52,Move East,"We need wood for the table and tools, but the grass directly ahead hasn’t yielded anything after several Do actions. The nearest resources are stone and iron to the west, though we need a pickaxe before collecting them. I should explore for trees while keeping an eye on food and energy. Move east to search new terrain. ACTION: Move East","You see:
+- water 2 steps to your west
+- path 7 steps to your south-west
+- grass 1 step to your west
+- sand 2 steps to your south-west
+
+You face grass at your front.",0.0,False
+53,Move West,"We’ve been stuck near water and grass without collecting anything. The grass immediately west may be a resource tile, so move toward it and try to collect next; we should explore for trees to obtain wood and work toward the table and tools. With energy at 8/9, no need to sleep yet. ACTION: Move West","You see:
+- water 1 step to your west
+- stone 5 steps to your north-west
+- iron 4 steps to your west
+- path 6 steps to your south-west
+- grass 1 step to your north
+- sand 1 step to your south
+
+You face water at your front.",0.0,False
+54,Move North,"We need to find trees and collect wood before attempting crafting achievements. The water is immediately west, so avoid moving into it. The nearby grass to the north is safe to explore; move there and inspect the area. ACTION: Move North","You see:
+- water 1 step to your west
+- stone 4 steps to your west
+- iron 5 steps to your south-west
+- sand 2 steps to your south
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+55,Move North,"The nearby grass is directly north and safe to move onto. With an empty inventory, first explore for trees and collect wood; avoid the water to the west. ACTION: Move North","You see:
+- water 1 step to your west
+- stone 4 steps to your west
+- iron 6 steps to your south-west
+- sand 3 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+56,Move North,"The nearby grass is directly north, while the water is west and no useful materials are immediately accessible. Move north to explore for wood and other resources, keeping clear of the water. ACTION: Move North","You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+57,Do,"Step 1: Collecting the grass may yield a sapling or plant-related materials, and it is directly in front of you. Step 2: Use Do to gather it. ACTION: Do","You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+58,Move North,"We’ve spent several actions trying to collect grass, but it yielded nothing. We need wood first to progress, so move toward unexplored terrain rather than repeat the same action. ACTION: Move North","You see:
+- water 2 steps to your west
+- stone 6 steps to your south-west
+- sand 1 step to your west
+- grass 1 step to your south
+
+You face sand at your front.",0.0,False
+59,Move North,"We need wood before crafting. Grass and sand are not useful for collecting wood, so keep exploring north from this position toward a forest. You have plenty of energy and need not sleep yet.
+
+ACTION: Move North","You see:
+- water 1 step to your west
+- stone 7 steps to your south-west
+- sand 1 step to your north
+- grass 1 step to your south
+
+You face sand at your front.",0.0,False
+60,Move North,"You’re on sand with grass to the south and water to the west. No resources are in inventory, so the priority is to find trees and collect wood before crafting. Move north to continue exploring.
+
+ACTION: Move North","You see:
+- water 1 step to your west
+- sand 1 step to your south
+- grass 1 step to your east
+
+You face water at your front.",0.0,False
+61,Do,"The immediate priority is to drink from the adjacent water, then explore the nearby grass for trees and wood. You’re already facing the water, so use Do to collect a drink. Afterward, move onto grass and search for wood.
+
+ACTION: Do","You see:
+- water 1 step to your west
+- sand 1 step to your south
+- grass 1 step to your east
+
+You face water at your front.",0.0,False
+62,Move East,"Drink is full, so move onto the adjacent grass to look for trees and collect wood.
+
+ACTION: Move East","You see:
+- water 2 steps to your west
+- sand 1 step to your west
+- grass 1 step to your south
+
+You face grass at your front.",0.0,False
+63,Move South,"You’re on grass with full drink and no materials. Continue exploring for trees and collect wood; the nearby grass is directly south, so move there to search. ACTION: Move South","You see:
+- water 2 steps to your west
+- sand 1 step to your west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+64,Move North,"You’re on grass, with another grass tile one step north. Energy is low enough that sleeping can restore it, but food is also getting low and there are no materials yet. Keep exploring grass for trees and other resources; move north first, then use Do to gather if you encounter a resource. ACTION: Move North","You see:
+- water 2 steps to your west
+- sand 1 step to your west
+- grass 1 step to your south
+
+You face sand at your front.",0.0,False
+65,Move South,"You’re facing sand, with grass directly south. No resources or achievements have been collected yet, so move back onto grass and continue looking for trees. ACTION: Move South","You see:
+- water 2 steps to your west
+- sand 1 step to your west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+66,Move North,"You’re on sand with grass to the north. To resume exploring for resources, step onto the grass. ACTION: Move North","You see:
+- water 2 steps to your west
+- sand 1 step to your west
+- grass 1 step to your south
+
+You face sand at your front.",0.0,False
+67,Move South,"I’m on sand, facing west toward sand. Grass is directly south, so I can return to it and search for wood and other resources. My energy is below maximum, but not low enough to sleep yet. ACTION: Move South","You see:
+- water 2 steps to your west
+- sand 1 step to your west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+68,Move North,"We need start collecting resources; facing grass, Do might collect grass? Crafter Do collects material in front; grass likely no. Need wood find forest. Move north perhaps grass tile, but previous weird loop. Currently face grass north. Step north onto it and inspect. ACTION valid. Need explain step by step briefly. We need only actions. Maybe move north.**Plan:** Move onto the grass tile, then look for trees and collect wood. We’ll need wood to craft a table and basic tools.  
+ACTION: Move North","You see:
+- water 2 steps to your west
+- sand 1 step to your west
+- grass 1 step to your south
+
+You face sand at your front.",0.0,False
+69,Move South,"We need leave the sand/water edge and search for trees on grassland. Since grass is immediately south, move south onto it and continue exploring for wood. Once you find a tree, face it and use Do to collect wood.  
+ACTION: Move South","You see:
+- water 2 steps to your west
+- sand 1 step to your west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+70,Move East,You’re on the grass tile beside the sand and water. The repeated north–south moves suggest the area immediately around you is blocked or you’re retracing steps. Move east to explore new ground and look for resources. ACTION: Move East,"You see:
+- water 3 steps to your west
+- sand 2 steps to your west
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+71,Move West,"You have no resources yet, so start by collecting wood. Explore the grass tile to your west, then use Do to gather from nearby trees if present. Your energy is low but not yet critical, and collecting resources takes priority. ACTION: Move West","You see:
+- water 2 steps to your west
+- sand 1 step to your west
+- grass 1 step to your north
+
+You face sand at your front.",0.0,False
+72,Move North,"The grass tile is north, while the tile ahead is sand. Move north onto grass to explore for resources. ACTION: Move North","You see:
+- water 2 steps to your west
+- sand 1 step to your west
+- grass 1 step to your south
+
+You face sand at your front.",0.0,False
+73,Move East,"You are on grass, with sand immediately west and water two steps west. No resources are visible nearby, so explore farther across the grass rather than revisiting the sand or water. Keep energy in mind, but it is not low enough to sleep yet.
+
+ACTION: Move East","You see:
+- water 2 steps to your north
+- sand 2 steps to your west
+- grass 1 step to your west
+- arrow 4 steps to your north-west
+
+You face grass at your front.",0.0,False
+74,Move North,Move North,"You see:
+- stone 5 steps to your north-west
+- water 1 step to your north
+- sand 1 step to your west
+- grass 1 step to your south
+- arrow 2 steps to your north-west
+
+You face water at your front.",0.0,False
+75,Do,"Drink first, then begin gathering nearby wood, which is needed to craft a table and tools. ACTION: Do","You see:
+- stone 5 steps to your north-west
+- water 1 step to your north
+- sand 1 step to your east
+- grass 1 step to your south
+- arrow 1 step to your west
+
+You face water at your front.",0.0,False
+76,Do,"You’re facing water and are one step away from it, so use Do to collect a drink and earn the Collect Drink achievement. Your drink meter is already full, but the interaction should still register the collection. ACTION: Do","You see:
+- stone 5 steps to your north-west
+- water 1 step to your north
+- sand 1 step to your west
+- grass 1 step to your south
+- arrow 2 steps to your south-west
+
+You face water at your front.",0.0,False
+77,Do,"We need secure basic resources and achievements. Water is directly ahead, so use Do to collect drink before moving on; even if the drink meter is full, it may register the achievement. ACTION: Do","You see:
+- stone 5 steps to your north-west
+- water 1 step to your north
+- sand 1 step to your west
+- grass 1 step to your south
+- arrow 3 steps to your south-west
+
+You face water at your front.",0.0,False
+78,Move South,"We need gather wood first to unlock table and tools. The current view has only water, sand, and grass nearby; move south onto grass to explore for trees and resources. ACTION: Move South","You see:
+- water 2 steps to your north
+- sand 2 steps to your west
+- grass 1 step to your west
+- arrow 3 steps to your south-west
+
+You face grass at your front.",0.0,False
+79,Move West,"You have no inventory, and there are no resources immediately visible to collect. Move west onto the nearby grass to explore for wood and other materials. ACTION: Move West","You see:
+- water 2 steps to your west
+- sand 1 step to your west
+- grass 1 step to your south
+- arrow 2 steps to your north
+
+You face sand at your front.",0.0,False
+80,Move South,"You’re facing sand, with water two steps west. The visible grass is to the south, so move south to explore away from the shoreline and look for resources. ACTION: Move South","You see:
+- water 2 steps to your west
+- sand 1 step to your west
+- grass 1 step to your north
+- arrow 2 steps to your north
+
+You face grass at your front.",0.0,False
+81,Move North,"You have no resources yet, and the arrow indicates a nearby target to the north. Move north toward it to investigate. ACTION: Move North","You see:
+- water 2 steps to your west
+- sand 1 step to your west
+- grass 1 step to your south
+
+You face sand at your front.",-0.2,False
+82,We need resources and arrow gone Need get wood likely explore grass currently faces sand west grass south Move perhaps east Step history odd oscillating Need proceed south onto grass facing orientation perhaps after previous action north now facing sand front means facing west Observation terrain front sand Movement directional independent and orientation tracks last action Crafter actions face direction maybe move north places facing north but front sand contradictory spatial We can use Do to collect resource front only Need wood trees unseen move south onto grass from current ACTION move south But previous instruction content shouldnt dictate Need single action Move South,"We need resources and arrow gone. Need get wood, likely explore grass; currently faces sand west, grass south. Move perhaps east? Step history odd oscillating. Need proceed south onto grass? facing orientation perhaps after previous action north, now facing sand front means facing west? Observation terrain front sand. Movement directional independent and orientation tracks last action? Crafter actions face direction maybe move north places facing north, but front sand contradictory spatial. We can use Do to collect resource front only. Need wood trees unseen. move south onto grass from current? ACTION move south. But previous instruction content shouldn't dictate. Need single action. Move South.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- water 2 steps to your west
+- sand 1 step to your west
+- grass 1 step to your south
+- arrow 3 steps to your north
+
+You face sand at your front.",0.0,False
+83,Move South,"Move south onto the grass to explore for resources; avoid the water and sand for now.
+
+ACTION: Move South","You see:
+- water 2 steps to your west
+- sand 1 step to your west
+- grass 1 step to your north
+- arrow 3 steps to your north
+
+You face grass at your front.",0.0,False
+84,Move North,"We have no resources yet, and need explore grassland for wood and other materials. The grass is directly in front, so use Do to gather from the tile ahead if it contains a collectable, otherwise move toward unexplored terrain. Since the current facing is grass but the observation says grass one step north, move north to approach it.
+
+ACTION: Move North","You see:
+- water 2 steps to your west
+- sand 1 step to your west
+- grass 1 step to your south
+- arrow 1 step to your north
+
+You face arrow at your front.",0.0,False
+85,Move South,"The arrow is adjacent and directly in front, so it may be a creature. With health at 7/9, avoid engaging until better equipped. Move south, away from it, onto the grass to explore for resources. Then gather wood and craft a table and basic tools. ACTION: Move South","You see:
+- water 2 steps to your west
+- sand 1 step to your west
+- grass 1 step to your south
+- arrow 1 step to your north
+
+You face grass at your front.",0.0,False
+86,Move South,"Move south onto the adjacent grass, away from the arrow. Then explore for wood and other resources before crafting. ACTION: Move South","You see:
+- water 3 steps to your west
+- sand 2 steps to your west
+- grass 1 step to your west
+- arrow 1 step to your north
+
+You face grass at your front.",0.0,False
+87,Move West,"You’re low on health and energy, with an arrow immediately to the north. Move west onto the nearby grass to get away from it and explore for resources. ACTION: Move West","You see:
+- water 2 steps to your west
+- stone 6 steps to your south-west
+- sand 1 step to your west
+- grass 1 step to your south
+- arrow 1 step to your east
+
+You face sand at your front.",0.0,False
+88,Move South,"There’s an arrow immediately east, so avoid moving toward it. The west tile is sand, but moving south onto nearby grass is safer and continues exploration. ACTION: Move South","You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+- arrow 1 step to your east
+
+You face grass at your front.",0.0,False
+89,Move North,"I need find wood first for most crafting achievements. The nearby grass is north, while the arrow is east, so move north to explore away from the arrow. ACTION: Move North","You see:
+- water 2 steps to your west
+- stone 6 steps to your south-west
+- sand 1 step to your west
+- grass 1 step to your south
+- arrow 2 steps to your north-east
+
+You face sand at your front.",0.0,False
+90,Move South,Move South should take you onto grass and away from the nearby arrow. ACTION: Move South,"You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+- arrow 2 steps to your north-east
+
+You face grass at your front.",0.0,False
+91,Move West,"The arrow is two steps to the north-east, so moving north risks approaching it. Move west toward the nearby water to collect a drink, then explore for wood. You’re not thirsty yet, but staying away from the arrow is safer.ACTION: Move West","You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+- arrow 1 step to your east
+
+You face water at your front.",0.0,False
+92,Do,"We need make progress on achievements while preserving health and resources. Water is directly in front, so use Do to collect a drink; then we should explore toward wood while avoiding the nearby arrow to the east.ACTION: Do","You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+- arrow 2 steps to your south-east
+
+You face water at your front.",0.0,False
+93,Move North,"Water collection is achieved, and the nearby arrow is still some distance away. We have no materials yet, so explore the surrounding grass to find wood and other resources. Move north toward the adjacent grass. ACTION: Move North","You see:
+- water 2 steps to your west
+- stone 6 steps to your south-west
+- sand 1 step to your west
+- grass 1 step to your south
+- arrow 4 steps to your south-east
+
+You face sand at your front.",0.0,False
+94,Move South,"We need wood for a table and tools. There are no wood resources visible, so we should explore the nearby grass rather than spend time at the water or head toward distant stone. Move south to the adjacent grass and inspect the area. ACTION: Move South","You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+- arrow 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+95,Move North,"We need leave the water’s edge and explore the adjacent grass for resources. Moving north returns to the nearby grass tile and keeps us away from the arrow.
+
+ACTION: Move North","You see:
+- water 2 steps to your west
+- stone 6 steps to your south-west
+- sand 1 step to your west
+- grass 1 step to your south
+
+You face sand at your front.",0.0,False
+96,Move South,"We need prioritize collecting wood to unlock crafting achievements. The nearby grass tile is south, while the west is sand and water. Move south to continue exploring grass. Then use Do when facing a resource.
+
+ACTION: Move South","You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+97,Move North,"We need explore toward the stone and iron, but need a pickaxe to collect them. First find wood and saplings by exploring grassland. The grass is directly north, so move north to continue across it.
+
+ACTION: Move North","You see:
+- water 2 steps to your west
+- stone 6 steps to your south-west
+- sand 1 step to your west
+- grass 1 step to your south
+
+You face sand at your front.",0.0,False
+98,Move South,"We’re repeatedly oscillating north and south without gaining ground, so the next step should break that loop and explore the adjacent grassland. Water is to the west, so avoid moving west; the stone is still several steps away and cannot be collected without a pickaxe. Move south onto the grass and then seek wood by exploring nearby tiles. ACTION: Move South","You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+99,Move North,"You’re on grass with no inventory, and the nearby stone and iron are not yet accessible. The first priority is to explore for wood and collect it; energy is low but not depleted, and food and drink are adequate. Move away from the shoreline and search the grassland. Since grass is one step north, move north to explore. ACTION: Move North","You see:
+- water 2 steps to your west
+- stone 6 steps to your south-west
+- sand 1 step to your west
+- grass 1 step to your south
+
+You face sand at your front.",0.0,False
+100,Move South,"You appear to be oscillating between the same two positions, with grass to the south and sand to the west. Move south onto the grass to get away from the shoreline and continue exploring for wood. ACTION: Move South","You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+101,Move East,"I’m stuck in a north–south loop on the same grass tile. I should break the loop by moving east, exploring away from the water and toward land where resources may be found. ACTION: Move East","You see:
+- water 2 steps to your west
+- sand 3 steps to your north-west
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+102,Move South,"I have no resources, and the nearby grass is to my west. I should collect wood from a tree if one is available, but none is listed nearby. Moving east would continue away from the visible resources; moving west returns toward the water and grass. I should explore south for land and resources. ACTION: Move South","You see:
+- water 2 steps to your west
+- sand 4 steps to your north-west
+- grass 1 step to your west
+
+You face grass at your front.",0.1,False
+103,Move West,"There is no wood or other collectible resource visible, and the grass tile immediately west is the only nearby terrain to investigate. Move west to explore it. ACTION: Move West","You see:
+- water 1 step to your west
+- stone 4 steps to your west
+- iron 6 steps to your south-west
+- sand 3 steps to your north-west
+- grass 1 step to your north
+
+You face water at your front.",0.0,False
+104,Move North,"We need wood first, but none is visible nearby. The grass to the north is the only adjacent land to explore, while west is water. Move north to continue searching. ACTION: Move North","You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+105,Move South,"You need to find wood before crafting or progressing other achievements. Your previous move north appears to have returned you to the same position, so avoid repeating it. The adjacent grass is to the north, but moving south may break the loop and reveal new terrain. ACTION: Move South","You see:
+- water 1 step to your west
+- stone 4 steps to your west
+- iron 6 steps to your south-west
+- sand 3 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+106,Do,"We have no inventory, so we should begin by collecting wood from a nearby tree, rather than repeatedly moving between the grass and water. The observation shows grass directly ahead, so use Do to interact with it and see whether it yields a resource. ACTION: Do","You see:
+- water 1 step to your west
+- stone 4 steps to your west
+- iron 6 steps to your south-west
+- sand 3 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+107,Move North,"We need to make progress on the achievements, and the immediate priority is getting wood, which is typically collected from a tree rather than grass. The prior attempts have left us moving around this area without gaining anything. We should leave the grass and explore nearby terrain for a tree; moving north is a reasonable first step away from the water and toward unexplored ground.
+
+ACTION: Move North","You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+108,Move North,"We’re currently facing grass, not a tree, and have no materials. The nearby water is one step west, so drinking is easy if needed, but drink is full. Energy is 6/9, so we can keep exploring without sleeping. The nearby stone and iron are not useful until we have tools. Move north to explore beyond the grass.  
+ACTION: Move North","You see:
+- water 2 steps to your west
+- stone 6 steps to your south-west
+- sand 1 step to your west
+- grass 1 step to your south
+
+You face sand at your front.",0.0,False
+109,Move South,"We need prioritize early achievements: find trees to collect wood and saplings, craft table and tools. The immediate tile ahead is sand, so moving north appears blocked or unproductive. Grass is one step south and can be gathered, but plant achievement needs a plant, likely tree sapling; Do while facing grass may collect it if it's a plant. Water is nearby but drink is full. Move toward the grass to investigate/collect it. ACTION: Move South","You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+110,Sleep,"You have low energy, so sleeping is appropriate before continuing exploration. The grass directly ahead is not a reliable way to make progress, and you need to find wood first. Sleep restores energy without spending a turn moving away from this spot.
+
+ACTION: Sleep","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+111,Noop,"You’re still sleeping, and the observation says you can’t act until your energy is full. Wait for the sleep cycle to finish.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+112,Noop,"Sleeping restores energy over time, and you can’t act until it’s full. Wait another turn.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+113,Noop,"Wait until your energy is full so you can resume gathering resources. Sleeping prevents other actions, and no movement is needed yet.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+114,Noop,"You’re still sleeping and cannot act until your energy is full, so wait one more turn. ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+115,Noop,"You’re still sleeping, and energy is only 6/9. Wait until it is full before trying to act. ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+116,Noop,"You’re still sleeping, so actions other than waiting won’t work. Keep waiting for energy to refill; once awake, we can start collecting wood and working toward the nearby water and stone.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+117,Noop,"You’re still sleeping, and energy is only 6/9. Wait until it reaches full before taking other actions.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+118,Noop,"You’re still asleep, so you can’t move or gather resources yet. Wait for energy to recover fully.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+119,Noop,"You are still sleeping with energy at 6/9. Wait until it recovers fully before taking other actions.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.1,False
+120,Noop,"Sleeping is the best way to restore energy, and no other action is available until energy is full. Wait one more turn.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+121,Noop,"Sleeping restores energy over time; at 6/9, wait until you wake and can act again.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+122,Noop,"Noop should let sleeping restore the remaining energy, after which we can act.  
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+123,Noop,"You’re still sleeping, and energy is 7/9. Wait until it reaches full before taking another action.  
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+124,Noop,"You’re still sleeping with energy at 7/9, so wait until it reaches full before taking another action.  
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+125,Noop,"You’re still sleeping and cannot take actions until your energy is full. Wait another turn; once awake, we can begin gathering resources and pursuing achievements.  
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+126,Noop,"Energy is 7/9, and sleeping prevents all other actions until it reaches full. Wait one turn; then check whether you’ve woken up.  
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+127,Noop,"While sleeping, you can’t move or take other actions. Wait for energy to refill, then check again.  
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+128,Noop,"You’re still sleeping with energy at 7/9, so you can’t act yet. Wait for energy to refill.  
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+129,Noop,"Since you’re still asleep at 7/9 energy, actions won’t work yet. Wait for energy to refill, then gather nearby resources and progress toward crafting and survival achievements.  
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+130,Noop,"You’re still sleeping, so movement or gathering won’t be available until your energy is full. Wait one turn, then reassess.  
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+131,Noop,"You’re still asleep, and actions won’t take effect until your energy is full. Wait a turn, then reassess.  
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+132,Noop,"Your energy is 7/9, and you’re still sleeping, so wait for it to refill before taking other actions. Once awake, drink from the water to keep your thirst up, then gather nearby resources and work toward crafting achievements.  
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+133,Noop,"You’re still asleep at 8/9 energy, so you can’t gather or move yet. Wait one turn for energy to reach full, then start acting.  
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+134,Noop,"The observation says you are still sleeping and cannot act until your energy is full. Wait one turn; once awake, we can begin gathering resources and pursuing achievements.  
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+135,Noop,"You’re still sleeping with energy at 8/9, so you can’t take an action yet. Wait for energy to reach full before starting.  
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+136,Noop,"You are still asleep with energy at 8/9, and cannot act until it is full. Wait one more turn, then reassess.  
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+137,Noop,"You’re still sleeping at 8/9 energy, so you cannot take an active action yet. Wait one turn for energy to refill, then reassess.  
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+138,Noop,"You’re still sleeping with energy at 8/9, so you can’t act yet. Wait one turn; once energy is full, you’ll wake and can start collecting resources.  
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+139,Noop,"Since you’re still asleep and need 1 more energy to wake, wait for the final recovery tick. Then begin collecting nearby resources, starting with the grass to the north.  
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+140,Noop,"You’re at 8/9 energy and still sleeping, so you can’t act yet. One more recovery tick should wake you; wait for it. Then collect the grass directly in front with Do.  
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+141,Noop,"You’re still sleeping at 8/9 energy, so actions won’t work yet. Wait one more turn for energy to refill, then start collecting resources.  
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+142,Noop,"You’re still sleeping with energy at 8/9, so you can’t act yet. Wait one turn for energy to refill; then you can begin gathering resources.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+143,Noop,"You’re still asleep at 8/9 energy, so movement and gathering won’t work yet. Wait one turn for energy to refill; then you can start acting.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+144,Noop,"Energy is full, so the sleep restriction should end. First wake up, then gather nearby wood and saplings, craft a table and wooden tools, and work toward the remaining achievements while keeping food and drink replenished.
+
+ACTION: Noop","You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",1.0,False
+145,Sleep,"Energy is full, so use Sleep to wake up and earn the Wake Up achievement. Then gather resources and work toward crafting tools. ACTION: Sleep","You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+146,Do,"Collect wood first, since it is required for the table and basic tools. The grass tile in front may be blocking access to nearby resources; use Do to interact with it. ACTION: Do","You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+147,Do,"You’re fully rested and currently facing grass, which can be harvested for plant material and may yield a sapling. Start with Do to interact with it; then use the nearby water to collect a drink as needed and look for trees to gather wood for crafting. ACTION: Do","You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+148,Do,"You’re facing grass, so use Do to collect plant material or a sapling. ACTION: Do","You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+- zombie 7 steps to your south-east
+
+You face grass at your front.",0.0,False
+149,Move North,"We need secure wood first, then a table and tools. There’s no tree reported nearby, so move toward the visible grassy area to explore, keeping an eye on food and the zombie.ACTION: Move North","You see:
+- water 2 steps to your west
+- stone 6 steps to your south-west
+- sand 1 step to your west
+- grass 1 step to your south
+
+You face sand at your front.",0.0,False
+150,Move South,"We need start gathering essentials and seek a tree. We’re facing sand, and grass is one step south; move south onto the grass to explore nearby terrain. Then use Do when a tree is visible and nearby to collect wood. The water is close enough to drink later if needed. ACTION: Move South","You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+- zombie 7 steps to your south-east
+
+You face grass at your front.",0.0,False
+151,Move North,"No trees, resources, or plants are immediately available to collect, and the zombie is still distant. Move north onto the nearby grass to explore for useful materials. ACTION: Move North","You see:
+- water 2 steps to your west
+- stone 6 steps to your south-west
+- sand 1 step to your west
+- grass 1 step to your south
+- zombie 7 steps to your south-east
+
+You face sand at your front.",0.0,False
+152,Move West,"There are no immediately visible resources to collect, and the nearby sand is not useful for the listed achievements. Since water is close and drink is already at 7/9, head toward it before drink gets low. Move west toward the water, then use Do when adjacent to drink. ACTION: Move West","You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- sand 2 steps to your north-east
+- grass 1 step to your east
+- zombie 7 steps to your south-east
+
+You face water at your front.",0.0,False
+153,Do,"You’re facing water from one step away, so use Do to collect a drink and make progress on the Collect Drink achievement. Then we can seek wood and food. ACTION: Do","You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- sand 2 steps to your north-east
+- grass 1 step to your east
+
+You face water at your front.",0.0,False
+154,Do,"You’re facing water and need food soon, while the nearby grass to the east may lead toward useful resources. First collect a drink, then explore for wood and food. ACTION: Do","You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- sand 2 steps to your north-east
+- grass 1 step to your east
+- zombie 7 steps to your south-east
+
+You face water at your front.",0.0,False
+155,Move East,"We have no inventory, food is low, and the nearby grass to the east is the best place to begin exploring for wood, saplings, and animals. Move east toward it. ACTION: Move East","You see:
+- water 2 steps to your west
+- stone 6 steps to your south-west
+- sand 1 step to your west
+- grass 1 step to your south
+- zombie 5 steps to your south-east
+
+You face grass at your front.",0.0,False
+156,Move South,"We have nothing in inventory and food is low, so prioritize finding basic resources and food. Grass is immediately south; move there to explore that terrain, keeping distance from the zombie. Then gather wood or food as available. ACTION: Move South","You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+- zombie 3 steps to your south-east
+
+You face grass at your front.",0.0,False
+157,Move North,"We have no inventory, so first look for wood and food while avoiding the nearby zombie. The grass to the north is the safest immediate terrain to explore; moving there also increases distance from the zombie to the southeast. ACTION: Move North","You see:
+- water 2 steps to your west
+- stone 6 steps to your south-west
+- sand 1 step to your west
+- grass 1 step to your south
+- zombie 3 steps to your south-east
+
+You face sand at your front.",0.0,False
+158,Move North,"We need prioritize wood. The grass is one step south, but the zombie is southeast and currently three steps away. Moving south may bring us closer to it. We have no wood or food, and the immediate surroundings provide only sand and water. Better move north to create distance from the zombie and explore safer terrain. ACTION: Move North","You see:
+- water 1 step to your west
+- stone 7 steps to your south-west
+- sand 1 step to your north
+- grass 1 step to your south
+- zombie 3 steps to your south-east
+
+You face sand at your front.",0.0,False
+159,Move North,"We need obtain wood first, but there is no tree visible nearby. The zombie is three steps southeast, and health is full, so we should avoid moving toward it while exploring. Moving north takes us onto the adjacent sand and increases distance from the zombie; from there we can inspect the surroundings and look for trees.
+
+ACTION: Move North","You see:
+- water 1 step to your west
+- sand 1 step to your south
+- grass 1 step to your east
+- zombie 3 steps to your south-east
+
+You face water at your front.",0.0,False
+160,Move East,"We need explore for resources and prioritize basic progress. Water is adjacent west, but drink is full. The zombie is three steps southeast, so avoid moving toward it. No trees or materials are visible here; move east onto grass to search for wood while staying clear of the zombie. We can collect wood with Do when facing a tree.
+
+ACTION: Move East","You see:
+- water 2 steps to your west
+- sand 1 step to your west
+- grass 1 step to your east
+- zombie 1 step to your south
+
+You face grass at your front.",-0.2,False
+161,Move East,"The zombie is adjacent to the south, so moving south risks an attack. Facing grass to the east, move east to create distance and keep searching for useful resources. We have no inventory yet, so collecting wood remains a priority once a tree is found.
+
+ACTION: Move East","You see:
+- water 2 steps to your north
+- sand 2 steps to your west
+- grass 1 step to your west
+- zombie 1 step to your south
+
+You face grass at your front.",0.0,False
+162,Move West,"The zombie is one step south, and you face grass to the west. Since Do hits a creature only in front, first face south by moving south—but that would bring you onto the zombie’s tile. Safer to move west away from it, then reassess.ACTION: Move West","You see:
+- water 2 steps to your west
+- sand 1 step to your west
+- grass 1 step to your south
+- zombie 1 step to your east
+
+You face sand at your front.",0.0,False
+163,Move South,"You have no materials yet, and the zombie is adjacent to your east. Avoid approaching it; collect nearby resources first. The sand is directly ahead, but it is not needed for the early wood achievements. Turn away by moving south onto the grass, then seek trees and collect wood. Since only one action is allowed now, move south. ACTION: Move South","You see:
+- water 2 steps to your west
+- sand 1 step to your west
+- grass 1 step to your north
+- zombie 1 step to your east
+
+You face grass at your front.",0.0,False
+164,Move West,"The zombie is adjacent to the east, and you have no weapon or materials. Moving east or using Do risks combat; moving north could bring you closer to it. Move west away from the zombie and toward the sand. ACTION: Move West","You see:
+- water 1 step to your west
+- stone 7 steps to your south-west
+- sand 1 step to your north
+- grass 1 step to your south
+- zombie 1 step to your east
+
+You face water at your front.",0.0,False
+165,Move West,"The zombie is adjacent to the east, and you’re already low on health and food. Moving west would take you toward water, while moving north or south could keep you exposed. Move west to create distance from the zombie. ACTION: Move West","You see:
+- water 1 step to your west
+- stone 7 steps to your south-west
+- sand 1 step to your north
+- grass 1 step to your south
+- zombie 1 step to your east
+
+You face water at your front.",0.0,False
+166,Do,"Step 1: The zombie is adjacent to the east, so avoid moving toward it. Step 2: Water is directly west; drinking from a nearby lake may earn the Collect Drink achievement, while moving away could leave the zombie close. Step 3: Use Do while facing the water. ACTION: Do","You see:
+- water 1 step to your west
+- stone 7 steps to your south-west
+- sand 1 step to your north
+- grass 1 step to your south
+- zombie 1 step to your east
+
+You face water at your front.",-0.2,False
+167,Move West,"You’re low on health and food, with the zombie adjacent to the east. You have no inventory, so there’s no weapon or material to craft one yet. Since you’re facing water, `Do` could drink, but your drink is already full. It might also collect an adjacent resource or attack a creature directly in front—but the zombie is to your east, not in front. The safest immediate move is to escape west, away from the zombie. ACTION: Move West","You see:
+- water 1 step to your west
+- stone 7 steps to your south-west
+- sand 1 step to your north
+- grass 1 step to your south
+- zombie 1 step to your east
+
+You face water at your front.",0.0,False
+168,Move West,"You have no inventory and are at 5/9 health, so avoid engaging the zombie. It is adjacent to the east; moving west increases your distance from it and keeps you away from combat.ACTION: Move West","You see:
+- water 1 step to your west
+- stone 7 steps to your south-west
+- sand 1 step to your north
+- grass 1 step to your south
+- zombie 1 step to your east
+
+You face water at your front.",0.0,False
+169,Move South,"The zombie is adjacent to the east, and you have only 5/9 health with no weapon. Moving west did not change your position, likely because water blocks that direction. Move south onto grass to get away from the zombie before pursuing resources. ACTION: Move South","You see:
+- water 2 steps to your west
+- stone 6 steps to your south-west
+- sand 1 step to your west
+- grass 1 step to your south
+- zombie 1 step to your east
+
+You face grass at your front.",0.0,False
+170,Move South,"The zombie is adjacent to the east, and moving west has repeatedly failed because water or sand blocks the way. Moving south is the clear route onto grass and away from the zombie. ACTION: Move South","You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- zombie 1 step to your north
+- grass 1 step to your south
+
+You face grass at your front.",-0.2,False
+171,Move South,"Health is critically low, and the zombie is adjacent to the north. Move south onto grass to create distance rather than engaging without a weapon. ACTION: Move South","You see:
+- water 1 step to your west
+- stone 4 steps to your west
+- iron 6 steps to your south-west
+- sand 3 steps to your north-west
+- zombie 1 step to your east
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+172,Move West,"You’re low on health and the zombie is adjacent to the east, so avoid fighting. Move west to get away and head toward the nearby water; then use Do when facing it to restore drink if needed. ACTION: Move West","You see:
+- water 1 step to your west
+- stone 4 steps to your west
+- iron 6 steps to your south-west
+- sand 3 steps to your north-west
+- grass 1 step to your south
+- zombie 1 step to your north
+
+You face water at your front.",0.0,False
+173,Move South,"The zombie is adjacent to the north, and your health is critically low. You have no weapon, so avoid engaging it. Since you face water and your drink is already full, drinking offers no benefit; moving west toward the water may be blocked or hazardous. Move south, away from the zombie, onto the nearby grass. Then reassess your surroundings and seek food and materials while keeping distance from threats.
+
+ACTION: Move South","You see:
+- water 1 step to your west
+- stone 4 steps to your west
+- iron 5 steps to your south-west
+- sand 2 steps to your south
+- grass 1 step to your north
+- zombie 1 step to your east
+
+You face grass at your front.",0.1,False
+174,Move West,"You have 4 health, no food, and a zombie adjacent to the east. Avoid fighting it unarmed. Move west to increase distance from the zombie; the water is nearby, but your drink is full. Then reassess for safe access to food and resources.
+
+ACTION: Move West","You see:
+- water 1 step to your west
+- stone 4 steps to your west
+- iron 5 steps to your south-west
+- sand 2 steps to your south
+- grass 1 step to your north
+- zombie 1 step to your east
+
+You face water at your front.",0.0,False
+175,Move North,"You’re at low health and have no tools or food, with the zombie adjacent to the east. Moving west would head into water, and Do would not help while facing it. Move north onto grass to get away from the zombie, then reassess for resources and food.
+
+ACTION: Move North","You see:
+- water 1 step to your west
+- stone 4 steps to your west
+- iron 6 steps to your south-west
+- sand 3 steps to your north-west
+- grass 1 step to your north
+- zombie 1 step to your east
+
+You face grass at your front.",-0.2,False
+176,Move North,"You’re at 2 health with the zombie adjacent to your east, so avoid actions that leave you exposed or bring you closer. Moving north onto grass creates distance and may help you reach resources; sleeping is risky with the zombie nearby.ACTION: Move North","You see:
+- water 1 step to your west
+- stone 5 steps to your south-west
+- iron 7 steps to your south-west
+- sand 2 steps to your north-west
+- grass 1 step to your north
+- zombie 1 step to your south
+
+You face grass at your front.",0.0,False
+177,Move North,"The zombie is one step south and health is only 2/9, so avoid moving toward it or spending a turn exposed. Moving north increases distance while staying on grass, giving a safer chance to find resources.ACTION: Move North","You see:
+- water 2 steps to your west
+- stone 6 steps to your south-west
+- sand 1 step to your west
+- zombie 1 step to your south
+- grass 1 step to your east
+
+You face sand at your front.",0.0,False
+178,Move East,"Health is critically low, and the zombie is immediately south. Avoid approaching it; move east onto grass to get away from the zombie.ACTION: Move East","You see:
+- water 3 steps to your west
+- sand 2 steps to your west
+- zombie 1 step to your west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+179,Move North,"Health is critical, and the zombie is one step west. Move north onto grass to put distance between you and it. ACTION: Move North","You see:
+- water 2 steps to your west
+- sand 2 steps to your north-west
+- zombie 1 step to your west
+- grass 1 step to your north
+
+You face grass at your front.",0.0,False
+180,Move North,"The zombie is immediately west, and health is critical. Move north onto the adjacent grass to escape its reach. ACTION: Move North","You see:
+- water 2 steps to your west
+- sand 1 step to your west
+- grass 1 step to your east
+- zombie 1 step to your south
+
+You face sand at your front.",0.0,False
+181,Move East,"You are at critical health with a zombie immediately south. Since you face sand to the west, move east onto the adjacent grass to get away from the zombie and seek resources. ACTION: Move East","You died.
+
+
+
+You see:
+- water 2 steps to your north
+- sand 2 steps to your west
+- grass 1 step to your north
+- zombie 1 step to your west
+
+You face grass at your front.",-0.2,True

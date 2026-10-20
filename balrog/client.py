@@ -218,6 +218,9 @@ class OpenAIWrapper(LLMClientWrapper):
             reasoning_effort = self.client_kwargs.get("reasoning_effort")
             if reasoning_effort is not None:
                 api_kwargs["reasoning_effort"] = reasoning_effort
+            ################################# for gpt deprecated max_tokens ##################################
+            if self.client_name.lower() == "openai" and self.model_id.startswith("gpt-6"):
+                api_kwargs["max_completion_tokens"] = api_kwargs.pop("max_tokens")
             ##################################################################################################
 
             temperature = self.client_kwargs.get("temperature")
