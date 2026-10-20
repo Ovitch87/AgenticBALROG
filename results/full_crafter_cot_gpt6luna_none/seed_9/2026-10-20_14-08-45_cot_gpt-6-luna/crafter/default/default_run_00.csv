@@ -1,0 +1,2585 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,Do,"The grass is directly in front of you, so use Do to collect it; this may also help with the Eat Plant achievement.ACTION: Do","You see:
+- grass 1 step to your west
+- tree 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+1,Do,"Collect the grass with Do. It may yield a plant item, helping toward Collect Sapling or Eat Plant, and costs little while your status is full. ACTION: Do","You see:
+- grass 1 step to your west
+- tree 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+2,We need need act Grass front Do gather ACTION Do Perhaps clarify prior assistant said collect grass maybe Just output,"We need need act. Grass front, Do gather. ACTION Do. Perhaps clarify prior assistant said collect grass maybe. Just output.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- tree 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+3,Do,"The grass is directly in front of you, so use Do to try to collect it. ACTION: Do","You see:
+- grass 1 step to your west
+- tree 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+4,Do,"The grass is directly in front of you, and Do is the action used to gather nearby materials. Start by collecting it. ACTION: Do","You see:
+- grass 1 step to your west
+- tree 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+5,Do,"The grass is one step west, and you are facing it, so use Do to gather from it. ACTION: Do","You see:
+- grass 1 step to your west
+- cow 7 steps to your north-east
+- tree 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+6,Do,Do,"You see:
+- grass 1 step to your west
+- cow 7 steps to your north-east
+- tree 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+7,Move North,"I need collect wood first for the table and early tools. The tree is five steps to the northeast, so move toward it and then use Do to gather wood once adjacent. ACTION: Move North","You see:
+- grass 1 step to your west
+- cow 6 steps to your north-east
+- tree 4 steps to your east
+
+You face grass at your front.",0.0,False
+8,Move East,"The tree is now four steps east, so move closer to collect wood.ACTION: Move East","You see:
+- grass 1 step to your west
+- cow 5 steps to your north-east
+- tree 3 steps to your east
+
+You face grass at your front.",0.0,False
+9,Move East,Move East,"You see:
+- grass 1 step to your west
+- cow 5 steps to your north-east
+- tree 2 steps to your east
+- path 7 steps to your north-east
+
+You face grass at your front.",0.0,False
+10,Move East,"The tree is two steps east, so moving east brings us closer to collecting wood. ACTION: Move East","You see:
+- grass 1 step to your west
+- cow 3 steps to your north-east
+- tree 1 step to your east
+- path 6 steps to your north-east
+
+You face tree at your front.",0.0,False
+11,Do,"The tree is directly in front of you, so use Do to collect wood. ACTION: Do","You see:
+- grass 1 step to your west
+- cow 3 steps to your north-east
+- tree 2 steps to your north-east
+- path 6 steps to your north-east
+
+You face grass at your front.",1.0,False
+12,Move East,"Place a table as soon as you have enough wood; for now, move toward the nearby tree to collect more. ACTION: Move East","You see:
+- grass 1 step to your west
+- cow 2 steps to your north
+- tree 1 step to your north
+- path 5 steps to your north-east
+
+You face grass at your front.",0.0,False
+13,Move North,"You have one wood, enough to work toward the table, but need more to craft tools. The tree is one step north, so move toward it and collect its wood. ACTION: Move North","You see:
+- grass 1 step to your west
+- cow 2 steps to your north
+- tree 1 step to your north
+- path 5 steps to your north-east
+
+You face tree at your front.",0.0,False
+14,Do,"The tree is directly ahead, so use Do to collect more wood. ACTION: Do","You see:
+- grass 1 step to your west
+- cow 2 steps to your north
+- path 5 steps to your north-east
+- tree 4 steps to your north-east
+
+You face grass at your front.",0.0,False
+15,Place Table,"You have 2 wood, enough to place a table and work toward the wood tools. The table requires 2 wood, so place it now, then craft the pickaxe and sword. ACTION: Place Table","You see:
+- grass 1 step to your west
+- cow 2 steps to your north
+- table 1 step to your north
+- path 5 steps to your north-east
+- tree 4 steps to your north-east
+
+You face table at your front.",1.0,False
+16,Move East,"Your inventory is empty, so collect wood before crafting. The tree is northeast; move east to approach it. ACTION: Move East","You see:
+- grass 1 step to your west
+- table 2 steps to your north-west
+- cow 2 steps to your north
+- path 4 steps to your north-east
+- tree 3 steps to your north-east
+
+You face grass at your front.",0.0,False
+17,Move East,"The tree is three steps northeast. Move east to start approaching it, then continue northeast as the observations allow. ACTION: Move East","You see:
+- grass 1 step to your west
+- table 3 steps to your north-west
+- cow 3 steps to your north-west
+- path 3 steps to your north
+- tree 2 steps to your north
+
+You face grass at your front.",0.0,False
+18,Move North,"I need wood first, and the tree is two steps north. Move north to approach it. ACTION: Move North","You see:
+- grass 1 step to your west
+- stone 4 steps to your north-east
+- table 2 steps to your west
+- coal 4 steps to your north-west
+- cow 2 steps to your north-west
+- path 2 steps to your north
+- tree 1 step to your north
+
+You face tree at your front.",0.0,False
+19,Do,"The tree is directly in front, so collect wood now. Then use the nearby table to craft tools. ACTION: Do","You see:
+- grass 1 step to your west
+- stone 4 steps to your north-east
+- cow 3 steps to your north-west
+- table 2 steps to your west
+- coal 4 steps to your north-west
+- path 2 steps to your north
+
+You face grass at your front.",0.0,False
+20,Move West,"You have 1 wood and the table is two steps west. Move west toward it, then craft a wood pickaxe and sword while nearby. The cow is farther away, so prioritize crafting first. ACTION: Move West","You see:
+- grass 1 step to your south
+- stone 4 steps to your north-west
+- table 1 step to your west
+- coal 3 steps to your north
+- cow 1 step to your north
+- path 3 steps to your north-east
+
+You face table at your front.",0.0,False
+21,Make Wood Pickaxe,"You have 1 wood and are next to the table, so craft the wood pickaxe now. Then craft the wood sword with the same materials and table. ACTION: Make Wood Pickaxe","You see:
+- grass 1 step to your north
+- stone 4 steps to your north-west
+- table 1 step to your west
+- coal 3 steps to your north
+- cow 2 steps to your north
+- path 3 steps to your north-east
+
+You face table at your front.",1.0,False
+22,Move North,"To make the wood sword, I need wood in my inventory and a nearby table. The table is directly west, but I currently have only a wood pickaxe. I should gather another tree before crafting the sword. The nearby cow is also a target for the Eat Cow achievement, but it’s two steps north and gathering wood is the immediate priority.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- stone 3 steps to your north-west
+- table 2 steps to your south-west
+- coal 2 steps to your north
+- cow 1 step to your north
+- tree 4 steps to your north-east
+- path 2 steps to your north-east
+
+You face cow at your front.",0.0,False
+23,Move North,"I have no wood in inventory, so I need to collect another tree before crafting the sword. The tree is several steps to the northeast; the cow directly ahead is not blocking that route. Move north toward the tree and cow area.  
+ACTION: Move North","You see:
+- grass 1 step to your west
+- stone 3 steps to your north-west
+- table 2 steps to your south-west
+- coal 2 steps to your north
+- cow 1 step to your north
+- tree 4 steps to your north-east
+- path 2 steps to your north-east
+
+You face cow at your front.",0.0,False
+24,Move East,"I have a wood pickaxe but no wood, so I should collect a tree before crafting more. The tree is northeast, while the cow is directly in front; I can avoid spending a turn attacking it and move east toward the tree’s direction.  
+ACTION: Move East","You see:
+- grass 1 step to your west
+- stone 3 steps to your north-east
+- table 3 steps to your south-west
+- coal 3 steps to your north-west
+- cow 2 steps to your north-west
+- tree 3 steps to your north
+- path 1 step to your north
+
+You face grass at your front.",0.0,False
+25,Move North,"I need wood for the wood sword and later recipes, and the tree is three steps north. Move toward it first; the path is also north, so this advances toward the tree without engaging the cow.ACTION: Move North","You see:
+- stone 2 steps to your north-east
+- grass 1 step to your west
+- coal 2 steps to your north-west
+- cow 2 steps to your west
+- table 4 steps to your south-west
+- tree 2 steps to your north
+- path 1 step to your east
+
+You face grass at your front.",0.0,False
+26,Move North,Head north toward the tree so it is within reach to collect wood. ACTION: Move North,"You see:
+- path 1 step to your south
+- stone 1 step to your east
+- grass 2 steps to your south-west
+- coal 1 step to your west
+- cow 3 steps to your south-west
+- table 5 steps to your south-west
+- tree 1 step to your north
+
+You face tree at your front.",0.0,False
+27,Do,"The tree is directly in front of you and within reach, so use Do to collect its wood. ACTION: Do","You see:
+- path 1 step to your south
+- stone 1 step to your east
+- grass 1 step to your north
+- coal 1 step to your west
+- cow 4 steps to your south-west
+- table 5 steps to your south-west
+
+You face grass at your front.",0.0,False
+28,Move East,"You have wood and a wood pickaxe, and stone is one step east. Move east to get beside it, then use Do to collect stone with the pickaxe. ACTION: Move East","You see:
+- path 1 step to your south
+- stone 1 step to your east
+- grass 1 step to your north
+- coal 1 step to your west
+- cow 3 steps to your west
+- table 5 steps to your south-west
+
+You face stone at your front.",0.0,False
+29,Do,"The stone is directly in front of you, and you have a wood pickaxe. Use Do to collect it. ACTION: Do","You see:
+- path 1 step to your south
+- stone 2 steps to your west
+- grass 1 step to your north
+- cow 4 steps to your west
+- coal 1 step to your west
+- table 5 steps to your south-west
+
+You face path at your front.",1.0,False
+30,Move West,"You have one wood and one stone, so the next useful milestone is a stone pickaxe—but the table is five steps southwest, and you need to get back within crafting range. The coal is nearby to the west; collect it while passing, then return to the table. Face the coal by moving west.ACTION: Move West","You see:
+- path 1 step to your south
+- stone 2 steps to your west
+- grass 1 step to your north
+- cow 5 steps to your south-west
+- coal 1 step to your west
+- table 5 steps to your south-west
+
+You face coal at your front.",0.0,False
+31,Do,"Do — collect the coal in front of you. Once collected, return toward the table to craft the stone pickaxe.  
+ACTION: Do","You see:
+- path 1 step to your west
+- stone 2 steps to your west
+- grass 1 step to your north
+- cow 5 steps to your south-west
+- coal 4 steps to your east
+- table 5 steps to your south-west
+
+You face path at your front.",1.0,False
+32,Move West,"You have coal and one stone, but need more stone to make a stone pickaxe. The nearby stone is two steps west, so move west toward it. Then collect it with Do. ACTION: Move West","You see:
+- path 2 steps to your south-east
+- grass 1 step to your south
+- stone 1 step to your west
+- cow 4 steps to your south-west
+- coal 4 steps to your north-west
+- table 4 steps to your south-west
+
+You face stone at your front.",0.0,False
+33,Do,"You have the materials for a stone pickaxe except a second stone. The stone is directly in front, so collect it now; then you can return to the nearby table to craft. ACTION: Do","You see:
+- path 1 step to your west
+- grass 1 step to your south
+- stone 1 step to your north
+- cow 5 steps to your south-west
+- coal 4 steps to your north-west
+- table 4 steps to your south-west
+
+You face path at your front.",0.0,False
+34,Move South,"To make the stone pickaxe, I need to stand next to the table. It’s four steps southwest, so I’ll head back toward it; there’s also a stone directly north, but I already have two. ACTION: Move South","You see:
+- path 1 step to your north
+- grass 1 step to your west
+- cow 5 steps to your south-west
+- stone 2 steps to your north
+- coal 5 steps to your north-west
+- table 3 steps to your south-west
+
+You face grass at your front.",0.0,False
+35,Move South,"Stone and coal are secured, and the table is three steps southwest. Move southwest toward it by taking the south step first, then continue toward the table to craft a stone pickaxe and sword.ACTION: Move South","You see:
+- grass 1 step to your west
+- stone 3 steps to your north
+- path 2 steps to your north
+- table 2 steps to your south-west
+
+You face grass at your front.",0.0,False
+36,Move West,"The table is two steps southwest, and we have enough wood and stone for a stone pickaxe. Move west to get closer, then continue south toward the table.ACTION: Move West","You see:
+- grass 1 step to your west
+- cow 5 steps to your north-west
+- stone 3 steps to your north
+- path 2 steps to your north
+- table 1 step to your south
+
+You face grass at your front.",0.0,False
+37,Move South,"We have already collected wood, placed a table, crafted a wood pickaxe, and collected stone and coal. The table is one step south, so move south to stand beside it, then use the nearby table to craft a wood sword with the wood in inventory.
+
+ACTION: Move South","You see:
+- grass 1 step to your west
+- cow 5 steps to your north-west
+- stone 3 steps to your north
+- path 2 steps to your north
+- table 1 step to your south
+
+You face table at your front.",0.0,False
+38,Make Wood Sword,"We need pursue attainable achievements with current resources. The table is directly in front, and I have wood for crafting. Make the wood sword now, then continue gathering resources and surviving. ACTION: Make Wood Sword","You see:
+- grass 1 step to your west
+- cow 4 steps to your north-west
+- stone 3 steps to your north
+- path 2 steps to your north
+- table 1 step to your south
+
+You face table at your front.",1.0,False
+39,Move West,"The wood sword and pickaxe are already crafted, and you have stone and coal. Collect nearby grass for a sapling, then use the table to make a stone pickaxe. Since the grass is one step west, move there first. ACTION: Move West","You see:
+- grass 1 step to your west
+- cow 2 steps to your north-west
+- stone 3 steps to your north
+- path 3 steps to your north-east
+- table 2 steps to your south-east
+
+You face grass at your front.",0.0,False
+40,Do,"To continue toward the remaining achievements, collect the nearby grass first; that may yield a sapling. The table is close by for crafting the stone tools afterward. ACTION: Do","You see:
+- grass 1 step to your west
+- cow 2 steps to your north-west
+- stone 3 steps to your north
+- path 3 steps to your north-east
+- table 2 steps to your south-east
+
+You face grass at your front.",0.0,False
+41,Do,"You already have a wood pickaxe and sword, and the nearby grass is directly in front of you. Use Do to collect from it, which may earn the Collect Sapling achievement. ACTION: Do","You see:
+- grass 1 step to your west
+- cow 3 steps to your north-west
+- stone 3 steps to your north
+- path 3 steps to your north-east
+- table 2 steps to your south-east
+
+You face grass at your front.",0.0,False
+42,Do,Collect the grass directly in front of you first; this may yield a sapling or plant material for achievements. ACTION: Do,"You see:
+- grass 1 step to your west
+- cow 3 steps to your north-west
+- stone 3 steps to your north
+- path 3 steps to your north-east
+- table 2 steps to your south-east
+
+You face grass at your front.",0.0,False
+43,Do,"I have already collected enough stone and coal, and I have both wood tools. The grass directly ahead may provide a sapling or plant material, so I should try collecting it before moving toward the cow.
+
+ACTION: Do","You see:
+- grass 1 step to your west
+- cow 3 steps to your north-west
+- stone 3 steps to your north
+- path 3 steps to your north-east
+- table 2 steps to your south-east
+
+You face grass at your front.",0.0,False
+44,Move North,"The grass has been repeatedly targeted without yielding anything, so I should stop spending actions on it. The cow is nearby, but I need to approach it before using Do to attack and collect food. Move northwest toward the cow, beginning with a northward step.
+
+ACTION: Move North","You see:
+- stone 2 steps to your north
+- grass 1 step to your west
+- iron 6 steps to your north-west
+- path 2 steps to your north-east
+- cow 2 steps to your north-west
+- coal 3 steps to your north
+- table 3 steps to your south-east
+
+You face grass at your front.",0.0,False
+45,Move North,"I already have the wood pickaxe and sword, plus two stone and one coal. The cow is two steps northwest, so I should move closer to it before attacking. The observation says I face grass to the west; turning isn’t available, so a northwest approach can begin by moving north toward the nearby cow. ACTION: Move North","You see:
+- stone 1 step to your north
+- grass 1 step to your south
+- lava 6 steps to your north-west
+- iron 5 steps to your north-west
+- path 1 step to your east
+- cow 1 step to your west
+- coal 2 steps to your north
+- table 4 steps to your south-east
+
+You face stone at your front.",0.0,False
+46,Move West,"The cow is one step west, and you already have a sword. Move west to get close enough to face it, then use Do to attack; this should work toward the Eat Cow achievement. ACTION: Move West","You see:
+- stone 1 step to your north
+- grass 1 step to your south
+- lava 6 steps to your north-west
+- iron 5 steps to your north-west
+- path 1 step to your east
+- cow 1 step to your west
+- coal 2 steps to your north
+- table 4 steps to your south-east
+
+You face cow at your front.",0.0,False
+47,Do,"You’re adjacent to the cow and facing it, so use Do to attack it with your wood sword. Once it’s defeated, Do again if needed to collect food from it. ACTION: Do","You see:
+- stone 1 step to your north
+- grass 1 step to your south
+- lava 6 steps to your north-west
+- iron 5 steps to your north-west
+- path 1 step to your east
+- cow 1 step to your west
+- coal 2 steps to your north
+- table 4 steps to your south-east
+
+You face cow at your front.",0.0,False
+48,Do,The cow is directly in front of you. Use Do to defeat it and collect its food; this advances the Eat Cow achievement. ACTION: Do,"You see:
+- stone 1 step to your north
+- grass 1 step to your west
+- lava 6 steps to your north-west
+- iron 5 steps to your north-west
+- path 1 step to your east
+- coal 2 steps to your north
+- table 4 steps to your south-east
+
+You face grass at your front.",1.0,False
+49,Move North,"You have a wood pickaxe and sword, plus stone and coal. Collect the nearby stone first, then use the table to craft a stone pickaxe and sword. The stone is one step north; face it and use Do to mine it. ACTION: Move North","You see:
+- stone 1 step to your north
+- grass 1 step to your west
+- lava 6 steps to your north-west
+- iron 5 steps to your north-west
+- path 1 step to your east
+- coal 2 steps to your north
+- table 4 steps to your south-east
+
+You face stone at your front.",0.0,False
+50,Do,"The stone is directly in front of you and you have a wood pickaxe, so use Do to mine it. You have enough stone afterward to craft a stone pickaxe and sword, but the table is several steps southeast; collect the stone first. ACTION: Do","You see:
+- stone 2 steps to your north-east
+- grass 1 step to your west
+- lava 6 steps to your north-west
+- iron 5 steps to your north-west
+- path 1 step to your north
+- coal 2 steps to your north
+- table 4 steps to your south-east
+
+You face path at your front.",0.0,False
+51,Move South,"You already have 3 stone and a wood pickaxe, so the next useful milestone is a stone pickaxe. The table is southeast, and you need to get within crafting range. Move toward it by heading south, then east as needed. ACTION: Move South","You see:
+- stone 3 steps to your north-east
+- grass 1 step to your west
+- iron 6 steps to your north-west
+- path 2 steps to your north
+- coal 3 steps to your north
+- table 3 steps to your south-east
+
+You face grass at your front.",0.0,False
+52,Move South,"The table is three steps southeast, so move south toward it first; then head east to reach crafting range. You have enough stone and a wood pickaxe, but a stone pickaxe also requires wood, so collect wood before crafting if you don’t have any. ACTION: Move South","You see:
+- grass 1 step to your west
+- path 3 steps to your north
+- stone 4 steps to your north-east
+- table 2 steps to your south-east
+
+You face grass at your front.",0.0,False
+53,Move East,"You have enough stone, but need wood to craft a stone pickaxe. The table is two steps southeast; first move east toward it, then collect wood and return within crafting range. ACTION: Move East","You see:
+- grass 1 step to your west
+- path 2 steps to your north
+- stone 3 steps to your north
+- table 1 step to your south
+
+You face grass at your front.",0.0,False
+54,Move South,"You have already unlocked the wood tools and collected three stone and coal. Move next to the table and use the stone in your inventory to make a stone pickaxe; the table is one step south, so move there first. ACTION: Move South","You see:
+- grass 1 step to your west
+- path 2 steps to your north
+- stone 3 steps to your north
+- table 1 step to your south
+
+You face table at your front.",0.0,False
+55,Make Stone Pickaxe,"The table is directly in front of you, and you have stone plus the wood pickaxe and sword achievements already. Use the nearby table to make a stone pickaxe, which advances an achievement and helps gather tougher materials. You don't yet have wood in your inventory, so this craft may not be available; however, the action is still worth attempting before moving to gather resources.
+
+ACTION: Make Stone Pickaxe","You see:
+- grass 1 step to your west
+- path 2 steps to your north
+- stone 3 steps to your north
+- table 1 step to your south
+
+You face table at your front.",0.0,False
+56,Move West,"You already have the wood tools and three stone, but you need wood to craft a stone pickaxe. First gather the nearby grass to collect wood, then return to the table and craft it. The grass is immediately to your west, so face it by moving west.
+
+ACTION: Move West","You see:
+- grass 1 step to your west
+- path 3 steps to your north
+- stone 4 steps to your north-east
+- table 2 steps to your south-east
+
+You face grass at your front.",0.0,False
+57,Do,"You need wood for the stone pickaxe, and the grass is already in front of you. Use Do to collect from it. Then return to the nearby table and craft the stone pickaxe. ACTION: Do","You see:
+- grass 1 step to your west
+- path 3 steps to your north
+- stone 4 steps to your north-east
+- table 2 steps to your south-east
+
+You face grass at your front.",0.0,False
+58,Do,"You’ve already unlocked the wood tools and have enough stone for the stone pickaxe, but you’re missing wood. Collect from the grass directly in front of you, then return to the table to craft. ACTION: Do","You see:
+- grass 1 step to your west
+- path 3 steps to your north
+- stone 4 steps to your north-east
+- table 2 steps to your south-east
+
+You face grass at your front.",0.0,False
+59,Do,"You have enough stone for a stone tool, but no wood in your inventory. The grass tile west is the nearby resource to collect from; after collecting, return to the table to craft. ACTION: Do","You see:
+- grass 1 step to your west
+- path 3 steps to your north
+- stone 4 steps to your north-east
+- table 2 steps to your south-east
+
+You face grass at your front.",0.0,False
+60,Move East,"You already have the wood tools and enough stone for a stone tool, but you need to stand next to the table to craft it. The table is to your south-east, so move east toward it first. ACTION: Move East","You see:
+- grass 1 step to your west
+- path 2 steps to your north
+- stone 3 steps to your north
+- table 1 step to your south
+
+You face grass at your front.",0.0,False
+61,Move South,"You have the wood tools and three stone, but no wood in your inventory, so a stone tool cannot be crafted yet. First get adjacent to the table and place it if needed; then gather wood before crafting. The table is one step south, so move toward it now.
+
+ACTION: Move South","You see:
+- grass 1 step to your west
+- path 2 steps to your north
+- stone 3 steps to your north
+- table 1 step to your south
+
+You face table at your front.",0.0,False
+62,Move West,"You already have a wood pickaxe and sword, and three stone, but need wood to craft stone tools. The table is directly in front of you, so move toward the nearby grass and seek a tree to collect wood; don’t waste time trying to craft without the required wood.
+
+ACTION: Move West","You see:
+- grass 1 step to your west
+- path 3 steps to your north
+- stone 4 steps to your north-east
+- table 2 steps to your south-east
+
+You face grass at your front.",0.0,False
+63,Move West,"You have enough stone and a wood pickaxe, but no wood, so the next priority is finding a tree and collecting wood. The nearby tile to your west is grass, not a tree; move west to explore beyond it. Then use Do when a tree is in front of you. 
+
+ACTION: Move West","You see:
+- grass 1 step to your west
+- path 4 steps to your north-east
+- stone 5 steps to your north-east
+- table 3 steps to your south-east
+
+You face grass at your front.",0.0,False
+64,Move West,"You’re facing grass, with the table nearby but no wood in your inventory. A wood sword and pickaxe are already crafted, so the next useful goal is to find a tree and collect wood. Move west toward the nearby grass to explore. 
+
+ACTION: Move West","You see:
+- grass 1 step to your west
+- path 5 steps to your north-east
+- stone 6 steps to your north-east
+- table 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+65,Move West,"You already have a wood pickaxe and sword, and three stone. Stone pickaxe needs wood and a nearby table, so the immediate priority is collecting wood. Grass is directly in front, but Do has repeatedly failed to collect anything there; move west to explore for trees or other useful resources. Keep an eye on energy, and sleep when it falls below maximum if needed.
+
+ACTION: Move West","You see:
+- stone 7 steps to your north-west
+- grass 1 step to your west
+- path 6 steps to your north-east
+- table 5 steps to your south-east
+
+You face grass at your front.",0.0,False
+66,Move West,"You have a wood pickaxe and sword, plus three stone and one coal, but no wood in inventory. The table is five steps southeast, so returning there later will enable stone-tool crafting once you have wood. The grass directly ahead has not yielded anything from repeated Do actions, so keep exploring west for trees, saplings, or other resources. Energy is 7/9, so there’s no need to sleep yet.
+
+ACTION: Move West","You see:
+- stone 6 steps to your north-west
+- grass 1 step to your west
+- path 7 steps to your north-east
+
+You face grass at your front.",0.0,False
+67,Move West,"You need wood to unlock the stone tools, and a tree is the most likely source. The grass directly in front isn’t useful after repeated attempts, so continue west to search for resources. Keep an eye on drink and energy as you explore.
+
+ACTION: Move West","You see:
+- grass 1 step to your west
+- stone 5 steps to your north-west
+
+You face grass at your front.",0.0,False
+68,Move West,"You have the stone and coal, but no wood, so prioritize finding trees and collecting wood before attempting more crafts. The grass directly ahead has already yielded nothing, so keep exploring west for a tree or other resources. Your drink is getting low; look for a lake soon as you explore.
+
+ACTION: Move West","You see:
+- grass 1 step to your west
+- stone 4 steps to your north-west
+
+You face grass at your front.",0.0,False
+69,Move West,"You already have the wood pickaxe and sword, and three stone. Collect more wood only if needed for stone crafts, but first explore west for trees and resources. Your drink is getting low, so prioritize finding a lake before it runs out.ACTION: Move West","You see:
+- grass 1 step to your west
+- tree 5 steps to your north-west
+- stone 3 steps to your north
+
+You face grass at your front.",0.0,False
+70,Move North,"I have enough stone and coal, but need wood to craft the stone tools. The tree is northwest; moving north should bring me closer while also heading toward the nearby stone.ACTION: Move North","You see:
+- grass 1 step to your west
+- tree 4 steps to your west
+- stone 2 steps to your north
+- iron 7 steps to your north-east
+
+You face grass at your front.",0.0,False
+71,Move West,"I have 3 stone and a nearby tree, and already have a wood pickaxe and sword. To craft stone tools, I need wood and a nearby table. The table is behind me to the southeast, while the tree is west. First, collect wood from the nearby tree, then return to the table and craft the stone tools.ACTION: Move West","You see:
+- tree 3 steps to your west
+- grass 1 step to your west
+- stone 2 steps to your north
+
+You face grass at your front.",0.0,False
+72,Move West,"The tree is three steps west, with grass directly ahead. Move toward the tree to get within reach, then use Do to collect wood.ACTION: Move West","You see:
+- grass 1 step to your west
+- tree 2 steps to your west
+- stone 3 steps to your north
+
+You face grass at your front.",0.0,False
+73,Move West,Move West,"You see:
+- tree 1 step to your west
+- grass 1 step to your north
+- stone 3 steps to your north
+
+You face tree at your front.",0.0,False
+74,Do,"The tree is directly in front of you, so use Do to collect wood. ACTION: Do","You see:
+- tree 3 steps to your north-west
+- grass 1 step to your west
+- stone 3 steps to your north
+
+You face grass at your front.",0.0,False
+75,Do,"We have wood, stone, coal, and already-made wood tools; the inventory suggests several early achievements may already be completed. A nearby table is no longer visible, so crafting upgrades may require returning to it. For now, gather the grass directly west to seek a sapling, then work toward stone and iron materials.ACTION: Do","You see:
+- tree 3 steps to your north-west
+- grass 1 step to your west
+- stone 3 steps to your north
+
+You face grass at your front.",0.0,False
+76,Do,Do ACTION: Do,"You see:
+- tree 3 steps to your north-west
+- grass 1 step to your west
+- stone 3 steps to your north
+
+You face grass at your front.",0.0,False
+77,Move North,"You’ve already collected wood, stone, and coal, and crafted a wood pickaxe and sword. The nearby stone is three steps north, so move toward it to collect more stone and progress toward the stone-tool achievements. ACTION: Move North","You see:
+- tree 2 steps to your west
+- grass 1 step to your west
+- stone 2 steps to your north
+
+You face grass at your front.",0.0,False
+78,Move North,"The table and furnace are not currently nearby, so crafting iron tools cannot progress here. You already have enough stone for stone tools once you return to the table, and gathering stone now may help with placing a stone and crafting. The stone is two steps north; move toward it. ACTION: Move North","You see:
+- tree 2 steps to your west
+- grass 1 step to your west
+- stone 1 step to your north
+- path 7 steps to your north-east
+
+You face stone at your front.",0.0,False
+79,Do,Collect the stone directly in front of you to advance the stone-collection achievement and gather materials for stone tools. ACTION: Do,"You see:
+- tree 2 steps to your west
+- grass 1 step to your west
+- stone 2 steps to your north
+- path 1 step to your north
+
+You face path at your front.",0.0,False
+80,Place Table,"Place Table — your wood pickaxe and sword are already made, and a nearby table is required to craft stone tools. After placing the table, craft the stone pickaxe and stone sword. ACTION: Place Table","You see:
+- tree 2 steps to your west
+- grass 1 step to your west
+- stone 2 steps to your north
+- path 1 step to your north
+
+You face path at your front.",0.0,False
+81,Place Table,"You already have the wood pickaxe and sword, but still need to place a table before crafting stone tools. There’s no nearby table listed, and you have only 1 wood, so placing one is the priority.ACTION: Place Table","You see:
+- tree 2 steps to your west
+- grass 1 step to your west
+- stone 2 steps to your north
+- path 1 step to your north
+
+You face path at your front.",0.0,False
+82,Place Table,"You have the materials and tools for the stone pickaxe and stone sword, but need a nearby table. Place a table first, then craft both tools. Your wood is limited to one, so avoid spending it on anything else. ACTION: Place Table","You see:
+- tree 2 steps to your west
+- grass 1 step to your west
+- stone 2 steps to your north
+- path 1 step to your north
+
+You face path at your front.",0.0,False
+83,Move North,"The table placement has apparently not registered yet: it is not listed in the inventory, and the observation shows no table. The path directly in front may be blocking placement, so step north onto it and then try placing the table from a clear tile. ACTION: Move North","You see:
+- stone 1 step to your north
+- tree 2 steps to your west
+- grass 1 step to your west
+- path 6 steps to your north-east
+
+You face stone at your front.",0.0,False
+84,Do,"You already have the wood pickaxe and sword, and have enough stone to place a stone. Collect the stone directly ahead first, then we can work toward placing the table and furnace. ACTION: Do","You see:
+- stone 1 step to your east
+- tree 2 steps to your west
+- grass 1 step to your west
+- path 1 step to your north
+
+You face path at your front.",0.0,False
+85,Move West,"There is no table placed yet, so first collect wood from the nearby tree, then place a table and craft the next tools. The tree is to your west, so move toward it. ACTION: Move West","You see:
+- stone 2 steps to your east
+- grass 1 step to your north
+- tree 1 step to your west
+- path 1 step to your east
+
+You face tree at your front.",0.0,False
+86,Do,"You already have the wood pickaxe and sword, and there’s a tree directly in front of you. Collecting more wood will help with crafting and placing the table. After that, the nearby stone can be gathered with the pickaxe. ACTION: Do","You see:
+- stone 2 steps to your east
+- grass 1 step to your west
+- tree 2 steps to your north-west
+- path 1 step to your east
+
+You face grass at your front.",0.0,False
+87,Place Table,"You already have the wood pickaxe and sword, along with enough stone for the stone tools. First, place a table so you can craft them; then collect more wood if needed.ACTION: Place Table","You see:
+- stone 2 steps to your east
+- grass 1 step to your north
+- tree 2 steps to your north-west
+- table 1 step to your west
+- path 1 step to your east
+
+You face table at your front.",0.0,False
+88,Move West,"You already have the table nearby and enough stone and wood tools, but no wood in your inventory. Collect wood from the tree to the northwest, then return to the table to craft stone tools. The tree is two steps away, so move toward it first. ACTION: Move West","You see:
+- stone 2 steps to your east
+- grass 1 step to your north
+- tree 2 steps to your north-west
+- table 1 step to your west
+- path 1 step to your east
+
+You face table at your front.",0.0,False
+89,Move West,"You already have the table, wood tools, stone, and coal, so first gather more wood to enable crafting stone tools. The tree is two steps northwest; moving west gets you closer. ACTION: Move West","You see:
+- stone 2 steps to your east
+- grass 1 step to your north
+- tree 2 steps to your north-west
+- table 1 step to your west
+- path 1 step to your east
+
+You face table at your front.",0.0,False
+90,Make Stone Pickaxe,"You have enough stone for stone tools, but need wood and a nearby table. The table is immediately west, so craft the stone pickaxe now; then craft the stone sword while still near it.ACTION: Make Stone Pickaxe","You see:
+- stone 2 steps to your east
+- grass 1 step to your north
+- tree 2 steps to your north-west
+- table 1 step to your west
+- path 1 step to your east
+
+You face table at your front.",0.0,False
+91,Make Stone Pickaxe,"The wood pickaxe and sword are already crafted, and you have enough stone to make both stone tools. The table is directly in front of you, so craft the stone pickaxe first. You’ll need wood as well, so if crafting fails, collect wood from the nearby tree before trying again.ACTION: Make Stone Pickaxe","You see:
+- stone 2 steps to your east
+- grass 1 step to your north
+- tree 2 steps to your north-west
+- table 1 step to your west
+- path 1 step to your east
+
+You face table at your front.",0.0,False
+92,Move North,"Stone Pickaxe requires wood and stone, but you currently have no wood. The nearby tree is two steps to the northwest. Move toward it, then collect wood with Do; return to the table afterward to craft the stone tools.ACTION: Move North","You see:
+- path 1 step to your east
+- stone 2 steps to your north
+- grass 1 step to your north
+- tree 1 step to your west
+- table 2 steps to your south-west
+
+You face grass at your front.",0.0,False
+93,Move West,"You have the key starter tools and enough stone, but need wood for stone tools. The tree is one step west, so move there and use Do to collect wood. Your energy is 6/9, so conserve it for now. Once you have wood, return to the table to craft the stone pickaxe and sword.ACTION: Move West","You see:
+- path 1 step to your east
+- stone 2 steps to your north
+- grass 1 step to your north
+- tree 1 step to your west
+- table 2 steps to your south-west
+
+You face tree at your front.",0.0,False
+94,Do,"You have the required stone and tools, but no wood for stone-tier crafting. The tree is directly in front, so collect wood first. ACTION: Do","You see:
+- path 1 step to your east
+- stone 2 steps to your north
+- grass 1 step to your west
+- tree 3 steps to your west
+- table 2 steps to your south-west
+
+You face grass at your front.",0.0,False
+95,Move South,"You have enough wood and stone for a stone pickaxe, and the table is nearby. Move toward the table to get within crafting range. ACTION: Move South","You see:
+- stone 2 steps to your east
+- grass 1 step to your north
+- tree 2 steps to your south-west
+- table 1 step to your west
+- path 1 step to your east
+
+You face grass at your front.",0.0,False
+96,Move West,"You have enough wood and stone for the stone pickaxe, and the table is one step west. Move toward it to get within crafting range. ACTION: Move West","You see:
+- stone 2 steps to your east
+- grass 1 step to your north
+- tree 2 steps to your south-west
+- table 1 step to your west
+- path 1 step to your east
+
+You face table at your front.",0.0,False
+97,Make Stone Pickaxe,"You already have the wood pickaxe and sword, and enough stone plus wood to craft their stone upgrades. The table is directly in front and within crafting range, so craft the stone pickaxe first. ACTION: Make Stone Pickaxe","You see:
+- stone 2 steps to your east
+- grass 1 step to your north
+- tree 2 steps to your south-west
+- table 1 step to your west
+- path 1 step to your east
+
+You face table at your front.",1.0,False
+98,Make Stone Sword,"You have already crafted a stone pickaxe, so repeating that craft would waste resources. The table is adjacent, and you have wood plus a stone pickaxe; crafting a stone sword is the next achievable weapon upgrade. ACTION: Make Stone Sword","You see:
+- stone 2 steps to your east
+- grass 1 step to your north
+- tree 2 steps to your south-west
+- table 1 step to your west
+- path 1 step to your east
+
+You face table at your front.",0.0,False
+99,Move East,"We have enough nearby materials and a table, but no wood in inventory is listed, so crafting the stone sword is not currently possible. The stone is two steps east; move east toward it, then collect it with Do. For now, improve resources rather than retrying a craft. ACTION: Move East","You see:
+- stone 1 step to your east
+- tree 3 steps to your south-west
+- grass 1 step to your west
+- table 2 steps to your west
+- path 1 step to your north
+
+You face stone at your front.",0.0,False
+100,Do,"We have the wood and stone tools already, and 4 stone plus coal. The nearby stone is directly in front, so collect it now to build up stone for later crafting and placing. Then we can focus on iron, plant, and food achievements. ACTION: Do","You see:
+- stone 2 steps to your north
+- tree 3 steps to your south-west
+- grass 1 step to your west
+- table 2 steps to your west
+- path 1 step to your north
+
+You face path at your front.",0.0,False
+101,Move West,"You have the tools and materials needed for several achievements, but still need to collect wood and place a plant. The stone is now two steps north, while grass is adjacent to the west. Move west to collect the grass next, then use the tree to gather wood and return to craft or place items as needed.ACTION: Move West","You see:
+- stone 3 steps to your north
+- grass 1 step to your north
+- tree 2 steps to your south-west
+- table 1 step to your west
+- path 1 step to your east
+
+You face table at your front.",0.0,False
+102,Move North,"You already have a table, wood and stone tools, stone, and coal. The adjacent grass is north; face it by moving north, then use Do to collect it. That will help with plant-related achievements, while the nearby tree can supply more wood afterward.ACTION: Move North","You see:
+- path 1 step to your east
+- stone 2 steps to your north
+- grass 1 step to your west
+- tree 3 steps to your west
+- table 2 steps to your south-west
+
+You face grass at your front.",0.0,False
+103,Do,"You have enough stone for the stone-related achievements, but you haven’t collected the nearby grass yet. Use Do while facing it to gather the grass; then we can place it as a plant if it yields a sapling.ACTION: Do","You see:
+- path 1 step to your east
+- stone 2 steps to your north
+- grass 1 step to your west
+- tree 3 steps to your west
+- table 2 steps to your south-west
+
+You face grass at your front.",0.0,False
+104,Move West,"You’re facing grass, but it isn’t a source of saplings or plant items; those come from trees. The inventory shows you already have a stone pickaxe and wood sword, and you have coal, but no wood or iron yet. The nearby tree is three steps west, so move west toward it and gather wood when you’re adjacent.ACTION: Move West","You see:
+- stone 2 steps to your north
+- grass 1 step to your west
+- tree 2 steps to your west
+- path 2 steps to your east
+- table 1 step to your south
+
+You face grass at your front.",0.0,False
+105,Move West,"You need wood and iron for the iron tools, and saplings from a tree can help complete the plant-related achievements. The tree is two steps west, with grass immediately west blocking the direct approach. Move west toward the tree, then use Do to gather from it when in range.ACTION: Move West","You see:
+- stone 2 steps to your north
+- grass 1 step to your south
+- tree 1 step to your west
+- path 3 steps to your east
+- table 2 steps to your south-east
+
+You face tree at your front.",0.0,False
+106,Do,"You have a wood and stone pickaxe already, plus enough stone and coal, but no wood or iron in inventory. The tree is directly in front, so gather from it to work toward wood and sapling achievements. Your drink is low, so keep an eye out for a lake afterward.ACTION: Do","You see:
+- stone 2 steps to your north
+- grass 1 step to your west
+- tree 1 step to your north
+- path 3 steps to your east
+- table 2 steps to your south-east
+
+You face grass at your front.",0.0,False
+107,Move North,"Wood, stone, and tool achievements are already covered; collecting the nearby stone can help with later crafting. Move north toward the stone, then use Do to mine it.ACTION: Move North","You see:
+- stone 2 steps to your north
+- grass 1 step to your west
+- tree 1 step to your north
+- path 3 steps to your east
+- table 2 steps to your south-east
+
+You face tree at your front.",0.0,False
+108,Do,"Stone is already collected, so the next priority is the iron-related achievements. The tree is directly in front; collect wood first, then use the stone pickaxe to gather iron and look for a furnace location. ACTION: Do","You see:
+- stone 2 steps to your north
+- grass 1 step to your west
+- tree 2 steps to your north-west
+- path 3 steps to your east
+- table 2 steps to your south-east
+
+You face grass at your front.",0.0,False
+109,We need still need collect iron craft furnace iron tools diamond plus other achievements Inventory enough wood stone coal Need gather iron likely stone tile  north Need orientmove Facing grass west means current facing Observation after prior action Do tree then faced grass due tree gone likely heading north Facing grass front is west The facing is directional from previous move At location maybe tree was north after chopping face grass west due target Need move north toward stone  steps ACTION move north But required concise reasoning step by step and one action Should we sleep  drink etc status energy drink food need manage stone to north  go north Item tools Could work First think best course step by step dont disclose chain Give concise Ensure valid Move North,"We need still need collect iron, craft furnace, iron tools, diamond, plus other achievements. Inventory enough wood, stone coal. Need gather iron likely stone tile 2 north. Need orient/move. Facing grass west means current facing? Observation after prior action Do tree then faced grass due tree gone, likely heading north? Facing grass front is west? The facing is directional from previous move? At location maybe tree was north, after chopping face grass west due target? Need move north toward stone 2 steps. ACTION move north. But required concise reasoning step by step and one action. Should we sleep / drink etc? status energy6, drink4 food7; need manage. stone to north 2, go north. Item tools. Could work. ""First think best course step by step"" don't disclose chain? Give concise. Ensure valid. Move North.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- stone 2 steps to your north
+- grass 1 step to your west
+- tree 2 steps to your north-west
+- path 3 steps to your east
+- table 2 steps to your south-east
+
+You face grass at your front.",0.0,False
+110,Move North,ACTION: Move North,"You see:
+- iron 7 steps to your north-west
+- stone 1 step to your north
+- grass 1 step to your south
+- tree 1 step to your west
+- path 4 steps to your north-west
+- table 3 steps to your south-east
+
+You face stone at your front.",0.0,False
+111,Do,"Collect the nearby stone, then gather iron and coal as needed for the furnace and iron tools.ACTION: Do","You see:
+- iron 7 steps to your north-west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- tree 1 step to your west
+- path 1 step to your north
+- table 3 steps to your south-east
+
+You face path at your front.",0.0,False
+112,Place Furnace,"With stone and coal collected and a table nearby, the next priority is to place a furnace for the iron tools.ACTION: Place Furnace","You see:
+- iron 7 steps to your north-west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- tree 1 step to your west
+- path 4 steps to your north-west
+- furnace 1 step to your north
+- table 3 steps to your south-east
+
+You face furnace at your front.",1.0,False
+113,Move North,"To collect iron, travel northwest toward the iron, using the stone pickaxe. You’re low on drink, so prioritize a lake if one appears along the way.ACTION: Move North","You see:
+- iron 7 steps to your north-west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- tree 1 step to your west
+- path 4 steps to your north-west
+- furnace 1 step to your north
+- table 3 steps to your south-east
+
+You face furnace at your front.",0.0,False
+114,Move North,"You have the materials and nearby crafting stations for an iron pickaxe and sword, but need iron first. The iron is 7 steps northwest; move toward it while keeping an eye out for drink and energy. ACTION: Move North","You see:
+- iron 7 steps to your north-west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- tree 1 step to your west
+- path 4 steps to your north-west
+- furnace 1 step to your north
+- table 3 steps to your south-east
+
+You face furnace at your front.",0.0,False
+115,Move West,"The furnace is directly north, and moving north previously left you in the same spot. Step west toward the nearby tree, then continue northwest toward the iron. Your drink is low, so drink from a lake if one comes into view. ACTION: Move West","You see:
+- iron 7 steps to your north-west
+- stone 2 steps to your north-west
+- grass 1 step to your south
+- tree 1 step to your west
+- path 4 steps to your north-west
+- furnace 1 step to your north
+- table 3 steps to your south-east
+
+You face tree at your front.",0.0,False
+116,Do,"You have enough materials to craft iron tools once you collect iron, and the nearby tree is directly in front. Chop it for wood before heading toward the iron. ACTION: Do","You see:
+- iron 7 steps to your north-west
+- stone 2 steps to your north-west
+- grass 1 step to your west
+- tree 3 steps to your south-west
+- path 4 steps to your north-west
+- furnace 1 step to your north
+- table 3 steps to your south-east
+
+You face grass at your front.",0.0,False
+117,Move West,"To progress toward the iron tools, first collect iron with the stone pickaxe. It lies northwest, so move northwest by taking a west step toward the nearby stone, then continue toward the iron. Your drink is getting low, so drink when you reach a lake if one appears. ACTION: Move West","You see:
+- tree 2 steps to your south
+- grass 1 step to your west
+- iron 6 steps to your north-west
+- stone 1 step to your north
+- path 3 steps to your north-west
+- furnace 2 steps to your north-east
+- table 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+118,Move North,Stone is one step north; collect it with the stone pickaxe to build your supply before heading toward iron. ACTION: Move North,"You see:
+- tree 2 steps to your south
+- grass 1 step to your west
+- iron 6 steps to your north-west
+- stone 1 step to your north
+- path 3 steps to your north-west
+- furnace 2 steps to your north-east
+- table 4 steps to your south-east
+
+You face stone at your front.",0.0,False
+119,Do,Collect the stone directly in front of you so you can gather more materials for crafting. ACTION: Do,"You see:
+- tree 2 steps to your south
+- grass 1 step to your west
+- iron 6 steps to your north-west
+- stone 2 steps to your north-west
+- path 1 step to your north
+- furnace 2 steps to your north-east
+- table 4 steps to your south-east
+
+You face path at your front.",0.0,False
+120,Move North,"You have enough materials and nearby crafting stations for the iron tools, but first need to collect iron. The iron is six steps to the northwest; move toward it while keeping an eye on your drink and energy. ACTION: Move North","You see:
+- stone 1 step to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- path 2 steps to your north-west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+121,Move North,"You have enough wood, stone, coal, and nearby stations for the iron tools once you collect iron. The iron is northwest, so move north to continue toward it. ACTION: Move North","You see:
+- stone 1 step to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- path 2 steps to your north-west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+122,Move North,"The iron deposit is still several steps northwest. You have enough stone and coal to craft iron tools later, but no iron yet. Move north toward the deposit. ACTION: Move North","You see:
+- stone 1 step to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- path 2 steps to your north-west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+123,Move North,"Iron is still five steps northwest, so move toward it first. Your energy is low; sleep once it drops further, and keep an eye on food and drink while traveling. ACTION: Move North","You see:
+- stone 1 step to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- path 2 steps to your north-west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+124,Move West,"Stone is beside you to the west, so collect it with Do; that also helps meet the stone requirements for crafting. Your energy is low, but collecting nearby materials is worthwhile before sleeping. ACTION: Move West","You see:
+- stone 1 step to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- arrow 4 steps to your north-west
+- path 2 steps to your north-west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+125,Move West,"You already have enough stone for the stone tools, and the nearby stone is directly west. Collect it now; then you can continue toward iron and the remaining achievements. ACTION: Move West","You see:
+- stone 1 step to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- path 2 steps to your north-west
+- arrow 3 steps to your north-west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+126,Do,"You have the wood tools and stone pickaxe, but need to advance toward the iron and eventually collect iron and diamond. First collect the stone directly in front, then head northwest toward the iron. Your drink is low, so prioritize a lake if one appears nearby; sleep if energy becomes critical. ACTION: Do","You see:
+- stone 1 step to your north
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- path 1 step to your west
+- arrow 2 steps to your north-west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+127,Move North,"You have enough wood and stone for basic crafting, but the iron is still five steps northwest. Your drink is low, so look for a lake before making a long trek; none is visible nearby. The stone one step north is worth collecting, and you can then move toward the iron. You’re facing west, so first turn your approach toward the stone by moving north. ACTION: Move North","You see:
+- stone 1 step to your north
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- path 2 steps to your north-west
+- arrow 1 step to your west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face stone at your front.",0.0,False
+128,Do,Collect the stone directly in front while you’re here; then head toward the iron and conserve energy. ACTION: Do,"You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- skeleton 4 steps to your north-west
+- path 1 step to your west
+- arrow 2 steps to your south-west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+129,Sleep,"The current front tile is path, and the stone is two steps west, so trying to collect it now won’t work. With energy at 5/9 and drink at 3/9, prioritize resting and replenishing before exploring toward iron and the skeleton. ACTION: Sleep","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- skeleton 4 steps to your north-west
+- arrow 3 steps to your north-west
+- path 1 step to your west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+130,Noop,"You’re already sleeping and will automatically regain energy until it’s full, so no action is needed. Once awake, collect stone by moving west toward the nearby stone; then work toward the remaining achievements while monitoring drink and food.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- skeleton 4 steps to your north-west
+- path 1 step to your west
+- arrow 2 steps to your north-west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+131,Noop,"You are still sleeping, and the observation says you cannot act until your energy is full. Wait for recovery rather than attempting to move or craft.ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- skeleton 4 steps to your north-west
+- path 1 step to your north
+- arrow 1 step to your west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+132,Noop,"You’re still sleeping, and energy is only 5/9. Wait until it reaches full before taking another action. ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- skeleton 4 steps to your north-west
+- path 1 step to your west
+- arrow 2 steps to your south-west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+133,Noop,"While sleeping, you can’t take actions until energy reaches 9/9. It is currently 5/9, so wait one more turn. ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- path 1 step to your west
+- skeleton 3 steps to your north-west
+- arrow 3 steps to your south-west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+134,Noop,You’re still asleep and can’t take other actions until energy is full. Wait another turn. ACTION: Noop,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- path 1 step to your west
+- skeleton 3 steps to your north-west
+- arrow 2 steps to your north-west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+135,Noop,"Your energy is 5/9, so you’re still sleeping and cannot take other actions yet. Wait for energy to refill. ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- path 1 step to your north
+- skeleton 3 steps to your north-west
+- arrow 1 step to your west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+136,Noop,ACTION: Noop,"You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- skeleton 4 steps to your north-west
+- path 1 step to your west
+- arrow 2 steps to your south-west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+137,Noop,"You’re still sleeping with energy at 5/9, so you can’t take a normal action yet. Wait for sleep to finish; once awake, prioritize drinking and then work toward the remaining achievements.ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- skeleton 4 steps to your north-west
+- path 1 step to your west
+- arrow 3 steps to your south-west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+138,Noop,"You’re still sleeping, so movement and crafting aren’t available until your energy is full. Wait through another sleep tick. Once awake, use the nearby grass to restore food and head to the lake to restore drink before tackling the remaining achievements. ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- path 1 step to your west
+- skeleton 3 steps to your north-west
+- arrow 4 steps to your south-west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+139,Noop,"You’re still asleep with energy at 5/9, so you can’t move or take any other action yet. Wait for the next sleep tick. ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- skeleton 4 steps to your north-west
+- path 1 step to your west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+140,Noop,"You’re still sleeping and can’t act until your energy is full. Wait for the next sleep tick.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- skeleton 4 steps to your north-west
+- arrow 3 steps to your north-west
+- path 1 step to your west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+141,Noop,"Energy is only 6/9, and while sleeping I cannot take any other action. Keep waiting until sleep finishes. ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- skeleton 4 steps to your north-west
+- path 1 step to your west
+- arrow 2 steps to your north-west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+142,Noop,"You’re still sleeping, so no other action is available. Wait for energy to refill. ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- skeleton 4 steps to your north-west
+- path 1 step to your north
+- arrow 1 step to your west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+143,Noop,"You are still sleeping, and energy is only 6/9. The only useful action is to keep waiting until you wake up.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- skeleton 4 steps to your north-west
+- path 1 step to your west
+- arrow 2 steps to your south-west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+144,Noop,"You’re still sleeping, so movement, crafting, and gathering aren’t available yet. Wait for energy to refill before taking action. Once awake, prioritize collecting drink from the nearby lake if accessible, then continue toward the remaining achievements.  
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- path 1 step to your west
+- skeleton 3 steps to your north-west
+- arrow 3 steps to your south-west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+145,Noop,"You’re still sleeping, and actions won’t take effect until your energy is full. Wait for the sleep cycle to finish; then we can continue with the remaining achievements.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- skeleton 4 steps to your north-west
+- path 1 step to your west
+- arrow 4 steps to your south-west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+146,Noop,"You’re still sleeping with energy at 6/9, so you can’t act yet. Wait for energy to refill, then we can move toward the nearby iron and continue the remaining achievements.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- skeleton 4 steps to your north-west
+- arrow 3 steps to your north-west
+- path 1 step to your west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+147,Noop,"You are still sleeping, and actions are unavailable until energy is full. Wait one turn; once awake, we can continue toward collecting iron and completing the remaining achievements.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- skeleton 4 steps to your north-west
+- path 1 step to your west
+- arrow 2 steps to your north-west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+148,Noop,"You are still asleep, and the observation says actions are unavailable until energy is full. Wait for energy to recover before moving or crafting.ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- skeleton 4 steps to your north-west
+- path 1 step to your north
+- arrow 1 step to your west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+149,Noop,"You're still sleeping, and energy is only 6/9. Wait until it's full before taking any other action.ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- path 1 step to your west
+- skeleton 3 steps to your north-west
+- arrow 2 steps to your south-west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+150,Noop,"You’re still sleeping, so you can’t take other actions yet. Keep waiting for energy to refill; then prioritize drinking, since your drink level is low.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- path 1 step to your west
+- skeleton 3 steps to your north-west
+- arrow 3 steps to your south-west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+151,Noop,"You’re still sleeping and cannot act until your energy is full. Wait one turn, then reassess.  
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- skeleton 4 steps to your north-west
+- path 1 step to your west
+- arrow 4 steps to your south-west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+152,Noop,"You’re still sleeping with energy at 7/9, so you can’t act yet. Wait for it to refill.  
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- skeleton 4 steps to your north-west
+- arrow 3 steps to your north-west
+- path 1 step to your west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+153,Noop,"You’re still sleeping at 7/9 energy, so you can’t take an action yet. Wait for energy to refill.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- skeleton 4 steps to your north-west
+- path 1 step to your west
+- arrow 2 steps to your north-west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+154,Noop,"You have useful progress: wood and stone tools, plus wood, stone, and coal. Since you’re still sleeping and energy is only 7/9, wait until it refills before acting. Then prioritize drinking from the lake and collecting iron to craft the iron tools, while pursuing the remaining achievements.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- skeleton 4 steps to your north-west
+- path 1 step to your north
+- arrow 1 step to your west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+155,Noop,"Wait until your energy refills; you cannot act while sleeping. Once awake, prioritize finding water and collecting iron for the iron tools, while monitoring food and avoiding the skeleton.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- skeleton 4 steps to your north-west
+- path 1 step to your west
+- arrow 2 steps to your south-west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+156,Noop,"Energy is 7/9, so sleeping prevents any other action until it reaches full. Wait one turn, then assess whether you’ve woken up before choosing a route toward water and iron.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- skeleton 4 steps to your north-west
+- arrow 3 steps to your north-west
+- path 1 step to your west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+157,Noop,"You’re still asleep, and the observation says you can’t act until your energy is full. Wait another turn; once awake, prioritize finding water since your drink is low.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- path 1 step to your west
+- arrow 2 steps to your north-west
+- skeleton 3 steps to your north
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+158,Noop,"You’re still sleeping, and your energy is at 7/9, so you can’t act yet. Wait for it to refill before moving. Once awake, prioritize collecting a drink, then continue toward the iron and skeleton when prepared.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- path 1 step to your north
+- arrow 1 step to your west
+- skeleton 3 steps to your north
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+159,Noop,"You’re still sleeping and can’t take an action until your energy is full. Wait one turn. Once awake, the nearby furnace and table may help with crafting, but your low drink level makes finding water a priority.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- path 1 step to your west
+- arrow 2 steps to your south-west
+- skeleton 3 steps to your north
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+160,Noop,"You’re still sleeping at energy 7/9, so you can’t act yet. Wait for energy to refill before moving or crafting.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- path 1 step to your west
+- arrow 3 steps to your south-west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+161,Noop,"You are still sleeping and cannot take any action until your energy is full. Wait one turn, then reassess.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- path 1 step to your west
+- arrow 4 steps to your south-west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+162,Noop,"You’re still sleeping and need two more energy points to wake. Your drink is low, so once you can act, prioritize finding water; meanwhile, wait for energy to refill.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- path 1 step to your west
+- arrow 3 steps to your north
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+163,Noop,"Energy is 8/9, and sleeping prevents other actions until it is full. Wait one turn to wake up; then prioritize drinking from a lake, since your drink is only 2/9. You already have the wood and stone tools, so later work toward the remaining crafting and collection achievements.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- path 1 step to your west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+164,Noop,"You can’t move or perform other actions while sleeping, and energy is one point below full. Wait one turn so you wake, then head to the lake to restore your critically low drink before pursuing more achievements.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- path 1 step to your west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+165,Noop,"While sleeping, I can’t take any action other than waiting. Energy is 8/9, so one more turn should wake me. Once awake, I should prioritize finding a lake to restore drink, then continue working toward the remaining achievements.
+
+ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- path 1 step to your west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+166,Noop,"I’m still sleeping with 8/9 energy, so I must wait for it to reach full before I can act. Then I should seek water soon, since drink is only 2/9, while preserving enough food and health to pursue the remaining achievements.ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- path 1 step to your west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+167,Noop,"I’m still asleep at 8/9 energy, so I can’t travel or collect water yet. Wait one more turn for energy to refill, then prioritize finding a drink before tackling the remaining achievements. ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- path 1 step to your west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+168,Noop,"I’m still sleeping with energy at 8/9, so I can’t take other actions yet. Wait one turn for energy to refill; once awake, prioritize finding water because drink is critically low. ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- arrow 4 steps to your north-west
+- path 1 step to your west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+169,Noop,"You’re still sleeping, and actions are unavailable until energy is full. Wait one turn, then seek a water source soon since drink is low. ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- path 1 step to your west
+- arrow 3 steps to your north-west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+170,Noop,"You’re still asleep and energy is 8/9, so you can’t take an action yet. Wait one turn for energy to refill; then prioritize finding a lake to restore your critically low drink. ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- path 1 step to your west
+- arrow 2 steps to your north-west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+171,Noop,"You’re still asleep with energy at 8/9, so you can’t move or take any other action yet. Wait for energy to reach full, then act. ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- path 1 step to your north
+- arrow 1 step to your west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+172,Noop,"Wait for sleep to finish. Once energy is full, drink from the nearby lake if reachable, then work toward the remaining achievements; avoid approaching the skeleton without a stronger weapon. ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- arrow 2 steps to your south-west
+- path 1 step to your west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+173,Noop,"You're still sleeping at 8/9 energy, so you can't take another action yet. Wait one turn for energy to refill. ACTION: Noop","You are sleeping, and will not be able take actions until energy is full.
+
+
+
+You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- path 1 step to your west
+- arrow 3 steps to your north-west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face path at your front.",0.0,False
+174,Move East,"Your energy is now full, so sleeping should end with an action. Drink is low, and a furnace is one step east; head to it and use Do when adjacent to collect or interact as needed. ACTION: Move East","You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- path 1 step to your west
+- arrow 2 steps to your north-west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face furnace at your front.",1.0,False
+175,Move East,"You’re well equipped and have a nearby furnace, but your drink is critically low. The lake isn’t currently visible, so move toward the west-side path and use Do to drink if it’s adjacent. The furnace is in front of you, so move east first to get past it and explore toward water. Once hydrated, prioritize iron and diamond, then the remaining food and combat achievements.
+
+ACTION: Move East","You see:
+- stone 2 steps to your west
+- tree 3 steps to your south
+- grass 1 step to your south
+- iron 5 steps to your north-west
+- path 1 step to your north
+- arrow 1 step to your west
+- furnace 1 step to your east
+- table 5 steps to your south-east
+
+You face furnace at your front.",0.0,False
+176,Move North,"Drink is critically low, so finding water is the priority. The path is one step north; move there to explore toward a lake, then use Do when water is adjacent. Avoid spending time on crafting until hydrated. ACTION: Move North","You see:
+- stone 1 step to your north
+- tree 4 steps to your west
+- grass 2 steps to your south
+- iron 4 steps to your north-west
+- path 1 step to your west
+- arrow 3 steps to your south-west
+- furnace 2 steps to your south-east
+
+You face stone at your front.",0.0,False
+177,Move West,"Drink is critically low, so prioritize finding a lake. The path is one step west; move onto it to explore, then use Do if water is nearby. Avoid unnecessary detours or crafting for now. ACTION: Move West","You see:
+- stone 1 step to your west
+- grass 2 steps to your south
+- tree 3 steps to your west
+- iron 3 steps to your north-west
+- path 1 step to your north
+- arrow 3 steps to your south
+- furnace 3 steps to your south-east
+
+You face stone at your front.",0.0,False
+178,Move North,"Drink is critically low, so search for water while conserving energy. The observation does not show a lake nearby; move along the path north to explore. ACTION: Move North","You see:
+- stone 1 step to your west
+- grass 3 steps to your south
+- tree 3 steps to your west
+- coal 6 steps to your north-west
+- iron 2 steps to your west
+- path 1 step to your north
+- skeleton 4 steps to your north-east
+- furnace 4 steps to your south-east
+
+You face path at your front.",0.0,False
+179,Move North,"Drink is critically low, and no lake is visible nearby. Move north along the path to explore and look for water; avoid heading toward the skeleton. ACTION: Move North","You see:
+- stone 1 step to your west
+- grass 4 steps to your west
+- tree 4 steps to your south-west
+- coal 5 steps to your north-west
+- iron 3 steps to your south-west
+- path 1 step to your north
+- skeleton 3 steps to your north-east
+- furnace 5 steps to your south-east
+
+You face path at your front.",0.0,False
+180,Move North,"Drink is critically low, and no lake is visible nearby. Move north along the path to explore for water while avoiding the skeleton to the northeast. ACTION: Move North","You see:
+- grass 5 steps to your south-west
+- stone 1 step to your west
+- tree 5 steps to your south-west
+- coal 4 steps to your north-west
+- iron 4 steps to your south-west
+- path 1 step to your north
+- skeleton 3 steps to your north-east
+
+You face path at your front.",0.0,False
+181,Move North,"Drink is critically low, so continue north along the path to look for water while keeping distance from the skeleton to the northeast. ACTION: Move North","You see:
+- grass 5 steps to your north-west
+- stone 1 step to your west
+- cow 6 steps to your north-west
+- coal 3 steps to your west
+- tree 6 steps to your south-west
+- iron 5 steps to your south-west
+- path 1 step to your north
+- skeleton 3 steps to your north-east
+
+You face path at your front.",0.0,False
+182,Move North,"I should prioritize the low drink level and avoid approaching the skeleton. No lake is visible yet, so continue along the path north while watching for water; the nearby stone and coal can wait. ACTION: Move North","You see:
+- grass 4 steps to your north-west
+- cow 6 steps to your north-west
+- stone 1 step to your west
+- coal 3 steps to your north-west
+- tree 5 steps to your north-west
+- path 1 step to your north
+- skeleton 2 steps to your north-east
+- arrow 1 step to your east
+
+You face path at your front.",0.0,False
+183,Move North,"Drink is critically low, so prioritize finding water while avoiding the nearby skeleton. Continue north along the path; the cow is still too far away, and gathering nearby stone or coal would cost time without addressing thirst. ACTION: Move North","You see:
+- sand 6 steps to your north-west
+- grass 3 steps to your west
+- cow 5 steps to your north-west
+- stone 1 step to your west
+- coal 2 steps to your north-west
+- tree 4 steps to your north-west
+- path 1 step to your south
+- skeleton 1 step to your east
+- arrow 3 steps to your south-east
+
+You face stone at your front.",0.0,False
+184,Do,"The skeleton is one step to the east, so it may be directly in front after the earlier movement—but I currently face the stone to my west. With drink at 2/9, finding water is urgent; however, moving west to collect the stone risks spending a turn while the skeleton is adjacent. Use Do to hit the creature if it is in front, then head toward water. ACTION: Do","You see:
+- sand 6 steps to your north-west
+- grass 3 steps to your west
+- cow 5 steps to your north-west
+- stone 1 step to your west
+- coal 2 steps to your north-west
+- tree 4 steps to your north-west
+- path 1 step to your north
+- skeleton 1 step to your east
+- arrow 4 steps to your south-east
+
+You face path at your front.",0.0,False
+185,Move North,"We have already earned several crafting and collection achievements. The skeleton is adjacent to the east, but we’re facing north, so Do would not hit it. Our drink is critically low, and no water is visible; moving north along the path is the best immediate step toward exploring for a drink while avoiding the skeleton for now. ACTION: Move North","You see:
+- water 6 steps to your north-west
+- sand 5 steps to your north-west
+- grass 3 steps to your west
+- cow 5 steps to your south-west
+- stone 1 step to your north
+- coal 1 step to your west
+- tree 3 steps to your north-west
+- path 1 step to your south
+- skeleton 2 steps to your south-east
+
+You face stone at your front.",0.0,False
+186,Do,Collect the stone directly in front first. This advances stone collection and may be needed for later crafting; then we can head toward the water to address the low drink level. ACTION: Do,"You see:
+- water 6 steps to your north-west
+- sand 5 steps to your north-west
+- grass 3 steps to your west
+- cow 5 steps to your south-west
+- stone 2 steps to your west
+- coal 1 step to your west
+- tree 3 steps to your north-west
+- path 1 step to your north
+- skeleton 2 steps to your south-east
+
+You face path at your front.",0.0,False
+187,Move West,"Your inventory already has plenty of stone and the required materials for the stone tools, while drink is critically low. The water is to the north-west, so head west toward it and drink as soon as you can interact with it. ACTION: Move West","You see:
+- water 6 steps to your north-west
+- sand 5 steps to your north-west
+- grass 3 steps to your west
+- cow 5 steps to your south-west
+- stone 2 steps to your west
+- coal 1 step to your west
+- tree 3 steps to your north-west
+- path 1 step to your north
+- skeleton 2 steps to your south-east
+
+You face coal at your front.",0.0,False
+188,Move West,"Your drink is critically low, so prioritize reaching water before pursuing other achievements. The water is six steps northwest, and coal is directly ahead; move west toward the water. ACTION: Move West","You see:
+- water 6 steps to your north-west
+- sand 5 steps to your north-west
+- grass 3 steps to your west
+- cow 5 steps to your south-west
+- stone 2 steps to your west
+- coal 1 step to your west
+- tree 3 steps to your north-west
+- path 1 step to your north
+- skeleton 3 steps to your south-east
+
+You face coal at your front.",0.0,False
+189,Move West,"Your drink is critically low, so reaching water is the priority. The water is northwest, so move west toward it. ACTION: Move West","You see:
+- water 6 steps to your north-west
+- sand 5 steps to your north-west
+- grass 3 steps to your west
+- cow 5 steps to your south-west
+- stone 2 steps to your west
+- coal 1 step to your west
+- tree 3 steps to your north-west
+- path 1 step to your north
+- skeleton 4 steps to your south-east
+
+You face coal at your front.",0.0,False
+190,Move West,"Drink is critical, so prioritize reaching water. Move northwest by going west toward the nearby coal, then continue toward the water. ACTION: Move West","You see:
+- water 6 steps to your north-west
+- sand 5 steps to your north-west
+- grass 3 steps to your west
+- cow 5 steps to your south-west
+- stone 2 steps to your west
+- coal 1 step to your west
+- tree 3 steps to your north-west
+- path 1 step to your north
+- skeleton 4 steps to your south-east
+
+You face coal at your front.",0.0,False
+191,Move North,"Your drink is critically low, so reach the water before pursuing other achievements. It is northwest, and you’re currently facing the nearby coal to your west. Turn toward the water by moving north along the path, then continue northwest as needed. ACTION: Move North","You see:
+- water 5 steps to your north-west
+- sand 4 steps to your north-west
+- grass 3 steps to your west
+- cow 6 steps to your south-west
+- stone 1 step to your west
+- tree 2 steps to your west
+- coal 2 steps to your south-west
+- path 1 step to your south
+
+You face stone at your front.",0.0,False
+192,Move North,"Your drink is critical, so prioritize reaching the water. It is northwest; moving north begins toward it and avoids the stone directly in front of you. ACTION: Move North","You see:
+- water 5 steps to your north-west
+- sand 4 steps to your north-west
+- grass 3 steps to your west
+- stone 1 step to your west
+- tree 2 steps to your west
+- coal 2 steps to your south-west
+- path 1 step to your south
+- arrow 4 steps to your south-east
+
+You face stone at your front.",0.0,False
+193,Do,"Your drink is critical, but the water is five steps northwest and this view does not reveal a direct route. The stone immediately west can be collected with Do, which will also make progress toward the stone-related achievements. Then we can reassess the route to the water. ACTION: Do","You see:
+- water 5 steps to your north-west
+- sand 4 steps to your north-west
+- grass 3 steps to your west
+- stone 1 step to your west
+- tree 2 steps to your west
+- coal 2 steps to your south-west
+- path 1 step to your north
+- arrow 3 steps to your south-east
+
+You face path at your front.",0.0,False
+194,Move West,"Your drink is critically low, so prioritize reaching the water before gathering more materials. The water is northwest; move west toward it, then adjust north as needed. ACTION: Move West","You see:
+- water 5 steps to your north-west
+- sand 4 steps to your north-west
+- zombie 4 steps to your west
+- grass 3 steps to your west
+- stone 1 step to your west
+- tree 2 steps to your west
+- coal 2 steps to your south-west
+- path 1 step to your north
+- arrow 2 steps to your south-east
+
+You face stone at your front.",0.0,False
+195,Move West,"Your drink is critically low, so reaching water takes priority over gathering materials or engaging the zombie. The water is northwest; move west to start closing the distance. ACTION: Move West","You see:
+- water 5 steps to your north-west
+- sand 4 steps to your north-west
+- grass 3 steps to your west
+- zombie 5 steps to your south-west
+- stone 1 step to your west
+- tree 2 steps to your west
+- coal 2 steps to your south-west
+- path 1 step to your north
+- arrow 1 step to your east
+
+You face stone at your front.",0.0,False
+196,Move North,"You’re critically low on drink, so prioritize reaching water. It is northwest; moving north first should bring you closer while avoiding the zombie to the southwest. Then continue northwest toward the water and use Do when adjacent.
+
+ACTION: Move North","You see:
+- water 4 steps to your north-west
+- sand 3 steps to your west
+- grass 2 steps to your west
+- zombie 5 steps to your south-west
+- tree 3 steps to your south-west
+- stone 1 step to your west
+- coal 1 step to your north
+- path 1 step to your south
+- arrow 1 step to your east
+- lava 6 steps to your north-east
+
+You face coal at your front.",0.0,False
+197,Do,"Your drink is critical at 1/9, so prioritize reaching water over collecting resources. The water is northwest, but coal is directly in front; use the current facing to collect it, then head toward the water and drink as soon as you’re adjacent.ACTION: Do","You see:
+- water 4 steps to your north-west
+- sand 3 steps to your west
+- grass 2 steps to your west
+- zombie 5 steps to your south-west
+- tree 3 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your south-west
+- path 1 step to your north
+- lava 6 steps to your north-east
+
+You face path at your front.",0.0,False
+198,Move North,"The main priority is to refill drink before it runs out. Water is northwest, but moving west from here leads toward the nearby stone, so head north first along the path and then turn west toward the water. Don’t engage the zombie or spend time collecting resources yet.
+
+ACTION: Move North","You see:
+- water 3 steps to your west
+- sand 2 steps to your west
+- grass 3 steps to your south-west
+- zombie 3 steps to your north
+- tree 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north-east
+- path 1 step to your south
+- lava 5 steps to your north-east
+
+You face stone at your front.",0.0,False
+199,Do,"You’re critically low on drink, and water is three steps west. Move west toward it, but the stone directly ahead may block movement; use Do to collect the stone first, then continue toward the water. **ACTION: Do**","You see:
+- water 3 steps to your west
+- sand 2 steps to your west
+- grass 3 steps to your south-west
+- zombie 3 steps to your north
+- tree 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north-east
+- path 1 step to your north
+- arrow 3 steps to your south
+- lava 5 steps to your north-east
+
+You face path at your front.",0.0,False
+200,Move West,"The stone is one step west, but your view says you face the path, so it is not directly in front. With drink at 1/9, reaching water is urgent. Move west toward the water; reassess after each step. ACTION: Move West","You see:
+- water 3 steps to your west
+- sand 2 steps to your west
+- grass 3 steps to your south-west
+- zombie 3 steps to your north
+- tree 4 steps to your south-west
+- stone 1 step to your west
+- coal 3 steps to your north-east
+- path 1 step to your north
+- arrow 2 steps to your south
+- lava 5 steps to your north-east
+
+You face stone at your front.",0.0,False
+201,Do,"The stone is directly in front, so collect it with Do. Water is still several steps west, but increasing stone is useful and the drink level is low; head west toward water immediately afterward. Avoid moving north toward the zombie. ACTION: Do","You see:
+- water 3 steps to your west
+- sand 2 steps to your west
+- grass 3 steps to your south-west
+- zombie 3 steps to your north
+- tree 4 steps to your south-west
+- stone 1 step to your east
+- path 1 step to your west
+- coal 3 steps to your north-east
+- arrow 1 step to your south
+- lava 5 steps to your north-east
+
+You face path at your front.",0.0,False
+202,Move West,"Drink is critically low, so prioritize reaching the water. It is three steps west, with the path directly in front. Move west toward it. ACTION: Move West","You see:
+- water 2 steps to your west
+- sand 1 step to your west
+- grass 2 steps to your south-west
+- zombie 4 steps to your south-west
+- tree 3 steps to your south-west
+- stone 1 step to your north
+- coal 3 steps to your south
+- path 2 steps to your north-east
+- arrow 1 step to your east
+- lava 6 steps to your north-east
+
+You face sand at your front.",0.0,False
+203,Move West,"Drink is critically low, so prioritize the water. It is two steps west; move closer, then use Do when facing the water. ACTION: Move West","You see:
+- water 1 step to your west
+- sand 1 step to your north
+- grass 1 step to your south
+- zombie 2 steps to your south-west
+- tree 2 steps to your south
+- stone 2 steps to your north-east
+- path 1 step to your east
+- coal 4 steps to your south-east
+- arrow 3 steps to your north-east
+
+You face water at your front.",0.0,False
+204,Do,"Your drink is critically low, and you’re already facing the adjacent water. Use Do to collect a drink before moving on.  
+ACTION: Do","You see:
+- water 1 step to your west
+- sand 1 step to your north
+- grass 1 step to your south
+- zombie 2 steps to your south-west
+- tree 2 steps to your south
+- stone 2 steps to your north-east
+- path 1 step to your east
+- coal 4 steps to your south-east
+
+You face water at your front.",1.0,False
+205,Do,"You’re facing the adjacent water, and drink is critically low. Use Do to collect a drink. Then prioritize gathering food and wood while keeping an eye on nearby threats. ACTION: Do","You see:
+- water 1 step to your west
+- sand 1 step to your north
+- grass 1 step to your south
+- zombie 2 steps to your south-west
+- tree 2 steps to your south
+- stone 2 steps to your north-east
+- path 1 step to your east
+- coal 4 steps to your south-east
+
+You face water at your front.",0.0,False
+206,Do,"Water is adjacent and drink is low, so use Do to collect a drink. Then we should gather food and pursue the remaining crafting and exploration achievements, while avoiding the nearby zombie until better equipped. ACTION: Do","You see:
+- water 1 step to your west
+- sand 1 step to your north
+- grass 1 step to your south
+- cow 7 steps to your south-west
+- zombie 2 steps to your south-west
+- tree 2 steps to your south
+- stone 2 steps to your north-east
+- path 1 step to your east
+- coal 4 steps to your south-east
+
+You face water at your front.",0.0,False
+207,Move South,"We’ve already collected drink, stone, coal, and crafted the early tools. Food is low, so the nearby cow is a priority, but the zombie is also close. Turn toward the south-west and use Do to attack if it is directly in front; otherwise move toward the cow carefully. For the immediate action, face south toward the tree, then we can orient toward the nearby threats. ACTION: Move South","You see:
+- water 2 steps to your north-west
+- sand 1 step to your west
+- grass 2 steps to your south-west
+- cow 6 steps to your south-west
+- zombie 2 steps to your west
+- tree 1 step to your south
+- stone 1 step to your east
+- path 2 steps to your north-east
+- coal 3 steps to your south-east
+- arrow 4 steps to your south-east
+- skeleton 5 steps to your south-east
+
+You face tree at your front.",0.0,False
+208,Move West,"You have enough wood and stone for further crafting, but first the nearby zombie is a threat and food is low. You have a sword, so approach the zombie and attack when it is directly in front. It is two steps west, so move west once to close the distance.  
+ACTION: Move West","You see:
+- water 1 step to your north
+- sand 2 steps to your west
+- grass 1 step to your south
+- cow 4 steps to your south-west
+- zombie 1 step to your west
+- tree 2 steps to your south-east
+- stone 2 steps to your east
+- path 3 steps to your north-east
+- coal 4 steps to your south-east
+- arrow 4 steps to your south-east
+- skeleton 6 steps to your south-east
+
+You face zombie at your front.",-0.2,False
+209,Do,"The zombie is directly in front, so use Do to attack. Your health is 7/9; prioritize defeating the nearby threat before collecting resources or pursuing the cow.  
+ACTION: Do","You see:
+- water 1 step to your north
+- sand 2 steps to your west
+- grass 1 step to your south
+- cow 5 steps to your south-west
+- zombie 1 step to your west
+- tree 2 steps to your south-east
+- stone 2 steps to your east
+- path 3 steps to your north-east
+- coal 4 steps to your south-east
+- arrow 3 steps to your east
+- skeleton 6 steps to your south-east
+
+You face zombie at your front.",0.0,False
+210,Do,"The zombie is directly in front, and defeating it is an achievement. Attack it with Do; the wood sword should improve your damage. Your health is 7/9, so continue monitoring it and retreat or recover if needed.  
+ACTION: Do","You see:
+- water 1 step to your north
+- sand 2 steps to your west
+- grass 1 step to your south
+- cow 5 steps to your south-west
+- zombie 1 step to your west
+- tree 2 steps to your south-east
+- stone 2 steps to your east
+- path 3 steps to your north-east
+- coal 4 steps to your south-east
+- arrow 4 steps to your north-east
+- skeleton 6 steps to your south-east
+
+You face zombie at your front.",0.0,False
+211,Do,"The zombie is still directly in front, so continue attacking while the wood sword is equipped. Health is 7/9; one more attack should advance the defeat achievement, then reassess health and food.  
+ACTION: Do","You see:
+- water 1 step to your north
+- sand 1 step to your west
+- grass 1 step to your south
+- cow 4 steps to your south-west
+- zombie 4 steps to your north-east
+- tree 2 steps to your south-east
+- stone 2 steps to your east
+- path 3 steps to your north-east
+- coal 4 steps to your south-east
+- arrow 5 steps to your north-east
+- skeleton 6 steps to your south-east
+
+You face sand at your front.",1.0,False
+212,Move South,"The zombie is no longer adjacent, and food is low. First collect the nearby tree, then use the wood and nearby resources to craft a sword or table as needed; avoid chasing the zombie while health and food are limited. The tree is southeast, so move one step south toward it.  
+ACTION: Move South","You see:
+- water 2 steps to your north
+- sand 1 step to your north
+- grass 1 step to your west
+- cow 3 steps to your south-west
+- stone 2 steps to your south-east
+- zombie 4 steps to your north-east
+- tree 1 step to your east
+- path 3 steps to your east
+- coal 3 steps to your south-east
+- skeleton 5 steps to your south-east
+
+You face grass at your front.",0.0,False
+213,Move East,"You have enough wood and stone to make both improved tools, but still need a table nearby. The tree is immediately east; collect it first, then place a table and craft the stone pickaxe and sword. Your food and drink are low, so afterward seek the nearby cow and water.  
+ACTION: Move East","You see:
+- water 2 steps to your north
+- sand 1 step to your north
+- grass 1 step to your west
+- cow 3 steps to your south-west
+- stone 2 steps to your south-east
+- zombie 3 steps to your north-east
+- tree 1 step to your east
+- path 3 steps to your east
+- coal 3 steps to your south-east
+- skeleton 5 steps to your south-east
+
+You face tree at your front.",0.1,False
+214,Do,"You already have wood and stone tools, and the tree is directly in front, so collect it for the wood and sapling achievements. Then you can place a plant if you collect a sapling. Water and food are getting low; after gathering from the tree, prioritize drinking from the nearby water and finding the cow. Avoid the nearby zombie for now. ACTION: Do","You see:
+- water 2 steps to your north
+- sand 1 step to your north
+- grass 1 step to your west
+- cow 4 steps to your south-west
+- stone 2 steps to your south-east
+- zombie 2 steps to your north-east
+- path 3 steps to your east
+- coal 3 steps to your south-east
+- skeleton 5 steps to your south-east
+
+You face grass at your front.",0.0,False
+215,Move West,"First collect the nearby grass material: it may provide a sapling or plant resource, and moving west also takes us away from the zombie. Then we can drink from the nearby water and pursue the cow for food. ACTION: Move West","You see:
+- sand 1 step to your north
+- grass 1 step to your west
+- water 2 steps to your north
+- cow 3 steps to your south-west
+- stone 3 steps to your south
+- zombie 2 steps to your north-east
+- path 4 steps to your east
+- coal 4 steps to your south-east
+- skeleton 6 steps to your south-east
+
+You face grass at your front.",0.0,False
+216,Move North,"We’re low on food and drink, so prioritize survival. Water is two steps north, with sand directly north; the nearby zombie is northeast. Move north onto the sand, then head toward the water and use Do to drink. ACTION: Move North","You see:
+- water 1 step to your north
+- sand 1 step to your west
+- grass 1 step to your south
+- cow 4 steps to your south-west
+- zombie 1 step to your east
+- stone 3 steps to your east
+- path 4 steps to your north-east
+- coal 5 steps to your south-east
+- skeleton 7 steps to your south-east
+
+You face water at your front.",-0.2,False
+217,Do,"Your drink is low, and water is directly in front of you. Use Do to drink before pursuing other achievements. The zombie is to your east, so avoid moving toward it for now.
+
+ACTION: Do","You see:
+- water 1 step to your north
+- sand 1 step to your west
+- grass 1 step to your south
+- cow 4 steps to your south-west
+- zombie 1 step to your east
+- stone 3 steps to your east
+- path 4 steps to your north-east
+- coal 5 steps to your south-east
+- skeleton 7 steps to your south-east
+
+You face water at your front.",0.0,False
+218,Do,"You have already collected enough wood and stone to craft the early tools, and the inventory confirms the wood and stone pickaxes and wood sword. Your health is low, so avoid fighting the nearby zombie. Drink is at 5/9 and water is directly ahead; Do at water is the safest immediate way to replenish it.
+
+ACTION: Do","You see:
+- water 1 step to your north
+- sand 1 step to your west
+- grass 1 step to your south
+- cow 4 steps to your south-west
+- zombie 1 step to your east
+- stone 3 steps to your east
+- path 4 steps to your north-east
+- coal 5 steps to your south-east
+- skeleton 6 steps to your south-east
+
+You face water at your front.",0.0,False
+219,Do,The highest priority is to restore drink while facing the adjacent water; Do should collect a drink without engaging the zombie to the east. Then we can pursue food and remaining crafting achievements. ACTION: Do,"You see:
+- water 1 step to your north
+- sand 1 step to your west
+- grass 1 step to your south
+- cow 4 steps to your south-west
+- zombie 1 step to your east
+- stone 3 steps to your east
+- path 4 steps to your north-east
+- coal 5 steps to your south-east
+- skeleton 6 steps to your south-east
+
+You face water at your front.",0.0,False
+220,Move South,"Your food is low, and a cow is several steps away. Repeatedly using Do while facing water risks spending turns without making progress toward food. The zombie is adjacent to the east, so avoid moving toward it; head south along the safe grass, then work toward the cow.ACTION: Move South","You see:
+- sand 1 step to your north
+- grass 1 step to your west
+- water 2 steps to your north
+- cow 4 steps to your south-west
+- stone 3 steps to your south
+- zombie 1 step to your east
+- path 4 steps to your east
+- coal 4 steps to your south-east
+- skeleton 5 steps to your south-east
+
+You face grass at your front.",0.0,False
+221,Move West,"You have a wood sword and health is only 6/9, so avoid the nearby zombie and skeleton. Food is low; the cow is four steps southwest, but moving toward it from here means crossing nearby danger. First collect a safer food source if available—but none is visible. Head west on grass, away from the zombie, then reassess the route to the cow. ACTION: Move West","You see:
+- sand 1 step to your north
+- grass 1 step to your west
+- water 2 steps to your north
+- cow 2 steps to your south
+- zombie 1 step to your east
+- stone 4 steps to your south-east
+- path 6 steps to your north-east
+- coal 5 steps to your south-east
+
+You face grass at your front.",0.0,False
+222,Move South,"You’re low on food and health, but the cow is only two steps south. The zombie is immediately east, so avoid moving that way. Head south toward the cow, then use Do when you face it. ACTION: Move South","You see:
+- grass 1 step to your west
+- sand 2 steps to your north
+- water 3 steps to your north
+- cow 1 step to your south
+- coal 3 steps to your south
+- zombie 1 step to your east
+- stone 3 steps to your south-east
+- path 7 steps to your north-east
+
+You face cow at your front.",-0.2,False
+223,Do,"Do the cow is directly in front of you, so use Do to attack it and potentially collect food. With health at 4/9 and a zombie nearby, avoid moving east. ACTION: Do","You see:
+- grass 1 step to your west
+- sand 2 steps to your north
+- water 3 steps to your north
+- coal 3 steps to your south
+- zombie 1 step to your east
+- cow 2 steps to your south-east
+- stone 3 steps to your south-east
+- path 7 steps to your north-east
+
+You face grass at your front.",0.0,False
+224,Move South,"You have enough materials for several crafting achievements, but need a nearby table; the tree is behind you and you already collected its wood. First, collect the grass-adjacent plant resources if available, while avoiding the zombie to the east. The cow is now southeast, so don’t attack from here. Need regain health/food, but the nearby cow can be approached cautiously. Turn toward it by moving south, keeping away from the zombie, then use Do when facing it. ACTION: Move South","You see:
+- grass 1 step to your west
+- sand 3 steps to your north
+- zombie 2 steps to your north-east
+- coal 2 steps to your south
+- cow 1 step to your east
+- stone 2 steps to your south-east
+
+You face grass at your front.",0.0,False
+225,Move East,"Cow is adjacent to the east, but you’re facing west. Turn toward it by moving east, then use Do to attack/eat it. This risks a zombie nearby, so prioritize the cow achievement and food. ACTION: Move East","You see:
+- grass 1 step to your west
+- sand 3 steps to your north
+- zombie 1 step to your east
+- coal 2 steps to your south
+- stone 2 steps to your south-east
+- cow 2 steps to your east
+
+You face zombie at your front.",0.0,False
+226,Do,"Your health is low, and the zombie is directly in front of you. Use Do to attack it with your wood sword before it can deal further damage. ACTION: Do","You see:
+- grass 1 step to your west
+- sand 3 steps to your north
+- zombie 2 steps to your west
+- coal 2 steps to your south
+- stone 2 steps to your south-east
+- cow 2 steps to your east
+
+You face grass at your front.",0.0,False
+227,Move East,"You’re at low health and hungry, so engaging the zombie or traveling toward the coal is risky. The cow is nearby to your east, but it’s two steps away; move closer and face it to collect food. ACTION: Move East","You see:
+- grass 1 step to your west
+- sand 3 steps to your north
+- zombie 1 step to your north
+- coal 3 steps to your south-west
+- stone 1 step to your south
+- cow 2 steps to your north-east
+- path 5 steps to your north-east
+- skeleton 4 steps to your east
+
+You face grass at your front.",0.0,False
+228,Move North,"We are at low health and a zombie is immediately north. The cow is two steps northeast, so moving east would bring the nearby skeleton closer and risk combat; instead, first deal with the adjacent zombie before pursuing food. Face it by moving north, then use Do to attack. ACTION: Move North","You see:
+- grass 1 step to your west
+- sand 3 steps to your north
+- zombie 1 step to your north
+- coal 3 steps to your south-west
+- stone 1 step to your south
+- cow 2 steps to your north-east
+- path 5 steps to your north-east
+- skeleton 4 steps to your east
+
+You face zombie at your front.",0.0,False
+229,Move East,"You’re at 4 health, so engaging the adjacent zombie is risky. A cow is two steps northeast; move east toward it, then turn to face it and use Do to hunt for food. Avoid the zombie to the north and skeleton to the east. ACTION: Move East","You see:
+- sand 3 steps to your north
+- grass 1 step to your north
+- zombie 1 step to your west
+- coal 2 steps to your south
+- stone 1 step to your south
+- cow 2 steps to your north
+- path 4 steps to your north-east
+- skeleton 3 steps to your east
+
+You face stone at your front.",0.0,False
+230,Do,"You’re low on health and food, with a zombie immediately to the west and a skeleton nearby to the east. The cow is two steps north, but the grass one step north blocks a direct approach. Avoid combat for now; recover energy if needed, and don’t risk moving toward the hostile creatures. Since food is low, the cow is the best target once you can approach safely. For this turn, use the adjacent stone while facing it to gather resources. ACTION: Do","You see:
+- sand 3 steps to your north
+- grass 2 steps to your north-west
+- zombie 1 step to your west
+- coal 2 steps to your south
+- stone 1 step to your south
+- cow 1 step to your north
+- path 1 step to your east
+- skeleton 4 steps to your east
+
+You face path at your front.",-0.2,False
+231,Move East,"You’re at critical health with a zombie adjacent to the west, so avoid turning toward or engaging it. The cow is north, but reaching it would put you near danger and won’t restore health immediately. You have enough materials to craft useful gear, but you need a nearby table first. There’s no safe recovery action available besides sleeping, and energy is not low enough to sleep. The safest immediate move is east, away from the adjacent zombie and toward the path, while keeping your current facing.
+
+ACTION: Move East","You see:
+- sand 4 steps to your north-west
+- grass 2 steps to your west
+- zombie 1 step to your west
+- coal 2 steps to your north-east
+- stone 1 step to your north
+- cow 3 steps to your north-west
+- path 2 steps to your east
+- skeleton 4 steps to your south-east
+
+You face stone at your front.",0.0,False
+232,Move East,"The zombie is one step west, but your current facing is toward the stone to the north. With only 2 health, avoid turning toward the zombie or fighting. The path is east, so move east to increase distance from danger. Your energy is still too high to sleep, and crafting or gathering would leave you exposed.
+
+ACTION: Move East","You see:
+- sand 4 steps to your north-west
+- grass 2 steps to your north-west
+- coal 2 steps to your north-east
+- zombie 1 step to your west
+- stone 1 step to your north
+- cow 3 steps to your north-west
+- path 2 steps to your east
+- arrow 3 steps to your south-east
+- skeleton 4 steps to your south-east
+
+You face stone at your front.",0.0,False
+233,Move East,"Health is critical at 2/9, and the zombie is adjacent to the west, so don’t approach it. Move east along the path to create distance from the zombie and skeleton; avoid gathering or combat until safer.ACTION: Move East","You see:
+- sand 4 steps to your north-west
+- grass 2 steps to your north-west
+- coal 2 steps to your north-east
+- zombie 1 step to your west
+- stone 1 step to your north
+- cow 3 steps to your north-west
+- path 2 steps to your east
+- skeleton 4 steps to your south-east
+
+You face stone at your front.",0.0,False
+234,Move East,"Health is critically low, so avoid combat and gathering for now. Moving east increases distance from the adjacent zombie and heads along the path; then prioritize finding safety and recovering before pursuing more achievements. ACTION: Move East","You see:
+- sand 4 steps to your north-west
+- grass 2 steps to your north-west
+- coal 2 steps to your north-east
+- zombie 1 step to your west
+- stone 1 step to your north
+- cow 3 steps to your north-west
+- path 2 steps to your east
+- skeleton 4 steps to your south-east
+
+You face stone at your front.",0.0,False
+235,Move East,"Health is critically low at 2/9, and the zombie is adjacent to the west. Avoid fighting or approaching it. Moving east toward the path should create distance from the zombie; after escaping, prioritize recovering and eating before attempting more achievements.
+
+ACTION: Move East","You see:
+- sand 4 steps to your north-west
+- grass 2 steps to your west
+- coal 2 steps to your north-east
+- zombie 1 step to your west
+- stone 1 step to your north
+- cow 3 steps to your north-west
+- path 2 steps to your east
+- skeleton 4 steps to your south-east
+
+You face stone at your front.",0.0,False
+236,Do,"You have a stone pickaxe, so collect the stone directly in front to work toward the stone and later iron-related achievements. The zombie is to your west, so avoid turning toward it. Health is low, but the stone is immediately accessible.ACTION: Do","You died.
+
+
+
+You see:
+- sand 4 steps to your north-west
+- grass 2 steps to your west
+- coal 2 steps to your north-east
+- zombie 1 step to your west
+- stone 1 step to your north
+- cow 2 steps to your north-west
+- path 1 step to your east
+- arrow 3 steps to your south-east
+- skeleton 4 steps to your south-east
+
+You face path at your front.",-0.2,True

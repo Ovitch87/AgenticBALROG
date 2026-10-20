@@ -807,3 +807,757 @@ You face plant at your front.",1.0,False
 - water 5 steps to your south-east
 
 You face plant at your front.",0.0,False
+96,We need need collect plant Facing plant Do likely eat Current inventory shows tools and wood no plant listed perhaps planted nearby Do on plant maybe eat if inventory plant Achievement place already perhaps action Need obtain eat plant perhaps Do collects plant In Crafter plant tile action Do harvests plant producing plant then eat automatically Standard Crafter achievements Need gather wood Inventory wood  and crafted tools implies achievements done Need strategy broad Need know world observations limited Current facing plant at west Do likely interact harvest plant maybe eat Go Do Must provide reasoning stepbystep briefly Could do now If plant is placed entity and face Do should eat plant Crafter actions interact: collect resources drink attack Plants can be collected by Do food autoeat maybe ACTION Do Final format,"We need need collect plant? Facing plant Do likely eat? Current inventory shows tools and wood, no plant listed perhaps planted nearby. Do on plant maybe eat if inventory plant? Achievement place already perhaps action. Need obtain eat plant perhaps Do collects plant? In Crafter, plant tile action Do harvests plant producing plant, then eat automatically? Standard Crafter achievements. Need gather wood? Inventory wood 3 and crafted tools implies achievements done. Need strategy broad. Need know world observations limited. Current facing plant at west. Do likely interact harvest plant, maybe eat? Go Do. Must provide reasoning step-by-step briefly. Could do now. If plant is placed entity and face, Do should eat plant? Crafter actions interact: collect resources, drink, attack. Plants can be collected by Do, food auto-eat maybe. ACTION Do. Final format.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your north
+- plant 1 step to your west
+- table 2 steps to your north-east
+- sand 4 steps to your south-east
+- water 5 steps to your south-east
+
+You face plant at your front.",0.0,False
+97,Do,"You already have the wood tools and a nearby table. The plant is directly in front, so try interacting with it to work toward the plant-related achievements.
+
+ACTION: Do","You see:
+- grass 1 step to your north
+- plant 1 step to your west
+- table 2 steps to your north-east
+- sand 4 steps to your south-east
+- water 5 steps to your south-east
+
+You face plant at your front.",0.0,False
+98,Do,"The plant is directly in front of you, and your food is low. Interact with it to try to collect and eat it.
+
+ACTION: Do","You see:
+- grass 1 step to your north
+- plant 1 step to your west
+- table 2 steps to your north-east
+- sand 4 steps to your south-east
+- water 5 steps to your south-east
+
+You face plant at your front.",0.0,False
+99,Do,"The wood pickaxe and sword are already crafted, and the plant is directly in front of you. Try interacting with the plant to collect or eat it.
+
+ACTION: Do","You see:
+- grass 1 step to your north
+- plant 1 step to your west
+- table 2 steps to your north-east
+- sand 4 steps to your south-east
+- water 5 steps to your south-east
+
+You face plant at your front.",0.0,False
+100,Move West,"The plant is still directly in front, and using Do repeatedly hasn’t changed the observation. Since it was placed beside you, step west onto the plant tile, then interact with it from there.
+
+ACTION: Move West","You see:
+- grass 1 step to your north
+- plant 1 step to your west
+- table 2 steps to your north-east
+- sand 4 steps to your south-east
+- water 5 steps to your south-east
+
+You face plant at your front.",0.0,False
+101,Do,"The plant is still one step west, and moving onto it may not be the right way to eat it. The table is nearby, and you have enough wood to craft further tools, but the immediate goal is to interact with the plant. Try Do once more while facing it.
+
+ACTION: Do","You see:
+- grass 1 step to your north
+- plant 1 step to your west
+- table 2 steps to your north-east
+- sand 4 steps to your south-east
+- water 5 steps to your south-east
+
+You face plant at your front.",0.0,False
+102,Do,"The plant is immediately west, but repeated Do actions while facing it have not changed the observation. The previous Move West also left it one step away, so movement may be blocked or the plant may be an obstacle. Since food is 6/9 and the plant is directly in front, try Do once more to interact with it.
+
+ACTION: Do","You see:
+- grass 1 step to your north
+- plant 1 step to your west
+- table 2 steps to your north-east
+- sand 4 steps to your south-east
+- water 5 steps to your south-east
+
+You face plant at your front.",0.0,False
+103,Move North,"The plant is directly in front, and your food is low. Repeating Do has not changed the observation, so the plant may be an obstacle rather than something you can harvest from this position. Try moving north onto the adjacent grass to get around it, then reassess.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- plant 2 steps to your south-west
+- table 1 step to your east
+- sand 4 steps to your east
+- water 6 steps to your south-east
+
+You face grass at your front.",0.0,False
+104,Move East,"You already have the wood pickaxe and sword, and the nearby table is one step east. The plant is now two steps southwest, so trying to harvest or eat it from here would not work. Move east to the table to craft while it is nearby, then pursue stone and the remaining resources.ACTION: Move East","You see:
+- grass 1 step to your west
+- plant 2 steps to your south-west
+- table 1 step to your east
+- sand 4 steps to your east
+- water 6 steps to your south-east
+
+You face table at your front.",0.0,False
+105,Move East,"You have the wood tools already, and the nearby table is useful for crafting later upgrades. Stone is the next priority: move east toward the sand and explore for stone, then collect it with Do. Your food and drink are adequate for now. ACTION: Move East","You see:
+- grass 1 step to your west
+- plant 2 steps to your south-west
+- table 1 step to your east
+- sand 4 steps to your east
+- water 6 steps to your south-east
+
+You face table at your front.",0.0,False
+106,Move East,"The table is one step east, and the sand is farther east. Move toward the sand to search for stone; once stone is in reach, use Do to collect it. ACTION: Move East","You see:
+- grass 1 step to your west
+- plant 2 steps to your south-west
+- table 1 step to your east
+- sand 4 steps to your east
+- water 6 steps to your south-east
+
+You face table at your front.",0.0,False
+107,Move South,"The table is immediately east, so move beside it and craft better gear if resources allow. The inventory has no stone yet, so first head toward the sand to look for stone; the table blocks the direct eastward route, so move south to go around it. ACTION: Move South","You see:
+- grass 1 step to your north
+- plant 1 step to your west
+- table 2 steps to your north-east
+- sand 4 steps to your south-east
+- water 5 steps to your south-east
+
+You face grass at your front.",0.0,False
+108,Move West,"The inventory confirms the wood pickaxe and sword are already crafted. The plant is nearby to the west, so I should face it and try to collect it for food before heading toward the sand to find stone.ACTION: Move West","You see:
+- grass 1 step to your north
+- plant 1 step to your west
+- table 2 steps to your north-east
+- sand 4 steps to your south-east
+- water 5 steps to your south-east
+
+You face plant at your front.",0.0,False
+109,Move South,"The plant is directly in front of you, but repeated Do actions haven’t changed the observation, so it may be a placed plant rather than a harvestable one. The table is nearby, and the next useful achievement is collecting stone. Head toward the sand to explore for stone. ACTION: Move South","You see:
+- grass 1 step to your west
+- plant 2 steps to your north-west
+- cow 3 steps to your south
+- table 3 steps to your north-east
+- sand 3 steps to your south-east
+- water 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+110,Move East,"You have the wood tools and enough wood to pursue nearby crafting achievements, but first collect stone for the stone pickaxe and sword. The sand is southeast; move toward it by heading east, then south as needed. Since the cow is also nearby, avoid spending food unnecessarily for now. ACTION: Move East","You see:
+- grass 1 step to your west
+- plant 3 steps to your north-west
+- cow 4 steps to your south-west
+- table 2 steps to your north
+- sand 2 steps to your south-east
+- water 3 steps to your south-east
+
+You face grass at your front.",0.0,False
+111,Move South,Move South,"You see:
+- grass 1 step to your west
+- plant 4 steps to your north-west
+- cow 4 steps to your south-west
+- table 3 steps to your north
+- sand 1 step to your east
+- water 2 steps to your east
+
+You face grass at your front.",0.0,False
+112,Move East,"You’re on sand adjacent to water. The key immediate achievement is collecting a drink, so move east toward the water and then use Do when facing it. ACTION: Move East","You see:
+- grass 1 step to your west
+- plant 5 steps to your north-west
+- cow 4 steps to your south-west
+- table 4 steps to your north-west
+- sand 1 step to your south
+- water 1 step to your east
+
+You face water at your front.",0.0,False
+113,Do,"Drink is already at 7/9, and you’re facing adjacent water. Use Do to collect a drink and make progress toward the achievement. ACTION: Do","You see:
+- grass 1 step to your west
+- plant 5 steps to your north-west
+- cow 5 steps to your south-west
+- table 4 steps to your north-west
+- sand 1 step to your south
+- water 1 step to your east
+
+You face water at your front.",0.0,False
+114,Do,"Water is directly ahead, so use Do to collect a drink and complete the Collect Drink achievement. ACTION: Do","You see:
+- grass 1 step to your west
+- plant 5 steps to your north-west
+- cow 5 steps to your south-west
+- table 4 steps to your north-west
+- sand 1 step to your south
+- water 1 step to your east
+
+You face water at your front.",0.0,False
+115,Move South,"You have collected a drink and already crafted both wooden tools. Next, work toward the nearby cow achievement. It is southwest, so move south toward it while keeping track of its position. ACTION: Move South","You see:
+- grass 1 step to your west
+- plant 6 steps to your north-west
+- cow 5 steps to your south-west
+- sand 1 step to your north
+- water 1 step to your east
+
+You face grass at your front.",0.0,False
+116,Move West,"The cow is five steps southwest, so move west to begin closing the distance. ACTION: Move West","You see:
+- grass 1 step to your west
+- plant 5 steps to your north-west
+- cow 4 steps to your south-west
+- sand 1 step to your east
+- water 2 steps to your east
+
+You face grass at your front.",0.0,False
+117,Move West,The cow is southwest and 4 steps away. Move west to get closer while keeping it in view. ACTION: Move West,"You see:
+- grass 1 step to your west
+- plant 4 steps to your north-west
+- cow 3 steps to your south-west
+- sand 2 steps to your east
+- water 3 steps to your east
+
+You face grass at your front.",0.0,False
+118,Move West,"The cow is three steps southwest; moving west should bring me closer and keep it in view. I should approach it to eat it, while conserving energy and completing the nearby food achievement. ACTION: Move West","You see:
+- grass 1 step to your west
+- cow 3 steps to your south-west
+- plant 3 steps to your north
+- sand 3 steps to your east
+- water 4 steps to your east
+
+You face grass at your front.",0.0,False
+119,Move South,"I can reach the plant to work toward collecting and eating it, but the cow is also a priority for the Eat Cow achievement. It is three steps southwest, so moving south should bring me closer while keeping it in view. ACTION: Move South","You see:
+- grass 1 step to your west
+- cow 1 step to your south
+- sand 4 steps to your north-east
+- water 4 steps to your east
+
+You face cow at your front.",0.0,False
+120,Do,"The cow is directly in front of you, so use Do to attack it. If it is defeated, you can collect its food and work toward Eat Cow. ACTION: Do","You see:
+- grass 1 step to your west
+- cow 1 step to your south
+- sand 4 steps to your north-east
+- water 4 steps to your east
+
+You face cow at your front.",0.0,False
+121,Do,"The cow is directly in front of you, and defeating it will enable the Eat Cow achievement. Use Do to attack it. ACTION: Do","You see:
+- grass 1 step to your west
+- sand 4 steps to your north-east
+- water 4 steps to your east
+
+You face grass at your front.",1.0,False
+122,Move North,"We have already collected wood and crafted both a wood pickaxe and sword. The cow is gone, so its defeat likely registered; however, eating it may require food to drop from defeating it, and the current food is full. Next, collect the nearby plant and sapling achievements, then use the table to craft/place items. The plant is likely back north, so head north toward it. ACTION: Move North","You see:
+- grass 1 step to your west
+- plant 3 steps to your north
+- sand 3 steps to your east
+- water 4 steps to your east
+
+You face grass at your front.",0.0,False
+123,Move North,"We need collect the nearby plant and sapling achievements, then use the table to craft/place items. The plant is three steps north, so move toward it first. ACTION: Move North","You see:
+- grass 1 step to your west
+- plant 2 steps to your north
+- table 5 steps to your north-east
+- sand 3 steps to your east
+- water 4 steps to your east
+
+You face grass at your front.",0.0,False
+124,Move North,"The plant is two steps north, so move one step toward it while preserving the option to collect it next. ACTION: Move North","You see:
+- grass 1 step to your west
+- plant 1 step to your north
+- table 4 steps to your north-east
+- sand 4 steps to your south-east
+- water 5 steps to your south-east
+
+You face plant at your front.",0.0,False
+125,Do,"The plant is directly in front, so use Do to collect it for the sapling achievement. ACTION: Do","You see:
+- grass 1 step to your west
+- plant 1 step to your north
+- table 4 steps to your north-east
+- sand 4 steps to your south-east
+- water 5 steps to your south-east
+
+You face plant at your front.",0.0,False
+126,Do,"The inventory confirms that the wood pickaxe and sword are already crafted, and the plant is directly in front. Use Do to collect it and work toward the sapling achievement.
+
+ACTION: Do","You see:
+- grass 1 step to your west
+- plant 1 step to your north
+- table 4 steps to your north-east
+- sand 4 steps to your south-east
+- water 5 steps to your south-east
+
+You face plant at your front.",0.0,False
+127,Do,The plant is directly in front. Use Do to harvest it; this may collect a sapling and advance the plant-related achievements. ACTION: Do,"You see:
+- grass 1 step to your west
+- plant 1 step to your north
+- table 4 steps to your north-east
+- sand 4 steps to your south-east
+- water 5 steps to your south-east
+
+You face plant at your front.",0.0,False
+128,Do,"The plant is directly in front, and harvesting it with Do may yield a sapling for the Collect Sapling achievement. I can also keep using Do to gather it or eat it if available. ACTION: Do","You see:
+- grass 1 step to your west
+- plant 1 step to your north
+- table 4 steps to your north-east
+- sand 4 steps to your south-east
+- water 5 steps to your south-east
+
+You face plant at your front.",0.0,False
+129,Do,"The plant is directly in front, and repeated Do attempts may not yield the sapling if it requires more than one interaction. Continue using Do to collect it. ACTION: Do","You see:
+- grass 1 step to your west
+- plant 1 step to your north
+- table 4 steps to your north-east
+- sand 4 steps to your south-east
+- water 5 steps to your south-east
+
+You face plant at your front.",0.0,False
+130,Move North,"The plant is one tile north, so move north to stand next to it, then use Do to collect it. You already have the wood pickaxe and sword; collecting the plant can advance the sapling achievement. ACTION: Move North","You see:
+- grass 1 step to your west
+- plant 1 step to your north
+- table 4 steps to your north-east
+- sand 4 steps to your south-east
+- water 5 steps to your south-east
+
+You face plant at your front.",0.0,False
+131,Do,The plant is directly in front of you. Use Do to collect it; this should progress the sapling achievement. ACTION: Do,"You see:
+- grass 1 step to your west
+- plant 1 step to your north
+- table 4 steps to your north-east
+- sand 4 steps to your south-east
+- water 5 steps to your south-east
+
+You face plant at your front.",0.0,False
+132,Do,"The plant is directly in front of you, so use Do to try collecting it and progress the sapling achievement.
+
+ACTION: Do","You see:
+- grass 1 step to your west
+- plant 1 step to your north
+- table 4 steps to your north-east
+- sand 4 steps to your south-east
+- water 5 steps to your south-east
+
+You face plant at your front.",0.0,False
+133,Move North,"You’ve collected wood and crafted both a wood pickaxe and a wood sword. The plant directly in front hasn’t been collected by repeated Do actions, so move north onto its tile, then use Do to collect it. Since energy is low, sleeping can wait until it drops further.  
+ACTION: Move North","You see:
+- grass 1 step to your west
+- plant 1 step to your north
+- table 4 steps to your north-east
+- sand 4 steps to your south-east
+- water 5 steps to your south-east
+
+You face plant at your front.",0.0,False
+134,Move North,"The plant remains one step north, so move onto its tile rather than repeatedly using Do from here. Once adjacent or on it, try collecting it again.ACTION: Move North","You see:
+- grass 1 step to your west
+- plant 1 step to your north
+- table 4 steps to your north-east
+- sand 4 steps to your south-east
+- water 5 steps to your south-east
+
+You face plant at your front.",0.0,False
+135,Do,"We have enough wood and already crafted both wooden tools, so prioritize collecting the nearby plant for the sapling/plant achievements. It’s directly in front, so use Do to harvest it. ACTION: Do","You see:
+- grass 1 step to your west
+- plant 1 step to your north
+- table 4 steps to your north-east
+- sand 4 steps to your south-east
+- water 5 steps to your south-east
+
+You face plant at your front.",0.0,False
+136,Do,"Do should harvest the plant directly ahead, advancing Collect Sapling. ACTION: Do","You see:
+- grass 1 step to your west
+- plant 1 step to your north
+- table 4 steps to your north-east
+- sand 4 steps to your south-east
+- water 5 steps to your south-east
+
+You face plant at your front.",0.0,False
+137,Move North,"The plant is directly ahead, so trying to harvest it with Do has repeatedly failed. I should move north onto its tile, then interact with it from the appropriate position. ACTION: Move North","You see:
+- grass 1 step to your west
+- plant 1 step to your north
+- table 4 steps to your north-east
+- sand 4 steps to your south-east
+- water 5 steps to your south-east
+
+You face plant at your front.",0.0,False
+138,Move East,"The plant remains directly ahead, and repeated Do actions have not harvested it; moving north also appears to have left the observation unchanged. I have enough wood and already have a wood pickaxe and sword, so I should stop wasting actions on the plant and head toward the table to continue crafting or collecting resources. The table is northeast, so move east toward it. ACTION: Move East","You see:
+- grass 1 step to your west
+- plant 2 steps to your north-west
+- table 3 steps to your north-east
+- sand 3 steps to your south-east
+- water 4 steps to your south-east
+
+You face grass at your front.",0.0,False
+139,Move East,"The table is three steps northeast, so move east to make progress toward it. Afterward, head north as needed to reach it, then use the table and wood to work on remaining crafting achievements. The nearby water can be used later to restore drink. ACTION: Move East","You see:
+- grass 1 step to your west
+- plant 3 steps to your north-west
+- table 2 steps to your north
+- sand 2 steps to your south-east
+- water 3 steps to your south-east
+
+You face grass at your front.",0.0,False
+140,Move North,The nearby table is two steps north. Move north to approach it so you can craft further tools and weapons. ACTION: Move North,"You see:
+- grass 1 step to your west
+- plant 2 steps to your west
+- table 1 step to your north
+- sand 3 steps to your south-east
+- water 4 steps to your south-east
+
+You face table at your front.",0.0,False
+141,Move West,"The wood achievements and tools are already completed. I should collect the nearby plant next, then place it for the Plant achievement. I’m facing the table, so turn toward the plant by moving west, then use Do to gather it. ACTION: Move West","You see:
+- grass 1 step to your north
+- plant 1 step to your west
+- table 2 steps to your north-east
+- sand 4 steps to your south-east
+- water 5 steps to your south-east
+
+You face plant at your front.",0.0,False
+142,Do,"The plant is directly in front of you, so use Do to collect it. Then you can place it to earn the Plant achievement. ACTION: Do","You see:
+- grass 1 step to your north
+- plant 1 step to your west
+- table 2 steps to your north-east
+- sand 4 steps to your south-east
+- water 5 steps to your south-east
+
+You face plant at your front.",0.0,False
+143,Do,"The plant is directly in front, so use Do to collect it for the sapling achievement. Then place it to earn Place Plant. ACTION: Do","You see:
+- grass 1 step to your north
+- plant 1 step to your west
+- table 2 steps to your north-east
+- sand 4 steps to your south-east
+- water 5 steps to your south-east
+
+You face plant at your front.",0.0,False
+144,Do,"You have already crafted both wood tools, and the plant is directly in front. Use Do to collect it; afterward, place it to earn the plant achievements. ACTION: Do","You see:
+- grass 1 step to your north
+- plant 1 step to your west
+- table 2 steps to your north-east
+- sand 4 steps to your south-east
+- water 5 steps to your south-east
+
+You face plant at your front.",0.0,False
+145,Do,"You have enough wood for progression, and the plant is directly in front. Use Do to collect it for the sapling/plant achievements; then place it later to earn Place Plant. ACTION: Do","You see:
+- grass 1 step to your north
+- plant 1 step to your west
+- table 2 steps to your north-east
+- sand 4 steps to your south-east
+- water 5 steps to your south-east
+
+You face plant at your front.",0.0,False
+146,Move North,"We have a wood pickaxe and sword, and need collect stone to advance to stone tools. There is no stone nearby in view, so first move toward the table and continue exploring. The plant is beside us, but repeated Do actions have not changed the observation; prioritize exploration rather than trying it again. The table is two steps north-east, so move north toward it. ACTION: Move North","You see:
+- grass 1 step to your west
+- plant 2 steps to your south-west
+- table 1 step to your east
+- sand 4 steps to your east
+- water 6 steps to your south-east
+
+You face grass at your front.",0.0,False
+147,Move East,"The table is one step east, and we already have the wood tools. Moving east should bring us closer to the table and open up exploration for stone. ACTION: Move East","You see:
+- grass 1 step to your west
+- plant 2 steps to your south-west
+- table 1 step to your east
+- sand 4 steps to your east
+- water 6 steps to your south-east
+
+You face table at your front.",0.0,False
+148,Move East,"We have wood tools, but the table is still one step east and we need to place a plant and collect stone. Move east to reach the table area; then explore toward sand and water. ACTION: Move East","You see:
+- grass 1 step to your west
+- zombie 6 steps to your north-west
+- plant 2 steps to your south-west
+- table 1 step to your east
+- sand 4 steps to your east
+- water 6 steps to your south-east
+
+You face table at your front.",0.0,False
+149,Move East,"We have the wood pickaxe and sword, but still need the wood and plant achievements and must place the table. The table is directly in front, but we are one step away, and placing a table requires a table in inventory—this appears to be the already-placed table in the world. Since we have no table item, move adjacent to it and use it to craft as needed. We should also avoid the zombie for now, and collect nearby plant by moving southwest later. First, move east toward the sand and water area to explore for stone, while watching status. ACTION: Move East","You see:
+- grass 1 step to your west
+- zombie 5 steps to your north-west
+- plant 2 steps to your south-west
+- table 1 step to your east
+- sand 4 steps to your east
+- water 6 steps to your south-east
+
+You face table at your front.",0.0,False
+150,Move East,You have enough wood and both basic tools. The table is one step east; move onto it to get within reach for crafting and to continue exploring nearby resources. Avoid heading toward the zombie. ACTION: Move East,"You see:
+- grass 1 step to your west
+- zombie 4 steps to your north-west
+- plant 2 steps to your south-west
+- table 1 step to your east
+- sand 4 steps to your east
+- water 6 steps to your south-east
+
+You face table at your front.",0.0,False
+151,Make Wood Pickaxe,"You have wood tools and 3 wood, but still need to collect the plant, stone, and other resources. The table is directly ahead; use it now to craft the wood pickaxe and earn that achievement. ACTION: Make Wood Pickaxe","You see:
+- grass 1 step to your west
+- zombie 3 steps to your north-west
+- plant 2 steps to your south-west
+- table 1 step to your east
+- sand 4 steps to your east
+- water 6 steps to your south-east
+
+You face table at your front.",0.0,False
+152,Make Wood Sword,"The table is directly in front of you, so use it to craft the wood sword achievement while you still have wood. You have already made a wood pickaxe, and the inventory shows 2 wood remaining. ACTION: Make Wood Sword","You see:
+- grass 1 step to your west
+- zombie 2 steps to your north-west
+- plant 2 steps to your south-west
+- table 1 step to your east
+- sand 4 steps to your east
+- water 6 steps to your south-east
+
+You face table at your front.",0.0,False
+153,Move West,"You’ve crafted both wood tools. To progress, collect stone so you can make stone tools; first move toward the nearby open ground to the west, then locate a stone deposit. ACTION: Move West","You see:
+- grass 1 step to your west
+- zombie 1 step to your north
+- plant 1 step to your south
+- table 2 steps to your east
+- sand 6 steps to your south-east
+- water 7 steps to your south-east
+
+You face grass at your front.",-0.2,False
+154,Move West,"The zombie is one step north, so move away from it before it can attack again. The plant is immediately south, but you’re facing west and can’t safely collect it from here. Move west to create distance, then reassess. ACTION: Move West","You see:
+- grass 1 step to your west
+- zombie 1 step to your east
+- plant 2 steps to your south-east
+- table 3 steps to your east
+- sand 7 steps to your south-east
+
+You face grass at your front.",0.0,False
+155,Move West,Move West,"You see:
+- grass 1 step to your west
+- zombie 1 step to your east
+- table 4 steps to your east
+
+You face grass at your front.",0.0,False
+156,Move East,"You have a wood sword, and the zombie is directly east. Face it and use Do to attack. ACTION: Move East","You see:
+- grass 1 step to your west
+- zombie 1 step to your east
+- table 4 steps to your east
+
+You face zombie at your front.",0.0,False
+157,Do,"The zombie is directly in front of you, and you have a wood sword. Use Do to attack it and work toward the Defeat Zombie achievement. ACTION: Do","You see:
+- grass 1 step to your west
+- zombie 1 step to your east
+- table 4 steps to your east
+
+You face zombie at your front.",0.0,False
+158,Do,"The zombie is directly in front of you, and you have a wood sword. Use Do to attack it; keep attacking while it remains in front, monitoring your health. ACTION: Do","You see:
+- grass 1 step to your west
+- zombie 1 step to your east
+- table 4 steps to your east
+
+You face zombie at your front.",0.1,False
+159,Do,"The zombie is directly in front of you, and you have a wood sword. Attack it with Do, then reassess your health and the zombie’s status. ACTION: Do","You see:
+- grass 1 step to your west
+- table 4 steps to your east
+
+You face grass at your front.",0.8,False
+160,Sleep,"The zombie is gone, so the defeat achievement is likely complete. Health and energy are low; sleep to recover energy before exploring further. ACTION: Sleep","You see:
+- grass 1 step to your west
+- table 4 steps to your east
+
+You face grass at your front.",0.0,False
+161,Move West,"The table is 4 steps east, and it’s useful for crafting upgrades. We have one wood and a wood pickaxe, but need stone to make the next-tier tools. Explore outward to find stone, while keeping an eye on food, drink, and energy. ACTION: Move West","You see:
+- grass 1 step to your west
+
+You face grass at your front.",0.0,False
+162,We need search for resources currently only grass west visible table  east Plant likely south somewhere and prior zombie dealt with Need collect wood by Do grass Crafter trees not visible Grass perhaps action collect Do on grass could harvest Need identify environment interactions We need all achievements Likely at position west facing grass Do collects grass Standard Crafter game trees stone etc visible based proximity Current only grass suggests at edge and should move to reveal Previous claimed one wood likely got via action Inventory wood  Need collect drink near southeast plant southwest previous We have no stone Move west likely exploration Previous plan suggests move west Need single action,"We need search for resources, currently only grass west visible, table 4 east. Plant likely south somewhere and prior zombie dealt with. Need collect wood by Do grass? Crafter trees not visible. Grass perhaps action collect? Do on grass could harvest? Need identify environment interactions. We need all achievements. Likely at position west, facing grass, Do collects grass? Standard Crafter game, trees, stone etc visible based proximity. Current only grass suggests at edge and should move to reveal. Previous claimed one wood likely got via action? Inventory wood 1. Need collect drink near southeast, plant southwest previous. We have no stone. Move west likely exploration. (Previous plan suggests move west.) Need single action.","
+
+Your previous output did not contain a valid action. Defaulted to action: Noop
+
+Observation:
+You see:
+- grass 1 step to your west
+- skeleton 6 steps to your north-east
+
+You face grass at your front.",0.0,False
+163,Move West,"The zombie is gone, and a skeleton is nearby, so avoid heading northeast for now. I need more resources and should continue exploring away from the skeleton. Grass is directly west, so move west to explore. ACTION: Move West","You see:
+- grass 1 step to your west
+- tree 5 steps to your north-west
+- skeleton 6 steps to your north-east
+
+You face grass at your front.",0.0,False
+164,Move West,"I have only 1 wood and still need to collect more resources. A tree is 5 steps northwest, while a skeleton is northeast, so I should head toward the tree while staying away from the skeleton. ACTION: Move West","You see:
+- grass 1 step to your west
+- tree 4 steps to your north-west
+- skeleton 7 steps to your north-east
+
+You face grass at your front.",0.0,False
+165,Move West,"I have 1 wood, so I need to reach the tree to collect more wood for the remaining crafting achievements. The tree is northwest, and the skeleton is far to the northeast. I should move west toward the tree.  
+ACTION: Move West","You see:
+- cow 7 steps to your north-west
+- grass 1 step to your west
+- tree 3 steps to your north-west
+
+You face grass at your front.",0.0,False
+166,Move North,"The tree is northwest; moving north should bring me closer while preserving distance from the skeleton. I’ll head north toward it.  
+ACTION: Move North","You see:
+- cow 5 steps to your north-west
+- grass 1 step to your west
+- tree 2 steps to your west
+
+You face grass at your front.",0.0,False
+167,Move West,"The tree is two steps west, and you have a wood pickaxe. Move west once to get closer; then use Do on the tree to collect wood. Your energy is still adequate, so no need to sleep yet.
+
+ACTION: Move West","You see:
+- tree 1 step to your west
+- grass 1 step to your north
+- cow 3 steps to your west
+
+You face tree at your front.",0.0,False
+168,Do,"The tree is directly in front of you, and you have a wood pickaxe. Use Do to collect wood; this also moves toward the Collect Wood achievement. ACTION: Do","You see:
+- tree 2 steps to your west
+- grass 1 step to your west
+- cow 3 steps to your west
+
+You face grass at your front.",0.0,False
+169,Move West,"The tree is two steps west, and the cow is three steps west. Move west once toward them; then we can collect wood or approach the cow for the Eat Cow achievement. ACTION: Move West","You see:
+- grass 1 step to your north
+- tree 1 step to your west
+- cow 3 steps to your north-west
+
+You face tree at your front.",0.0,False
+170,Move West,"We have enough wood and both wood tools, so prioritize approaching the cow to earn Eat Cow. The cow is northwest, with a tree directly west; move west to get past the tree and closer to the cow. ACTION: Move West","You see:
+- grass 1 step to your north
+- tree 1 step to your west
+- cow 3 steps to your north-west
+
+You face tree at your front.",0.0,False
+171,Move North,"The cow is three steps northwest, but the tree directly west blocks the way. Move north to get around it, then approach the cow and use Do to defeat it and collect food.ACTION: Move North","You see:
+- grass 1 step to your west
+- tree 2 steps to your south-west
+- cow 2 steps to your west
+
+You face grass at your front.",0.0,False
+172,Move West,Move West,"You see:
+- tree 1 step to your south
+- grass 1 step to your north
+- cow 1 step to your west
+
+You face cow at your front.",0.0,False
+173,Do,"Status shows you’re healthy enough to continue, and the cow is directly in front. Use Do to attack it and work toward the “Eat Cow” achievement. Then collect its drops with another Do if needed.
+
+ACTION: Do","You see:
+- tree 1 step to your south
+- grass 1 step to your west
+- cow 2 steps to your west
+
+You face grass at your front.",0.0,False
+174,Move West,"The cow is now two steps west, and your current facing is grass to the west. Move west to approach it, then use Do to attack when it is directly in front. You also have enough wood and already have a wood pickaxe and sword, so prioritize the cow achievement before gathering other resources.
+
+ACTION: Move West","You see:
+- grass 1 step to your south
+- tree 2 steps to your north-west
+- cow 1 step to your west
+
+You face cow at your front.",0.0,False
+175,Do,"The cow is directly in front of you, so use Do to attack it and work toward the Eat Cow achievement. Your health is low, but the wood sword should help defeat it efficiently.
+
+ACTION: Do","You see:
+- grass 1 step to your west
+- tree 2 steps to your north-west
+- cow 1 step to your north
+
+You face grass at your front.",0.0,False
+176,Move North,"You have enough wood and already have wood tools, so the next priorities are collecting resources and staying healthy. The cow is one step north, but it is not directly in front of you; turn by moving north, then use Do to attack it. Your health is 6/9, so avoid engaging the skeleton for now. Sleeping can restore energy, but food and drink are currently sufficient.
+
+ACTION: Move North","You see:
+- grass 1 step to your west
+- tree 2 steps to your north-west
+- cow 1 step to your north
+- zombie 3 steps to your south
+
+You face cow at your front.",0.0,False
+177,Do,"The cow is directly in front, and defeating it can complete the Eat Cow achievement. Use Do to attack it. Your health is 6/9, so reassess your health and nearby threats afterward.
+
+ACTION: Do","You see:
+- grass 1 step to your west
+- tree 2 steps to your north-west
+- cow 1 step to your north
+- zombie 2 steps to your south
+
+You face cow at your front.",0.0,False
+178,Do,"The cow is directly in front, so using **Do** may attack it again and complete the Eat Cow achievement. Your health is 6/9, and a zombie is nearby to the south; avoid moving toward it.ACTION: Do","You see:
+- grass 1 step to your west
+- tree 2 steps to your north-west
+- zombie 1 step to your south
+
+You face grass at your front.",-0.2,False
+179,Move North,"We have enough wood to make progress, but crafting requires a nearby table. First collect wood from the nearby tree, then use it to place a table. The zombie is adjacent to the south, so avoid moving that way; the tree is northwest.ACTION: Move North","You see:
+- grass 1 step to your north
+- tree 1 step to your west
+- zombie 1 step to your south
+
+You face grass at your front.",0.0,False
+180,Move West,"You already have two wood pickaxes and two wood swords, so crafting more is unnecessary. To earn the remaining resource and crafting achievements, prioritize staying alive and gathering materials. The zombie is immediately south, so avoid approaching it while your health is only 4/9. The tree is one step west; move west to face it, then use Do to collect wood if needed.
+
+ACTION: Move West","You see:
+- grass 1 step to your north
+- tree 1 step to your west
+- zombie 1 step to your south
+
+You face tree at your front.",0.0,False
+181,Do,"Health is low, and the zombie is one step south. The tree is directly in front, so collect wood without moving toward the zombie. Then we can seek safety and recover. ACTION: Do","You see:
+- grass 1 step to your west
+- tree 2 steps to your north-west
+- zombie 1 step to your south
+
+You face grass at your front.",0.0,False
+182,Move North,"We have enough wood and already have a wood pickaxe and sword, but health is low and a zombie is adjacent to the south. The safest move is to get away from the zombie rather than spend a turn crafting or gathering. Move north to increase distance. ACTION: Move North","You see:
+- grass 1 step to your north
+- tree 1 step to your west
+- zombie 1 step to your south
+
+You face grass at your front.",0.0,False
+183,Move North,"The zombie is adjacent to the south, and your health is low. Move north to get farther from it; the grass is directly ahead, so collect it with Do next if needed. ACTION: Move North","You see:
+- grass 1 step to your west
+- tree 1 step to your north
+- zombie 1 step to your south
+
+You face tree at your front.",0.1,False
+184,Move North,"You have the materials and tools for wood achievements, but first need to avoid the adjacent zombie while health is low. Moving north creates distance and heads toward the tree, which can help you collect more wood. ACTION: Move North","You see:
+- grass 1 step to your west
+- zombie 2 steps to your north
+- tree 1 step to your north
+
+You face tree at your front.",0.0,False
+185,Move West,"You already have wood and both wooden tools. The tree is directly ahead, while the zombie is two steps north, so moving north would bring you closer to danger. Avoid advancing toward it; turn away by moving west. ACTION: Move West","You see:
+- grass 1 step to your west
+- zombie 2 steps to your south-east
+- tree 1 step to your south
+
+You face grass at your front.",0.0,False
+186,Move South,"The zombie is two steps southeast, so moving south or east could bring it closer. I have enough wood and already made the wooden tools. I should gather wood from the nearby tree while keeping away from the zombie. The tree is one step south, so move south to face it. ACTION: Move South","You see:
+- grass 1 step to your west
+- zombie 3 steps to your north-east
+- tree 1 step to your south
+
+You face tree at your front.",0.0,False
+187,Do,"The tree is directly in front of you, so use Do to collect more wood. The zombie is three steps away, and staying here avoids moving toward it. ACTION: Do","You see:
+- grass 1 step to your west
+- cow 6 steps to your south-west
+- zombie 2 steps to your north
+- tree 2 steps to your west
+
+You face grass at your front.",0.0,False
+188,Move West,"You have already collected wood and crafted both wooden tools, but your health is low and a zombie is nearby. Avoid approaching it. Move west toward the tree so you can gather materials for the table and other crafting achievements. ACTION: Move West","You see:
+- grass 1 step to your north
+- cow 6 steps to your south-west
+- zombie 2 steps to your north-east
+- tree 1 step to your west
+
+You face tree at your front.",0.0,False
+189,Do,"You have enough wood for crafting, and the tree is directly in front of you. Collecting it could build a reserve, but the zombie is nearby, so avoid moving toward it. Your health is low; gathering the tree now risks damage if the zombie closes in. There’s no safe way to recover health with the listed actions, and sleeping only restores energy. For now, collect the tree while facing it, then reassess. ACTION: Do","You see:
+- grass 1 step to your west
+- cow 6 steps to your south-west
+- zombie 1 step to your east
+- tree 2 steps to your north-west
+
+You face grass at your front.",-0.2,False
+190,Move West,"We have 3 health and a zombie one step east, so engaging it is risky. The tree is two steps northwest, but collecting it would require moving closer to the threat and we already have wood and tools. No listed action can restore health immediately; sleeping only restores energy. Move west away from the zombie to create distance. ACTION: Move West","You see:
+- grass 1 step to your south
+- tree 1 step to your north
+- sand 7 steps to your south-west
+- zombie 1 step to your west
+- cow 4 steps to your south-west
+
+You face zombie at your front.",-0.2,False
+191,Move East,"You have only 1 health, and the zombie is directly in front of you. Attacking it with Do would be dangerous; move away to avoid immediate contact. ACTION: Move East","You died.
+
+
+
+You see:
+- grass 1 step to your south
+- tree 1 step to your north
+- sand 7 steps to your south-west
+- zombie 1 step to your west
+- cow 4 steps to your south-west
+
+You face zombie at your front.",-0.1,True

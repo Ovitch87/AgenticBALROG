@@ -1,0 +1,77 @@
+{
+    "task": "default",
+    "action_frequency": {
+        "Do": 55,
+        "Move East": 27,
+        "Move South": 18,
+        "Place Table": 3,
+        "Move North": 30,
+        "Make Wood Pickaxe": 2,
+        "Move West": 28,
+        "Make Wood Sword": 2,
+        "Sleep": 2,
+        "Noop": 24,
+        "Place Plant": 1
+    },
+    "input_tokens": 308329,
+    "output_tokens": 9053,
+    "done": true,
+    "episode_return": 9.100000000000003,
+    "num_steps": 192,
+    "failed_candidates": [
+        "We need need collect plant Facing plant Do likely eat Current inventory shows tools and wood no plant listed perhaps planted nearby Do on plant maybe eat if inventory plant Achievement place already perhaps action Need obtain eat plant perhaps Do collects plant In Crafter plant tile action Do harvests plant producing plant then eat automatically Standard Crafter achievements Need gather wood Inventory wood  and crafted tools implies achievements done Need strategy broad Need know world observations limited Current facing plant at west Do likely interact harvest plant maybe eat Go Do Must provide reasoning stepbystep briefly Could do now If plant is placed entity and face Do should eat plant Crafter actions interact: collect resources drink attack Plants can be collected by Do food autoeat maybe ACTION Do Final format",
+        "We need search for resources currently only grass west visible table  east Plant likely south somewhere and prior zombie dealt with Need collect wood by Do grass Crafter trees not visible Grass perhaps action collect Do on grass could harvest Need identify environment interactions We need all achievements Likely at position west facing grass Do collects grass Standard Crafter game trees stone etc visible based proximity Current only grass suggests at edge and should move to reveal Previous claimed one wood likely got via action Inventory wood  Need collect drink near southeast plant southwest previous We have no stone Move west likely exploration Previous plan suggests move west Need single action"
+    ],
+    "score": 10.0,
+    "progression": 0.45454545454545453,
+    "achievements": {
+        "collect_coal": 0,
+        "collect_diamond": 0,
+        "collect_drink": 4,
+        "collect_iron": 0,
+        "collect_sapling": 1,
+        "collect_stone": 0,
+        "collect_wood": 11,
+        "defeat_skeleton": 0,
+        "defeat_zombie": 1,
+        "eat_cow": 3,
+        "eat_plant": 0,
+        "make_iron_pickaxe": 0,
+        "make_iron_sword": 0,
+        "make_stone_pickaxe": 0,
+        "make_stone_sword": 0,
+        "make_wood_pickaxe": 2,
+        "make_wood_sword": 2,
+        "place_furnace": 0,
+        "place_plant": 1,
+        "place_stone": 0,
+        "place_table": 1,
+        "wake_up": 1
+    },
+    "process_num": "ForkProcess-1",
+    "seed": 7,
+    "agent": {
+        "type": "cot",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "openai",
+        "model_id": "gpt-6-luna",
+        "base_url": "http://localhost:8080/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 512,
+            "thinking_budget": null,
+            "reasoning_effort": "none"
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}
